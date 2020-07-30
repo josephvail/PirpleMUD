@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<items>
+	<item number="3100" name="cup tea" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="5" cost_per_day="1" short_description="a cup">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="8" />
+			<value number="2" val="11" />
+			<value number="3" val="0" />
+		</values>
+		<description>A cup has been set here.</description>
+		<extra_descriptions>
+			<extra_description keyword="cup">
+				<description>It is a small simple cup.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3101" name="cup coffee" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="7" cost_per_day="1" short_description="a cup">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="8" />
+			<value number="2" val="12" />
+			<value number="3" val="0" />
+		</values>
+		<description>A cup has been set here.</description>
+		<extra_descriptions>
+			<extra_description keyword="cup">
+				<description>It is a small simple cup.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3102" name="cup water" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="2" cost_per_day="1" short_description="a cup">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="12" />
+			<value number="2" val="15" />
+			<value number="3" val="0" />
+		</values>
+		<description>A cup has been set here.</description>
+		<extra_descriptions>
+			<extra_description keyword="cup">
+				<description>It is a large simple cup.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3103" name="bottle water" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="6" short_description="a bottle">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="24" />
+			<value number="2" val="15" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bottle of Evian natural spring water is here.</description>
+		<extra_descriptions>
+			<extra_description keyword="label">
+				<description>You've been ripped off!  It says here at the bottom of the label, in really
+really small letters, 'Bottled in the Midgaard branch of Evian Inc.  This
+water is from the natural, mostly clean River of Midgaard.'
+</description>
+			</extra_description>
+			<extra_description keyword="bottle">
+				<description>It is a large, clean bottle.  There is a large label pasted on the side.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3104" name="canteen water" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="20" cost="45" cost_per_day="15" short_description="a canteen">
+		<values>
+			<value number="0" val="80" />
+			<value number="1" val="80" />
+			<value number="2" val="15" />
+			<value number="3" val="0" />
+		</values>
+		<description>A canteen has been set on the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="canteen">
+				<description>It is a fairly big canteen.  Looks like it can hold a lot of liquid.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3105" name="key iron" type="18" wear_flags="1" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="10" short_description="an iron key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An iron key has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="key iron">
+				<description>The iron key is not special.  In fact, it is quite boring.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3106" name="key rusty" type="18" wear_flags="1" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="10" short_description="a rusty key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A rusty key has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="key rusty">
+				<description>The key is a fairly large rusty key.  You notice a lot of dirt it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3107" name="key wooden" type="18" wear_flags="1" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="10" short_description="a wooden key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A wooden key has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="key wooden">
+				<description>The wooden key is not special.  In fact it is just about the most boring
+key you've ever seen in your life.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3108" name="key brass" type="18" wear_flags="1" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="10" short_description="a brass key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A brass key has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="key brass">
+				<description>The brass key is small and looks like it fits a very complicated lock.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3109" name="desk drawer" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="100" cost="0" cost_per_day="0" short_description="the desk">
+		<values>
+			<value number="0" val="34" />
+			<value number="1" val="15" />
+			<value number="2" val="3107" />
+			<value number="3" val="0" />
+		</values>
+		<description>A desk is set against the western wall.</description>
+		<extra_descriptions>
+			<extra_description keyword="desk">
+				<description>The desk looks very sparse, there is a drawer in the left side.
+</description>
+			</extra_description>
+			<extra_description keyword="drawer">
+				<description>You notice a keyhole in the drawer.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3110" name="safe" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="999" cost="0" cost_per_day="0" short_description="the safe">
+		<values>
+			<value number="0" val="34" />
+			<value number="1" val="15" />
+			<value number="2" val="3108" />
+			<value number="3" val="0" />
+		</values>
+		<description>A safe is placed in a dark corner of the room.</description>
+		<extra_descriptions>
+			<extra_description keyword="safe">
+				<description>The safe is very heavy and has a keyhole.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3111" name="bench" type="12" wear_flags="0" extra_flags="0" bitvector="0" weight="100" cost="600" cost_per_day="200" short_description="the Bench">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A white-painted wooden bench is standing here.</description>
+		<extra_descriptions>
+			<extra_description keyword="bench">
+				<description>It is a quite heavy but very comfortable bench.  It is placed with its front
+towards the river so you can sit and watch the river and the houses on the
+other side.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3112" name="key city" type="18" wear_flags="1" extra_flags="4" bitvector="0" weight="30" cost="10000" cost_per_day="500" short_description="the City Key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The very big City Key is lying here.</description>
+		<extra_descriptions>
+			<extra_description keyword="key city">
+				<description>It is probably the biggest key you have seen in your life.  It is made from
+polished gold and has various patterns on it along with the Midgaard Coat of
+Arms.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3113" name="fountain water" type="23" wear_flags="0" extra_flags="0" bitvector="0" weight="999" cost="0" cost_per_day="0" short_description="a fountain">
+		<values>
+			<value number="0" val="999" />
+			<value number="1" val="999" />
+			<value number="2" val="15" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small white fountain is standing here, gurgling happily.</description>
+		<extra_descriptions>
+			<extra_description keyword="fountain water">
+				<description>It is very nice.  Made from fine white marble.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3114" name="coins gold" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a small pile of gold coins">
+		<values>
+			<value number="0" val="37" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small pile of gold coins lies here.</description>
+	</item>
+	<item number="3115" name="gold coins" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="0" cost="32385" cost_per_day="0" short_description="the gold">
+		<values>
+			<value number="0" val="32385" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A lot of gold is here.</description>
+	</item>
+	<item number="3116" name="candlestick candle stick pewter" type="1" wear_flags="16385" extra_flags="0" bitvector="0" weight="5" cost="150" cost_per_day="10" short_description="a candlestick">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="24" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pewter candlestick is standing here.</description>
+		<extra_descriptions>
+			<extra_description keyword="candlestick">
+				<description>It is a rather old-looking three-armed candlestick made from pewter.  Its
+candles are a yellowish white color.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3117" name="tree elm" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="an elm tree">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An old elm tree grows here.</description>
+		<extra_descriptions>
+			<extra_description keyword="elm tree">
+				<description>The fresh young leaves of the elm tree wave gently in the wind.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<help first_keyword="compact" keyword_count="1" mini_mud="true">
+	<entry>COMPACT
+
+Usage: compact
+
+This command toggles the extra blank line output to your screen after each
+command.  Useful if you have a small display.
+
+See also: BRIEF
+</entry>
+</help>

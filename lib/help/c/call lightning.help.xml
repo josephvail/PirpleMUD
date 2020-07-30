@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="call lightning" keyword_count="1" mini_mud="true">
+	<entry>"CALL LIGHTNING"
+
+Usage       : cast 'call lightning' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Cleric level 15.
+Save        : Versus spell for half damage.
+
+This spell will use the "force of nature" to make a lightning
+strike the victim.  It is therefore only possible to call lightning
+outside, and it has to be raining (or worse).
+
+See also: "CONTROL WEATHER", WEATHER
+</entry>
+</help>

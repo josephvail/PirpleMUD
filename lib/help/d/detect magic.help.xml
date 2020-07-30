@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<help first_keyword="detect magic" keyword_count="1" mini_mud="true">
+	<entry>"DETECT MAGIC"
+
+Usage       : cast 'detect magic' [self]
+Accumulative: Yes (Duration)
+Duration    : 12 hours + level
+Level       : Mage level 2.
+
+This spell will let you see the magical aura surrounding magical
+objects.
+</entry>
+</help>

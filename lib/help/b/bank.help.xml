@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<help first_keyword="bank" keyword_count="4" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="withdraw" />
+		<additional_keyword value="deposit" />
+		<additional_keyword value="balance" />
+	</additional_keywords>
+	<entry>BANK WITHDRAW DEPOSIT BALANCE
+
+Commands to take money out of the bank, put money in the bank, or see how
+much money you have in the bank.  Can be used at any branch of the First
+National Bank of CircleMUD (wherever you see an automatic teller machine).
+
+Examples:
+
+  &gt; deposit 400
+  &gt; withdraw 1000
+  &gt; balance
+
+See also: GOLD, SCORE
+</entry>
+</help>

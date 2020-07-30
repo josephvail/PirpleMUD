@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<help first_keyword="restore" keyword_count="1" mini_mud="true">
+	<entry>RESTORE
+
+Usage: restore &lt;player | mobile&gt;
+
+RESTORE restores a player or mobile to full hit, mana, and movement points.
+If used on immortals, it also sets all skill levels to 100%.
+</entry>
+</help>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<help first_keyword="flee" keyword_count="1" mini_mud="true">
+	<entry>FLEE
+
+Usage: flee
+
+If you are in a fight and things are beginning to get a little uncomfortable
+(maybe you are dying), just type 'flee', and presto!  You are out of harms way
+- that is, IF there is a suitable exit nearby, and IF that exit doesn't simply
+bring you from the ashes to the fire... but then, who wants to live forever?
+
+See also: WIMPY
+</entry>
+</help>

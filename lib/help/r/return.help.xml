@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="return" keyword_count="1" mini_mud="true">
+	<entry>RETURN
+
+Usage: return
+
+RETURN returns you to your regular body if you are switched into a mob.
+
+See also: SWITCH
+</entry>
+</help>

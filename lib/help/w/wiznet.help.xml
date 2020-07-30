@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<help first_keyword="wiznet" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value=";" />
+	</additional_keywords>
+	<entry>WIZNET ;
+
+The immortal communication channel.
+
+Usage: wiznet [ '@' | '+' | '-' | '#' ] [&lt;text&gt;]
+
+Examples:
+
+  &gt;; &lt;text&gt;    - just sends text
+  &gt;; @         - shows all gods that are on and visible to you
+               - also shows if the gods who are visible to you are writing
+
+This code was provided by Gnort.
+
+See also: NOWIZ
+</entry>
+</help>

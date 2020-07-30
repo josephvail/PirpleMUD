@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<help first_keyword="cure critic" keyword_count="1" mini_mud="true">
+	<entry>"CURE CRITIC"
+
+Usage       : cast 'cure critic' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Cleric level 9.
+
+This spell cures 3d8+3 hitpoints of damage.
+</entry>
+</help>

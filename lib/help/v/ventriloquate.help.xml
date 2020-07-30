@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<help first_keyword="ventriloquate" keyword_count="1" mini_mud="true">
+	<entry>VENTRILOQUATE
+
+Usage       : cast 'ventriloquate' &lt;victim | object&gt; &lt;text&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Mage level 1.
+Save        : Versus spell victim only sees attempted cast.
+
+For all people in the same room as the caster that fail a saving throw, the
+spell will make the object or victim appear to say the text written.
+
+Example:
+
+  &gt; cast 'vent' Mirlen I got 399,823 coins, don't even consider killing me!
+</entry>
+</help>

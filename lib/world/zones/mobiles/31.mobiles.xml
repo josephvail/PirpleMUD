@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="3100" name="maid" level="33" sex="2" alignment="1000" flags="26627" aff_flags="8" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="2000" experience="80000" hitroll="20" damroll="22" short_description="the Maid">
+		<long_description>The Maid is waiting for your order.
+</long_description>
+		<description>She is very beautiful with golden hair, and deep blue eyes.  A good reason
+for coming here more often, you think to yourself.
+</description>
+	</mobile>
+	<mobile number="3101" name="sexton" level="3" sex="1" alignment="800" flags="2" aff_flags="0" position="6" default_position="6" dam_nodice="1" dam_sizedice="7" max_manapoints="6" max_movepoints="35" armor="70" gold="13" experience="300" hitroll="2" short_description="the Sexton">
+		<long_description>A Sexton is sitting here, drinking hot tea.
+</long_description>
+		<description>The Sexton looks like he is relaxing after another gravedigging job.
+</description>
+	</mobile>
+	<mobile number="3102" name="chief guard" level="17" sex="1" alignment="800" flags="38" aff_flags="8" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="12" max_movepoints="210" armor="10" experience="28000" hitroll="17" damroll="18" short_description="the Chief Guard">
+		<long_description>The Chief Guard is looking very upset.
+</long_description>
+		<description>A very angry chief.
+</description>
+	</mobile>
+	<mobile number="3103" name="cityguard guard" level="10" sex="1" alignment="1000" flags="38" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="12" max_movepoints="123" armor="20" experience="9000" hitroll="10" damroll="3" short_description="the upset cityguard">
+		<long_description>A cityguard stands here, looking very upset.
+</long_description>
+		<description>A big, strong, angry guard.
+</description>
+	</mobile>
+	<mobile number="3104" name="secretary" level="12" sex="2" alignment="900" flags="2" aff_flags="0" position="8" default_position="8" dam_nodice="2" dam_sizedice="7" max_manapoints="12" max_movepoints="148" armor="20" gold="100" experience="13000" hitroll="11" damroll="1" short_description="the Secretary">
+		<long_description>A secretary is sitting at the desk, typing away on the typewriter.
+</long_description>
+		<description>She looks very busy.
+
+The Secretary says 'Sorry, but the Mayor is extremely busy today.'
+The Secretary says 'Please sit down and have a seat in the meantime.'
+</description>
+	</mobile>
+	<mobile number="3105" name="mayor" level="24" sex="1" alignment="1000" flags="26627" aff_flags="8" position="4" default_position="4" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="790" armor="-40" gold="1000" experience="130000" hitroll="20" damroll="18" short_description="the Mayor">
+		<long_description>The Mayor is sitting in his huge chair, snoring loudly.
+</long_description>
+		<description>He is a stocky, middle-aged man with thin, grey hair.
+</description>
+	</mobile>
+	<mobile number="3106" name="crier" level="1" sex="1" alignment="900" flags="128" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="5" max_manapoints="6" max_movepoints="10" armor="90" gold="34" experience="100" short_description="the Town Crier">
+		<long_description>The Town Crier is here, weeping quietly.
+</long_description>
+		<description>He is very good at his job - completely dissolved in tears.
+</description>
+	</mobile>
+	<mobile number="3120" name="swan" level="1" sex="0" alignment="1000" flags="2" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="5" max_manapoints="6" max_movepoints="10" armor="90" experience="100" short_description="the swan">
+		<long_description>A swan is swimming around in the pond.
+</long_description>
+		<description>The white swan is very elegant.
+</description>
+	</mobile>
+	<mobile number="3121" name="duckling" level="0" sex="0" alignment="1000" flags="2" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="1" max_manapoints="1" armor="100" experience="1" short_description="the duckling">
+		<long_description>A duckling is swimming around in the pond.
+</long_description>
+		<description>The duckling is adorable, it looks most of all like a tiny furball.
+</description>
+	</mobile>
+	<mobile number="3122" name="sparrow" level="0" sex="0" alignment="1000" flags="192" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="3" max_manapoints="6" armor="100" experience="25" short_description="the sparrow">
+		<long_description>A sparrow is flapping around on the ground.
+</long_description>
+		<description>The sparrow looks like it is enjoying life.
+</description>
+	</mobile>
+	<mobile number="3123" name="duck" level="1" sex="0" alignment="1000" flags="64" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="4" max_manapoints="6" max_movepoints="5" armor="100" experience="75" short_description="the duck">
+		<long_description>A duck is here, quacking happily.
+</long_description>
+		<description>The duck is quite fat.  It looks like it is enjoying life.
+</description>
+	</mobile>
+</mobiles>

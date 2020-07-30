@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<help first_keyword="thief" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="thieves" />
+	</additional_keywords>
+	<entry>THIEF THIEVES
+
+Thieves are known to have very special qualities, that no other class offers.
+Their specialty tends to be in the darker, sneakier art.  Many of these
+qualities can come in handy in many situations, such as picking locks.
+
+You can improve you skills by using the practice command.
+
+Skills available to thieves:
+
+sneak, hide, steal, backstab, pick lock, track
+
+See the help on each skill for more information.
+
+See also: PRACTICE
+</entry>
+</help>

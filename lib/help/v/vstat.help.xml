@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="vstat" keyword_count="1" mini_mud="true">
+	<entry>VSTAT
+
+Usage: vstat &lt; mob | obj &gt; &lt;virtual number&gt;
+
+Used to stat a prototypical mobile or object by virtual number.
+
+Examples:
+
+  &gt; vstat obj 3000
+  &gt; vstat mob 3001
+
+See also: LOAD, STAT, VNUM
+</entry>
+</help>

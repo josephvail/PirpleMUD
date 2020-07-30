@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="experience" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="xp" />
+	</additional_keywords>
+	<entry>EXPERIENCE XP
+
+Whenever you kill a monster or a player, you earn experience points.  When
+enough experience points are earned, you raise a level.
+Things you should know about experience points:
+
+  * When damaging a monster, you get experience points.
+
+  * If you kill a monster of higher level than yourself, you get bonus
+    experience points.  If killing a monster of lower level you'll gain
+    less experience points
+
+See also: GROUP, SCORE
+</entry>
+</help>

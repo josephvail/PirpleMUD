@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="dc" keyword_count="1" mini_mud="true">
+	<entry>DC
+
+Usage: dc &lt;descriptor number&gt;
+
+DC (DisConnect) is used to disconnect a socket.  If used on a playing socket,
+the player will lose his/her link, but, unlike PURGE, will not extract the
+player or dump the player's inventory on the ground.
+
+DC is also useful for disconnecting people who have accidentally left
+themselves at the main menu, or connections sitting in the "Get name" state.
+
+See also: USERS
+</entry>
+</help>

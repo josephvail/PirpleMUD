@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="syslog" keyword_count="1" mini_mud="true">
+	<entry>SYSLOG
+
+Usage: syslog [off | brief | normal | complete]
+
+The SYSLOG command controls how detailed of an on-line system log you see.
+Messages surrounded by '[' and ']' are syslog messages and are in green
+if you have color on.
+
+The messages you receive are level dependent.
+
+Examples:
+
+  &gt; syslog complete
+  &gt; syslog off
+
+See also: COLOR
+</entry>
+</help>

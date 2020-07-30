@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="15000" name="gwydion guard royal" level="11" sex="1" alignment="800" flags="67" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="130" armor="20" gold="400" experience="11000" hitroll="11" damroll="4" short_description="Gwydion">
+		<long_description>Gwydion the Royal Guard is here on duty.
+</long_description>
+		<description>As all members of the Guard, Gwydion wears the chain mail required
+of them as uniform.  He seems very well trained, and moves like an
+experienced fighter.
+</description>
+	</mobile>
+	<mobile number="15001" name="king welmar" level="33" sex="1" alignment="1000" flags="3" aff_flags="136" position="6" default_position="8" dam_nodice="4" dam_sizedice="8" max_manapoints="60" max_movepoints="1480" armor="-100" gold="35000" experience="1000000" hitroll="20" damroll="16" short_description="King Welmar">
+		<long_description>The wise King Welmar sits here in his throne.
+</long_description>
+		<description>In his later middle-age, with his beard starting to grey, King Welmar
+is still very powerfully built, and wouldn't take kindly to an attack.
+Despite that, you know he is well-loved throughout the land, and has
+a reputation as a wise and just ruler.
+</description>
+	</mobile>
+	<mobile number="15002" name="ghost horrible" level="15" sex="0" alignment="-700" flags="254006" aff_flags="263176" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="6" max_movepoints="150" armor="-60" gold="3000" experience="22000" hitroll="14" damroll="2" short_description="the horrible ghost">
+		<long_description>You hear a frightening wail, and see a horrible ghost approaching.
+</long_description>
+		<description>The ghost is almost translucent, and looks really SCARY!
+</description>
+	</mobile>
+	<mobile number="15003" name="jim guard royal" level="11" sex="1" alignment="800" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="130" armor="20" gold="400" experience="11000" hitroll="11" damroll="4" short_description="Jim">
+		<long_description>Jim the Royal Guard is here on duty.
+</long_description>
+		<description>As all members of the Guard, Jim wears the chain mail required of
+them as uniform.  He seems very well trained, and moves like an
+experienced fighter.
+</description>
+	</mobile>
+	<mobile number="15004" name="brian guard royal" level="11" sex="1" alignment="800" flags="67" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="130" armor="20" gold="400" experience="11000" hitroll="11" damroll="4" short_description="Brian">
+		<long_description>Brian the Royal Guard is here, training with the Master.
+</long_description>
+		<description>As all members of the Guard, Brian wears the chain mail required of
+them as uniform.  He seems very well trained, and moves like an
+experienced fighter.
+</description>
+	</mobile>
+	<mobile number="15005" name="mick guard royal" level="11" sex="1" alignment="800" flags="67" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="130" armor="20" gold="400" experience="11000" hitroll="11" damroll="4" short_description="Mick">
+		<long_description>Mick the Royal Guard is here, training with the Master.
+</long_description>
+		<description>As all members of the Guard, Mick wears the chain mail required of
+them as uniform.  He seems very well trained, and moves like an
+experienced fighter.
+</description>
+	</mobile>
+	<mobile number="15006" name="matt guard royal" level="11" sex="1" alignment="800" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="130" armor="20" gold="400" experience="11000" hitroll="11" damroll="4" short_description="Matt">
+		<long_description>Matt the Royal Guard is here on duty.
+</long_description>
+		<description>As all members of the Guard, Matt wears the chain mail required of
+them as uniform.  He seems very well trained, and moves like an
+experienced fighter.
+</description>
+	</mobile>
+	<mobile number="15007" name="jochem guard royal" level="13" sex="1" alignment="900" flags="65" aff_flags="0" position="6" default_position="6" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="150" armor="20" gold="400" experience="16000" hitroll="13" damroll="5" short_description="Jochem">
+		<long_description>Jochem the Royal Guard sits here, off duty.
+</long_description>
+		<description>As all members of the Guard, Jochem wears the chain mail required of
+them as uniform.  He seems very well trained, and moves like a fighter
+who has seen more than one battle, and longs to see the next!
+</description>
+	</mobile>
+	<mobile number="15008" name="anne guard royal" level="13" sex="2" alignment="900" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="150" armor="20" gold="400" experience="16000" hitroll="13" damroll="5" short_description="Anne">
+		<long_description>Anne the Royal Guard is here on duty.
+</long_description>
+		<description>As all members of the Guard, Anne wears the chain mail required of
+them as uniform.  She seems very well trained, and moves like a fighter
+who has seen more than one battle, and longs to see the next!
+</description>
+	</mobile>
+	<mobile number="15009" name="andrew guard royal" level="13" sex="1" alignment="900" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="150" armor="20" gold="400" experience="16000" hitroll="13" damroll="5" short_description="Andrew">
+		<long_description>Andrew the Royal Guard is here on duty.
+</long_description>
+		<description>As all members of the Guard, Andrew wears the chain mail required of
+them as uniform.  He seems very well trained, and moves like a fighter
+who has seen more than one battle, and longs to see the next!
+</description>
+	</mobile>
+	<mobile number="15010" name="bertram bert guard royal" level="15" sex="1" alignment="900" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="175" armor="10" gold="400" experience="21000" hitroll="15" damroll="7" short_description="Bertram">
+		<long_description>Bertram the Royal Guard is here on duty.
+</long_description>
+		<description>As all members of the Guard, Bertram wears the chain mail required of
+them as uniform.  He seems very well trained, and carries his scars
+with pride.  This guy seems tough...
+</description>
+	</mobile>
+	<mobile number="15011" name="jeanette guard royal" level="15" sex="2" alignment="900" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="175" armor="10" gold="400" experience="21000" hitroll="15" damroll="7" short_description="Jeanette">
+		<long_description>Jeanette the Royal Guard is here on duty.
+</long_description>
+		<description>As all members of the Guard, Jeanette wears the chain mail required of
+them as uniform.  She seems very well trained, and carries her scars
+with pride.  This girl could be nasty if she wanted to...
+</description>
+	</mobile>
+	<mobile number="15012" name="peter captain guard royal" level="19" sex="1" alignment="900" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="2" dam_sizedice="6" max_manapoints="6" max_movepoints="240" armor="-10" gold="1000" experience="35000" hitroll="19" damroll="8" short_description="Peter, the Captain of the Royal Guard">
+		<long_description>Peter, the Captain of the Royal Guard, walks around inspecting.
+</long_description>
+		<description>As all members of the Guard, Peter wears the chain mail required of
+them as uniform.  Even though all the other guards seem well trained,
+you realise none of them would stand a chance against this man in a
+fight.  He stands at least two metres tall, but still moves with an
+almost feline grace.  He actually radiates strength and confidence,
+and you have to fight a sudden urge to come to attention as you see
+him.
+</description>
+	</mobile>
+	<mobile number="15013" name="master trainingmaster" level="18" sex="1" alignment="950" flags="67" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="220" armor="10" gold="1000" experience="30000" hitroll="19" damroll="8" short_description="the Training Master">
+		<long_description>The Training Master is here, supervising.
+</long_description>
+		<description>Aged, but experienced, the Training Master is skilled in the use
+of virtually every weapon type invented by Man.
+</description>
+	</mobile>
+	<mobile number="15014" name="herald royal" level="18" sex="1" alignment="800" flags="0" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="220" armor="-10" gold="500" experience="30000" hitroll="19" damroll="9" short_description="the Royal Herald">
+		<long_description>The Royal Herald is standing here.
+</long_description>
+		<description>This is a young, powerfully built man, whose primary function
+is to make Royal Announcements.
+</description>
+	</mobile>
+	<mobile number="15015" name="ergan murderer" level="13" sex="1" alignment="-1000" flags="24757" aff_flags="294912" position="6" default_position="6" dam_nodice="2" dam_sizedice="8" max_manapoints="6" max_movepoints="155" armor="20" experience="18000" hitroll="12" damroll="2" short_description="Ergan the Murderer">
+		<long_description>Slumped in a corner you see Ergan, aka the Murderer of Townsbridge.
+</long_description>
+		<description>You remember a time almost a decade ago, when the news of the day
+was how this man had slaughtered the entire population of the little
+village of Townsbridge.  He was imprisoned, and here he is - a shadow
+of the undoubtedly great warrior he once was, but still to be reckoned
+with.
+</description>
+	</mobile>
+	<mobile number="15016" name="butler james" level="8" sex="1" alignment="500" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="9" max_manapoints="6" max_movepoints="100" armor="30" gold="200" experience="3750" hitroll="7" damroll="2" short_description="James the Butler">
+		<long_description>James the Butler is standing here, looking pompous.
+</long_description>
+		<description>The typical perfect butler: upper middle age, a bit bald and with 
+an impressive belly.
+</description>
+	</mobile>
+	<mobile number="15017" name="woman cleaning" level="1" sex="2" alignment="800" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="5" max_manapoints="6" max_movepoints="1" armor="90" gold="10" experience="100" short_description="the Cleaning Woman">
+		<long_description>There is a Cleaning Woman here, trying not be noticed.
+</long_description>
+		<description>Although she has a menial job, she seems to like it.
+</description>
+	</mobile>
+	<mobile number="15018" name="cockroach roach" level="4" sex="0" alignment="-250" flags="196624" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="3" max_manapoints="6" max_movepoints="120" armor="30" gold="5" experience="750" short_description="the cockroach">
+		<long_description>A large cockroach is crawling by the wall.
+</long_description>
+		<description>Very large indeed, and they say cockroaches are hard to kill...
+</description>
+	</mobile>
+	<mobile number="15019" name="astrologer" level="23" sex="1" alignment="900" flags="26643" aff_flags="0" position="6" default_position="6" dam_nodice="3" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-20" gold="2000" experience="80000" hitroll="20" damroll="30" short_description="the Astrologer">
+		<long_description>The Astrologer is sitting here, studying a book.
+</long_description>
+		<description>He is old and white-haired, with a long beard.  As you see him,
+you can almost believe the rumours about stars deciding Fate,
+and that astrology is capable of seeing the future.
+</description>
+	</mobile>
+	<mobile number="15020" name="tim guard lifeguard" level="17" sex="1" alignment="900" flags="3" aff_flags="8" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="205" armor="10" gold="1000" experience="28000" hitroll="16" damroll="8" short_description="Tim, the King's Lifeguard">
+		<long_description>Tim, the King's Lifeguard, is standing here.
+</long_description>
+		<description>This guy looks just like his twin, Tom.  There seems to be no
+doubt that he is completely prepared to give his life for the
+King, if necessary.
+</description>
+	</mobile>
+	<mobile number="15021" name="tom guard lifeguard" level="17" sex="1" alignment="900" flags="3" aff_flags="8" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="205" armor="10" gold="1000" experience="28000" hitroll="16" damroll="8" short_description="Tom, the King's Lifeguard">
+		<long_description>Tom, the King's Lifeguard, is standing here.
+</long_description>
+		<description>This guy looks just like his twin, Tim.  There seems to be no
+doubt that he is completely prepared to give his life for the
+King, if necessary.
+</description>
+	</mobile>
+	<mobile number="15022" name="chef cook" level="19" sex="1" alignment="500" flags="26770" aff_flags="0" position="8" default_position="8" dam_nodice="4" dam_sizedice="4" max_manapoints="6" max_movepoints="1283" armor="-10" gold="1000" experience="40000" hitroll="16" damroll="14" short_description="the Chef">
+		<long_description>The Chef is here, shouting orders to the other cooks.
+</long_description>
+		<description>It seems he has been tasting his own food a bit too enthusiastically.
+He is, in other words, a bit fat.
+</description>
+	</mobile>
+	<mobile number="15023" name="cook" level="4" sex="1" alignment="300" flags="130" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="7" max_movepoints="46" armor="60" gold="50" experience="600" hitroll="3" short_description="the cook">
+		<long_description>There is a cook here, making himself busy with a pot.
+</long_description>
+		<description>A junior cook, eager to do the Chef's bidding.
+</description>
+	</mobile>
+	<mobile number="15024" name="david man guard" level="19" sex="1" alignment="250" flags="3" aff_flags="8" position="8" default_position="8" dam_nodice="1" dam_sizedice="7" max_manapoints="6" max_movepoints="235" armor="0" gold="2000" experience="35000" hitroll="18" damroll="10" short_description="David">
+		<long_description>David, a big, mean-looking man, stands here, guarding the door.
+</long_description>
+		<description>He really is big, and you get the feeling he wouldn't take kindly
+to an attempt to get past him.
+</description>
+	</mobile>
+	<mobile number="15025" name="dick man guard" level="19" sex="1" alignment="250" flags="3" aff_flags="8" position="8" default_position="8" dam_nodice="1" dam_sizedice="7" max_manapoints="6" max_movepoints="235" armor="0" gold="2000" experience="35000" hitroll="18" damroll="10" short_description="Dick">
+		<long_description>Dick, a big, mean-looking man, stands here, guarding the door.
+</long_description>
+		<description>He really is big, and you get the feeling he wouldn't take kindly
+to an attempt to get past him.
+</description>
+	</mobile>
+	<mobile number="15026" name="jerry guard royal" level="11" sex="1" alignment="800" flags="65" aff_flags="0" position="5" default_position="5" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="130" armor="20" gold="400" experience="11000" hitroll="11" damroll="4" short_description="Jerry">
+		<long_description>Jerry the Royal Guard is here off duty, playing dice.
+</long_description>
+		<description>As all members of the Guard, Jerry wears the chain mail required
+of them as uniform.  He seems very well trained, and moves like
+an experienced fighter.
+</description>
+	</mobile>
+	<mobile number="15027" name="michael guard royal" level="11" sex="1" alignment="800" flags="65" aff_flags="0" position="5" default_position="5" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="130" armor="20" gold="400" experience="11000" hitroll="11" damroll="4" short_description="Michael">
+		<long_description>Michael the Royal Guard is here off duty, playing dice.
+</long_description>
+		<description>As all members of the Guard, Michael wears the chain mail required
+of them as uniform.  He seems very well trained, and moves like an
+experienced fighter.
+</description>
+	</mobile>
+	<mobile number="15028" name="hans guard royal" level="13" sex="1" alignment="900" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="150" armor="20" gold="400" experience="16000" hitroll="13" damroll="5" short_description="Hans">
+		<long_description>Hans the Royal Guard is here on duty.
+</long_description>
+		<description>As all members of the Guard, Hans wears the chain mail required
+of them as uniform.  He seems very well trained, and moves like
+a fighter who has seen more than one battle, and longs to see
+the next!
+</description>
+	</mobile>
+	<mobile number="15029" name="boris guard royal" level="15" sex="1" alignment="900" flags="65" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="175" armor="10" gold="400" experience="21000" hitroll="15" damroll="7" short_description="Boris">
+		<long_description>Boris the Royal Guard is here on duty.
+</long_description>
+		<description>As all members of the Guard, Boris wears the chain mail required of
+them as uniform.  He seems very well trained, and carries his scars
+with pride.  This guy seems tough...
+</description>
+	</mobile>
+	<mobile number="15030" name="zombie villager" level="11" sex="0" alignment="0" flags="172082" aff_flags="263208" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="4" max_movepoints="95" armor="30" experience="10000" hitroll="14" damroll="8" short_description="the zombie">
+		<long_description>A zombie is shambling over some corpses here, moving quite silently.
+</long_description>
+		<description>It is entirely possible that this zombie was once one of the villagers
+of Townsbridge who has been brought to an undead life by a fuelling
+desire for revenge.
+</description>
+	</mobile>
+	<mobile number="15031" name="skeleton villager" level="10" sex="0" alignment="0" flags="172082" aff_flags="1064" position="8" default_position="8" dam_nodice="2" dam_sizedice="3" max_manapoints="4" max_movepoints="80" armor="30" experience="8000" hitroll="12" damroll="6" short_description="the skeleton">
+		<long_description>A skeleton is moving about with a loud clatter here, climbing over corpses.
+</long_description>
+		<description>It is entirely possible that this skeleton was once one of the villagers
+of Townsbridge who has been brought to an undead life by a fuelling desire
+for revenge.
+</description>
+	</mobile>
+	<mobile number="15032" name="pit fiend demon" level="33" sex="1" alignment="1000" flags="256051" aff_flags="1192" position="6" default_position="8" dam_nodice="4" dam_sizedice="8" max_manapoints="60" max_movepoints="1480" armor="-100" gold="35000" experience="1000000" hitroll="20" damroll="16" short_description="the pit fiend">
+		<long_description>A large demon surrounded by flames rises out of the dark pool.
+</long_description>
+		<description>It is a horrifying thing, this demonic creature from the depths of the
+Abyss.  It glares down at you through blood-red eyes, and bares its huge
+white fangs and its razor-sharp talons.
+</description>
+	</mobile>
+</mobiles>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="6200" name="deer" level="3" sex="0" alignment="0" flags="128" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="7" max_manapoints="5" max_movepoints="33" armor="100" experience="350" hitroll="2" short_description="the deer">
+		<long_description>A deer looks at you with fear in its eyes.
+</long_description>
+		<description>That is one nice looking deer!
+</description>
+	</mobile>
+	<mobile number="6201" name="rabbit" level="0" sex="0" alignment="0" flags="128" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="3" max_manapoints="5" max_movepoints="3" armor="300" experience="25" short_description="the rabbit">
+		<long_description>A small rabbit nibbles at a leaf here.
+</long_description>
+		<description>It is a small, furry rodent with big ears.
+</description>
+	</mobile>
+	<mobile number="6202" name="squirrel" level="0" sex="0" alignment="0" flags="128" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="1" max_manapoints="3" armor="-100" experience="10" damroll="1" short_description="the squirrel">
+		<long_description>A squirrel spots you and runs around a tree!
+</long_description>
+		<description>It is a small, brown squirrel.  Kind of like a
+fuzzy high-tension spring.
+</description>
+	</mobile>
+	<mobile number="6203" name="orc hunter" level="7" sex="1" alignment="-350" flags="4128" aff_flags="1024" position="8" default_position="8" dam_nodice="2" dam_sizedice="3" max_manapoints="5" max_movepoints="83" armor="500" experience="2250" hitroll="6" damroll="2" short_description="the orc hunter">
+		<long_description>An orc hunter looks at you with hateful eyes.
+</long_description>
+		<description>He looks angry, desperate, and maybe a little sick.
+His green skin is definitely mottled, and he seems to
+limp a little bit...
+</description>
+	</mobile>
+	<mobile number="6204" name="orc chief" level="10" sex="1" alignment="-600" flags="6178" aff_flags="1024" position="8" default_position="8" dam_nodice="2" dam_sizedice="7" max_manapoints="5" max_movepoints="120" armor="200" gold="17" experience="9000" hitroll="9" damroll="2" short_description="the orc chief">
+		<long_description>An orc chief growls at you!
+</long_description>
+		<description>He wears a crown of oak leaves to show he is a leader.  He
+carries a club to show he is a warrior.  You wonder how good
+he is at both.
+</description>
+	</mobile>
+	<mobile number="6205" name="orc woman" level="5" sex="2" alignment="-50" flags="128" aff_flags="1024" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="5" max_movepoints="58" armor="700" experience="900" hitroll="4" short_description="the orc woman">
+		<long_description>An orc woman stands here, frightened of you.
+</long_description>
+		<description>As you stare her down, she raises her hands slowly, as if to
+say, 'Don't kill me'.
+</description>
+	</mobile>
+	<mobile number="6206" name="orc child" level="3" sex="2" alignment="50" flags="128" aff_flags="1024" position="8" default_position="8" dam_nodice="1" dam_sizedice="7" max_manapoints="5" max_movepoints="30" armor="900" experience="350" hitroll="2" short_description="the orc child">
+		<long_description>An orc child frantically searches for her mother.
+</long_description>
+		<description>She is raggedy, and seems to be covered with sores.
+</description>
+	</mobile>
+	<mobile number="6207" name="orc woman" level="5" sex="2" alignment="-50" flags="130" aff_flags="1024" position="6" default_position="6" dam_nodice="1" dam_sizedice="4" max_manapoints="5" max_movepoints="58" armor="1000" experience="750" hitroll="4" short_description="the orc woman">
+		<long_description>A pregnant orc woman tries to stand to flee from you.
+</long_description>
+		<description>She is too far gone to move very quickly.  You could
+kill her easily.
+</description>
+	</mobile>
+	<mobile number="6208" name="orc mutant mutated" level="6" sex="0" alignment="0" flags="0" aff_flags="1024" position="5" default_position="5" dam_nodice="1" dam_sizedice="1" max_manapoints="1" armor="1000" experience="1" short_description="the mutant orc">
+		<long_description>A mutant orc lies here, barely alive.
+</long_description>
+		<description>Its body has been twisted beyond all hope.  It is dying, and
+nothing will stop that.
+</description>
+	</mobile>
+	<mobile number="6209" name="orc mutant mutated" level="6" sex="0" alignment="0" flags="0" aff_flags="1024" position="8" default_position="8" dam_nodice="1" dam_sizedice="1" max_manapoints="5" max_movepoints="60" armor="1000" experience="10" short_description="the mutant orc">
+		<long_description>A horribly mutated orc stands here, gibbering.
+</long_description>
+		<description>It doesn't even appear to have registered your arrival... it is
+just talking to itself.  Its body is a twisted wreck of orc, man,
+beast, and what-not.
+</description>
+	</mobile>
+	<mobile number="6210" name="wizard elf elven Elstar" level="15" sex="1" alignment="-1000" flags="2082" aff_flags="1032" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="5" max_movepoints="183" armor="-750" gold="10000" experience="21000" hitroll="14" damroll="2" short_description="Elstar">
+		<long_description>An elven wizard is here.  He looks angry.
+</long_description>
+		<description>He looks at you archly as he wonders why you have
+invaded his domain.  No matter... it shouldn't be
+too hard for him to destroy you, no?
+</description>
+	</mobile>
+	<mobile number="6211" name="child elf elven apprentice" level="3" sex="1" alignment="600" flags="2" aff_flags="1024" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="5" max_movepoints="35" armor="600" experience="400" hitroll="2" short_description="the elven child">
+		<long_description>An elven child casts his fishing pole into the river.
+</long_description>
+		<description>He looks young and innocent.  You wonder what he is doing here.
+</description>
+	</mobile>
+	<mobile number="6212" name="mutant thing" level="12" sex="0" alignment="-800" flags="2080" aff_flags="1024" position="8" default_position="8" dam_nodice="2" dam_sizedice="7" max_manapoints="5" max_movepoints="170" armor="-200" experience="15000" hitroll="11" damroll="4" short_description="the mutant thing">
+		<long_description>A mutant... thing rushes at you!
+</long_description>
+		<description>It might've been an orc, once.  Now it is a living terror,
+pushing everything out of its way to get at you.
+</description>
+	</mobile>
+	<mobile number="6213" name="mutant thing" level="12" sex="0" alignment="-800" flags="2050" aff_flags="1024" position="8" default_position="8" dam_nodice="2" dam_sizedice="7" max_manapoints="5" max_movepoints="170" armor="-200" experience="15000" hitroll="11" damroll="4" short_description="the mutant thing">
+		<long_description>A mutant... thing tries to get you, but cannot move into range!
+</long_description>
+		<description>It might have been an orc, once.  Now it is a living terror,
+pushing everything out of its way to get at you.
+</description>
+	</mobile>
+</mobiles>

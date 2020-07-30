@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="equipment" keyword_count="1" mini_mud="true">
+	<entry>EQUIPMENT
+
+Usage: equipment
+
+Gives you a list of all the equipment you're wearing, holding, and wielding.
+
+See also: INVENTORY, REMOVE, WEAR
+</entry>
+</help>

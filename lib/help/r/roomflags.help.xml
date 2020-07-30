@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<help first_keyword="roomflags" keyword_count="1" mini_mud="true">
+	<entry>ROOMFLAGS
+
+Usage: roomflags
+
+Toggles a flag which causes the virtual room number and room flags, if any,
+to be displayed next to room names.
+</entry>
+</help>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="reroll" keyword_count="1" mini_mud="true">
+	<entry>REROLL
+
+Usage: reroll &lt;player&gt;
+
+REROLL gives a player new stats (i.e., Str, Int, Wis, Dex, Con, and Cha)
+
+See also: STAT
+</entry>
+</help>

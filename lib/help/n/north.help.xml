@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<help first_keyword="north" keyword_count="6" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="south" />
+		<additional_keyword value="east" />
+		<additional_keyword value="west" />
+		<additional_keyword value="up" />
+		<additional_keyword value="down" />
+	</additional_keywords>
+	<entry>NORTH SOUTH EAST WEST UP DOWN
+
+Usage: north
+       south
+       east
+       west
+       up
+       down
+
+To travel in a given direction.
+</entry>
+</help>

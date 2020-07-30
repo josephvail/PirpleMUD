@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="value" keyword_count="1" mini_mud="true">
+	<entry>VALUE
+
+Usage: value &lt;item&gt;
+
+Before selling an item to a shop, you can ask the shopkeeper how much
+he or she is willing to pay for it.
+ 
+Example:
+ 
+  &gt; value bread
+ 
+See also: BUY, LIST, SELL, SHOPS
+</entry>
+</help>

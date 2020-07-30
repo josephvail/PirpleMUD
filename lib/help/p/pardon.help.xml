@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<help first_keyword="pardon" keyword_count="1" mini_mud="true">
+	<entry>PARDON
+
+Usage: pardon &lt;victim&gt;
+
+Removes killer and thief flags from a player.
+</entry>
+</help>

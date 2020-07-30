@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="detect poison" keyword_count="1" mini_mud="true">
+	<entry>"DETECT POISON"
+
+Usage       : cast 'detect poison' &lt;victim | food | drink&gt;
+Accumulative: No
+Duration    : Instantaneous
+Level       : Mage level 10, Cleric level 3.
+
+Cast on food or drinks (drink containers) you will be able to
+sense if it is poisoned.
+
+Cast on a person you will be able to see if that person is
+poisoned.
+</entry>
+</help>

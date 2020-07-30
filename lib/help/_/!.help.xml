@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<help first_keyword="!" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="^" />
+	</additional_keywords>
+	<entry>! ^
+
+Use ! to repeat the last command typed at the keyboard.
+
+Use ^ to replace a string from the last command with a new string.  The
+syntax is the same as in csh: "^old-string^replacement"
+
+Examples:
+
+  &gt; tell rasmusse Hi there, how are you?
+  No-one by that name here.
+
+  &gt; ^rasmusse^rasmussen
+  You tell Rasmussen, 'Hi there, how are you?'
+
+  &gt; ^you^you doing^
+  You tell Rasmussen, 'Hi there, how are you doing?'
+
+See also: ALIAS
+</entry>
+</help>

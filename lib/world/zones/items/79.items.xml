@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<items>
+	<item number="7900" name="key steel" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="2" cost="0" cost_per_day="0" short_description="a large key">
+		<values>
+			<value number="0" val="7900" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large steel key has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="steel key">
+				<description>This huge key is made from solid steel.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7901" name="key copper" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="2" cost="0" cost_per_day="0" short_description="a copper key">
+		<values>
+			<value number="0" val="7901" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A copper key has been left on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="copper key">
+				<description>This little key is made from copper.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7902" name="key brass" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="10" cost_per_day="4" short_description="a small brass key">
+		<values>
+			<value number="0" val="7902" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small brass key lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="key brass">
+				<description>It is a small, simple brass key with no inscriptions or marks of any kind.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7903" name="treasure coins" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="7734" cost_per_day="0" short_description="a huge treasure">
+		<values>
+			<value number="0" val="7734" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a huge treasure here, looking moderately valuable.</description>
+		<extra_descriptions>
+			<extra_description keyword="treasure">
+				<description>This looks like a whole lot of coins, though not as many as you expected.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7904" name="chest wooden" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a wooden chest">
+		<values>
+			<value number="0" val="100" />
+			<value number="1" val="15" />
+			<value number="2" val="7902" />
+			<value number="3" val="0" />
+		</values>
+		<description>A wooden chest stands in the corner.</description>
+		<extra_descriptions>
+			<extra_description keyword="chest wooden">
+				<description>It is a robust chest made from short, heavy planks that have been fastened
+together with tenons.  It is equipped with a simple brass lock.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7905" name="chest" type="15" wear_flags="0" extra_flags="32" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a chest">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="15" />
+			<value number="2" val="7902" />
+			<value number="3" val="0" />
+		</values>
+		<description>A heavy iron chest sits in one corner of the room.</description>
+	</item>
+	<item number="7906" name="dagger plain black" type="5" wear_flags="8193" extra_flags="8360" bitvector="0" weight="3" cost="6500" cost_per_day="15000" short_description="a plain dagger">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="5" />
+			<value number="2" val="3" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="18" modifier="-3" />
+			<affect location="19" modifier="-1" />
+		</affects>
+		<description>A long black, but very plain, dagger rests here.</description>
+	</item>
+	<item number="7907" name="bracelet spiked" type="11" wear_flags="4097" extra_flags="64" bitvector="0" weight="1" cost="1200" cost_per_day="2000" short_description="a large spiked bracelet">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-4" />
+		</affects>
+		<description>A large spiked bracelet has been left here.</description>
+	</item>
+	<item number="7908" name="waybread bread" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="50" cost_per_day="50" short_description="a waybread">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Some waybread has been put here.</description>
+		<extra_descriptions>
+			<extra_description keyword="waybread bread">
+				<description>The waybread is the traditional feed of elves when travelling, they
+call it lembas.  It is said to refresh the weary traveler greatly.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7909" name="ring gold goldring" type="11" wear_flags="3" extra_flags="102440" bitvector="0" weight="20" cost="3500" cost_per_day="2000" short_description="a golden ring">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="2" />
+		</affects>
+		<description>A shiny goldring has been abandoned here.</description>
+	</item>
+	<item number="7910" name="sword bastard" type="5" wear_flags="8193" extra_flags="15424" bitvector="0" weight="18" cost="1700" cost_per_day="800" short_description="a huge bastard sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="19" modifier="3" />
+		</affects>
+		<description>There is a huge bastard sword here.</description>
+		<extra_descriptions>
+			<extra_description keyword="bastard sword">
+				<description>Quite a heavy weapon, with a pure white hilt.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7911" name="helmet large" type="9" wear_flags="17" extra_flags="64" bitvector="0" weight="5" cost="4500" cost_per_day="1500" short_description="a large helmet">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a large helmet on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="large helmet">
+				<description>This looks like some heavy protection, for the head of course.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7912" name="helmet chaos" type="9" wear_flags="17" extra_flags="608" bitvector="0" weight="8" cost="2300" cost_per_day="1000" short_description="a chaos helmet">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="19" modifier="2" />
+			<affect location="24" modifier="-2" />
+		</affects>
+		<description>On the floor is a grand evil-looking chaos helmet.</description>
+		<extra_descriptions>
+			<extra_description keyword="chaos helmet">
+				<description>This helmet has mounted some mean looking spikes on the front,
+moreover it looks like good protection.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7913" name="sword two-handed" type="5" wear_flags="8193" extra_flags="5696" bitvector="0" weight="22" cost="3500" cost_per_day="3500" short_description="a two-handed sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="6" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="17" modifier="10" />
+			<affect location="19" modifier="3" />
+		</affects>
+		<description>On the floor rests a enormous two-handed sword.</description>
+		<extra_descriptions>
+			<extra_description keyword="two-handed sword">
+				<description>You notice that there has been inscribed some runes and a sort of
+pattern, which resembles flames running along the edge.
+</description>
+			</extra_description>
+			<extra_description keyword="runes">
+				<description>On the blade you can read 'Flame And Strength United Are My Soul Power'.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7914" name="plate breast silvery silver" type="9" wear_flags="9" extra_flags="3136" bitvector="0" weight="70" cost="20000" cost_per_day="5000" short_description="a silvery breast plate">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="7000" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a silvery breast plate on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="plate breast silvery silver">
+				<description>On the breast plate you notice a relief of large rose.  The metal seems
+to be some kind of silver or platinum.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7915" name="plates leg silvery" type="9" wear_flags="33" extra_flags="3136" bitvector="0" weight="40" cost="12500" cost_per_day="5000" short_description="some silvery leg plates">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="7000" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>On the floor you see some leg plates.</description>
+		<extra_descriptions>
+			<extra_description keyword="leg plates silvery silver">
+				<description>They seem to be made from silver or platinum. You see the outline of a
+rose.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7916" name="gloves silvery silver" type="9" wear_flags="129" extra_flags="3136" bitvector="0" weight="14" cost="2500" cost_per_day="2000" short_description="a pair of silvery gloves">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="7000" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+		</affects>
+		<description>You can see a pair of gloves on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="gloves silvery silver">
+				<description>The gloves are made of silver threads.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7917" name="helmet silvery silver" type="9" wear_flags="17" extra_flags="3136" bitvector="0" weight="35" cost="9000" cost_per_day="5000" short_description="a silvery helmet">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="7000" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The silvery helmet lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="helmet silvery silver">
+				<description>The helmet is made from platinum or silver and has a white fur brush
+attached on the top.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7918" name="shield rose" type="9" wear_flags="513" extra_flags="3136" bitvector="0" weight="60" cost="15000" cost_per_day="7500" short_description="the shield of the rose">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="7000" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The shield of the rose rests on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="shield rose">
+				<description>On the shield you see a clear and perfect painting of a dark red rose
+on a white background. You also notice an inscription.
+</description>
+			</extra_description>
+			<extra_description keyword="inscription">
+				<description>The inscription reads:
+
+Pax Est Sanctuum
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7919" name="boots heavy plated" type="9" wear_flags="65" extra_flags="3136" bitvector="0" weight="40" cost="3500" cost_per_day="3500" short_description="a pair of heavy plated boots">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="7000" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of heavy plated boots stand on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="boots heavy plated">
+				<description>The boots are made from a silvery metal.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7920" name="plates arm silvery silver" type="9" wear_flags="257" extra_flags="3136" bitvector="0" weight="40" cost="12500" cost_per_day="5000" short_description="some silvery arm plates">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="7000" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>On the floor you see some arm plates.</description>
+		<extra_descriptions>
+			<extra_description keyword="plates arm silvery silver">
+				<description>They seem to be made from silver or platinum.  You see the outline of a
+rose.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7921" name="barrel water" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="45" cost="60" cost_per_day="20" short_description="a barrel">
+		<values>
+			<value number="0" val="40" />
+			<value number="1" val="40" />
+			<value number="2" val="15" />
+			<value number="3" val="0" />
+		</values>
+		<description>A water barrel has been left here.</description>
+	</item>
+</items>

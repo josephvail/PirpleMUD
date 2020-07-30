@@ -1,0 +1,1632 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="7200" name="The Treasury" sector="0" flags="12">
+		<description>   You are in a small but well equipped treasury.  You can see some writing
+on the wall.  The ceiling has a funny glow, which enables you to see.  You
+can get back into the inner lair through the stone door which is east.
+</description>
+		<directions>
+			<direction dir="east" to_room="7201" key="7205" keyword="door stone" flags="9">
+				<general_description>You look back through the opening into the inner lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="door stone">
+				<description>This is a heavy black stone door it looks very solid.
+</description>
+			</extra_description>
+			<extra_description keyword="writing">
+				<description>You read the number '666'.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7201" name="The Inner Lair" sector="0" flags="9">
+		<description>   You are in a octagonal room with smooth purple stone walls.  The floor is 
+made from black stone.  In the western wall you see a large black stone door.
+</description>
+		<directions>
+			<direction dir="south" to_room="7202" keyword="door wooden" flags="1">
+				<general_description>You look back through the door into the lair.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7200" key="7205" keyword="door stone" flags="9">
+				<general_description>You see the treasury.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7202" name="The Lair" sector="1" flags="8">
+		<description>   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.  To
+the north is a wooden door.
+</description>
+		<directions>
+			<direction dir="north" to_room="7201" keyword="door wooden" flags="1">
+				<general_description>You can see the inner lair.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7205">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7203">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="skull skulls bones decay">
+				<description>On all the skulls you notice that there is a three inch hole in the 
+forehead.  All the bones are broken and old.
+</description>
+			</extra_description>
+			<extra_description keyword="slime">
+				<description>The slime is slimy and uninteresting.
+</description>
+			</extra_description>
+			<extra_description keyword="torch sconce">
+				<description>The torch is bolted to the sconce and the sconce to the wall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7203" name="The Lair" sector="1" flags="8">
+		<description>   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+</description>
+		<directions>
+			<direction dir="north" to_room="7202">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7206">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7204">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="skull skulls bones decay">
+				<description>On all the skulls you notice that there is a three inch hole in the 
+forehead.  All the bones are broken and old.
+</description>
+			</extra_description>
+			<extra_description keyword="slime">
+				<description>The slime is slimy and uninteresting.
+</description>
+			</extra_description>
+			<extra_description keyword="torch sconce">
+				<description>The torch is bolted to the sconce and the sconce to the wall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7204" name="The Lair" sector="1" flags="8">
+		<description>   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+</description>
+		<directions>
+			<direction dir="north" to_room="7203">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7207">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7208" keyword="door wooden" flags="1">
+				<general_description>You see the lair entrance.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="skull skulls bones decay">
+				<description>On all the skulls you notice that there is a three inch hole in the 
+forehead.  All the bones are broken and old.
+</description>
+			</extra_description>
+			<extra_description keyword="slime">
+				<description>The slime is slimy and uninteresting.
+</description>
+			</extra_description>
+			<extra_description keyword="torch sconce">
+				<description>The torch is bolted to the sconce and the sconce to the wall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7205" name="The Lair" sector="1" flags="8">
+		<description>   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+</description>
+		<directions>
+			<direction dir="south" to_room="7206">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7202">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="skull skulls bones decay">
+				<description>On all the skulls you notice that there is a three inch hole in the 
+forehead.  All the bones are broken and old.
+</description>
+			</extra_description>
+			<extra_description keyword="slime">
+				<description>The slime is slimy and uninteresting.
+</description>
+			</extra_description>
+			<extra_description keyword="torch sconce">
+				<description>The torch is bolted to the sconce and the sconce to the wall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7206" name="The Lair" sector="1" flags="12">
+		<description>   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+</description>
+		<directions>
+			<direction dir="north" to_room="7205">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7207">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7203">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="bones decay">
+				<description>All the bones are broken and old.
+</description>
+			</extra_description>
+			<extra_description keyword="slime">
+				<description>The slime is slimy and uninteresting.
+</description>
+			</extra_description>
+			<extra_description keyword="torch sconce">
+				<description>The torch is bolted to the sconce and the sconce to the wall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7207" name="The Lair" sector="1" flags="8">
+		<description>   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+</description>
+		<directions>
+			<direction dir="north" to_room="7206">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7204" flags="1">
+				<general_description>You see another part of the lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="skull skulls bones decay">
+				<description>On all the skulls you notice that there is a three inch hole in the 
+forehead.  All the bones are broken and old.
+</description>
+			</extra_description>
+			<extra_description keyword="slime">
+				<description>The slime is slimy and uninteresting.
+</description>
+			</extra_description>
+			<extra_description keyword="torch sconce">
+				<description>The torch is bolted to the sconce and the sconce to the wall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7208" name="The Lair Entrance" sector="2" flags="13">
+		<description>   You are in a dry part of the sewer.  To the north is a wooden door,
+you can see some slime at the lower part of the door.  You also see
+some skulls and some broken bones.
+</description>
+		<directions>
+			<direction dir="north" to_room="7204" keyword="door wooden" flags="1">
+				<general_description>You can see the lair.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7209">
+				<general_description>You see a crawlway.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="slime">
+				<description>The slime is slimy and uninteresting.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7209" name="The Crawlway" sector="3" flags="9">
+		<description>   You are in a narrow crawlway.  It is rather boring here.
+</description>
+		<directions>
+			<direction dir="east" to_room="7210">
+				<general_description>You see a four-way junction.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7208">
+				<general_description>You see the entrance to a lair.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7210" name="The Four-Way Junction" sector="3" flags="9">
+		<description>   You are in a sewer junction.  To the north is a small hole, to the west
+is a narrow crawlway and to the east and south the sewer continues.
+</description>
+		<directions>
+			<direction dir="north" to_room="7211">
+				<general_description>You can see a small cave-like room.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7212">
+				<general_description>You can see a sewer drain.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7215">
+				<general_description>You can see a sewer drain.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7209">
+				<general_description>You can see a narrow crawlway.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7211" name="The Small Cave" sector="3" flags="9">
+		<description>   You are in a collapsed sewer drain, which now is more like a small cave.
+</description>
+		<directions>
+			<direction dir="south" to_room="7210">
+				<general_description>You look back into the four-way junction.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7212" name="The Sewer Drain" sector="3" flags="9">
+		<description>   You are in a dry sewer drain which bends to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7213">
+				<general_description>You can see the drain continuing north.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7210">
+				<general_description>You can see the four-way junction.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7213" name="The Sewer Drain" sector="3" flags="9">
+		<description>   You are in a dry sewer drain which bends to the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="7214">
+				<general_description>You can see the drain continuing east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7212">
+				<general_description>You can see the drain continuing south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7214" name="The End Of The Drain" sector="3" flags="9">
+		<description>   You are at the end of the drain around you the sewer has collapsed, the
+only exit is west.
+</description>
+		<directions>
+			<direction dir="west" to_room="7213">
+				<general_description>You see the sewer drain.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7215" name="The Half-Wet Drain" sector="4" flags="9">
+		<description>   You are in a sewer drain where the floor is covered with water.  To
+the north it looks more dry, south however the drain runs down into
+some water.
+</description>
+		<directions>
+			<direction dir="north" to_room="7210">
+				<general_description>To the north lies a dry four-way junction.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7216">
+				<general_description>To the south you see a sewer drain filled with water.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>The water is dirty but it looks like you would be able to swim in it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7216" name="Under Water In The Sewer" sector="6" flags="9">
+		<description>   You are swimming in some dirty water and are holding your breath.  You'd
+better continue onwards before you drown.  It is a good thing that you can
+hold your light above the water-level.
+</description>
+		<directions>
+			<direction dir="north" to_room="7215">
+				<general_description>It is hard to see, but it looks like the drain runs slightly upwards.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7217">
+				<general_description>It is hard to see, but it looks like the drain runs a little bit upwards.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7217" name="The Half-Dry Drain" sector="4" flags="9">
+		<description>   You are in a half-dry sewer drain.  To the north the drain runs a little
+bit downwards into some water to the east you can see a small hole.  To the
+west you see another drain.
+</description>
+		<directions>
+			<direction dir="north" to_room="7216">
+				<general_description>You see the drain running down into some water.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7218">
+				<general_description>Through the hole you can just make out a very small room.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7219">
+				<general_description>You see a drain running to the west.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>The water is dirty but it looks like you would be able to swim in it.
+</description>
+			</extra_description>
+			<extra_description keyword="hole">
+				<description>Through the hole you can just make out a very small room.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7218" name="The Very Small Room" sector="3" flags="9">
+		<description>   You are in a very small room, it is pretty uninteresting.
+</description>
+		<directions>
+			<direction dir="west" to_room="7217">
+				<general_description>Through the little hole you can see a half-dry drain.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7219" name="A Dry Sewer Drain" sector="3" flags="9">
+		<description>   You are in a dry but dirty sewer drain.  The drain continues east and
+south.
+</description>
+		<directions>
+			<direction dir="east" to_room="7217">
+				<general_description>You see a half-dry drain.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7220">
+				<general_description>You see another boring sewer drain.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7220" name="A Boring Drain" sector="3" flags="9">
+		<description>   You are in yet another sewer drain.
+</description>
+		<directions>
+			<direction dir="north" to_room="7219">
+				<general_description>You see a sewer drain continuing to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7221">
+				<general_description>You can see another drain to the east.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7221" name="The Sewer Drain" sector="3" flags="9">
+		<description>   You are in a sewer drain, there is nothing special in here, except for a 
+loud echo.
+</description>
+		<directions>
+			<direction dir="east" to_room="7222">
+				<general_description>You can see another sewer drain.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7220">
+				<general_description>You can make out a sewer drain to the west.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="7129">
+				<general_description>You can see a sewer line.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7222" name="The Sewer Drain" sector="3" flags="9">
+		<description>   You are in a drain, with some slimy water on the floor.
+</description>
+		<directions>
+			<direction dir="east" to_room="7223">
+				<general_description>You see a sewer bend.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7221">
+				<general_description>You see a sewer drain.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="slimy water">
+				<description>The water floats to the east from here.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7223" name="The Sewer Bend" sector="3" flags="9">
+		<description>   You find yourself in an ordinary sewer bend, which bends from west to
+north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7224">
+				<general_description>You see a sewer drain.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7222">
+				<general_description>You see a sewer drain.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7224" name="The Sewer Junction" sector="3" flags="9">
+		<description>   You stand in a junction of three sewer drains.  You see some odd
+scratches on the pipe wall, as if from a gigantic rat.  North and
+south the sewer continues as usual, but west it looks a little
+strange.
+</description>
+		<directions>
+			<direction dir="north" to_room="7225">
+				<general_description>You see nothing but a sewer drain.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7223">
+				<general_description>You see nothing but a sewer drain.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7229">
+				<general_description>You see a strange sewer pipe.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7225" name="The Sewer" sector="3" flags="9">
+		<description>   You are in a sewer, where the slimy water runs down through a tiny hole.
+You see some odd scratches on the pipe wall, as from a gigantic rat.  There 
+is a sewer drain south.
+</description>
+		<directions>
+			<direction dir="south" to_room="7224">
+				<general_description>You see a sewer drain.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7229" name="The Strange Sewer" sector="3" flags="9">
+		<description>   You are in a very strange sewer indeed, there are some odd scratches on
+the pipe wall, as from a gigantic rat.  And you can see a lot of organic
+decay like bones from animals AND humans.  West the drain runs slightly
+upwards.
+</description>
+		<directions>
+			<direction dir="east" to_room="7224">
+				<general_description>You see a sewer junction.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7230">
+				<general_description>You see a slimy sewer drain.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7230" name="The Damp Sewer" sector="3" flags="13">
+		<description>   You are in a sewer drain with a funny damp substance on the floor, in the 
+substance you see a lot of decay.  You see some odd scratches on the wall,
+as if from a gigantic rat.  Both to the east and west the pipe seems to run
+down.
+</description>
+		<directions>
+			<direction dir="east" to_room="7229">
+				<general_description>You see a sewer.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7231">
+				<general_description>You see a sewer.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7231" name="The Strange Sewer" sector="3" flags="9">
+		<description>   You are in an ordinary sewer except for a lot of scratches on the sewer
+wall, and a lot of debris on the floor.
+</description>
+		<directions>
+			<direction dir="east" to_room="7230">
+				<general_description>You see a sewer.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7232">
+				<general_description>You see another sewer.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="debris">
+				<description>You see a lot of organic decay on the floor.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7232" name="The Sewer" sector="3" flags="9">
+		<description>   You are in a sewer with more scratches on the walls.  And of course a whole
+lot of decay.  The drain runs east and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7233">
+				<general_description>You see yet another sewer line.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7231">
+				<general_description>You see a sewer pipe.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7233" name="The Sewer Drain" sector="3" flags="9">
+		<description>   You stand in a sewer drain, you are able to see some kind of cave-like
+room.  You see some odd scratches on the drain wall, as if from a gigantic
+rat.  The sewer leads south.
+</description>
+		<directions>
+			<direction dir="east" to_room="7234">
+				<general_description>You see a cave-like room.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7232">
+				<general_description>You see a sewer.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7234" name="The Rat's Lair" sector="3" flags="9">
+		<description>   You are in a little cave.  You are able to see quite a lot of debris on
+the floor.  There is a sewer drain west of here.
+</description>
+		<directions>
+			<direction dir="west" to_room="7233">
+				<general_description>You see the sewer system that way.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7279" name="The Wall Of The Abyss" sector="5" flags="9">
+		<description>   You hang onto some steps leading down into utter darkness.  There is an
+exit leading up as well, though you'll have to open the tiny rock again to
+do so.
+</description>
+		<directions>
+			<direction dir="up" to_room="7111" keyword="rock" flags="1" />
+			<direction dir="down" to_room="7299" />
+		</directions>
+	</room>
+	<room number="7280" name="The Entrance" sector="1" flags="9">
+		<description>   You are in a very dark room.  You notice that some faces are staring at
+you from inside the walls.  In the middle of the room there is a small altar.
+To the north there is a small round door.
+</description>
+		<directions>
+			<direction dir="north" to_room="7281" keyword="door small round" flags="1">
+				<general_description>A beam of red light seeps through a hole in the door.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="7116" keyword="altar secret" flags="1" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="altar">
+				<description>This altar is very special.  Faces appear to be smiling from it.  There
+is a triangle engraved in the top of it.
+</description>
+			</extra_description>
+			<extra_description keyword="triangle">
+				<description>The triangle is filled with small symbols.  They seem to be a language
+you have never seen before.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7281" name="The Corridor" sector="1" flags="8">
+		<description>   The corridor is glowing oppressively in a red hue.  You can hear wailing
+through an open black hole to the east.  To the south there is a round door.
+</description>
+		<directions>
+			<direction dir="east" to_room="7282">
+				<general_description>The hole seems more black than the night.  It is appears to be "eating" the
+red light around it.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7280" keyword="door small round" flags="1" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="small round door">
+				<description>The door is completely round without a keyhole.
+</description>
+			</extra_description>
+			<extra_description keyword="red light">
+				<description>The red light glows from the walls.
+</description>
+			</extra_description>
+			<extra_description keyword="walls">
+				<description>The walls look alive.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7282" name="The Realm Of Lost Souls" sector="0" flags="8">
+		<description>   You are standing in nothing.  All around you there are stars.
+Sometimes a shadow flies closely by you, wailing very loudly.  To
+the north there is a small bright hole.  To the west there is a
+small red hole.
+</description>
+		<directions>
+			<direction dir="north" to_room="7283">
+				<general_description>You look into a very bright hole.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7281">
+				<general_description>You look into a red hole.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="shadow">
+				<description>The shadow looks like a man in great pain.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7283" name="The T-Crossing" sector="1" flags="13">
+		<description>   You are in a small hallway.  There are doors to the east and to
+the west.  To the south there are a black hole.  There is writing
+in the wall.  Wails can be heard from the south.
+</description>
+		<directions>
+			<direction dir="east" to_room="7286">
+				<general_description>It is too dark to tell.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7282">
+				<general_description>A black hole in the wall.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7284">
+				<general_description>You can see a big fire to the west.  It looks like a unhealthy
+place to enter!
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="writing">
+				<description>The writing says 'The one to the east, belongs to the beast.
+To the west you will surely END your quest!'.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7284" name="The Firedeath" sector="1" flags="12">
+		<description>   This room is very hot.  There are flames surrounding you.  You can
+see no exits at all!  Skeletons are lying all over the floor.
+</description>
+		<extra_descriptions>
+			<extra_description keyword="skeletons">
+				<description>The skeletons looks like they had suffered the death of hunger.
+One of them looks like he has written something at the wall.
+</description>
+			</extra_description>
+			<extra_description keyword="writing wall">
+				<description>The writing says 'A prayer to the GODS will not be heard, though
+the only exit is death... Mother, I love you'.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7285" name="The Torture Room" sector="1" flags="8">
+		<description>   You are standing in a middle of a square room.  Along the walls skeletons 
+are hanging in rusty chains.  In the middle of the room there is a big metal 
+box, covered with dust.  To the south you can just make out a small exit.
+</description>
+		<directions>
+			<direction dir="south" to_room="7286" keyword="door iron" flags="1">
+				<general_description>It is too dark to tell.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="skeletons">
+				<description>When you look at the skeletons, you can see that they once had been in great 
+pain.  They are hanging in their arms, and some of them were killed with a
+sharp instrument.
+</description>
+			</extra_description>
+			<extra_description keyword="big metal box">
+				<description>The metal box is covered with dust.  You notice that it was once filled with
+coal, as you see some small pieces of it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7286" name="The Hell Yard" sector="5" flags="12">
+		<description>   You are standing in a lot of mud.  A disgusting smell surrounds
+the place, and makes you feel sick.  Small flames sometimes shoot
+up from the hot mud.  To the west there is a small door.  To the 
+north you can see an iron door.
+</description>
+		<directions>
+			<direction dir="north" to_room="7285" keyword="door iron" flags="1">
+				<general_description>It is too dark to tell.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7283">
+				<general_description>It is too dark to tell.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7299" name="On The Walls Of The Abyss" sector="5" flags="9">
+		<description>   You are clutching the steps on the wall so that you don't fall to the
+ground down below.  You cannot see anymore handholds below you and thus
+this stops your journey down, as the only exit is up.
+</description>
+		<directions>
+			<direction dir="up" to_room="7279" />
+		</directions>
+	</room>
+	<room number="7300" name="Cave Entrance" sector="1" flags="9">
+		<description>   You are standing in the cave entrance.  It is very dark down here.  There
+is writing on the wall.  There is an exit to the north.  A stairway leads up.
+</description>
+		<directions>
+			<direction dir="north" to_room="7301">
+				<general_description>To the north you can see a small tunnel.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="7102" flags="9">
+				<general_description>You can see the stairs going up into darkness.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="writing wall">
+				<description>The writing says 'BEWARE adventurer!'
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7301" name="Cave Tunnel" sector="1" flags="9">
+		<description>   You are walking in a tunnel.  It is very cold.  You can feel the presence
+of a living thing... SOMEWHERE.
+</description>
+		<directions>
+			<direction dir="north" to_room="7302">
+				<general_description>To the north you can see the tunnel continuing.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7300">
+				<general_description>To the south tunnel continuing.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7302" name="Cave Room" sector="1" flags="8">
+		<description>   You are standing in a room.  It is much cooler now.  The walls are glowing.
+</description>
+		<directions>
+			<direction dir="east" to_room="7303">
+				<general_description>To the east you see the tunnel going downwards.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7301">
+				<general_description>To the south you see a dark cave tunnel.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7321" />
+		</directions>
+	</room>
+	<room number="7303" name="The Cave T-Cross" sector="2" flags="9">
+		<description>   You are standing in a mudlike substance.  The smell here is awful, it is
+rotten.  To the west you can see some light.
+</description>
+		<directions>
+			<direction dir="east" to_room="7304">
+				<general_description>To the east the tunnel still goes downwards.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7308" />
+			<direction dir="west" to_room="7302">
+				<general_description>You can see some light to the west.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>When you examine the mud, you notice small worms crawling around.
+</description>
+			</extra_description>
+			<extra_description keyword="worms">
+				<description>The worms are purple.  They do not look edible.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7304" name="The Cave Turning-Point" sector="2" flags="9">
+		<description>   The mud is getting deeper.  You are wondering, 'Would it be an idea to
+leave, before I disappear?'.  To the south you notice a flat round stone
+is blocking the way.  To the west you can see mud.
+</description>
+		<directions>
+			<direction dir="south" to_room="7305" keyword="stone flat round" flags="1">
+				<general_description>You can see an opening behind the stone.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7303" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="flat round stone">
+				<description>The stone looks very uninteresting.  BUT as you are about to turn away, you
+see a strip of light coming through a small hole.  Conclusion: The stone is
+moveable.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7305" name="The Secret Room" sector="1" flags="8">
+		<description>   There is dust all over the place.  It looks like nobody has been here
+for ages.  In the middle of the room you see a socket with a crystal globe.
+The globe glows with a pulsing light.  To the north you see a stone door.
+To the south you see a grey block.
+</description>
+		<directions>
+			<direction dir="north" to_room="7304" keyword="door round stone" flags="1">
+				<general_description>You see a round stone door.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7306" keyword="block grey" flags="1">
+				<general_description>You see a grey block.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="socket">
+				<description>The socket looks like the work of a dwarf.  It is VERY beautiful.
+</description>
+			</extra_description>
+			<extra_description keyword="crystal globe">
+				<description>The crystal globe is glowing with a pulsing light.  It looks like there is
+smoke inside it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7306" name="The Mudhole" sector="6" flags="9">
+		<description>   You are standing in a lot of mud.  The mud goes to your chest.  You feel
+the presence of something IN the mud.  The only obvious exit is to the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="7305" keyword="block grey" flags="1">
+				<general_description>You can see nothing at all.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7307" />
+		</directions>
+	</room>
+	<room number="7307" name="A Tunnel" sector="5" flags="9">
+		<description>   The mud goes to your knees.  Otherwise the tunnel looks very normal.
+</description>
+		<directions>
+			<direction dir="north" to_room="7308" />
+			<direction dir="east" to_room="7306">
+				<general_description>You can see a mudhole.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7309" />
+		</directions>
+	</room>
+	<room number="7308" name="The Long Tunnel" sector="1" flags="9">
+		<description>   Here there is almost no mud, as you stand at the top of a small rock.  Just
+beside you there are a sign which says 'WARNING!  The worms are dangerous!'
+</description>
+		<directions>
+			<direction dir="north" to_room="7303">
+				<general_description>You can see a lot of mud... Yuck!
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7307">
+				<general_description>The tunnel goes a little downwards.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7309" name="The Hot Room" sector="1" flags="9">
+		<description>   You are very surprised, as this room for a change are hot instead of
+cold.  To the north it goes downwards into some mud.  There are also an
+exit to the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="7307">
+				<general_description>You see a lot of mud.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7310">
+				<general_description>You see a entrance to a small room.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7310" name="The Small Room" sector="1" flags="9">
+		<description>   As you look around you notice a small statue.  There are exits to the west
+and to the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="7309">
+				<general_description>It is pitch dark out there.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7311">
+				<general_description>You see a VERY long hallway.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="small statue">
+				<description>This is a statue of a imp, pointing to the west.  The imp looks like a man
+with horns and a tail.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7311" name="The Stalagmite Cave" sector="2" flags="9">
+		<description>   You are standing in a stalagmite cave.  Water is dripping from the walls.
+It is very cold in here.
+</description>
+		<directions>
+			<direction dir="north" to_room="7314" />
+			<direction dir="east" to_room="7310">
+				<general_description>You see a long hallway, and some mud.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7312" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="stalagmite">
+				<description>The stalagmites are very tall, and looks very beautiful.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7312" name="The Stalagmite Tunnel" sector="1" flags="9">
+		<description>   You has entered a small tunnel.  Here it is quite dry.  Maybe it would be a
+good idea to rest here.
+</description>
+		<directions>
+			<direction dir="north" to_room="7311">
+				<general_description>You can see a small cave to the north.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7313" />
+		</directions>
+	</room>
+	<room number="7313" name="The Spongy Room" sector="3" flags="12">
+		<description>   You definitely do NOT like this area.  It is very dank, and most of the
+room is wet.
+</description>
+		<directions>
+			<direction dir="east" to_room="7312" />
+			<direction dir="west" to_room="7345" />
+		</directions>
+	</room>
+	<room number="7314" name="The Stalagmite T-Cross" sector="1" flags="12">
+		<description>   You are standing in a cross.  To the north you can see some light.
+Otherwise it is dark.
+</description>
+		<directions>
+			<direction dir="north" to_room="7317">
+				<general_description>You see some light ahead.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7315" />
+			<direction dir="south" to_room="7311" />
+		</directions>
+	</room>
+	<room number="7315" name="The Blind End Room" sector="1" flags="9">
+		<description>   This room is obviously a blind end.  To the north you see a primitive
+picture.
+</description>
+		<directions>
+			<direction dir="north" to_room="7316" keyword="sun" flags="1">
+				<general_description>You see a primitive picture of some people dancing around a huge sun.  The
+sun is about 7 feet in diameter, which shows the size of the picture.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7314" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="primitive picture">
+				<description>You see some people dancing around a huge sun.  The sun is about 7 feet in
+diameter, which shows the size of the picture.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7316" name="The Treasure Room" sector="1" flags="521">
+		<description>   This room is richly ornamented.  The walls have been carved to show
+people dancing around a moon which is drawn on the floor.  It looks very
+old, and it is very dusty.  To the south you see the back side of a secret
+door.
+</description>
+		<directions>
+			<direction dir="south" to_room="7315" keyword="moon door" flags="1">
+				<general_description>You can see a picture with some peeple crawling around a huge moon.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7317" name="The Square Lair" sector="1" flags="8">
+		<description>   You are standing in the south-east part of the lair.  You can see a skeleton
+lying in the corner.
+</description>
+		<directions>
+			<direction dir="north" to_room="7318">
+				<general_description>Another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7314" />
+			<direction dir="west" to_room="7320">
+				<general_description>Another part of the lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="skeleton">
+				<description>It looks like a adventurer who wasn't lucky.  You'd better watch out...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7318" name="The Square Lair" sector="1" flags="9">
+		<description>   You are standing in the north-east part of the lair.
+You see a sign on the wall.
+</description>
+		<directions>
+			<direction dir="east" to_room="7321" keyword="door wooden" flags="1">
+				<general_description>You see a wooden door.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7317">
+				<general_description>Another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7319">
+				<general_description>Another part of the lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign wall">
+				<description>The sign says 'Gods of War I call you, my sword is by my side,
+               I seek a light free from all false pride'
+                       Reyemle Grug...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7319" name="The Square Lair" sector="1" flags="9">
+		<description>   You are standing in the north-west part of the lair.  Here there is another
+sign.  There is an exit from the lair to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7322">
+				<general_description>You see a small tunnel leading north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7318">
+				<general_description>Another part of the lair.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7320">
+				<general_description>Another part of the lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>The sign says 'I'm wandering around in a everlasting tale,
+               seeking the light to regain my pride
+                           Corama...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7320" name="The Lair End" sector="1" flags="9">
+		<description>   You can see a table in front of you.  It is very dusty.  Five skeletons are
+sitting around the table.  Exits are north and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7319">
+				<general_description>The northern part of the lair.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7317">
+				<general_description>The eastern part of the lair.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="table">
+				<description>On the table there is dust, in the center there is a small statue of a
+Dragon sleeping.
+</description>
+			</extra_description>
+			<extra_description keyword="skeleton skeletons">
+				<description>They've obviously been killed somehow, but it doesn't look like it was by 
+sword or club.
+</description>
+			</extra_description>
+			<extra_description keyword="dragon statue">
+				<description>It looks like a silver dragon.  It is nailed onto the table.  The dragon sits
+on a red dragon that looks dead.  But the eyes of the red dragon are glowing,
+pulsating red.  You feel drained.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7321" name="The East Tunnel" sector="1" flags="12">
+		<description>   You are standing in dark tunnel, the exits are east and west.  To the west
+you see a wooden door.
+</description>
+		<directions>
+			<direction dir="east" to_room="7302">
+				<general_description>You can see a muddy tunnel.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7318" keyword="door wooden" flags="1">
+				<general_description>You can see a wooden door.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7322" name="The North Tunnel" sector="1" flags="9">
+		<description>   You are standing in a dark tunnel, it leads upwards.
+</description>
+		<directions>
+			<direction dir="north" to_room="7323">
+				<general_description>The dark tunnel continues.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7319">
+				<general_description>You can see the lair.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7336">
+				<general_description>You can see a cave entrance.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7323" name="The L-Shaped Room" sector="1" flags="9">
+		<description>   You are standing in deep darkness.  To the south there is a small exit.
+To the east you can see a gaping hole.
+</description>
+		<directions>
+			<direction dir="east" to_room="7324" />
+			<direction dir="south" to_room="7322" />
+		</directions>
+	</room>
+	<room number="7324" name="The Circular Hall" sector="1" flags="9">
+		<description>   You are standing in round hall.  To the north, east and south you can see
+a stone head hanging on the walls.
+</description>
+		<directions>
+			<direction dir="north" to_room="7324" key="0" keyword="head red" flags="9">
+				<general_description>You see a red dragon's head hanging on the wall.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7325" keyword="head green" flags="1">
+				<general_description>You see a green dragon's head hanging on the wall.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7324" key="0" keyword="head blue" flags="9">
+				<general_description>You see a blue dragon's head hanging on the wall.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7323">
+				<general_description>You see a room far away.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="head heads">
+				<description>When you study the faces of the heads you see that they are faces of dragons.
+The face to the north is red, the face to the east is green, and the face to
+the south is blue.
+</description>
+			</extra_description>
+			<extra_description keyword="green">
+				<description>This looks like an evil dragon.
+</description>
+			</extra_description>
+			<extra_description keyword="red">
+				<description>This looks like a neutral dragon.
+</description>
+			</extra_description>
+			<extra_description keyword="blue">
+				<description>This looks like a good dragon.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7325" name="A Dusty Tunnel" sector="1" flags="12">
+		<description>   You are standing in dust.  This place has not been touched for a long time. 
+Otherwise it is quite boring here, looks like a place to rest!  To the west
+you see the outline of a door.  A tunnel leads to the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="7326">
+				<general_description>You see a tunnel which leads downwards.  It is quite dark.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7324" keyword="door" flags="1">
+				<general_description>You can see the outline of a door.  Just like in the description!
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7326" name="The Crossing" sector="1" flags="9">
+		<description>   You are standing in a crossing of hallways.  You can leave this place
+in every direction, except up and down.  In the dust you notice strange
+footprints.
+</description>
+		<directions>
+			<direction dir="north" to_room="7331" />
+			<direction dir="east" to_room="7330" />
+			<direction dir="south" to_room="7327" />
+			<direction dir="west" to_room="7325" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="footprints foot">
+				<description>You have never seen this kind of footprint before!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7327" name="The L-Shaped Room" sector="2" flags="9">
+		<description>   You are standing in a L-shaped room.  You can hear noises from the long
+tunnel to the east.  You feel very afraid!
+A sign is hanging on the wall.
+</description>
+		<directions>
+			<direction dir="north" to_room="7326" />
+			<direction dir="east" to_room="7328" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>The sign says:
+
+DANGER!!
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7328" name="The Dragon's Lair" sector="2" flags="8">
+		<description>   You can see burned walls, the floorstones are fiery red.  All kinds
+of bones are scattered all over the floor.  On the walls you can see
+some burned shapes.  You smell burnt flesh.  Two creatures are half
+melted into the floor.
+</description>
+		<directions>
+			<direction dir="north" to_room="7329">
+				<general_description>You can see a long tunnel.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7327">
+				<general_description>You can see nothing but darkness.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7329" name="The Burnt Room" sector="1" flags="9">
+		<description>   You are in a room, which once has at one time been quite burnt.  There
+is writing on the wall.
+</description>
+		<directions>
+			<direction dir="south" to_room="7328">
+				<general_description>You can see a red glow...
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7330" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="writing">
+				<description>The writing says:
+
+                        DANGER
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7330" name="The Windy Tunnel" sector="1" flags="9">
+		<description>   You are standing in a tunnel.  Above you, you can feel a breeze.
+</description>
+		<directions>
+			<direction dir="east" to_room="7329">
+				<general_description>It is too dark to tell.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7326" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="breeze">
+				<description>The breeze comes from a hole above you.  NO way to get up there.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7331" name="The Glittering Room" sector="1" flags="8">
+		<description>   This room is very bright.  On the walls you can see some silver.  Exits
+are west, east and south.
+</description>
+		<directions>
+			<direction dir="east" to_room="7332" />
+			<direction dir="south" to_room="7326" />
+			<direction dir="west" to_room="7333" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="glitter walls silver">
+				<description>The glittering silver looks like it is INSIDE the walls.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7332" name="The Secret Passageway" sector="1" flags="9">
+		<description>   You have entered a tiny room.  There is only an exit to the west.
+</description>
+		<directions>
+			<direction dir="west" to_room="7331">
+				<general_description>You can see a light to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7333" name="The End Of Long Tunnel" sector="5" flags="9">
+		<description>   You are at a end of a long tunnel.  Right in front of you, you can see a
+grey mass.  To the east you can see a tremendously long tunnel, but you know
+that, you were just there.
+</description>
+		<directions>
+			<direction dir="east" to_room="7331">
+				<general_description>A long tunnel.  JUST like in the description!
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7334" keyword="mass grey" flags="1">
+				<general_description>A grey mass is blocking the way.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="grey mass">
+				<description>The mass is nothing but a mass, but it is quite suspicious!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7334" name="The Stair-Room" sector="1" flags="9">
+		<description>   You are standing in a small room.  Drawings of faces in pain are on the
+walls.  You can feel that darkness is ruling the place.  There is one exit:
+south.
+</description>
+		<directions>
+			<direction dir="south" to_room="7335">
+				<general_description>Nothing but darkness...
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7335" name="A Dark Tunnel" sector="1" flags="9">
+		<description>   You are standing in a dark tunnel.  It continues to the north and to the
+south.  Bones are spread on the floor.
+</description>
+		<directions>
+			<direction dir="north" to_room="7334" />
+			<direction dir="south" to_room="7336" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="bones bone">
+				<description>It looks like bones of a human.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7336" name="The Entrance To The Lair" sector="2" flags="13">
+		<description>   The smell here is awful.  To the south you can see some smoke.  A tunnel
+leads north and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7335" />
+			<direction dir="east" to_room="7322">
+				<general_description>A small cave is to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7337">
+				<general_description>The only thing you can see is smoke.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7337" name="The North-Eastern Part Of The Basilisk's Cave" sector="2" flags="9">
+		<description>   It is hard to see here because of the smoke.  To the north you can barely
+see a small tunnel.  Other exits are to the south and to the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="7336" />
+			<direction dir="south" to_room="7338" />
+			<direction dir="west" to_room="7339" />
+		</directions>
+	</room>
+	<room number="7338" name="The South-Eastern Part Of The Basilisk's Cave" sector="2" flags="9">
+		<description>   There is a very small hole in wall from which the smoke is coming from. 
+Otherwise it is pitch black.  Exits are north and west.
+</description>
+		<directions>
+			<direction dir="north" to_room="7337">
+				<general_description>You can see nothing but smoke.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7340">
+				<general_description>You can see nothing but smoke.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="hole small">
+				<description>It seems to be a small hole, about one foot in diameter.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7339" name="The North-Western Part Of The Basilisk's Cave" sector="2" flags="9">
+		<description>   You can see some hay spread on the floor.  The smell is awful here, and it
+makes you feel sick.  This place where the Basilisk sleeps.  Watch out...
+maybe it is not far from here...
+</description>
+		<directions>
+			<direction dir="east" to_room="7337" />
+			<direction dir="south" to_room="7340" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="hay">
+				<description>The hay is very dirty.  The smell of it makes you feel sick.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7340" name="The South-Western Part Of The Basilisk's Cave" sector="5" flags="9">
+		<description>   You can see nothing but smoke.  
+</description>
+		<directions>
+			<direction dir="north" to_room="7339" />
+			<direction dir="east" to_room="7338" />
+			<direction dir="south" to_room="7341" />
+		</directions>
+	</room>
+	<room number="7341" name="The Small Cave" sector="2" flags="13">
+		<description>   You are standing in small cave.  You can see some light at the end.  Exits
+are north and south.
+</description>
+		<directions>
+			<direction dir="north" to_room="7340">
+				<general_description>You can see only smoke.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7342">
+				<general_description>You can see a blue glow.  And you feel a fresh breeze... ahhhh...
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7342" name="The Northern End Of The Pool" sector="4" flags="8">
+		<description>   You have wet feet, you are standing in water.  The water looks calm.  You
+can see that it is a big lake.  Light seeps from the water.
+</description>
+		<directions>
+			<direction dir="north" to_room="7341">
+				<general_description>You can see a small cave.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7343">
+				<general_description>You can see more water.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7344">
+				<general_description>You can see water.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7343" name="The Pool" sector="6" flags="9">
+		<description>   You are swimming in water.  It is getting deep here.  It is also dark in
+this end.
+</description>
+		<directions>
+			<direction dir="south" to_room="7345">
+				<general_description>You can see some bubbles in the water.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7342">
+				<general_description>You see calm water.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7344" name="The South End Of The Pool" sector="5" flags="8">
+		<description>   You standing in water up to your neck!  You can only see water.
+</description>
+		<directions>
+			<direction dir="north" to_room="7342">
+				<general_description>You can see calm water.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7345">
+				<general_description>To dark to tell, but you can feel something nearby.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7345" name="The Pool" sector="6" flags="9">
+		<description>   You are swimming in DARKNESS.  You feel something touching your right leg.
+</description>
+		<directions>
+			<direction dir="north" to_room="7343">
+				<general_description>To dark to tell.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7313">
+				<general_description>You can feel a warm breeze.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7344" />
+		</directions>
+	</room>
+</rooms>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<help first_keyword="uptime" keyword_count="1" mini_mud="true">
+	<entry>UPTIME
+
+Usage: uptime
+
+Displays when the game was booted and calculates how long ago that was.
+</entry>
+</help>

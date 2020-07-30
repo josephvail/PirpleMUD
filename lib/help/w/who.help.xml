@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<help first_keyword="who" keyword_count="1" mini_mud="true">
+	<entry>WHO
+
+Usage: who [minlev[-maxlev]] [-n sname] [-c classlist] [-s] [-o] [-q] [-r] [-z]
+
+Lists the people currently in the game.  Some people may be invisible.
+Command-line options can be used to limit the listing.  The parameters
+can be specified on the command-line in any order.
+
+minlev, maxlev : list only people whose level is at or above minlev, and
+                 optionally, at or below maxlev
+-n : list only people whose names or titles contain sname
+-c : list only people of a certain class, where classlist is any combination
+     of the letters w, m, c, and t
+-s : list names in the short form (4 columns of names, without titles or flags)
+-o : list only outlaws (i.e. people with a killer or thief flag)
+-q : list only people who are on the Quest
+-r : list only people who are in your room
+-z : list only people in your zone
+
+Examples:
+
+  &gt; who -c wc -s -l 20
+  List, in short form, warriors and clerics at or above level 20
+
+  &gt; who 15-25 -o -z
+  List all outlaws between levels 15 and 25 who are in your zone.
+</entry>
+</help>

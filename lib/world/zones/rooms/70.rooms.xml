@@ -1,0 +1,1294 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="7000" name="The Fissure Under The Ledge" sector="5" flags="13">
+		<description>   This is a small fissure in the solid rock.  Under you lies the deep dark
+pool.  The water trickles quietly down from the ledge above you.  The water
+smells like the water in a sewer.
+</description>
+		<directions>
+			<direction dir="up" to_room="7070" />
+			<direction dir="down" to_room="7100">
+				<general_description>The water's edge.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7001" name="The Muddy Sewer" sector="5" flags="9">
+		<description>   You are standing in mud to your knees.  This is not the kind of place
+for a picnic.  The muddy sewer stretches further into the south.
+</description>
+		<directions>
+			<direction dir="south" to_room="7002">
+				<general_description>You see the muddy sewer continuing into the darkness to the south.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7002" name="The Muddy Sewer Junction" sector="5" flags="9">
+		<description>   The muddy sewer stretches into the dark to the south.  It looks as if 
+no person has ever put his foot here before.  It is too muddy for that
+anyway.  The sewer leads north, south and east from here.
+</description>
+		<directions>
+			<direction dir="north" to_room="7001">
+				<general_description>The muddy sewer stretches into the dark to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7007">
+				<general_description>East.  The muddy sewer leads into a bend that goes south.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7003">
+				<general_description>South.  The muddy sewer ends in a mudhole that way.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7003" name="The Mudhole" sector="5" flags="13">
+		<description>   You stand in mud all the way up to your thighs and it is not too 
+comfortable since you are used to a somewhat different environment.
+The sewer leads to the north of here.  In the middle you can just
+make out an enormous drainpipe leading down.
+</description>
+		<directions>
+			<direction dir="north" to_room="7002">
+				<general_description>North.  The muddy junction lies in that direction.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7101">
+				<general_description>The muddy drainpipe leads down through the mud, otherwise it is utterly dark.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7004" name="The Dark Pit" sector="0" flags="9">
+		<description>   You are standing by the edge of a dark pit that leads down into even
+deeper darkness.  &gt;BWWAAADDRR&lt; - The smell from down there is unbearable.
+The sewer stretches into the darkness to the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="7009">
+				<general_description>East.  The sewer leads into the sewer junction.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7102">
+				<general_description>The Dark Pit leads down and down and down... well you can't see the 
+bottom anyway.  There are bars that could function as a ladder on
+the side.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7005" name="The Muddy Sewer" sector="4" flags="9">
+		<description>   You are standing in the middle of a bend of the sewer pipe.  It is very
+dark around here and the mud is sticking to your legs, not very pleasant.
+The pipe leads east and south from here.
+</description>
+		<directions>
+			<direction dir="east" to_room="7011">
+				<general_description>East.  The mud stretches on into the darkness.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7006">
+				<general_description>South.  There is even more mud in that direction than where you are now.  
+Incredible.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7006" name="The Muddy Sewer" sector="5" flags="9">
+		<description>   You are standing in something that reminds you very much of porridge,
+this has the advantage that it is not hot, it is rather cold actually.
+The pipe bends to the north and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7005">
+				<general_description>The muddy sewer pipe leads into a bend that goes east.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7012">
+				<general_description>The pipe leads into a bend that goes south.  Interesting, there is mud on
+the ground there as well.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7007" name="The Muddy Sewer Bend" sector="5" flags="9">
+		<description>   This isn't your idea of a place to stay too long.  You're in up to
+your knees in something that resembles mud, but you're not quite sure.
+The bend in which you stand leads west and south.
+</description>
+		<directions>
+			<direction dir="south" to_room="7008">
+				<general_description>The pipe leads into a intersection that goes south and east.  The floor here 
+is still covered in mud.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7002">
+				<general_description>The pipe (still filled with mud) leads into a intersection that goes north 
+and south.  Interesting.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7008" name="A Muddy Intersection" sector="4" flags="9">
+		<description>   You have both your feet safely stuck in mud.  It isn't the mud that is
+wrong it is the smell, the sounds, the total darkness that surrounds you.
+Everything here is so depressing.  The pipe leads on with a trail of thick
+mud to the north, east and south.
+</description>
+		<directions>
+			<direction dir="north" to_room="7007">
+				<general_description>North.  The pipe goes into a bend with a load of mud all the way up the walls.
+The bend leads west.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7014">
+				<general_description>East.  This way looks like a place for the annual mud festival, although the
+stench wouldn't allow any happiness at all.  The pipe leads into a bend that
+leads north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7009">
+				<general_description>South.  There is much less mud in that direction.  Your light doesn't 
+uncover enough space for you to see much more than that it leads into
+some sort of junction.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7009" name="The Sewer Junction" sector="3" flags="9">
+		<description>   You stand in the middle of a huge junction of sewer pipes right under
+what you'd think was an air shaft.  The sewer pipes lead to the north,
+south, east and west.  It look quite impossible to force your way up.
+</description>
+		<directions>
+			<direction dir="north" to_room="7008">
+				<general_description>North.  Mud is the floor basis in that direction.  Yummy.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7017">
+				<general_description>YYEEUUCH!  BOOH!  THAT looks like a nice place for creepy crawlies.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7010">
+				<general_description>South.  This direction looks quite nice actually.  The pipe leads into 
+a bend that goes east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7004">
+				<general_description>A few yards ahead - away from this junction - there is a pit leading down,
+but the smell from there...&gt;PHEWW&lt;.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7010" name="A Bend In The Sewer Pipe" sector="2" flags="9">
+		<description>   You are in a bend in the sewer pipe.  A strong smell seeps in from the
+north.  The sewer goes north and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7009">
+				<general_description>North.  You are staring into a huge junction with exits in all directions.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7018">
+				<general_description>East.  The Pipe leads into utter darkness that way.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7011" name="The Muddy Sewer Pipe" sector="5" flags="9">
+		<description>   You have entered a kind of tube intersection that leads south, west
+and east.  Your legs are covered in mud up to the knees.  REAL yucky!  
+</description>
+		<directions>
+			<direction dir="east" to_room="7024">
+				<general_description>East.  There is less mud in that direction, or that's your impression.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7021">
+				<general_description>That way is lost in darkness, though you sense less mud in that direction,
+perhaps even a complete end to this sludge that surrounds you.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7005">
+				<general_description>West.  The mud reaches that way too, all the way up the walls.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7012" name="The Bend In The Muddy Sewer" sector="5" flags="9">
+		<description>   This is not your idea of a holiday.  You stand in mud up to your knees.
+It is absolutely inconceivable how all this mud could have been placed
+here.  The pipe leads to the west and south.
+</description>
+		<directions>
+			<direction dir="south" to_room="7013">
+				<general_description>South.  There is even more mud that way, incredible!  Although it looks
+like an intersection in the sewer system that leads east and south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7006">
+				<general_description>West.  All you can see, is that the pipe leads into a bend that goes
+north.  But there is less mud in that direction, however odd that sounds.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7013" name="A Muddy Intersection" sector="5" flags="9">
+		<description>   You wouldn't want to know the true feeling of standing in this mud up to
+your hips.  &gt;BWAADR&lt;.  All that fills your mind right now is the dream of
+a hot bath.  This is NOT very clean mud you know, remember you're in the
+sewer!  The pipes leads north, south and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7012">
+				<general_description>North.  Sludge and sediment fills this corridor of the sewer that leads
+into a bend going west.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7026">
+				<general_description>East.  You can see absolutely nothing of interest in that direction (Maybe
+that is why it is so damn interesting...)  There is no mud in that direction
+either, GREAT!
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7014">
+				<general_description>South.  All you can see is more mud!  Although the pipe goes into a bend
+leading west.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+			<extra_description keyword="sediment">
+				<description>It is NOT the kind of matter that would concern you too much, normally, but
+as you are in the middle of it, it just might become your main concern.
+REAL YUCKY!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7014" name="The Muddy Sewer" sector="5" flags="9">
+		<description>   You stand in a bend of the pipe system of the sewer with mud up to your
+thighs.  Contemplating a higher level of existence here would be utterly
+inappropriate, as the smell would keep any intelligent creature from even
+thinking of anything but getting away from this foul end of the WORLD.
+The bend goes from north to west.
+</description>
+		<directions>
+			<direction dir="north" to_room="7013">
+				<general_description>North.  Filled with mud, that place looks like an impassable intersection
+with pipes leading north and east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7008">
+				<general_description>West.  There is less mud that way, maybe you're on your way out of this foul
+place.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7015" name="The Old Well" sector="3" flags="9">
+		<description>   You are standing by an old and worn well from before this century.  The
+sewer leads to the east from here and the well leads down into darkness.
+Metal bars implanted in the side of the well lead down as a ladder.
+</description>
+		<directions>
+			<direction dir="east" to_room="7028">
+				<general_description>East.  You see, because of the utter darkness that surround you, absolutely
+nothing.  Your light isn't of much use for that kind of distance.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7105">
+				<general_description>Down the well there is even less light than up here, so... sorry, you can't
+see a thing.  There are metal bars in the side leading down into the darkness.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="bars">
+				<description>These look like they're pretty slippery, and not very safe, but perhaps safe
+enough for you to climb down, WITH both hands on them.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7016" name="The Ordinary Bend" sector="1" flags="9">
+		<description>   You are in the middle of a bend in the pipe system of the sewer system, 
+WHAT a place!!!  The pipe leads to the south and the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="7021">
+				<general_description>East.  What a quiet place you've found there.  It is an intersection that has
+pipeways going north and east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7017">
+				<general_description>South.  You see nothing at all in that direction it is too dark anyway.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7017" name="The Sewer Junction" sector="1" flags="9">
+		<description>   You are in a junction that leads north, west and south.
+</description>
+		<directions>
+			<direction dir="north" to_room="7016">
+				<general_description>North.  You see a bend.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7018">
+				<general_description>South.  It looks like a pipe junction just like this one.  Only that one
+leads east and west.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7009">
+				<general_description>West.  There is a junction with four pipelines in that direction.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7018" name="The Ordinary Junction" sector="1" flags="13">
+		<description>   This looks like an ordinary junction, actually it seems very quiet
+here.  The pipelines lead west, east and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7017">
+				<general_description>To the north you can see a junction like this one, leading north and west.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7031">
+				<general_description>To the east there is nothing of particular interest, though there is a 
+junction with pipelines leading north and east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7010">
+				<general_description>There is a bend to the west leading north.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7021" name="A Quiet Pipe Junction" sector="1" flags="13">
+		<description>   This is the kind of place to rest, though the smell could be a LOT
+better than this.  The sewer goes east, north and west from here.
+</description>
+		<directions>
+			<direction dir="north" to_room="7011">
+				<general_description>In that direction, you can't see anything.  It is just too dark.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7029">
+				<general_description>There is an ordinary junction in the pipe system to the east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7016">
+				<general_description>West.  There is an ordinary bend leading south into the sewer system in
+that direction.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7022" name="The Odd Room With Smooth Walls" sector="5" flags="9">
+		<description>   As you enter you hear a loud click from one of the walls... and you fall
+and fall and fall...
+.
+.
+.
+.
+... And come to an abrupt end.  THIS is strange indeed.  There is an arched
+entryway leading down.
+</description>
+		<directions>
+			<direction dir="down" to_room="7112">
+				<general_description>Down.  It is utterly dark that way, though you can make out an intersection
+of sewer pipes leading west, north and east.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7024" name="The Sewer" sector="1" flags="13">
+		<description>   You are standing in mud up to your ankles.  This is an intersection with 
+sewer pipes leading east, south and west.
+</description>
+		<directions>
+			<direction dir="east" to_room="7037">
+				<general_description>To the east there is a peculiar looking round room.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7025">
+				<general_description>To the south there is another intersection with pipes going south and east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7011">
+				<general_description>To the west there is another intersection like this one, with sewer pipes
+leading south and west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7025" name="Another Intersection" sector="1" flags="9">
+		<description>   You have never seen anything so BORING... This is an intersection with
+pipes leading north, south and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7024">
+				<general_description>To the north there is an intersection, where the pipes are leading west and
+east.  You notice that the floor to the west is covered in mud.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7038">
+				<general_description>East.  You see nothing of interest in that direction, just another 
+intersection.  This one leads east and south.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7026">
+				<general_description>Another intersection lies to the south.  It leads west and south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7026" name="A Junction" sector="0" flags="13">
+		<description>   This one seems interesting, a big difference from all the other junctions.
+It seems cleaner than the rest of them.  Weird.  Something that looks like 
+an air shaft leads upwards, but it looks far too slippery to climb.
+The pipes lead to the south, west and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7025">
+				<general_description>North.  You see an intersection there, leading north and east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7028">
+				<general_description>To the south there is ANOTHER junction leading west and east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7013">
+				<general_description>To the west you see a load of mud and sediment in the sewer.  That should
+be an intersection there but you're not quite sure.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="mud">
+				<description>It is as dark as tar and looks like something out of a toilet, on top of
+that, the smell is absolutely overwhelming.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7028" name="The Sewer Junction" sector="1" flags="9">
+		<description>   You stand in a junction of sewer pipes leading north, east and west.
+</description>
+		<directions>
+			<direction dir="north" to_room="7026" />
+			<direction dir="east" to_room="7034">
+				<general_description>To the east you can see a bend in the pipe going south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7015">
+				<general_description>To the west you can just make out an old well.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7029" name="The Triple Junction" sector="1" flags="9">
+		<description>   You stand in the middle of a huge junction of concrete sewer pipes.  The 
+pipes lead into three different directions: east, south and west.
+</description>
+		<directions>
+			<direction dir="east" to_room="7035">
+				<general_description>East.  You can see a bend in the sewer pipe leading north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7030">
+				<general_description>To the south there is an ENORMOUS quadruple sewer junction, all lit up by
+an odd light.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7021">
+				<general_description>To the west you can just make out another junction similar to the one 
+you are standing in.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7030" name="The Quadruple Junction Under The Dump" sector="1" flags="13">
+		<description>   You are standing in something that reminds you of an entry to an ant hive.
+There are enormous concrete pipes leading north, south, east and west.  
+There is also a metal ladder built into the concrete wall leading up through
+a layer of garbage.  
+</description>
+		<directions>
+			<direction dir="north" to_room="7029">
+				<general_description>To the north you can see a huge triple junction with sewer pipes leading
+west and east.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7036">
+				<general_description>East.  You can see a pit in the floor.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7031">
+				<general_description>To the south there is a huge junction with pipes leading east and west.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7022">
+				<general_description>To the west there is an odd looking room with totally smooth walls.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="3030" key="3005" flags="9">
+				<general_description>Up through the garbage you can just make out what looks like the dump in
+Midgaard.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="ladder">
+				<description>It looks as if it is made of stainless steel, and it would function
+as a club of considerable power, but alas... You can't take at all
+since it is firmly set into the concrete wall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7031" name="A Triple Junction" sector="1" flags="9">
+		<description>   You stand in a junction with pipes leading west, north and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7030">
+				<general_description>To the north there is an ENORMOUS quadruple sewer junction, all lit up by
+an odd light.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7044">
+				<general_description>East.  You can just make out a triple junction leading north and east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7018">
+				<general_description>West.  You can just make out a triple junction leading north and west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7034" name="A Bend In The Sewer Pipe" sector="2" flags="9">
+		<description>   You can look in two directions where the pipe leads: south and west.
+</description>
+		<directions>
+			<direction dir="south" to_room="7035">
+				<general_description>To the south you can see another bend leading west.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7028">
+				<general_description>West.  You can just make out a triple junction leading north and west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7035" name="The Sewer Pipe Bend" sector="2" flags="9">
+		<description>   You can look in two different directions where the pipe goes: west and 
+north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7034">
+				<general_description>North.  You see another bend leading west.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7029">
+				<general_description>You can see another junction although this one is a triple one with pipes
+going south and west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7036" name="The Pit" sector="5" flags="9">
+		<description>   You stand in a section of a pipe that leads to a dead end.  In the floor
+there is a pit leading down.  There are bars set in the side of the pit
+wall functioning as a ladder.
+</description>
+		<directions>
+			<direction dir="west" to_room="7030">
+				<general_description>West.  You can see a dimly lit quadruple junction with an exit up.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7122">
+				<general_description>Down the pit it is so utterly dark that you can't see a thing.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7037" name="The Round Room" sector="1" flags="9">
+		<description>   As you enter the room it starts rotating - at first slowly, then faster
+and faster - You get totally confused as to where up and down is, but
+you are certain that the doorway is in the opposite direction of what
+it was when you entered.  It now leads east.  There is only this one
+exit.
+</description>
+		<directions>
+			<direction dir="east" to_room="7050">
+				<general_description>You can just make out a smaller room with a chair.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7038" name="The Three Way Junction" sector="1" flags="9">
+		<description>   You are standing in a junction of pipes that lead west, east and south.
+</description>
+		<directions>
+			<direction dir="east" to_room="7045">
+				<general_description>East.  You can make out a dimly lit Guard Room.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7039">
+				<general_description>To the south you can see what looks like a store room.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7025">
+				<general_description>West.  You see another junction similar to this one leading north and south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7039" name="The Sewer Store Room" sector="1" flags="8">
+		<description>   You stand in a small room lit by a single torch set in the wall.  The only 
+way out of here is to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7038">
+				<general_description>To the north you see a pipe junction.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7041" name="The Shaft" sector="1" flags="9">
+		<description>   You are standing by the edge of a deep, dark shaft leading down.  A single
+ladder is your tool to work your way down if you so wish.  The sewer pipe
+leads south from here.
+</description>
+		<directions>
+			<direction dir="south" to_room="7043">
+				<general_description>To the south you can see the pipe leading further south into darkness.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7123">
+				<general_description>Down and utter darkness.  There is absolutely nothing to be seen in that 
+direction.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="ladder">
+				<description>Firmly set into the wall of the shaft it is impossible to even move, in your
+estimate.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7043" name="The Sewer Entrance" sector="1" flags="9">
+		<description>   You stand in the middle of a pipe that leads from north to south.  Above
+you an air shaft leads up into sunlight.  It seems totally impossible to go
+up that way.
+</description>
+		<directions>
+			<direction dir="north" to_room="7041">
+				<general_description>To the north you can just make out a huge shaft leading down.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7044">
+				<general_description>To the south you can see a triple junction leading west and east.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7044" name="The Junction Going Three Ways" sector="1" flags="9">
+		<description>   You are in a passageway in the pipes of the sewer system leading north,
+east and west.
+</description>
+		<directions>
+			<direction dir="north" to_room="7043">
+				<general_description>You see a sewer pipe leading north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7049" />
+			<direction dir="west" to_room="7031">
+				<general_description>West.  You see another junction very similar to this one that leads north
+and west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7045" name="The Sewer Room" sector="1" flags="8">
+		<description>   You are standing in a large room with chairs set in the walls.  You have
+the feeling of being watched.  To the south there is an entrance to a
+larger room.  The room is lit by five torches, also set in the walls.  To
+the west there is a doorway leading out to the sewers.
+</description>
+		<directions>
+			<direction dir="south" to_room="7046">
+				<general_description>You can see an even larger room than this one, filled with light.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7038" flags="9">
+				<general_description>To the west you can see the sewers.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7046" name="The Sewer Room" sector="1" flags="8">
+		<description>   This is a Room with walls that glitters like gold though not quite like
+it. This is strange as it looks as if the glitter lights the whole room.
+It looks very bright.  To the south the floor is covered with yucky water.
+The north leads to a sort of a guard room.
+</description>
+		<directions>
+			<direction dir="north" to_room="7045">
+				<general_description>To the north you can see the guard room.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7047">
+				<general_description>To the south there is nothing but water and an exit leads east from there.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7047" name="The Pool In The Sewer" sector="1" flags="8">
+		<description>   You stand in water to your waist.  To the north is the entrance to this
+room.  A single door leads east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7046">
+				<general_description>To the north you see the entrance to this room.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7053" keyword="door" flags="1">
+				<general_description>You can see an enormous hall through the doorway.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7048" name="The Sewers" sector="1" flags="9">
+		<description>   You stand in a dead end of the sewer.  The only way out is south.
+You can see a shaft leading up but it looks too difficult to go up
+that way.
+</description>
+		<directions>
+			<direction dir="south" to_room="7049" />
+		</directions>
+	</room>
+	<room number="7049" name="The Junction" sector="1" flags="9">
+		<description>   You stand in a junction leading north, west and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7048" />
+			<direction dir="east" to_room="7060">
+				<general_description>Darkness has closed in on that part of the sewer system, you can't see
+a thing in that direction.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7044">
+				<general_description>West.  You see another junction very similar to this one that leads north
+and west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7050" name="The Small Room" sector="1" flags="9">
+		<description>   The only thing in this room of interest is a chair, and that appears
+to have been bolted to the rock floor.  A doorway leads south and another
+leads east into darkness.
+</description>
+		<directions>
+			<direction dir="east" to_room="7055">
+				<general_description>Utter darkness...
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7051">
+				<general_description>You can see a room with a lot of light in it.  You can't make out any details.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7051" name="The Sewer Pipe" sector="1" flags="8">
+		<description>   You are in what reminds you of a foul sewer, as if you liked being here!  
+You can see two exits leading either north or south.
+</description>
+		<directions>
+			<direction dir="north" to_room="7050" />
+			<direction dir="south" to_room="7052">
+				<general_description>To the south you can see a strange light flowing from there.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7052" name="The Grand Sewer" sector="1" flags="8">
+		<description>   You are in a grand sewer pipe.  This stretches toward the south.  It is
+large indeed!  A doorway leads to the east from here.
+</description>
+		<directions>
+			<direction dir="north" to_room="7051">
+				<general_description>To the north you can see a doorway.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7056">
+				<general_description>You can't see anything in that darkness.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7053">
+				<general_description>In the south end of the pipe the "floor" is completely covered with water.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7053" name="The South End Of The Grand Pipe" sector="1" flags="8">
+		<description>   You stand in water to your knees.  A doorway leads west from here.  The
+pipe stretches north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7052">
+				<general_description>You see a lot of pictures decorating the walls.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7047" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="7055" name="The Edge Of The Water Sewer" sector="3" flags="9">
+		<description>   You stand in a room where half of the floor is covered in water.  The
+water leads east and a doorway leads west.
+</description>
+		<directions>
+			<direction dir="east" to_room="7061">
+				<general_description>You can hardly make out much more than that the next place is in a pipe 
+with more water.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7050" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7056" name="The Dark Hallway" sector="1" flags="9">
+		<description>   You can't see much of this, even with a light.  The hallway goes into a
+passageway to the south.  A doorway leads west.
+</description>
+		<directions>
+			<direction dir="south" to_room="7057">
+				<general_description>You can see nothing at all because it is completely dark in that direction.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7052">
+				<general_description>You see a lot of light, bright as daylight, but nothing of interest.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7057" name="The Dark Passageway" sector="1" flags="9">
+		<description>   You can't see anything but the ground where you put your feet.  The 
+passageway seems to continue south and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7056">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7058">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7058" name="The Dark Passageway" sector="1" flags="9">
+		<description>   You can't see anything but the ground where you put your feet.  The
+passageway seems to continue south and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7057">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7059">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7059" name="The Dark Passageway" sector="1" flags="9">
+		<description>   You can't see anything but the ground where you put your feet.  The
+passageway seems to continue south and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7058">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7060">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7060" name="The Dark Passageway" sector="1" flags="9">
+		<description>   You can't see anything but the ground where you put your feet.
+The passageway seems to continue west and north.  To the east there
+is water covering the floor and that leads through an arched entry
+to a watery sewer.
+</description>
+		<directions>
+			<direction dir="north" to_room="7059">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7068">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7049">
+				<general_description>You can just make out a triple junction leading north and west.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7061" name="The Watery Sewer Bend" sector="5" flags="9">
+		<description>   You can't see anything but the water you're in up to your hips.  The sewer
+seems to bend and lead south and west.
+</description>
+		<directions>
+			<direction dir="south" to_room="7062">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7055">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7062" name="The Watery Sewer" sector="5" flags="9">
+		<description>   You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead south and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7061">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7063">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7063" name="The Watery Sewer" sector="5" flags="9">
+		<description>   You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead south and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7062">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7064">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7064" name="The Watery Sewer Junction" sector="5" flags="9">
+		<description>   You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead into a junction going south, north and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7063">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7069">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7065">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7065" name="The Watery Sewer" sector="5" flags="9">
+		<description>   You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead south and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7064">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7066">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7066" name="The Watery Sewer Junction" sector="5" flags="9">
+		<description>   You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead into a junction that goes north, south and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="7065">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7070">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7067">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7067" name="The Watery Sewer" sector="5" flags="9">
+		<description>   You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead south and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7066">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7068">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7068" name="The Watery Sewer Bend" sector="5" flags="9">
+		<description>   You can't see anything but the water you're in up to your hips.  The sewer
+seems to bend and lead west and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="7067">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7060">
+				<general_description>You can't see anything in that direction and your light isn't enough to light
+that far.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7069" name="A Ledge By A Dark Pool" sector="5" flags="9">
+		<description>   You can't see much here but the echo tells you that there is quite a drop
+down.  You can just make out a huge dark pool out there in the darkness, 
+mostly because of the trickling of water.  The water from the sewer actually
+washes over this ledge and makes it quite slippery.  From here it drops, 
+like a waterfall, into the pool far down.
+</description>
+		<directions>
+			<direction dir="south" to_room="7070">
+				<general_description>You can't see a thing.  It is too dark.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7064">
+				<general_description>You can't see a thing.  It is too dark.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7070" name="A Ledge By A Dark Pool" sector="5" flags="9">
+		<description>   You can't see much here but the echo tells you that there is quite a drop
+down.  You can just make out a huge dark pool out there in the darkness,
+mostly because of the trickling of water.  The water from the sewer actually
+washes over this ledge and makes it quite slippery.  From here it drops,
+like a waterfall, into the pool far down.  Under you there is a small fissure
+in the rock.  It seems big enough to contain a few people.
+</description>
+		<directions>
+			<direction dir="north" to_room="7069">
+				<general_description>You can't see a thing.  It is too dark.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7066">
+				<general_description>You can't see a thing.  It is too dark.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7000" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="water">
+				<description>It looks dark and murky, and emanates a foul stench.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+</rooms>

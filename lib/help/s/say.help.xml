@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<help first_keyword="say" keyword_count="8" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="tell" />
+		<additional_keyword value="ask" />
+		<additional_keyword value="whisper" />
+		<additional_keyword value="shout" />
+		<additional_keyword value="yell" />
+		<additional_keyword value="holler" />
+		<additional_keyword value="'" />
+	</additional_keywords>
+	<entry>SAY TELL ASK WHISPER SHOUT YELL HOLLER '
+
+Usage: say | shout | holler &lt;string&gt;
+       tell | whisper | ask &lt;player&gt; &lt;string&gt;
+
+If you consider communicating with other beings, you might be understood
+better if you start your sentences with either say, tell, whisper or shout.
+
+Examples:
+
+  &gt; say Hey, does anyone know how to get to Oz?
+  &gt; tell catje hi, how are you?
+
+You can use ' as a shorthand for say, as in:
+
+  &gt; ' hello there.
+
+Shout broadcasts your message to everyone is your geographic zone.  Holler
+broadcasts to everyone in the game but costs 20 movement points.  You must
+be level 2 before you can use shout and yell.
+
+See also: AUCTION, GOSSIP, GSAY, NOREPEAT, QSAY, REPLY
+</entry>
+</help>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<help first_keyword="dispel evil" keyword_count="1" mini_mud="true">
+	<entry>"DISPEL EVIL"
+
+Usage       : cast 'dispel evil' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Cleric level 14.
+Save        : Special
+
+This spell will only affect evil creatures.  An evil person of level
+equal or less than caster will suffer 100 damage points.
+
+If the victim is higher level than caster, the spell will inflict
+(caster_level)d4 damage points, saving throw versus half damage.
+
+See also: DISPEL GOOD
+</entry>
+</help>

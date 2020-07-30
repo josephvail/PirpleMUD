@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<help first_keyword="eat" keyword_count="4" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="drink" />
+		<additional_keyword value="sip" />
+		<additional_keyword value="taste" />
+	</additional_keywords>
+	<entry>EAT DRINK SIP TASTE
+
+Usage: eat &lt;item&gt;
+       taste [from] &lt;item&gt;
+       drink [from] &lt;item&gt;
+       sip [from] &lt;item&gt;
+
+If you're hungry or thirsty, these commands are for you!
+
+  &gt; eat bread
+  &gt; taste bread
+  &gt; drink from cup
+  &gt; sip fountain
+</entry>
+</help>

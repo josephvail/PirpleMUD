@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="unaffect" keyword_count="1" mini_mud="true">
+	<entry>UNAFFECT
+
+Usage: unaffect &lt;victim&gt;
+
+Removes all affections (i.e., spell effects) from a player.
+
+See also: STAT
+</entry>
+</help>

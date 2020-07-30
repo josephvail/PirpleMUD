@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<help first_keyword="remove poison" keyword_count="1" mini_mud="true">
+	<entry>"REMOVE POISON"
+
+Usage       : cast 'remove poison' &lt;victim | food | drink&gt; 
+Accumulative: No
+Duration    : Instantaneous
+Level       : Cleric level 10.
+
+Will remove the affects of poison from a victim or an object.
+
+See also: POISON
+</entry>
+</help>

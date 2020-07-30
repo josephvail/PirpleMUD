@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<items>
+	<item number="5000" name="pick mining" type="5" wear_flags="8193" extra_flags="512" bitvector="0" weight="3" cost="600" cost_per_day="500" short_description="a small mining pick">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="9" />
+			<value number="3" val="11" />
+		</values>
+		<description>A small mining pick made of what appears to be silver lies on the ground.</description>
+	</item>
+	<item number="5001" name="suit mail banded" type="9" wear_flags="9" extra_flags="65" bitvector="0" weight="0" cost="75000" cost_per_day="20000" short_description="a glowing suit of banded mail">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="2" modifier="2" />
+			<affect location="17" modifier="-4" />
+		</affects>
+		<description>A glowing suit of banded mail lies on the ground.</description>
+	</item>
+	<item number="5002" name="halberd" type="5" wear_flags="8193" extra_flags="320" bitvector="0" weight="16" cost="12000" cost_per_day="10000" short_description="a halberd">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="5" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A mighty halberd lies against the wall.</description>
+	</item>
+	<item number="5003" name="amulet mushroom" type="9" wear_flags="5" extra_flags="32832" bitvector="0" weight="2" cost="1500" cost_per_day="4000" short_description="a mushroom amulet">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="5" modifier="2" />
+		</affects>
+		<description>A mushroom-shaped amulet lies on the ground.</description>
+	</item>
+	<item number="5005" name="bone leg" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="5" cost="300" cost_per_day="60" short_description="a large leg bone">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="4" />
+			<value number="3" val="7" />
+		</values>
+		<description>A large leg bone rests on the ground.</description>
+	</item>
+	<item number="5006" name="cactus cup water" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="6" cost="30" cost_per_day="5" short_description="a small cactus cup">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="5" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small cactus cup lies on the ground.</description>
+	</item>
+	<item number="5007" name="basket wicker small" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="50" cost="5000" cost_per_day="50" short_description="a small wicker basket">
+		<values>
+			<value number="0" val="100" />
+			<value number="1" val="5" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small wicker basket sits on the ground.</description>
+	</item>
+	<item number="5008" name="basket wicker small" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="50" cost="5000" cost_per_day="50" short_description="a small wicker basket">
+		<values>
+			<value number="0" val="100" />
+			<value number="1" val="5" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small wicker basket sits on the ground.</description>
+	</item>
+	<item number="5009" name="basket wicker small" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="50" cost="5000" cost_per_day="50" short_description="a small wicker basket">
+		<values>
+			<value number="0" val="100" />
+			<value number="1" val="5" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small wicker basket sits on the ground.</description>
+	</item>
+	<item number="5010" name="basket wicker small" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="50" cost="5000" cost_per_day="50" short_description="a small wicker basket">
+		<values>
+			<value number="0" val="100" />
+			<value number="1" val="5" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small wicker basket sits on the ground.</description>
+	</item>
+	<item number="5011" name="rope coil" type="12" wear_flags="1" extra_flags="0" bitvector="0" weight="12" cost="450" cost_per_day="45" short_description="a coil of rope">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A long coil of rope lies on the ground.</description>
+	</item>
+	<item number="5012" name="stakes bundle bunch" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="6" cost="250" cost_per_day="30" short_description="a bunch of stakes">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="2" />
+			<value number="3" val="11" />
+		</values>
+		<description>A small bundle of stakes lies here.</description>
+	</item>
+	<item number="5013" name="map tattered old" type="12" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="300" cost_per_day="20" short_description="an old, tattered map">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An old, tattered, and much faded map lies here.</description>
+	</item>
+	<item number="5014" name="turban padded" type="9" wear_flags="17" extra_flags="192" bitvector="0" weight="15" cost="4300" cost_per_day="100" short_description="a thick padded turban">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="1" />
+		</affects>
+		<description>A thick padded turban lies here.</description>
+	</item>
+	<item number="5015" name="coins treasure" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a great pile of treasure">
+		<values>
+			<value number="0" val="46270" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A great, gleaming pile of treasure lies at your feet.</description>
+	</item>
+	<item number="5016" name="sabre curved long" type="5" wear_flags="8193" extra_flags="2048" bitvector="0" weight="7" cost="1050" cost_per_day="200" short_description="a long, curved sabre">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+		</affects>
+		<description>A long, curved sabre stands upright in the ground.</description>
+	</item>
+	<item number="5017" name="scimitar curved" type="5" wear_flags="8193" extra_flags="2048" bitvector="0" weight="6" cost="600" cost_per_day="150" short_description="a curved scimitar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="7" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+		</affects>
+		<description>A curved scimitar lies at your feet.</description>
+	</item>
+	<item number="5018" name="cutlass pointed long" type="5" wear_flags="8193" extra_flags="2048" bitvector="0" weight="5" cost="550" cost_per_day="10" short_description="a long, pointed cutlass">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="7" />
+			<value number="3" val="3" />
+		</values>
+		<description>A long, pointed cutlass lies here.</description>
+	</item>
+	<item number="5019" name="potion pink" type="10" wear_flags="1" extra_flags="0" bitvector="0" weight="6" cost="600" cost_per_day="100" short_description="a pink potion">
+		<values>
+			<value number="0" val="25" />
+			<value number="1" val="33" />
+			<value number="2" val="17" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A pink potion stands here.</description>
+	</item>
+	<item number="5020" name="wand platinum" type="3" wear_flags="16385" extra_flags="2" bitvector="0" weight="8" cost="1900" cost_per_day="1000" short_description="a platinum wand">
+		<values>
+			<value number="0" val="30" />
+			<value number="1" val="10" />
+			<value number="2" val="10" />
+			<value number="3" val="32" />
+		</values>
+		<description>A platinum wand lies here.</description>
+	</item>
+	<item number="5021" name="bow golden" type="5" wear_flags="8193" extra_flags="16739" bitvector="0" weight="20" cost="150000" cost_per_day="20000" short_description="a golden bow">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="4" />
+			<value number="2" val="6" />
+			<value number="3" val="12" />
+		</values>
+		<description>A powerful golden bow lies here.</description>
+	</item>
+	<item number="5022" name="scroll encrypted" type="2" wear_flags="1" extra_flags="0" bitvector="0" weight="7" cost="1500" cost_per_day="500" short_description="an encrypted scroll">
+		<values>
+			<value number="0" val="22" />
+			<value number="1" val="14" />
+			<value number="2" val="35" />
+			<value number="3" val="43" />
+		</values>
+		<description>An encrypted scroll lies at your feet.</description>
+	</item>
+	<item number="5023" name="chest iron bound" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="200" cost="1000" cost_per_day="0" short_description="an iron bound chest">
+		<values>
+			<value number="0" val="200" />
+			<value number="1" val="13" />
+			<value number="2" val="5024" />
+			<value number="3" val="0" />
+		</values>
+		<description>An iron bound chest with a shiny lock sits here.</description>
+	</item>
+	<item number="5024" name="key golden" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="150" cost_per_day="0" short_description="a golden key">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A shiny golden key lies here.</description>
+	</item>
+	<item number="5025" name="bracelet copper" type="9" wear_flags="4097" extra_flags="192" bitvector="0" weight="10" cost="23000" cost_per_day="2500" short_description="a copper bracelet">
+		<values>
+			<value number="0" val="-5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="13" modifier="10" />
+			<affect location="19" modifier="-4" />
+		</affects>
+		<description>A tarnished copper bracelet lies at your feet.</description>
+	</item>
+	<item number="5026" name="ruby gem" type="8" wear_flags="16385" extra_flags="192" bitvector="0" weight="9" cost="4000" cost_per_day="200" short_description="a large ruby">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large ruby lies on the ground, collecting dust.</description>
+	</item>
+	<item number="5027" name="diamond gem" type="8" wear_flags="16385" extra_flags="64" bitvector="0" weight="10" cost="9500" cost_per_day="200" short_description="a glittering diamond">
+		<values>
+			<value number="0" val="21" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A glittering diamond lies at your feet.</description>
+	</item>
+	<item number="5028" name="sapphire gem" type="8" wear_flags="16385" extra_flags="64" bitvector="0" weight="7" cost="3500" cost_per_day="200" short_description="a brilliant sapphire">
+		<values>
+			<value number="0" val="22" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A brilliant sapphire lies here, twinkling happily.</description>
+	</item>
+	<item number="5029" name="lapis lazuli blue gem" type="8" wear_flags="16385" extra_flags="64" bitvector="0" weight="11" cost="8500" cost_per_day="200" short_description="a deep blue lapis lazuli">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A deep blue lapis lazuli gem lies here.</description>
+	</item>
+	<item number="5030" name="jewel tiger" type="8" wear_flags="16385" extra_flags="256" bitvector="0" weight="23" cost="43000" cost_per_day="1500" short_description="the Tiger Jewel">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="2" modifier="1" />
+		</affects>
+		<description>The Tiger Jewel lies here blazing.</description>
+	</item>
+	<item number="5031" name="jewel red-eyed" type="8" wear_flags="16385" extra_flags="128" bitvector="0" weight="30" cost="35000" cost_per_day="600" short_description="the red-eyed jewel">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="-2" />
+		</affects>
+		<description>The red-eyed jewel glares at you greedily.</description>
+	</item>
+	<item number="5032" name="emerald gem fiery green" type="8" wear_flags="16385" extra_flags="64" bitvector="0" weight="7" cost="5500" cost_per_day="200" short_description="a fiery green emerald">
+		<values>
+			<value number="0" val="23" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A fiery green emerald sits here.</description>
+	</item>
+</items>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<help first_keyword="track" keyword_count="1" mini_mud="true">
+	<entry>TRACK
+
+Usage: track &lt;victim&gt;
+
+Used for finding the first step on the shortest route to a monster.
+
+Example:
+
+  &gt; track fido
+  You sense a trail south from here!
+</entry>
+</help>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<help first_keyword="load" keyword_count="1" mini_mud="true">
+	<entry>LOAD
+
+Usage: load &lt;mob | obj&gt; &lt;virtual number&gt;
+
+LOAD is used to create mobiles and objects.  The first argument specifies if
+you are trying to load a mobile or an object; the second is the virtual
+number.
+
+Example:
+
+  &gt; load obj 3099
+  You create a bulletin board.
+
+  &gt; load mob 3005
+  You create the receptionist.
+
+See also: VNUM
+</entry>
+</help>

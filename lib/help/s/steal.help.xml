@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<help first_keyword="steal" keyword_count="1" mini_mud="true">
+	<entry>STEAL
+
+Thief Only.
+
+Usage: steal &lt;item&gt; &lt;victim&gt;
+
+Use steal to steal gold or items from people.  The chance of not getting
+caught depends on how well you have practiced steal, and if the person
+is asleep.
+
+Due to misuse of the steal command, it is now illegal to steal from other
+players.  Doing so will get you a flag for your trouble.
+
+Examples:
+
+  &gt; steal gold drunk
+  &gt; steal sword mercenary
+    (If it's wielded, only possible if he is sleeping)
+
+See also: FLAGS
+</entry>
+</help>

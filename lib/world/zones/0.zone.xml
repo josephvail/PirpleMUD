@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<zone number="0" name="Limbo - Internal" bottom="0" top="99" lifespan="10" reset_mode="2" mini_mud="true" rooms="3" mobiles="5" items="3" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="1" arg2="1" arg3="1" />
+	</resets>
+</zone>

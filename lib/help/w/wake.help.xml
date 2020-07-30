@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<help first_keyword="wake" keyword_count="5" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="sleeping" />
+		<additional_keyword value="rest" />
+		<additional_keyword value="sit" />
+		<additional_keyword value="stand" />
+	</additional_keywords>
+	<entry>WAKE SLEEPING REST SIT STAND
+
+For changing your position.  If you feel weary, it's probably a good idea
+to sit and rest for a while, or maybe even take a nap.
+</entry>
+</help>

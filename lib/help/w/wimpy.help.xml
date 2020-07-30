@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<help first_keyword="wimpy" keyword_count="1" mini_mud="true">
+	<entry>WIMPY
+
+Usage: wimpy [hp]
+
+Use the WIMPY command to automatically flee once your health drops below
+a certain level.
+
+Examples:
+
+  &gt; wimpy 35    will make your character automatically flee a fight
+                if you have less than 35 hit points.
+  &gt; wimpy 0     will turn off wimpy mode.
+  &gt; wimpy       will show you your current wimp status.
+
+See also: FLEE, TOGGLE
+</entry>
+</help>

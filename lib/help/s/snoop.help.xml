@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="snoop" keyword_count="1" mini_mud="true">
+	<entry>SNOOP
+
+Usage: snoop [player]
+
+Snoop allows you to listen in on another player's session; everything the
+player sees or types will be displayed on your terminal preceded by a '%'.
+
+Obviously, there are many ethical considerations to the use of this command; 
+snoop should be used minimally, and only for disciplinary purposes.
+
+Type snoop &lt;your name&gt; or just snoop to stop snooping.
+</entry>
+</help>

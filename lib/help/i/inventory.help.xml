@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<help first_keyword="inventory" keyword_count="1" mini_mud="true">
+	<entry>INVENTORY
+
+Usage: inventory
+
+If you're uncertain about what you're carrying, or simply want to check
+that no thieves have got to your backpack.
+
+See also: EQUIPMENT, GRAB, HOLD, REMOVE, WEAR
+</entry>
+</help>

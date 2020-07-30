@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<items>
+	<item number="15000" name="nothingness universal" type="5" wear_flags="8193" extra_flags="70" bitvector="0" weight="40" cost="0" cost_per_day="200000" short_description="Sapowox's Universal Nothingness">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="6" />
+			<value number="2" val="4" />
+			<value number="3" val="1" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>You are quite unable to perceive Sapowox's Universal Nothingness here.</description>
+		<extra_descriptions>
+			<extra_description keyword="nothingness universal">
+				<description>You are not sure, but you do not seem not able to figure out what
+it isn't, because it doesn't much resemble anything you haven't 
+ever seen.  You feel a bit of mortal confusion, but you notice a
+small inscription on it.
+</description>
+			</extra_description>
+			<extra_description keyword="text writing inscription">
+				<description>It just says: ' (void *) '
+Not very enlightening, is it?
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15001" name="gold coins" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="0" cost="32385" cost_per_day="0" short_description="the gold">
+		<values>
+			<value number="0" val="32385" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A lot of gold is here.</description>
+	</item>
+	<item number="15002" name="sceptre royal golden" type="12" wear_flags="16385" extra_flags="1088" bitvector="0" weight="20" cost="15000" cost_per_day="3000" short_description="a golden sceptre">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+		</affects>
+		<description>A golden Royal sceptre lies on the ground.</description>
+	</item>
+	<item number="15003" name="crown golden" type="9" wear_flags="17" extra_flags="1088" bitvector="0" weight="40" cost="12000" cost_per_day="10000" short_description="a golden crown">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="12" modifier="30" />
+			<affect location="3" modifier="1" />
+		</affects>
+		<description>A magnificently jewelled golden crown has been left here.</description>
+	</item>
+	<item number="15004" name="apple golden" type="1" wear_flags="16385" extra_flags="1088" bitvector="0" weight="5" cost="8000" cost_per_day="400" short_description="a golden apple">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a golden apple here.</description>
+	</item>
+	<item number="15005" name="telescope scope" type="12" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a large telescope">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a large telescope here, pointing at the sky.</description>
+		<extra_descriptions>
+			<extra_description keyword="telescope scope">
+				<description>A small sign says:
+
+Made in Siberia.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15006" name="sword training" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="7" cost="300" cost_per_day="5" short_description="a training sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="4" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="-2" />
+		</affects>
+		<description>A training sword with blunt edges is leaned against a wall.</description>
+	</item>
+	<item number="15007" name="key huge" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a huge key">
+		<values>
+			<value number="0" val="15007" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a huge, heavy-looking key on the floor here.</description>
+	</item>
+	<item number="15008" name="Verminator sword" type="5" wear_flags="8193" extra_flags="94729" bitvector="0" weight="2" cost="1" cost_per_day="4000" short_description="Verminator">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<description>A strange looking sword is lying upon the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="verminator sword">
+				<description>This strange sword seems to be made of black metal, an eerie green glow
+surrounds the blade.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15009" name="key butlers butler" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="3" cost="0" cost_per_day="0" short_description="the Butler's key">
+		<values>
+			<value number="0" val="15009" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The Butler's key is here.</description>
+	</item>
+	<item number="15010" name="key small" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="100" short_description="a small key">
+		<values>
+			<value number="0" val="15010" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small key lies here.</description>
+	</item>
+	<item number="15011" name="chest wooden" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="450" cost="400" cost_per_day="100" short_description="a large wooden chest">
+		<values>
+			<value number="0" val="800" />
+			<value number="1" val="13" />
+			<value number="2" val="15010" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large wooden chest stands here in a corner.</description>
+		<extra_descriptions>
+			<extra_description keyword="chest">
+				<description>It is equipped with a small lock, that any self-respecting thief
+should be able to pick.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15012" name="vial large potion brown" type="10" wear_flags="1" extra_flags="64" bitvector="0" weight="14" cost="2000" cost_per_day="2000" short_description="a large vial">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="15" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A large vial has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="vial large brown potion">
+				<description>It is filled with a disgusting brown liquid.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15013" name="banner royal" type="12" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a royal banner">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The royal banner has been firmly planted in the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="banner royal standard">
+				<description>It is large and very heavy.  On top of it flutters King Welmar's flag
+proudly.
+</description>
+			</extra_description>
+			<extra_description keyword="flag">
+				<description>On the flag is the symbol of King Welmar's house, the rampant stag.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15014" name="key" type="18" wear_flags="1" extra_flags="4" bitvector="0" weight="13" cost="0" cost_per_day="0" short_description="a key">
+		<values>
+			<value number="0" val="15014" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A key lies on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="key">
+				<description>It has a finely carved letter 'W' inscribed on it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15015" name="hauberk mail chain" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="60" cost="2000" cost_per_day="500" short_description="a guard's chain mail hauberk">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A chain mail hauberk lies on the floor</description>
+	</item>
+	<item number="15016" name="broadsword sword large" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="14" cost="1300" cost_per_day="3000" short_description="a large broadsword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="6" />
+			<value number="3" val="3" />
+		</values>
+		<description>There is a large broadsword lying here.</description>
+	</item>
+	<item number="15017" name="key cell" type="18" wear_flags="1" extra_flags="4" bitvector="0" weight="3" cost="0" cost_per_day="0" short_description="the cell key">
+		<values>
+			<value number="0" val="15017" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A key lies on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="key cell">
+				<description>This appears to be the key for the cells of the castle.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15018" name="corpse" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a corpse">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a corpse lying in the middle of the floor of the building here.</description>
+	</item>
+	<item number="15019" name="lobster" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="100" cost_per_day="10" short_description="a delicious-looking lobster">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A delicious-looking lobster is lying here, tempting your appetite.</description>
+	</item>
+	<item number="15020" name="caviar" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="250" cost_per_day="20" short_description="some Russian caviar">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is some delicious-looking Russian caviar here, making your mouth water.</description>
+	</item>
+	<item number="15021" name="glow" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="the glow from the west">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a strange glow coming from the west.</description>
+		<extra_descriptions>
+			<extra_description keyword="glow">
+				<description>The glow from the west appears to be quite strong, but it does not
+give enough light to see by here, nor can you see the source of the
+glow.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15022" name="wail sound" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="the wailing sound from the east">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is an eerie wailing sound coming from the house to the east.</description>
+	</item>
+</items>

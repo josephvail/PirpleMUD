@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<help first_keyword="olc" keyword_count="1" mini_mud="true">
+	<entry>OLC
+
+Usage: olc { . | set | show | obj | mob | room} [args]
+
+   .: Repeat last modification command
+ set: Set OLC characteristics
+show: Show OLC characteristics
+ obj: Modify an object
+ mob: Modify a mob
+room: Modify a room
+
+OnLine Creation.  A feature which will eventually allow the creation
+of areas ONLINE, without having to reboot the system.
+
+See also: SHOW-&gt;ZONES, ZRESET
+</entry>
+</help>

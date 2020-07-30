@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="lightning bolt" keyword_count="1" mini_mud="true">
+	<entry>"LIGHTNING BOLT"
+
+Usage       : cast 'lightning bolt' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Mage level 9.
+Save        : Versus spell for half damage.
+
+This spell is more powerful than the shocking grasp spell.
+
+See also: "SHOCKING GRASP"
+</entry>
+</help>

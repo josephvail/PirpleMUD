@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<help first_keyword="clear" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="cls" />
+	</additional_keywords>
+	<entry>CLEAR CLS
+
+Clears the screen.
+</entry>
+</help>

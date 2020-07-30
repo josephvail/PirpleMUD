@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="qui" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="shutdow" />
+	</additional_keywords>
+	<entry>QUI SHUTDOW
+
+Just to prevent accidental quittings and/or shutdowns.
+This command doesn't DO anything, it simply is.
+
+Note to immortals: If you type QUI, you will quit and all your items will
+                   drop to the ground. 
+
+See also: QUIT
+</entry>
+</help>

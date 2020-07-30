@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<items>
+	<item number="0" name="bug" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a bug">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>This object is BAD!  If you see it, there must be a bug in the game.  Please
+report it immediately using the BUG command.</description>
+	</item>
+	<item number="1" name="wings" type="9" wear_flags="17" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="200" short_description="a pair of wings">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of wings is sitting here.</description>
+	</item>
+	<item number="10" name="waybread bread" type="19" wear_flags="1" extra_flags="64" bitvector="0" weight="1" cost="50" cost_per_day="50" short_description="a waybread">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Some waybread has been put here.</description>
+		<extra_descriptions>
+			<extra_description keyword="waybread bread">
+				<description>The waybread is the traditional feed of elves when travelling, they
+call it lembas.  It is said to refresh the weary traveler greatly.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="2500" name="shadow guardian" level="9" sex="0" alignment="-350" flags="260196" aff_flags="263208" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="9" max_movepoints="90" armor="10" gold="100" experience="4000" hitroll="10" damroll="5" short_description="the shadow guardian">
+		<long_description>A shadow guardian screams a challenge and attacks.
+</long_description>
+		<description>It seems to be made of nothing more than darkness...
+</description>
+	</mobile>
+	<mobile number="2501" name="adventurer" level="8" sex="1" alignment="400" flags="129" aff_flags="1024" position="6" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="10" max_movepoints="10" armor="60" gold="286" experience="1500" hitroll="8" damroll="4" short_description="the lost adventurer">
+		<long_description>An emaciated adventurer is here looking lost and hopeless.
+</long_description>
+		<description>He looks haggard and sickly; no doubt he's been lost here for quite some time.
+</description>
+	</mobile>
+	<mobile number="2502" name="edgar" level="1" sex="1" alignment="1000" flags="132" aff_flags="1024" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="9" max_movepoints="10" armor="100" gold="23" experience="100" damroll="1" short_description="Edgar">
+		<long_description>Edgar the Human Swordpupil is standing here, looking quite lost.
+</long_description>
+		<description>Edgar says 'pardon me, can you tell me where to buy cups?'
+
+You see before you, one of Midgaard's finest fighting elite, the mighty
+bunny slayer himself, Edgar the Horrible!
+</description>
+	</mobile>
+	<mobile number="2503" name="diamond golem" level="23" sex="0" alignment="500" flags="256082" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="23" max_movepoints="230" armor="-100" gold="985" experience="15000" hitroll="15" damroll="15" short_description="the diamond golem">
+		<long_description>A huge diamond golem is standing guard here.
+</long_description>
+		<description>It looks quite strong.
+</description>
+	</mobile>
+	<mobile number="2504" name="mage young" level="10" sex="1" alignment="450" flags="193" aff_flags="1032" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="100" armor="-10" gold="436" experience="3500" hitroll="10" damroll="8" short_description="the mage">
+		<long_description>A young mage wanders about, oblivious to all.
+</long_description>
+		<description>He seems to be contemplating life, love and the mysteries of the universe.
+Then again, he may just have a headache.
+</description>
+	</mobile>
+	<mobile number="2505" name="strick bartender" level="25" sex="1" alignment="750" flags="2" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="7" max_manapoints="1" max_movepoints="30000" armor="-60" gold="2000" experience="20000" hitroll="19" damroll="20" short_description="Strick the bartender">
+		<long_description>Strick is here levitating drinks to his customers.
+</long_description>
+		<description>He looks rather harmless, but then again so does a sleeping dragon.
+</description>
+	</mobile>
+	<mobile number="2506" name="tatorious wizard" level="25" sex="1" alignment="900" flags="2" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="7" max_manapoints="1" max_movepoints="30000" armor="-80" gold="5000" experience="24000" hitroll="20" damroll="21" short_description="Tatorious">
+		<long_description>Tatorious the wizard is here counting his earnings.
+</long_description>
+		<description>Tatorious winks at you mischievously.
+</description>
+	</mobile>
+	<mobile number="2507" name="ezmerelda cook" level="20" sex="2" alignment="-500" flags="3" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="20" max_movepoints="200" armor="-10" gold="1092" experience="31300" hitroll="14" damroll="8" short_description="Ezmerelda">
+		<long_description>Ezmerelda the cook is here stirring a large pot of something.
+</long_description>
+		<description>She does not look like the typical cook you would find in a kitchen,
+but she certainly fits what you would expect in a tower fulls of
+mages.
+</description>
+	</mobile>
+	<mobile number="2508" name="assistant mage cook" level="11" sex="1" alignment="-200" flags="4291" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="11" max_movepoints="110" armor="10" gold="116" experience="4600" hitroll="12" damroll="4" short_description="the cook's assistant">
+		<long_description>The cook's assistant is here assisting the cook.
+</long_description>
+		<description>This young man is busy adding strange ingredients to the large pot.
+</description>
+	</mobile>
+	<mobile number="2509" name="prisoner" level="16" sex="1" alignment="100" flags="194" aff_flags="0" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="30" max_movepoints="30" armor="20" experience="1800" hitroll="14" damroll="9" short_description="the prisoner">
+		<long_description>A prisoner is chained to the wall here.
+</long_description>
+		<description>Though his clothes are all in rags, you can see that at one time they
+must have been fine garments.  A metal muzzle has been fitted over the
+poor wretch's mouth, whether to keep him from screaming, or to silence
+his spell casting you cannot tell.
+
+He looks quite mad, no doubt he has been mistreated horribly.
+</description>
+	</mobile>
+	<mobile number="2510" name="jailor mage" level="17" sex="1" alignment="100" flags="3" aff_flags="1032" position="4" default_position="4" dam_nodice="3" dam_sizedice="5" max_manapoints="17" max_movepoints="170" armor="-30" gold="1326" experience="12000" hitroll="15" damroll="10" short_description="the Jailor">
+		<long_description>The Jailor is here enjoying a comfortable nap.
+</long_description>
+		<description>He looks rather dirty.
+</description>
+	</mobile>
+	<mobile number="2511" name="broom" level="7" sex="0" alignment="50" flags="254067" aff_flags="1064" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="7" max_movepoints="70" armor="20" experience="1600" hitroll="10" damroll="4" short_description="the broom">
+		<long_description>A straw broom is here leaning against the wall.
+</long_description>
+		<description>The broom screams 'Take that you lout!'
+</description>
+	</mobile>
+	<mobile number="2512" name="lesser guardian hands" level="9" sex="0" alignment="-400" flags="229472" aff_flags="1064" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="9" max_movepoints="90" armor="-50" experience="3100" hitroll="13" damroll="5" short_description="the pair of disembodied hands">
+		<long_description>A pair of disembodied hands floats in the air here.
+</long_description>
+		<description>The hands twitch with anticipation of strangling someone.
+</description>
+	</mobile>
+	<mobile number="2513" name="guardian greater eyes" level="15" sex="0" alignment="-600" flags="98400" aff_flags="1064" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="15" max_movepoints="150" armor="-90" experience="9100" hitroll="15" damroll="8" short_description="the pair of disembodied eyes">
+		<long_description>A pair of disembodied eyes floats here glaring at you.
+</long_description>
+		<description>The eyes smoulder with hatred.
+</description>
+	</mobile>
+	<mobile number="2514" name="mage visitor" level="12" sex="1" alignment="250" flags="199" aff_flags="1032" position="4" default_position="4" dam_nodice="2" dam_sizedice="4" max_manapoints="12" max_movepoints="120" armor="-20" gold="726" experience="6200" hitroll="12" damroll="5" short_description="the mage">
+		<long_description>A visiting mage is here snoring away in peaceful slumber.
+</long_description>
+		<description>He looks quite sleepy.
+</description>
+	</mobile>
+	<mobile number="2515" name="apprentice young" level="7" sex="2" alignment="400" flags="199" aff_flags="1032" position="6" default_position="6" dam_nodice="2" dam_sizedice="4" max_manapoints="6" max_movepoints="25" armor="20" gold="369" experience="2950" hitroll="13" damroll="5" short_description="the young apprentice magic user">
+		<long_description>A young apprentice magic user is here doing magical studies.
+</long_description>
+		<description>She looks quite intent on her studies.
+</description>
+	</mobile>
+	<mobile number="2516" name="apprentice young" level="7" sex="1" alignment="380" flags="199" aff_flags="1032" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="6" max_movepoints="25" armor="20" gold="487" experience="2750" hitroll="14" damroll="5" short_description="the young apprentice">
+		<long_description>A young apprentice is here mumbling words of magic to himself.
+</long_description>
+		<description>He looks to be oblivious to all but the spell he is memorizing.
+</description>
+	</mobile>
+	<mobile number="2517" name="apprentice young" level="7" sex="1" alignment="350" flags="199" aff_flags="1032" position="4" default_position="4" dam_nodice="2" dam_sizedice="4" max_manapoints="6" max_movepoints="25" armor="20" gold="211" experience="2650" hitroll="13" damroll="4" short_description="the young apprentice">
+		<long_description>A young apprentice is sleeping here.
+</long_description>
+		<description>He seems to be dreaming.
+</description>
+	</mobile>
+	<mobile number="2518" name="apprentice young" level="7" sex="1" alignment="-200" flags="199" aff_flags="1032" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="6" max_movepoints="25" armor="10" gold="382" experience="2300" hitroll="13" damroll="5" short_description="the young apprentice">
+		<long_description>A young apprentice is here teasing a cornered kitten.
+</long_description>
+		<description>He looks like a mischievous youth.
+</description>
+	</mobile>
+	<mobile number="2519" name="kitten" level="1" sex="2" alignment="500" flags="198" aff_flags="1032" position="8" default_position="8" dam_nodice="1" dam_sizedice="4" max_manapoints="1" max_movepoints="10" armor="10" experience="11" damroll="1" short_description="the small kitten">
+		<long_description>A small kitten is here meowing in terror.
+</long_description>
+		<description>The little ball of fur looks very unhappy.  Singed fur and a few minor
+burns mark its mottled coat.
+</description>
+	</mobile>
+	<mobile number="2520" name="student" level="8" sex="1" alignment="350" flags="199" aff_flags="1032" position="6" default_position="6" dam_nodice="2" dam_sizedice="4" max_manapoints="8" max_movepoints="80" armor="10" gold="263" experience="3000" hitroll="11" damroll="6" short_description="the student">
+		<long_description>A student of spells is here looking quite bored.
+</long_description>
+		<description>The student yawns.
+</description>
+	</mobile>
+	<mobile number="2521" name="instructor teacher mage" level="14" sex="1" alignment="300" flags="163" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="14" max_movepoints="140" armor="-20" gold="880" experience="18500" hitroll="14" damroll="8" short_description="the instructor of magic">
+		<long_description>The instructor screams at your interruption and attacks you.
+</long_description>
+		<description>He looks quite angry at your interruption.
+</description>
+	</mobile>
+	<mobile number="2522" name="student" level="8" sex="1" alignment="400" flags="199" aff_flags="1034" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="8" max_movepoints="80" armor="-20" gold="198" experience="2200" hitroll="12" damroll="6" short_description="the student of spells">
+		<long_description>A student of spells is here trying to master invisibility.
+</long_description>
+		<description>He blinks in and out of existence, trying to master the spell.
+</description>
+	</mobile>
+	<mobile number="2523" name="teacher mage" level="15" sex="1" alignment="300" flags="163" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="15" max_movepoints="150" armor="-40" gold="1256" experience="20500" hitroll="15" damroll="9" short_description="the spell teacher">
+		<long_description>A spell teacher screams at your interruption and attacks.
+</long_description>
+		<description>The teacher is quite fierce and rather frightening.
+</description>
+	</mobile>
+	<mobile number="2524" name="student" level="9" sex="2" alignment="400" flags="199" aff_flags="1032" position="4" default_position="4" dam_nodice="2" dam_sizedice="4" max_manapoints="9" max_movepoints="90" armor="-20" gold="567" experience="3800" hitroll="9" damroll="7" short_description="the student of spells">
+		<long_description>A student of spells has fallen asleep at her desk here.
+</long_description>
+		<description>She looks to have collapsed from sheer boredom.
+</description>
+	</mobile>
+	<mobile number="2525" name="wizard speaker mage" level="18" sex="1" alignment="400" flags="199" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="18" max_movepoints="180" armor="-50" gold="2468" experience="31000" hitroll="16" damroll="8" short_description="the wizard">
+		<long_description>An old wizard is here making a speech here.
+</long_description>
+		<description>This wizzened old man looks like he could easily pass for the oldest
+living man.  Of course, having heard stories about some of the magic
+available to the people living here, and what toll the magic draws...
+this man might be as young as you.
+</description>
+	</mobile>
+	<mobile number="2526" name="mage young" level="9" sex="1" alignment="300" flags="199" aff_flags="1032" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="9" max_movepoints="90" armor="-10" gold="695" experience="3800" hitroll="9" damroll="8" short_description="the young mage">
+		<long_description>A young mage is here learning hand to hand combat.
+</long_description>
+		<description>This young fellow looks quite confident in his abilities to defend
+himself.
+</description>
+	</mobile>
+	<mobile number="2527" name="mistress battle" level="17" sex="2" alignment="200" flags="67747" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="17" max_movepoints="170" armor="-20" gold="3211" experience="23050" hitroll="18" damroll="8" short_description="the battle mistress">
+		<long_description>The battle mistress is here teaching the fine uses of a dagger.
+</long_description>
+		<description>She looks quite rugged. In fact, she more resembles a warrior than a magic
+user.
+</description>
+	</mobile>
+	<mobile number="2528" name="mage teacher" level="15" sex="1" alignment="200" flags="67" aff_flags="1032" position="5" default_position="5" dam_nodice="3" dam_sizedice="4" max_manapoints="15" max_movepoints="150" armor="10" gold="1002" experience="15800" hitroll="15" damroll="4" short_description="the spell teacher">
+		<long_description>A spell teacher is here relaxing.
+</long_description>
+		<description>The teacher looks to be worn out by a long day of magic working, difficult
+spells, and inattentive students.
+</description>
+	</mobile>
+	<mobile number="2529" name="wizard" level="20" sex="1" alignment="350" flags="225" aff_flags="1032" position="4" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="20" max_movepoints="200" armor="-50" gold="1567" experience="37500" hitroll="15" damroll="9" short_description="the aged wizard">
+		<long_description>An aged wizard is sleeping here.
+</long_description>
+		<description>Dreams of magic and power are probably flowing through his head right
+now, better not wake him up.
+</description>
+	</mobile>
+	<mobile number="2530" name="scribe mage" level="14" sex="1" alignment="400" flags="199" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="14" max_movepoints="140" armor="-10" gold="312" experience="14850" hitroll="14" damroll="4" short_description="the scribe">
+		<long_description>A scribe is here working on some manuscripts.
+</long_description>
+		<description>He appears to be copying out some spell ingredients or components right
+now.
+</description>
+	</mobile>
+	<mobile number="2531" name="scribe mage" level="15" sex="2" alignment="500" flags="199" aff_flags="1032" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="15" max_movepoints="150" armor="-10" gold="684" experience="16550" hitroll="14" damroll="10" short_description="the scribe">
+		<long_description>A scribe is here working diligently on some translations.
+</long_description>
+		<description>She is quite cute.  Too bad her only interest seems to be the words of
+lore she is translating.
+</description>
+	</mobile>
+	<mobile number="2532" name="master scribe" level="22" sex="1" alignment="100" flags="227" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="22" max_movepoints="220" armor="-50" gold="5634" experience="29500" hitroll="16" damroll="8" short_description="the Master Scribe">
+		<long_description>The Master Scribe is here looking a little upset
+</long_description>
+		<description>He seems to be so old, his skin has become nothing but a giant wrinkle.
+The master scribe screams 'How dare you interrupt my important work???'
+</description>
+	</mobile>
+	<mobile number="2533" name="assistant scribe" level="16" sex="1" alignment="100" flags="227" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="16" max_movepoints="160" armor="-20" gold="1050" experience="21300" hitroll="14" damroll="6" short_description="the scribe's assistant">
+		<long_description>The scribe's assistant is here folding parchments.
+</long_description>
+		<description>You can tell that he isn't trusted with the more important documents,
+since those ones are rolled and sealed with wax.
+</description>
+	</mobile>
+	<mobile number="2534" name="master enchanter mage" level="23" sex="1" alignment="-200" flags="163" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="23" max_movepoints="230" armor="-50" gold="6812" experience="30500" hitroll="16" damroll="6" short_description="the Enchanter">
+		<long_description>The Enchanter is here placing a dweomer upon well made sword.
+</long_description>
+		<description>The Enchanter is hard at work, concentrating on a spell which could
+either destroy the weapon or make it many times more powerful than
+it already is.
+</description>
+	</mobile>
+	<mobile number="2535" name="sword dancing" level="10" sex="0" alignment="-500" flags="256162" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="10" max_movepoints="100" armor="-100" experience="4000" hitroll="19" damroll="5" short_description="the dancing sword">
+		<long_description>A well crafted sword lies on the work table here.
+</long_description>
+		<description>It looks quite sharp.
+</description>
+	</mobile>
+	<mobile number="2536" name="alchemist" level="24" sex="1" alignment="150" flags="227" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="24" max_movepoints="240" armor="-40" gold="2346" experience="31500" hitroll="16" damroll="10" short_description="the Mad Alchemist">
+		<long_description>The Mad Alchemist babbles something incomprehensible and attacks.
+</long_description>
+		<description>He looks like he has been quaffing too many potions.  His eyes dart
+around wildly, and he starts to drool.
+
+The Mad Alchemist throws back his head and cackles with insane glee!
+</description>
+	</mobile>
+	<mobile number="2537" name="master summoner" level="22" sex="1" alignment="-200" flags="227" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="22" max_movepoints="220" armor="-20" gold="1019" experience="27050" hitroll="15" damroll="6" short_description="the Master Summoner">
+		<long_description>The Master Summoner is here holding gateways open to other planes.
+</long_description>
+		<description>The Summoner looks to be hard at work, concentrating on keeping control
+over the gateway before he loses his soul to the creatures on the other
+side of it.
+</description>
+	</mobile>
+	<mobile number="2538" name="master charmer" level="23" sex="1" alignment="-400" flags="35" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="23" max_movepoints="230" armor="-40" gold="4672" experience="31050" hitroll="16" damroll="10" short_description="the Master Charmer">
+		<long_description>The Master Charmer utters the words, 'uuuzzldctz'.
+</long_description>
+		<description>The Master Charmer sizes you up, always looking for a new pet.
+</description>
+	</mobile>
+	<mobile number="2539" name="golem wooden" level="16" sex="0" alignment="100" flags="258146" aff_flags="1032" position="8" default_position="8" dam_nodice="1" dam_sizedice="10" max_manapoints="16" max_movepoints="160" armor="-50" gold="1000" experience="17500" hitroll="13" damroll="10" short_description="the wooden golem">
+		<long_description>A wooden golem stands a silent vigil here, guarding the stairs.
+</long_description>
+		<description>He looks flammable.
+</description>
+	</mobile>
+	<mobile number="2540" name="master spellbinder" level="23" sex="1" alignment="-500" flags="227" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="23" max_movepoints="230" armor="-40" gold="2315" experience="30500" hitroll="15" damroll="8" short_description="the Master Spellbinder">
+		<long_description>The Master Spellbinder is here re-charging a blackened wand.
+</long_description>
+		<description>The Master Spellbinder snarls at you and attacks.
+</description>
+	</mobile>
+	<mobile number="2541" name="master maker" level="21" sex="1" alignment="300" flags="163" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="21" max_movepoints="210" armor="-20" gold="2678" experience="26850" hitroll="14" damroll="5" short_description="the Golem Maker">
+		<long_description>The Golem Maker is here chiseling some stone.
+</long_description>
+		<description>The Golem Master appears to be very meticulous about his work, to
+the point of fussing over it.
+</description>
+	</mobile>
+	<mobile number="2542" name="golem granite" level="20" sex="0" alignment="300" flags="258146" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="5" max_manapoints="20" max_movepoints="200" armor="-60" experience="25600" hitroll="13" damroll="10" short_description="the granite golem">
+		<long_description>A granite golem stands here waiting to do its master's bidding.
+</long_description>
+		<description>It looks like a statue, until you see it shamble towards you.
+</description>
+	</mobile>
+	<mobile number="2543" name="golem bronze" level="18" sex="0" alignment="350" flags="258146" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="5" max_manapoints="18" max_movepoints="180" armor="-30" experience="22350" hitroll="12" damroll="5" short_description="the bronze golem">
+		<long_description>A bronze golem stands here shining in the light.
+</long_description>
+		<description>He looks rather dim witted.
+</description>
+	</mobile>
+	<mobile number="2544" name="golem flesh" level="12" sex="0" alignment="200" flags="258146" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="4" max_manapoints="12" max_movepoints="120" armor="-10" experience="8520" hitroll="11" damroll="4" short_description="the flesh golem">
+		<long_description>A flesh golem stands guard here
+</long_description>
+		<description>It looks to be made of a potpourri of different body parts; some don't
+even resemble anything human.
+</description>
+	</mobile>
+	<mobile number="2545" name="golem cloth" level="8" sex="0" alignment="350" flags="258146" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="8" max_movepoints="80" armor="10" experience="2100" hitroll="10" damroll="1" short_description="the cloth golem">
+		<long_description>A cloth golem wanders around here.
+</long_description>
+		<description>It looks like a bunch of old rags, quite surprising it can actually walk.
+</description>
+	</mobile>
+	<mobile number="2546" name="golem adamantite" level="25" sex="0" alignment="350" flags="258146" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="7" max_manapoints="25" max_movepoints="250" armor="-100" gold="10000" experience="35650" hitroll="20" damroll="3" short_description="the adamantite golem">
+		<long_description>An adamantite golem stands here looking very dangerous.
+</long_description>
+		<description>It seems to be forged of dark metal.  It looks strong and durable,
+but somewhat un-intelligent.
+</description>
+	</mobile>
+	<mobile number="2547" name="golem clay" level="15" sex="0" alignment="200" flags="258146" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="5" max_manapoints="15" max_movepoints="150" armor="-10" experience="18320" hitroll="15" damroll="3" short_description="the clay golem">
+		<long_description>A clay golem stands guard here.
+</long_description>
+		<description>This large golem almost looks like it is made of dirt.
+</description>
+	</mobile>
+	<mobile number="2548" name="master illusionist mage dragon" level="21" sex="1" alignment="150" flags="199" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="21" max_movepoints="210" armor="-40" gold="2345" experience="26450" hitroll="14" damroll="5" short_description="the Master of Illusions">
+		<long_description>An enormous multi-colored three-headed dragon growls at you.
+</long_description>
+		<description>The image of an ugly dragon flickers slightly, and where the dragon
+was now stands a small harmless looking old man.
+</description>
+	</mobile>
+	<mobile number="2549" name="necromancer master" level="25" sex="1" alignment="-950" flags="227" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="7" max_manapoints="25" max_movepoints="250" armor="-80" gold="11684" experience="35250" hitroll="20" damroll="7" short_description="the Necromancer">
+		<long_description>The Necromancer is here raising undead servants.
+</long_description>
+		<description>Attired all in black, the Necromancer is tall and gangly, but still quite
+an imposing figure.  A dark cowl shrouds most of his face, but two blazing
+embers which serve as eyes can be seen through the shadow.
+The Necromancer shrieks some obscenities and orders his minions to attack.
+</description>
+	</mobile>
+	<mobile number="2550" name="skeleton undead" level="15" sex="0" alignment="-500" flags="188578" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="15" max_movepoints="150" armor="-20" experience="16500" hitroll="15" damroll="10" short_description="the animated skeleton">
+		<long_description>An animated skeleton screams silently and attacks.
+</long_description>
+		<description>It feels no pain, and hacks at you ruthlessly.
+</description>
+	</mobile>
+	<mobile number="2551" name="undead giant" level="18" sex="0" alignment="-500" flags="188516" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="18" max_movepoints="180" armor="-40" experience="22000" hitroll="15" damroll="10" short_description="the undead giant">
+		<long_description>An undead giant lumbers towards you.
+</long_description>
+		<description>This thing seems to be the reanimated corpse of a giant, creating an
+enormous zombie.
+</description>
+	</mobile>
+	<mobile number="2552" name="witch hag" level="20" sex="2" alignment="-450" flags="101" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="20" max_movepoints="200" armor="-20" gold="2150" experience="26850" hitroll="15" damroll="5" short_description="the ugly witch">
+		<long_description>An ugly witch is here scrying out secrets.
+</long_description>
+		<description>She has no face at all, just blank skin, rather disturbing.  From about
+where her mouth should be, comes a disgusting giggling sound that makes
+your skin crawl with revulsion.
+</description>
+	</mobile>
+	<mobile number="2553" name="librarian mage" level="23" sex="1" alignment="450" flags="227" aff_flags="1032" position="4" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="23" max_movepoints="230" armor="-60" gold="1287" experience="29500" hitroll="17" damroll="5" short_description="the Librarian">
+		<long_description>The Librarian has fallen asleep at his desk here.
+</long_description>
+		<description>He looks like a rather peaceful old man.
+</description>
+	</mobile>
+	<mobile number="2554" name="apprentice" level="24" sex="1" alignment="0" flags="103" aff_flags="1160" position="8" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="24" max_movepoints="240" armor="-120" gold="6723" experience="30750" hitroll="23" damroll="6" short_description="the Master's apprentice">
+		<long_description>The Master's apprentice leaps to halt your passage.
+</long_description>
+		<description>A powerful wizard in his own right, the apprentice of the master of balance
+has given up his station in the mage guild hierarchy in order to serve the
+Great Master in hopes of gleaning secrets one could never hope to uncover
+alone.
+</description>
+	</mobile>
+	<mobile number="2555" name="cat grey familiar" level="15" sex="2" alignment="0" flags="66" aff_flags="263176" position="8" default_position="8" dam_nodice="5" dam_sizedice="5" max_manapoints="15" max_movepoints="150" armor="-50" experience="18750" hitroll="15" damroll="5" short_description="the grey cat">
+		<long_description>A grey cat is lounging lazily here.
+</long_description>
+		<description>The grey cat cocks an ear towards you, sensing your scrutiny, then purrs
+contentedly.  It looks rather harmless, until you notice its very large
+claws.
+</description>
+	</mobile>
+	<mobile number="2556" name="master guildmaster grey" level="30" sex="1" alignment="0" flags="2887" aff_flags="1160" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="30" max_movepoints="300" armor="-200" gold="15350" experience="150000" hitroll="30" damroll="20" short_description="the Master of Neutrality">
+		<long_description>The Master of Neutrality is here contemplating the balance of the Universe.
+</long_description>
+		<description>He looks quite peaceful.
+</description>
+	</mobile>
+	<mobile number="2557" name="apprentice black" level="20" sex="2" alignment="-750" flags="103" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="20" max_movepoints="200" armor="-60" gold="13876" experience="27800" hitroll="18" damroll="6" short_description="the black robed apprentice">
+		<long_description>A black robed apprentice jumps from the shadows and attacks.
+</long_description>
+		<description>She bears a wicked looking scar down the side of her face, though once
+she must have been beautiful, now the scar combined with what seems to
+be a permanent scowl make her looks quite fearsome.
+</description>
+	</mobile>
+	<mobile number="2558" name="cat black familiar" level="16" sex="0" alignment="-800" flags="66" aff_flags="263176" position="8" default_position="8" dam_nodice="3" dam_sizedice="7" max_manapoints="16" max_movepoints="160" armor="-40" experience="19950" hitroll="15" damroll="3" short_description="the black cat">
+		<long_description>A black cat with its fur up hisses at you.
+</long_description>
+		<description>It looks both mean and dangerous.  Petting seems to be completely out of
+the question.
+</description>
+	</mobile>
+	<mobile number="2559" name="master guildmaster black" level="30" sex="1" alignment="-1000" flags="3655" aff_flags="1160" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="30" max_movepoints="300" armor="-200" gold="22100" experience="150000" hitroll="30" damroll="20" short_description="the Master of the Black Robes">
+		<long_description>The Master of the Black Robes is here plotting vile deeds.
+</long_description>
+		<description>The Master glares at you.
+</description>
+	</mobile>
+	<mobile number="2560" name="apprentice white" level="20" sex="1" alignment="750" flags="167" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="20" max_movepoints="200" armor="-60" gold="7400" experience="27850" hitroll="18" damroll="6" short_description="the white robed apprentice">
+		<long_description>A white robed apprentice screams at your desecration of goodness.
+</long_description>
+		<description>He looks like a fanatic.
+The white robed apprentice screams 'Thou art unworthy of this honour!'
+</description>
+	</mobile>
+	<mobile number="2561" name="cat white familiar" level="15" sex="0" alignment="800" flags="66" aff_flags="263176" position="8" default_position="8" dam_nodice="3" dam_sizedice="7" max_manapoints="8" max_movepoints="10" armor="-40" experience="7950" hitroll="16" damroll="3" short_description="the white cat">
+		<long_description>A white cat is here preening its fur.
+</long_description>
+		<description>It seems to be nothing more than a large ball of fluff with claws.
+</description>
+	</mobile>
+	<mobile number="2562" name="master guildmaster white" level="30" sex="1" alignment="1000" flags="3399" aff_flags="1160" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="30" max_movepoints="300" armor="-200" gold="21900" experience="150000" hitroll="30" damroll="20" short_description="the Master of Goodness">
+		<long_description>The Master of Goodness is here frowning at your intrusion.
+</long_description>
+		<description>He looks like a self-righteous bastard.
+</description>
+	</mobile>
+	<mobile number="2563" name="cat calico familiar" level="25" sex="0" alignment="0" flags="66" aff_flags="263176" position="8" default_position="8" dam_nodice="5" dam_sizedice="5" max_manapoints="25" max_movepoints="250" armor="-90" experience="30000" hitroll="19" damroll="10" short_description="the calico cat">
+		<long_description>A large calico cat is lounging about here.
+</long_description>
+		<description>It looks incredibly large for a cat, no doubt a giant of its species.
+A beautiful jewel encrusted collar about its neck is its only adornment.
+</description>
+	</mobile>
+	<mobile number="2564" name="guildmaster grand mistress" level="50" sex="2" alignment="0" flags="2119" aff_flags="1160" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="50" max_movepoints="500" armor="-300" gold="50000" experience="500000" hitroll="40" damroll="20" short_description="the Grand Mistress">
+		<long_description>The Grand Mistress of Magic is sitting here.
+</long_description>
+		<description>She looks quite comfortable on her emerald throne. Amazingly young and
+pretty for one of such stature in the guild, no doubt she has kept her
+youthful appearance through the use of strong magics.
+The Grand Mistress pets her familiar and smiles at you in confidence.
+</description>
+	</mobile>
+</mobiles>

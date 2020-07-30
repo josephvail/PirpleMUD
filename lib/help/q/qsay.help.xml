@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="qsay" keyword_count="1" mini_mud="true">
+	<entry>QSAY
+
+Usage: qsay &lt;message&gt;
+
+To tell something to everyone on the current Quest.
+
+See also: QUEST
+</entry>
+</help>

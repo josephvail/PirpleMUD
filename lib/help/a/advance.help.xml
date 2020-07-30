@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="advance" keyword_count="1" mini_mud="true">
+	<entry>ADVANCE
+
+Usage: advance &lt;victim&gt; &lt;level&gt;
+
+ADVANCE moves a player to a new level.  If used to promote a player to an
+immortal level, and if you have the autowiz program installed, the wizlist and
+immlist will automatically be recreated.
+
+Example:
+
+  &gt; advance rasmussen 34
+
+See also: SET
+</entry>
+</help>

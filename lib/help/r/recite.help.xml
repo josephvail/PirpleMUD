@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="recite" keyword_count="3" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="scroll" />
+		<additional_keyword value="scrolls" />
+	</additional_keywords>
+	<entry>RECITE SCROLL SCROLLS
+
+Usage: recite &lt;scroll&gt; [Target]
+
+Is used to "read" a magical scroll.  Target can be an object, character or
+nothing (which may be yourself).
+
+See also: SPELLS
+</entry>
+</help>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="give" keyword_count="1" mini_mud="true">
+	<entry>GIVE
+
+Usage: give &lt;object&gt; &lt;victim&gt;
+       give &lt;number&gt; coins &lt;victim&gt;
+
+If you feel benevolent, you may give some stuff to someone in need.
+
+  &gt; give all ras
+  &gt; give bread doctor
+  &gt; give all.bronze mirlen
+  &gt; give 40000 coins nia
+</entry>
+</help>

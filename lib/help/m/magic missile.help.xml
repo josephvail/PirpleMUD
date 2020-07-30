@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<help first_keyword="magic missile" keyword_count="1" mini_mud="true">
+	<entry>"MAGIC MISSILE"
+
+Usage       : cast 'magic missile' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Mage level 1.
+Save        : Versus spell for half damage.
+
+Causes a bolt of magical energy to be thrown from the casters hands at the
+victim.
+</entry>
+</help>

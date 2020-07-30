@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="freeze" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="thaw" />
+	</additional_keywords>
+	<entry>FREEZE THAW
+
+Usage: freeze &lt;victim&gt;
+       thaw &lt;victim&gt;
+
+FREEZE, originally invented here at CircleMUD (we think), is used to prevent
+a player from playing.  If frozen, the game will ignore all commands entered
+by the player, including QUIT, until the player is unfrozen with THAW.
+
+Obviously, this command should only be used in extreme disciplinary
+circumstances.
+
+See also: SET -&gt; FROZEN
+</entry>
+</help>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="cleric" keyword_count="1" mini_mud="true">
+	<entry>CLERIC
+
+Clerics have an ancient belief in not carrying sharp weapons.  Hence, they can
+only wield bludgeoning weapons.  This class gives you the wisdom of peace,
+blessing and healing, though it is possible to learn more violent spells.
+
+You can improve your spells by using the practice command.
+
+See 'help spells' for a list of spells available.
+
+See also: PRACTICE, SPELLS
+</entry>
+</help>

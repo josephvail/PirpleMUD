@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="skillset" keyword_count="1" mini_mud="true">
+	<entry>SKILLSET
+
+Usage: skillset &lt;name&gt; '&lt;skill&gt;' &lt;value&gt;
+
+Sets the specified skill to the specified value.
+
+See also: SET
+</entry>
+</help>

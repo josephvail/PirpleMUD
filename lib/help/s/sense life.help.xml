@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="sense life" keyword_count="1" mini_mud="true">
+	<entry>"SENSE LIFE"
+
+Usage       : cast 'sense life'
+Accumulative: Yes (Duration)
+Duration    : Level hours.
+Level       : Cleric level 5, Mage level 17.
+
+Allows the caster to sense the presence of a player or monster in the
+room which is hiding.  The true identity will remain hidden however.
+Invisible persons are also considered hidden.
+
+See also: HIDE
+</entry>
+</help>

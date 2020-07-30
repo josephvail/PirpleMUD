@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<help first_keyword="brief" keyword_count="1" mini_mud="true">
+	<entry>BRIEF
+
+Usage: brief
+
+Toggle "brief mode".  When in brief mode, you don't see the descriptions of
+the room you are in; only the name of the room and the people and objects
+there.  Unless you're very familiar with the area in which you're traveling,
+however, it is not advisable to use this command.  Frequently, you will find
+small but vital hints in the descriptions of the rooms: An extra peek at your
+surroundings could mean the difference between life and death!
+
+If you explicitly type 'look', you will always see the full room description,
+even in BRIEF mode.
+
+See also: COMPACT, LOOK
+</entry>
+</help>

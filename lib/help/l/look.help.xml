@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<help first_keyword="look" keyword_count="1" mini_mud="true">
+	<entry>LOOK
+
+Usage: look
+       look [in | at] [the] &lt;item&gt;
+       look &lt;direction&gt;
+
+For studying your surroundings.
+
+Examples:
+
+  &gt; look                                      
+  &gt; look AT the angel
+  &gt; look IN the bag
+  &gt; look south (May give some information as to what is south)
+
+Note that if you LOOK AT CORPSE you will not see its inventory.
+To see what's inside a container (i.e. a corpse) use LOOK IN &lt;object&gt;.
+
+See also: EXAMINE, GET, READ, TAKE
+</entry>
+</help>

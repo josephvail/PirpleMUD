@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="visible" keyword_count="1" mini_mud="true">
+	<entry>VISIBLE
+
+Usage: visible
+
+Use this command to break your spell of invisibility before it expires.
+
+See also: INVISIBILITY
+</entry>
+</help>

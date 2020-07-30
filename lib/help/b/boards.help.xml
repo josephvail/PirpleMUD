@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<help first_keyword="boards" keyword_count="1" mini_mud="true">
+	<entry>BOARDS
+
+Bulletin boards are the forum of inter-player communication on the MUD.
+There are different bulletin boards for different purposes -- for example,
+a standard mortal board, a board for immortals, a board for fun "social"
+messages, etc.  Naturally, not all players may be allowed to read all
+types of boards.
+
+Type "LOOK BOARD" to see the messages already posted on a board.  Type
+"WRITE &lt;subject&gt;" to post a message to a board; terminate a message with
+a '@' as the first character on a line.  Type "READ &lt;number&gt;" to read a
+post.  Type "REMOVE &lt;number&gt;" to remove your own messages.
+
+Example:
+
+  &gt; look at board
+  &gt; write Am I using these boards correctly?
+  [writes the message; terminates with a '@']
+  &gt; look at board
+  &gt; read 6
+  &gt; remove 6
+
+See also: MAIL, READ, WRITE
+</entry>
+</help>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="sanctuary" keyword_count="1" mini_mud="true">
+	<entry>SANCTUARY
+
+Usage       : cast 'sanctuary' [self]
+Accumulative: Yes (Duration)
+Duration    : 4 hours
+Level       : Cleric level 15.
+
+When protected by sanctuary you will only receive 1/2 the normal damage
+caused by a particular blow.
+
+See also: ARMOR, BLESS
+</entry>
+</help>

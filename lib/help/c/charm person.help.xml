@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<help first_keyword="charm person" keyword_count="1" mini_mud="true">
+	<entry>"CHARM PERSON"
+
+Usage       : cast 'charm person' &lt;victim&gt;
+Accumulative: No
+Duration    : (432/Intelligence points of person) hours
+Level       : Mage level 16.
+
+Is is not possible to charm anyone that is already charmed, if
+you're charmed yourself, or if the person is higher level than
+yourself.  The person will get a saving throw versus "paralysation".
+
+A charmed person will follow you, and not be able to attack you, you
+can order the charmed person using the order command.
+
+See also: FOLLOW, ORDER
+</entry>
+</help>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<help first_keyword="ac" keyword_count="1" mini_mud="true">
+	<entry>AC
+
+"AC" is your armor class.  It is a number from -10 to 10, roughly
+defined as follows:
+
+
+  AC  Roughly equivalent to
+-----------------------------------------------------------
+  10  Naked person
+   0  Very Heavily armored (Plate mail, and "two shields") 
+ -10  Armored battle tank
+
+The score command displays your armor class as a number such as 78/10;
+this means 78 on a scale from -100 to 100 (i.e., 7.8 on the scale from
+-10 to 10.)
+
+See also: SCORE
+</entry>
+</help>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<help first_keyword="goto" keyword_count="3" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="trans" />
+		<additional_keyword value="wizteleport" />
+	</additional_keywords>
+	<entry>GOTO TRANS WIZTELEPORT
+
+Usage: goto &lt;location&gt;
+       trans &lt;victim&gt;
+       teleport &lt;victim&gt; &lt;location&gt;
+
+These commands are used to transports yourself and others to different rooms.
+GOTO allows you to go to other rooms; TRANS transports a person from wherever
+they are to the room YOU are in; TELEPORT transports your victim to some other
+location.
+
+For both GOTO and TELEPORT, the location specifier can be either a virtual
+room number, or the name of a character or object.
+
+Examples:
+
+  &gt; goto 3001
+  &gt; goto rasmussen
+  &gt; trans fido
+  &gt; teleport fido 3001
+  &gt; teleport fido 2.fido
+
+See also: POOFIN, POOFOUT, SET -&gt; ROOM, WIZAT
+</entry>
+</help>

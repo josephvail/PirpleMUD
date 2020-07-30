@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<help first_keyword="remove curse" keyword_count="1" mini_mud="true">
+	<entry>"REMOVE CURSE"
+
+Usage       : cast 'remove curse' &lt;victim | object&gt;
+Accumulative: No
+Duration    : Instantaneous
+Level       : Cleric level 26.
+
+Will remove a curse on carried objects or any persons in the room.
+</entry>
+</help>

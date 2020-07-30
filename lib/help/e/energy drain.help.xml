@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="energy drain" keyword_count="1" mini_mud="true">
+	<entry>"ENERGY DRAIN"
+
+Usage       : cast 'energy drain' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Mage level 13.
+Save        : Versus spell for half damage.
+
+This spell does not give much damage, but victims failing their
+saving throws will loose up to 40,000 XP points.  You will gain
+a quarter of this XP.
+
+Beware that this spell is evil.
+</entry>
+</help>

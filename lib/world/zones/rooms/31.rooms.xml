@@ -1,0 +1,741 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="3100" name="The Northwest End Of The Concourse" sector="1" flags="0">
+		<description>   You are at the concourse, the city wall is just west.  A small promenade
+goes east, and the bridge is just north of here.  The concourse continues
+south along the city wall.
+</description>
+		<directions>
+			<direction dir="north" to_room="3051">
+				<general_description>You see the Bridge.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3101">
+				<general_description>You see the promenade.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3127">
+				<general_description>The promenade continues far south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3101" name="The Promenade" sector="1" flags="0">
+		<description>   The river gently flows westwards just north of here.  The promenade
+continues further east and to the west you see the city wall.  Park Road
+leads south from here.
+</description>
+		<directions>
+			<direction dir="east" to_room="3102">
+				<general_description>The promenade continues.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3131">
+				<general_description>Park Road leads south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3100">
+				<general_description>You see the Concourse.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3102" name="The Promenade" sector="1" flags="0">
+		<description>   The river gently flows westwards just north of here.  The promenade
+continues both east and west.  South of here you see the entrance to
+the park, and a small building seems to be just west of the entrance.
+</description>
+		<directions>
+			<direction dir="east" to_room="3103">
+				<general_description>You see the promenade.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3105">
+				<general_description>You see the park entrance.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3101">
+				<general_description>You see the promenade.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3103" name="The Promenade" sector="1" flags="0">
+		<description>   The river gently flows westwards just north of here.  The promenade
+continues both east and west.  A small path leads south.  Looking across
+the river you see the levee.
+</description>
+		<directions>
+			<direction dir="east" to_room="3104">
+				<general_description>You see the Concourse.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3132">
+				<general_description>The small path leads south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3102">
+				<general_description>You see the promenade.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3104" name="The Northeast End Of The Concourse" sector="1" flags="0">
+		<description>   You are at the Concourse.  The city wall is just east and a small
+promenade goes west.  Looking across the river you see a building that
+resembles a warehouse.  The Concourse continues south along the city
+wall.
+</description>
+		<directions>
+			<direction dir="south" to_room="3130">
+				<general_description>The Concourse continues south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3103">
+				<general_description>You see the promenade.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="wall">
+				<description>It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3105" name="The Park Entrance" sector="1" flags="4">
+		<description>   You are standing just inside the small park of Midgaard.  To the north is
+the promenade and a small path leads south into the park.  To your east is
+the famous Park Cafe.
+</description>
+		<directions>
+			<direction dir="north" to_room="3102">
+				<general_description>You see the promenade.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3106">
+				<general_description>You see Park Cafe.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3108">
+				<general_description>You see the park.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3106" name="Park Cafe" sector="0" flags="136">
+		<description>   You are inside Park Cafe, a very cozy place with many tables and
+seats where you can relax and enjoy the view.  To the east you can
+see the entrance to the park.
+</description>
+		<directions>
+			<direction dir="west" to_room="3105">
+				<general_description>You see the park entrance.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3107" name="A Small Path In The Park" sector="1" flags="0">
+		<description>   You are walking along a small path through the park.  The path continues
+south and east.
+</description>
+		<directions>
+			<direction dir="east" to_room="3108" />
+			<direction dir="south" to_room="3113" />
+		</directions>
+	</room>
+	<room number="3108" name="A Small Path In The Park" sector="1" flags="0">
+		<description>   You are standing on a small path inside the park.  The park entrance is
+just north of here, and Park Cafe is just east of the entrance.  The path
+leads further east and west.
+</description>
+		<directions>
+			<direction dir="north" to_room="3105">
+				<general_description>You see the northern park entrance.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3109" />
+			<direction dir="west" to_room="3107" />
+		</directions>
+	</room>
+	<room number="3109" name="A Small Path In The Park" sector="1" flags="0">
+		<description>   You are on a small path running through the park.  It continues west and
+south and just north of here you see the southern wall of Park Cafe.
+</description>
+		<directions>
+			<direction dir="south" to_room="3115" />
+			<direction dir="west" to_room="3108" />
+		</directions>
+	</room>
+	<room number="3110" name="Cityguard HeadQuarters" sector="0" flags="8">
+		<description>   You are inside a tidy office.
+</description>
+		<directions>
+			<direction dir="east" to_room="3111" key="3105" keyword="door" flags="1">
+				<general_description>You see Park Road.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3111" name="Park Road" sector="1" flags="0">
+		<description>   The road continues north and south.  A building is just west of here, you
+notice a sign on the door.  The park entrance is to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="3131" />
+			<direction dir="east" to_room="3112">
+				<general_description>You see the park entrance.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3118" />
+			<direction dir="west" to_room="3110" key="3105" keyword="door" flags="1">
+				<general_description>You see the Cityguard HeadQuarters.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="building door sign">
+				<description>The sign on the door says:
+
+                 Cityguard HeadQuarters
+
+           WARNING: Authorized Personnel Only!
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3112" name="The Western Park Entrance" sector="1" flags="4">
+		<description>   You are standing at the western end of the park.  A small path leads east
+into the park and going west through the entrance you will reach Park Road.
+</description>
+		<directions>
+			<direction dir="east" to_room="3113" />
+			<direction dir="west" to_room="3111" />
+		</directions>
+	</room>
+	<room number="3113" name="A Path In The Park" sector="1" flags="0">
+		<description>   You are in the park.  The paths lead north and west.  Westward is the
+park entrance and to the east you see a small pond.
+</description>
+		<directions>
+			<direction dir="north" to_room="3107" />
+			<direction dir="east" to_room="3114">
+				<general_description>You see the pond.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3112">
+				<general_description>You see the western park entrance.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3114" name="The Pond" sector="6" flags="0">
+		<description>   You are swimming around in the pond, feeling rather stupid.  You can get
+back on the path from the eastern and western end of the pond.
+</description>
+		<directions>
+			<direction dir="east" to_room="3115" />
+			<direction dir="west" to_room="3113" />
+		</directions>
+	</room>
+	<room number="3115" name="A Path In The Park" sector="1" flags="0">
+		<description>   You are in the park.  The paths lead north and east.  Eastward is the
+park entrance and to the west you see a small pond.
+</description>
+		<directions>
+			<direction dir="north" to_room="3109" />
+			<direction dir="east" to_room="3116" />
+			<direction dir="west" to_room="3114" />
+		</directions>
+	</room>
+	<room number="3116" name="The Eastern Park Entrance" sector="1" flags="4">
+		<description>   You are standing at the eastern end of the park.  A small path leads west
+into the park.  Going east through the entrance you will reach Emerald
+Avenue.
+</description>
+		<directions>
+			<direction dir="east" to_room="3117" />
+			<direction dir="west" to_room="3115" />
+		</directions>
+	</room>
+	<room number="3117" name="Emerald Avenue" sector="1" flags="0">
+		<description>   You are standing on the north end of Emerald Avenue.  To the north is the
+promenade and to the west is the park entrance.  To the east is the not very
+big Town Hall of Midgaard.
+</description>
+		<directions>
+			<direction dir="north" to_room="3132" />
+			<direction dir="east" to_room="3137" />
+			<direction dir="south" to_room="3119" />
+			<direction dir="west" to_room="3116" />
+		</directions>
+	</room>
+	<room number="3118" name="Park Road" sector="1" flags="0">
+		<description>   You are on Park Road which leads north and south.
+</description>
+		<directions>
+			<direction dir="north" to_room="3111" />
+			<direction dir="south" to_room="3135" />
+		</directions>
+	</room>
+	<room number="3119" name="Emerald Avenue" sector="1" flags="0">
+		<description>   You are standing at a bend on Emerald Avenue.  The road leads north and
+west.
+</description>
+		<directions>
+			<direction dir="north" to_room="3117" />
+			<direction dir="west" to_room="3133" />
+		</directions>
+	</room>
+	<room number="3120" name="The Road Crossing" sector="1" flags="0">
+		<description>   You are in the middle of the road cross.  Roads lead in all directions.
+A huge black iron chain as thick as a tree trunk is fastened into the ground
+at the center of the road cross.  Its other end leads directly upwards towards
+the sky.
+A road sign is here.
+</description>
+		<directions>
+			<direction dir="north" to_room="3133" />
+			<direction dir="east" to_room="3136" />
+			<direction dir="south" to_room="3134" />
+			<direction dir="west" to_room="3135" />
+			<direction dir="up" to_room="7914">
+				<general_description>The chain disappears in the clouds.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>The sign points in all directions:
+
+   North - Emerald Avenue.
+   East  - Park Road.
+   South - Emerald Avenue.
+   West  - Park Road.
+
+Someone has added the following with red paint:
+
+   Up    - Redferne's Flying Citadel.
+
+</description>
+			</extra_description>
+			<extra_description keyword="chain">
+				<description>The chain reaches the clouds high above you.  It must take some really
+powerful magic to hold such a chain in place.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3121" name="Emerald Avenue" sector="1" flags="0">
+		<description>   You are standing at a bend on Emerald Avenue.  The road leads south and
+east.
+</description>
+		<directions>
+			<direction dir="east" to_room="3134" />
+			<direction dir="south" to_room="3125" />
+		</directions>
+	</room>
+	<room number="3122" name="Park Road" sector="1" flags="0">
+		<description>   You are on Park Road which leads south and north.  Elm Street is east of
+here.
+</description>
+		<directions>
+			<direction dir="north" to_room="3136" />
+			<direction dir="east" to_room="3123" />
+			<direction dir="south" to_room="3126" />
+		</directions>
+	</room>
+	<room number="3123" name="Elm Street" sector="1" flags="0">
+		<description>   You are on Elm street.  Park Road is to the west and Elm Street continues
+in eastward direction.
+</description>
+		<directions>
+			<direction dir="east" to_room="3124" />
+			<direction dir="west" to_room="3122" />
+		</directions>
+	</room>
+	<room number="3124" name="The End Of Elm Street" sector="1" flags="0">
+		<description>   You are at the end of Elm Street.
+</description>
+		<directions>
+			<direction dir="west" to_room="3123" />
+		</directions>
+	</room>
+	<room number="3125" name="Emerald Avenue" sector="1" flags="0">
+		<description>   You are on Emerald Avenue which continues north.  The Concourse is south
+of here.
+</description>
+		<directions>
+			<direction dir="north" to_room="3121" />
+			<direction dir="south" to_room="3128" />
+		</directions>
+	</room>
+	<room number="3126" name="Park Road" sector="1" flags="0">
+		<description>   You are on Park Road which continues north.  The Concourse is south of
+here.
+</description>
+		<directions>
+			<direction dir="north" to_room="3122" />
+			<direction dir="south" to_room="3129" />
+		</directions>
+	</room>
+	<room number="3127" name="On The Concourse" sector="1" flags="0">
+		<description>   You are at the southwest corner of the city wall.  The Concourse leads
+both north and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="3100" />
+			<direction dir="east" to_room="3128" />
+			<direction dir="west" to_room="3504">
+				<general_description>Through the South Gate you can see a small path leading southwards.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3128" name="On The Concourse" sector="1" flags="0">
+		<description>   The Concourse continues both east and west.  Emerald Avenue is north of
+here.
+</description>
+		<directions>
+			<direction dir="north" to_room="3125" />
+			<direction dir="east" to_room="3129" />
+			<direction dir="west" to_room="3127" />
+		</directions>
+	</room>
+	<room number="3129" name="On The Concourse" sector="1" flags="0">
+		<description>   The Concourse continues both east and west.  Park Road is north of here
+and an iron grate leads south to the graveyard.
+</description>
+		<directions>
+			<direction dir="north" to_room="3126" />
+			<direction dir="east" to_room="3130" />
+			<direction dir="south" to_room="3150" key="3106" keyword="grate" flags="9">
+				<general_description>Through the solid iron bars you see the graveyard.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3128" />
+		</directions>
+	</room>
+	<room number="3130" name="On The Concourse" sector="1" flags="0">
+		<description>   You are at the southeast corner of the city wall.  The Concourse leads
+both north and west.
+</description>
+		<directions>
+			<direction dir="north" to_room="3104" />
+			<direction dir="west" to_room="3129" />
+		</directions>
+	</room>
+	<room number="3131" name="Park Road" sector="1" flags="0">
+		<description>   You are at Park Road which continues north and south.
+</description>
+		<directions>
+			<direction dir="north" to_room="3101" />
+			<direction dir="south" to_room="3111" />
+		</directions>
+	</room>
+	<room number="3132" name="Emerald Avenue" sector="1" flags="0">
+		<description>   You are at Emerald Avenue which continues north and south.  Penny Lane leads
+east from here.
+</description>
+		<directions>
+			<direction dir="north" to_room="3103" />
+			<direction dir="east" to_room="3139" />
+			<direction dir="south" to_room="3117" />
+		</directions>
+	</room>
+	<room number="3133" name="Emerald Avenue" sector="1" flags="0">
+		<description>   You are standing at a bend on Emerald Avenue.  To the east the road goes on
+and to the south is the Road Crossing.
+</description>
+		<directions>
+			<direction dir="east" to_room="3119" />
+			<direction dir="south" to_room="3120" />
+		</directions>
+	</room>
+	<room number="3134" name="Emerald Avenue" sector="1" flags="0">
+		<description>   You are standing at a bend on Emerald Avenue.  To the west the road goes on
+and to the north is the Road Crossing.
+</description>
+		<directions>
+			<direction dir="north" to_room="3120" />
+			<direction dir="west" to_room="3121" />
+		</directions>
+	</room>
+	<room number="3135" name="Park Road" sector="1" flags="0">
+		<description>   You are at a bend on Park Road.  To the north the road goes on and to the
+east is the Road Crossing.
+</description>
+		<directions>
+			<direction dir="north" to_room="3118" />
+			<direction dir="east" to_room="3120" />
+		</directions>
+	</room>
+	<room number="3136" name="Park Road" sector="1" flags="0">
+		<description>   You are at a bend on Park Road.  To the south the road goes on and to the
+west is the Road Crossing.
+</description>
+		<directions>
+			<direction dir="south" to_room="3122" />
+			<direction dir="west" to_room="3120" />
+		</directions>
+	</room>
+	<room number="3137" name="The Waiting Room" sector="0" flags="8">
+		<description>   You are standing in the waiting room at the town hall.  Wooden chairs stand
+along the walls and a long desk with a typewriter is placed in the middle of
+the room.
+</description>
+		<directions>
+			<direction dir="east" to_room="3138">
+				<general_description>It looks like some kind of office.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3117">
+				<general_description>The exit west leads to Emerald Avenue.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="chair chairs">
+				<description>Not the very least comfortable.
+</description>
+			</extra_description>
+			<extra_description keyword="desk">
+				<description>An extremely heavy desk.  It is so large that it doesn't even need drawers.
+Everything can be stored on its top.
+</description>
+			</extra_description>
+			<extra_description keyword="typewriter">
+				<description>It is an ancient Quifatronic T-1000 mk I.  These machines are known for their
+incredible durability, and for their even more incredible weight.  They make
+a Cray II look like a laptop.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3138" name="The Mayor's Office" sector="0" flags="8">
+		<description>   You are in the not very big office of the Mayor of Midgaard.  A large and
+polished but completely empty desk is standing in front of an armchair that
+looks so comfortable that it most of all resembles a bed with the head end
+raised slightly.
+</description>
+		<directions>
+			<direction dir="west" to_room="3137">
+				<general_description>The waiting room is to the west.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="desk">
+				<description>This desk is obviously very old.  Nevertheless it looks as if has never been
+used.
+</description>
+			</extra_description>
+			<extra_description keyword="chair armchair">
+				<description>This chair is really a masterpiece.  A chair where one can sit as comfortably
+as in a bed.  All auditoriums should be equipped with these things.  A shame
+that there wouldn't be room for the students too, though.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3139" name="Penny Lane" sector="1" flags="0">
+		<description>   You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane
+continues in eastward direction.
+</description>
+		<directions>
+			<direction dir="east" to_room="3140" />
+			<direction dir="west" to_room="3132" />
+		</directions>
+	</room>
+	<room number="3140" name="Penny Lane" sector="1" flags="0">
+		<description>   You are on Penny Lane.  The narrow road continues north and west.
+</description>
+		<directions>
+			<direction dir="north" to_room="3141" />
+			<direction dir="west" to_room="3139" />
+		</directions>
+	</room>
+	<room number="3141" name="The End Of Penny Lane" sector="1" flags="0">
+		<description>   You are at the end of Penny Lane.  The only exit appears to be south.
+</description>
+		<directions>
+			<direction dir="south" to_room="3140" />
+		</directions>
+	</room>
+	<room number="3150" name="A Gravel Road In The Graveyard" sector="2" flags="0">
+		<description>   You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.  An iron
+grate is to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="3129" key="3106" keyword="grate" flags="9">
+				<general_description>Through the solid iron bars you see the Concourse.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3151">
+				<general_description>The gravel road continues southward.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3151" name="A Gravel Road In The Graveyard" sector="2" flags="0">
+		<description>  You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.
+</description>
+		<directions>
+			<direction dir="north" to_room="3150">
+				<general_description>The gravel road continues northwards.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3152">
+				<general_description>The gravel road continues southward.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3152" name="A Gravel Road In The Graveyard" sector="2" flags="0">
+		<description>  You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.
+</description>
+		<directions>
+			<direction dir="north" to_room="3151">
+				<general_description>The gravel road continues northwards.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3153">
+				<general_description>The gravel road continues southward.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3153" name="A Gravel Road In The Graveyard" sector="1" flags="0">
+		<description>  You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.
+</description>
+		<directions>
+			<direction dir="north" to_room="3152">
+				<general_description>The gravel road continues northwards.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3154">
+				<general_description>The gravel road continues southward to an open space before a small
+building.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3154" name="In Front Of The Chapel" sector="2" flags="0">
+		<description>   You are on an open space before a small chapel.  A gravel road leads north
+through the graveyard and the chapel entrance is to the south.
+</description>
+		<directions>
+			<direction dir="north" to_room="3153">
+				<general_description>The gravel road continues northwards.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3155" keyword="door" flags="1">
+				<general_description>The chapel door is made of dark wood.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3155" name="Inside The Chapel" sector="0" flags="9">
+		<description>   You are in a small, dark chapel.  The dark brown glass in the tiny windows
+do not let much light through.  A few rows of worn wooden benches stand here
+and an ancient altar sits in the middle of the floor.
+</description>
+		<directions>
+			<direction dir="north" to_room="3154" keyword="door" flags="1">
+				<general_description>The chapel door is made of dark wood.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="glass windows">
+				<description>The windows must be meant to be dark.  At least they are completely clean.
+</description>
+			</extra_description>
+			<extra_description keyword="altar">
+				<description>The altar looks very old... you examine the floor around the altar and notice
+that it seems less dusty than the rest of the room... someone must clean here
+regularly... maybe that old guy in Park Cafe, he looked like that sort...
+</description>
+			</extra_description>
+			<extra_description keyword="benches rows">
+				<description>The benches are not of the comfortable kind.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3200" name="Under The Bridge" sector="7" flags="0">
+		<description>   The arch under the bridge is covered by seaweed about a foot above the
+surface of the river.  The water gently flows through an opening in the lower
+part of the city wall.
+</description>
+		<directions>
+			<direction dir="east" to_room="3201" />
+			<direction dir="west" to_room="900" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="wall">
+				<description>It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  Looks pretty solid.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3201" name="On The River" sector="7" flags="0">
+		<description>   North of here you see the miserable buildings of Poor Alley.  The
+river flows west towards the bridge.  The riverbanks are too steep to
+climb.
+</description>
+		<directions>
+			<direction dir="east" to_room="3202" />
+			<direction dir="west" to_room="3200" />
+		</directions>
+	</room>
+	<room number="3202" name="On The River" sector="7" flags="0">
+		<description>   North of here you see the dump.  The river flows from east to west.  The
+riverbanks are too steep to climb.
+</description>
+		<directions>
+			<direction dir="east" to_room="3203" />
+			<direction dir="west" to_room="3201" />
+		</directions>
+	</room>
+	<room number="3203" name="On The River" sector="7" flags="0">
+		<description>   The levee is directly north of here.  The river flows in an east west
+direction.
+</description>
+		<directions>
+			<direction dir="north" to_room="3049" />
+			<direction dir="east" to_room="3204" />
+			<direction dir="west" to_room="3202" />
+		</directions>
+	</room>
+	<room number="3204" name="On The River" sector="7" flags="0">
+		<description>   You see the warehouse on the northern riverbank.  East of here you see the
+city wall.  The river flows west towards the levee.
+</description>
+		<directions>
+			<direction dir="east" to_room="3205" />
+			<direction dir="west" to_room="3203" />
+		</directions>
+	</room>
+	<room number="3205" name="On The River" sector="7" flags="0">
+		<description>   The river enters from a hole in the eastern city wall.  The hole has been
+blocked by several vertically positioned iron bars set into the wall.
+</description>
+		<directions>
+			<direction dir="east" to_room="5001">
+				<general_description>The iron bars make it difficult to pass through the hole in the wall.
+Beyond the bars you see that the river leads into a cavern below the
+mountain range to the east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3204" />
+		</directions>
+	</room>
+</rooms>

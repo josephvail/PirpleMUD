@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="control weather" keyword_count="1" mini_mud="true">
+	<entry>"CONTROL WEATHER"
+
+Usage       : cast 'control weather' &lt;'better' | 'worse'&gt;
+Accumulative: Yes
+Duration    : -
+Level       : Cleric level 17.
+
+This spell will change the "course" of the current weather.
+
+Example:
+
+  &gt; cast 'control wea' worse
+</entry>
+</help>

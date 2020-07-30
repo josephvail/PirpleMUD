@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<help first_keyword="display" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="prompt" />
+	</additional_keywords>
+	<entry>DISPLAY PROMPT
+
+Usage: display &lt; H | M | V | all | auto | off &gt;
+
+Modify your prompt to show your hit points, mana, and/or movement points.
+
+  &gt; display hv          Display hit points and movement points
+  &gt; display off         Return to normal display
+  &gt; display all         Display hit, mana, and move points
+  &gt; display auto        Display hit, mana, and move when they are below 30%
+
+See also: TOGGLE
+</entry>
+</help>

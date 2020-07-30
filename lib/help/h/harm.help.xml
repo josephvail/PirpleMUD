@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="harm" keyword_count="1" mini_mud="true">
+	<entry>HARM
+
+Usage       : cast 'harm' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Cleric level 19.
+Save        : Versus spell for half damage.
+
+This spell removes all but 1d4 hitpoints from the victim.  The
+maximum number of damage points are 100.  It is not possible to
+kill using this spell (but almost).
+</entry>
+</help>

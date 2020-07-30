@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<help first_keyword="poison" keyword_count="1" mini_mud="true">
+	<entry>POISON
+
+Usage       : cast 'poison' &lt;victim | food | drink&gt;
+Accumulative: Yes on persons.
+Duration    : Level hours, or permanent on food and drinks.
+Level       : Cleric Level 8, Mage level 14.
+
+Casting poison on food or drink (containers) will poison it.  Eating
+poisoned food/drinks will poison the person eating or drinking.
+
+A person who is poisoned will suffer damage every hour, lose strength, and
+gain less points than usual.
+
+See also: "REMOVE POISON", "DETECT POISON"
+</entry>
+</help>

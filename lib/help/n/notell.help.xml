@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<help first_keyword="notell" keyword_count="1" mini_mud="true">
+	<entry>NOTELL
+
+Usage: notell
+
+Use NOTELL if you wish to prevent other players from using "tell" to
+communicate with you.  (notell) will appear after your name in the WHO
+list if you have notell on.
+
+See also: FLAGS, TELL, TOGGLE, WHO
+</entry>
+</help>

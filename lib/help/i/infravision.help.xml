@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="infravision" keyword_count="1" mini_mud="true">
+	<entry>INFRAVISION
+
+Usage       : cast 'infravision'
+Accumulative: Yes (Duration)
+Duration    : 12 hours + level
+Level       : Mage level 3, Cleric level 7.
+
+Allows the caster to detect the heat given off by objects giving them
+the ability to have much better vision in dark conditions.
+
+See also: "DETECT INVISIBILITY"
+</entry>
+</help>

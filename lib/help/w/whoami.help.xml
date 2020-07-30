@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<help first_keyword="whoami" keyword_count="1" mini_mud="true">
+	<entry>WHOAMI
+
+Usage: whoami
+
+Displays your character's name, if you want to be sure you are who you think
+you are.
+</entry>
+</help>

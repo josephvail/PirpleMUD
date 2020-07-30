@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<zone number="120" name="Rome" bottom="12000" top="12099" lifespan="45" reset_mode="2" mini_mud="false" rooms="67" mobiles="37" items="39" shops="6">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="12000" arg2="3" arg3="12001" />
+		<reset number="2" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="3" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="4" if_flag="false" type="M" arg1="12000" arg2="3" arg3="12001" />
+		<reset number="5" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="6" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="7" if_flag="false" type="M" arg1="12000" arg2="3" arg3="12001" />
+		<reset number="8" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="9" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="10" if_flag="false" type="M" arg1="12001" arg2="1" arg3="12001" />
+		<reset number="11" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="12" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="13" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12003" />
+		<reset number="14" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12004" />
+		<reset number="15" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12008" />
+		<reset number="16" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12022" />
+		<reset number="17" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12023" />
+		<reset number="18" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12003" />
+		<reset number="19" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12004" />
+		<reset number="20" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12008" />
+		<reset number="21" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12022" />
+		<reset number="22" if_flag="false" type="M" arg1="12003" arg2="10" arg3="12023" />
+		<reset number="23" if_flag="false" type="M" arg1="12004" arg2="3" arg3="12002" />
+		<reset number="24" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="25" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="26" if_flag="true" type="G" arg1="12033" arg2="1" />
+		<reset number="27" if_flag="false" type="M" arg1="12004" arg2="3" arg3="12028" />
+		<reset number="28" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="29" if_flag="true" type="E" arg1="12001" arg2="3" arg3="13" />
+		<reset number="30" if_flag="false" type="M" arg1="12004" arg2="3" arg3="12043" />
+		<reset number="31" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="32" if_flag="true" type="E" arg1="12000" arg2="5" arg3="1" />
+		<reset number="33" if_flag="false" type="M" arg1="12005" arg2="5" arg3="12021" />
+		<reset number="34" if_flag="true" type="E" arg1="3023" arg2="100" arg3="16" />
+		<reset number="35" if_flag="false" type="M" arg1="12005" arg2="5" arg3="12021" />
+		<reset number="36" if_flag="true" type="E" arg1="3023" arg2="100" arg3="16" />
+		<reset number="37" if_flag="false" type="M" arg1="12005" arg2="5" arg3="12021" />
+		<reset number="38" if_flag="true" type="E" arg1="3023" arg2="100" arg3="16" />
+		<reset number="39" if_flag="false" type="M" arg1="12005" arg2="5" arg3="12006" />
+		<reset number="40" if_flag="true" type="E" arg1="3023" arg2="100" arg3="16" />
+		<reset number="41" if_flag="false" type="M" arg1="12005" arg2="5" arg3="12049" />
+		<reset number="42" if_flag="true" type="E" arg1="3023" arg2="100" arg3="16" />
+		<reset number="43" if_flag="false" type="M" arg1="12006" arg2="5" arg3="12010" />
+		<reset number="44" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="45" if_flag="false" type="M" arg1="12006" arg2="5" arg3="12010" />
+		<reset number="46" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="47" if_flag="false" type="M" arg1="12006" arg2="5" arg3="12010" />
+		<reset number="48" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="49" if_flag="false" type="M" arg1="12006" arg2="5" arg3="12009" />
+		<reset number="50" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="51" if_flag="false" type="M" arg1="12006" arg2="5" arg3="12009" />
+		<reset number="52" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="53" if_flag="true" type="E" arg1="12002" arg2="2" arg3="6" />
+		<reset number="54" if_flag="false" type="M" arg1="12007" arg2="4" arg3="12016" />
+		<reset number="55" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="56" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="57" if_flag="false" type="M" arg1="12007" arg2="4" arg3="12009" />
+		<reset number="58" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="59" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="60" if_flag="false" type="M" arg1="12007" arg2="4" arg3="12016" />
+		<reset number="61" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="62" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="63" if_flag="false" type="M" arg1="12007" arg2="4" arg3="12016" />
+		<reset number="64" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="65" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="66" if_flag="false" type="M" arg1="12008" arg2="1" arg3="12009" />
+		<reset number="67" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="68" if_flag="true" type="E" arg1="3043" arg2="100" arg3="5" />
+		<reset number="69" if_flag="true" type="G" arg1="12003" arg2="100" />
+		<reset number="70" if_flag="false" type="M" arg1="12009" arg2="1" arg3="12011" />
+		<reset number="71" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="72" if_flag="true" type="E" arg1="3043" arg2="100" arg3="5" />
+		<reset number="73" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="74" if_flag="true" type="E" arg1="12004" arg2="6" arg3="3" />
+		<reset number="75" if_flag="true" type="G" arg1="12028" arg2="3" />
+		<reset number="76" if_flag="false" type="M" arg1="12010" arg2="1" arg3="12011" />
+		<reset number="77" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="78" if_flag="true" type="E" arg1="3043" arg2="100" arg3="5" />
+		<reset number="79" if_flag="true" type="E" arg1="12005" arg2="3" arg3="6" />
+		<reset number="80" if_flag="true" type="G" arg1="12027" arg2="5" />
+		<reset number="81" if_flag="false" type="M" arg1="12011" arg2="1" arg3="12006" />
+		<reset number="82" if_flag="true" type="G" arg1="3020" arg2="100" />
+		<reset number="83" if_flag="true" type="G" arg1="3021" arg2="100" />
+		<reset number="84" if_flag="true" type="G" arg1="3022" arg2="100" />
+		<reset number="85" if_flag="true" type="G" arg1="3023" arg2="100" />
+		<reset number="86" if_flag="true" type="G" arg1="3024" arg2="100" />
+		<reset number="87" if_flag="true" type="G" arg1="3025" arg2="100" />
+		<reset number="88" if_flag="true" type="G" arg1="12008" arg2="100" />
+		<reset number="89" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="90" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="91" if_flag="true" type="G" arg1="12034" arg2="1" />
+		<reset number="92" if_flag="false" type="M" arg1="12012" arg2="1" arg3="12032" />
+		<reset number="93" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="94" if_flag="true" type="G" arg1="12006" arg2="100" />
+		<reset number="95" if_flag="true" type="G" arg1="12007" arg2="100" />
+		<reset number="96" if_flag="false" type="M" arg1="12013" arg2="2" arg3="12043" />
+		<reset number="97" if_flag="true" type="E" arg1="3020" arg2="100" arg3="16" />
+		<reset number="98" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="99" if_flag="false" type="M" arg1="12013" arg2="2" arg3="12037" />
+		<reset number="100" if_flag="true" type="E" arg1="3020" arg2="100" arg3="16" />
+		<reset number="101" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="102" if_flag="false" type="M" arg1="12014" arg2="1" arg3="12050" />
+		<reset number="103" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="104" if_flag="true" type="E" arg1="12011" arg2="2" arg3="15" />
+		<reset number="105" if_flag="false" type="M" arg1="12015" arg2="3" arg3="12025" />
+		<reset number="106" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="107" if_flag="false" type="M" arg1="12015" arg2="3" arg3="12025" />
+		<reset number="108" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="109" if_flag="false" type="M" arg1="12015" arg2="3" arg3="12025" />
+		<reset number="110" if_flag="true" type="E" arg1="12015" arg2="1" arg3="16" />
+		<reset number="111" if_flag="false" type="M" arg1="12016" arg2="3" arg3="12004" />
+		<reset number="112" if_flag="true" type="G" arg1="12010" arg2="25" />
+		<reset number="113" if_flag="false" type="M" arg1="12016" arg2="3" arg3="12008" />
+		<reset number="114" if_flag="true" type="G" arg1="12010" arg2="25" />
+		<reset number="115" if_flag="false" type="M" arg1="12016" arg2="3" arg3="12023" />
+		<reset number="116" if_flag="true" type="G" arg1="12010" arg2="25" />
+		<reset number="117" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12012" />
+		<reset number="118" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12032" />
+		<reset number="119" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12021" />
+		<reset number="120" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12031" />
+		<reset number="121" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12018" />
+		<reset number="122" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12032" />
+		<reset number="123" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12045" />
+		<reset number="124" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12034" />
+		<reset number="125" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12039" />
+		<reset number="126" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12040" />
+		<reset number="127" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12046" />
+		<reset number="128" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12033" />
+		<reset number="129" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12019" />
+		<reset number="130" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12024" />
+		<reset number="131" if_flag="false" type="M" arg1="12017" arg2="15" arg3="12013" />
+		<reset number="132" if_flag="false" type="M" arg1="12018" arg2="5" arg3="12051" />
+		<reset number="133" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="134" if_flag="false" type="M" arg1="12018" arg2="5" arg3="12029" />
+		<reset number="135" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="136" if_flag="false" type="M" arg1="12018" arg2="5" arg3="12035" />
+		<reset number="137" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="138" if_flag="false" type="M" arg1="12018" arg2="5" arg3="12051" />
+		<reset number="139" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="140" if_flag="false" type="M" arg1="12018" arg2="5" arg3="12005" />
+		<reset number="141" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="142" if_flag="false" type="M" arg1="12019" arg2="3" arg3="12006" />
+		<reset number="143" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="144" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="145" if_flag="false" type="M" arg1="12019" arg2="3" arg3="12042" />
+		<reset number="146" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="147" if_flag="true" type="E" arg1="12019" arg2="2" arg3="8" />
+		<reset number="148" if_flag="false" type="M" arg1="12019" arg2="3" arg3="12045" />
+		<reset number="149" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="150" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="151" if_flag="true" type="E" arg1="12018" arg2="2" arg3="5" />
+		<reset number="152" if_flag="false" type="M" arg1="12020" arg2="1" arg3="12036" />
+		<reset number="153" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="154" if_flag="true" type="E" arg1="12017" arg2="1" arg3="10" />
+		<reset number="155" if_flag="true" type="G" arg1="12024" arg2="7" />
+		<reset number="156" if_flag="false" type="M" arg1="12021" arg2="2" arg3="12036" />
+		<reset number="157" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="158" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="159" if_flag="true" type="E" arg1="3046" arg2="100" arg3="5" />
+		<reset number="160" if_flag="false" type="M" arg1="12021" arg2="2" arg3="12036" />
+		<reset number="161" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="162" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="163" if_flag="true" type="E" arg1="3046" arg2="100" arg3="5" />
+		<reset number="164" if_flag="false" type="M" arg1="12022" arg2="1" arg3="12055" />
+		<reset number="165" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="166" if_flag="true" type="E" arg1="12012" arg2="1" arg3="2" />
+		<reset number="167" if_flag="false" type="M" arg1="12023" arg2="1" arg3="12043" />
+		<reset number="168" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="169" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="170" if_flag="true" type="E" arg1="12013" arg2="1" arg3="4" />
+		<reset number="171" if_flag="true" type="G" arg1="12035" arg2="1" />
+		<reset number="172" if_flag="true" type="G" arg1="12036" arg2="1" />
+		<reset number="173" if_flag="false" type="M" arg1="12024" arg2="6" arg3="12041" />
+		<reset number="174" if_flag="false" type="M" arg1="12024" arg2="6" arg3="12048" />
+		<reset number="175" if_flag="false" type="M" arg1="12024" arg2="6" arg3="12054" />
+		<reset number="176" if_flag="false" type="M" arg1="12024" arg2="6" arg3="12057" />
+		<reset number="177" if_flag="false" type="M" arg1="12024" arg2="6" arg3="12054" />
+		<reset number="178" if_flag="false" type="M" arg1="12024" arg2="6" arg3="12057" />
+		<reset number="179" if_flag="true" type="G" arg1="12030" arg2="500" />
+		<reset number="180" if_flag="false" type="M" arg1="12025" arg2="1" arg3="12049" />
+		<reset number="181" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="182" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="183" if_flag="true" type="E" arg1="12014" arg2="10" arg3="12" />
+		<reset number="184" if_flag="true" type="G" arg1="12025" arg2="10" />
+		<reset number="185" if_flag="true" type="G" arg1="12026" arg2="10" />
+		<reset number="186" if_flag="true" type="G" arg1="12029" arg2="10" />
+		<reset number="187" if_flag="false" type="M" arg1="12026" arg2="1" arg3="12007" />
+		<reset number="188" if_flag="true" type="E" arg1="12016" arg2="3" arg3="17" />
+		<reset number="189" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="190" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="191" if_flag="true" type="E" arg1="3046" arg2="100" arg3="5" />
+		<reset number="192" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="193" if_flag="false" type="M" arg1="12027" arg2="2" arg3="12037" />
+		<reset number="194" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="195" if_flag="true" type="E" arg1="3044" arg2="100" arg3="5" />
+		<reset number="196" if_flag="true" type="G" arg1="12037" arg2="1" />
+		<reset number="197" if_flag="false" type="M" arg1="12027" arg2="2" arg3="12037" />
+		<reset number="198" if_flag="true" type="E" arg1="3021" arg2="100" arg3="16" />
+		<reset number="199" if_flag="true" type="E" arg1="3044" arg2="100" arg3="5" />
+		<reset number="200" if_flag="true" type="G" arg1="3050" arg2="500" />
+		<reset number="201" if_flag="false" type="M" arg1="12028" arg2="1" arg3="12050" />
+		<reset number="202" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="203" if_flag="true" type="E" arg1="3042" arg2="100" arg3="11" />
+		<reset number="204" if_flag="true" type="G" arg1="12039" arg2="1" />
+		<reset number="205" if_flag="false" type="M" arg1="12029" arg2="1" arg3="12050" />
+		<reset number="206" if_flag="true" type="E" arg1="3024" arg2="100" arg3="16" />
+		<reset number="207" if_flag="true" type="E" arg1="3043" arg2="100" arg3="5" />
+		<reset number="208" if_flag="false" type="M" arg1="12030" arg2="1" arg3="12047" />
+		<reset number="209" if_flag="true" type="E" arg1="12020" arg2="1" arg3="16" />
+		<reset number="210" if_flag="false" type="M" arg1="12031" arg2="1" arg3="12052" />
+		<reset number="211" if_flag="true" type="E" arg1="12022" arg2="1" arg3="3" />
+		<reset number="212" if_flag="false" type="M" arg1="12032" arg2="1" arg3="12056" />
+		<reset number="213" if_flag="true" type="E" arg1="12016" arg2="3" arg3="17" />
+		<reset number="214" if_flag="true" type="E" arg1="12021" arg2="1" arg3="13" />
+		<reset number="215" if_flag="false" type="M" arg1="12033" arg2="1" arg3="12059" />
+		<reset number="216" if_flag="true" type="E" arg1="12023" arg2="1" arg3="8" />
+		<reset number="217" if_flag="false" type="M" arg1="12034" arg2="1" arg3="12042" />
+		<reset number="218" if_flag="true" type="G" arg1="3050" arg2="500" />
+		<reset number="219" if_flag="true" type="G" arg1="3051" arg2="500" />
+		<reset number="220" if_flag="true" type="G" arg1="3052" arg2="500" />
+		<reset number="221" if_flag="true" type="G" arg1="3053" arg2="500" />
+		<reset number="222" if_flag="true" type="G" arg1="3054" arg2="500" />
+		<reset number="223" if_flag="true" type="G" arg1="12030" arg2="10" />
+		<reset number="224" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="225" if_flag="true" type="E" arg1="12008" arg2="100" arg3="8" />
+		<reset number="226" if_flag="true" type="G" arg1="12038" arg2="1" />
+		<reset number="227" if_flag="false" type="M" arg1="12035" arg2="1" arg3="12061" />
+		<reset number="228" if_flag="true" type="G" arg1="12031" arg2="10" />
+		<reset number="229" if_flag="false" type="M" arg1="12036" arg2="1" arg3="12062" />
+		<reset number="230" if_flag="true" type="G" arg1="3000" arg2="100" />
+		<reset number="231" if_flag="true" type="G" arg1="3001" arg2="100" />
+		<reset number="232" if_flag="true" type="G" arg1="3009" arg2="100" />
+		<reset number="233" if_flag="true" type="G" arg1="3010" arg2="100" />
+		<reset number="234" if_flag="true" type="G" arg1="3011" arg2="100" />
+		<reset number="235" if_flag="true" type="G" arg1="12006" arg2="100" />
+		<reset number="236" if_flag="true" type="G" arg1="12007" arg2="100" />
+		<reset number="237" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="238" if_flag="false" type="M" arg1="12037" arg2="1" arg3="12063" />
+		<reset number="239" if_flag="true" type="G" arg1="3030" arg2="100" />
+		<reset number="240" if_flag="true" type="G" arg1="3031" arg2="100" />
+		<reset number="241" if_flag="true" type="G" arg1="3032" arg2="100" />
+		<reset number="242" if_flag="true" type="G" arg1="3033" arg2="100" />
+		<reset number="243" if_flag="true" type="G" arg1="3036" arg2="100" />
+		<reset number="244" if_flag="true" type="G" arg1="12003" arg2="100" />
+		<reset number="245" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="246" if_flag="false" type="D" arg1="12005" arg2="3" arg3="2" />
+		<reset number="247" if_flag="false" type="D" arg1="12029" arg2="0" arg3="2" />
+		<reset number="248" if_flag="false" type="D" arg1="12035" arg2="2" arg3="2" />
+		<reset number="249" if_flag="false" type="D" arg1="12051" arg2="1" arg3="1" />
+		<reset number="250" if_flag="false" type="D" arg1="12064" arg2="3" arg3="1" />
+		<reset number="251" if_flag="false" type="D" arg1="12001" arg2="5" arg3="2" />
+		<reset number="252" if_flag="false" type="D" arg1="12002" arg2="4" arg3="2" />
+		<reset number="253" if_flag="false" type="D" arg1="12006" arg2="2" arg3="2" />
+		<reset number="254" if_flag="false" type="D" arg1="12007" arg2="0" arg3="2" />
+		<reset number="255" if_flag="false" type="D" arg1="12037" arg2="0" arg3="2" />
+		<reset number="256" if_flag="false" type="D" arg1="12036" arg2="2" arg3="2" />
+		<reset number="257" if_flag="false" type="D" arg1="12037" arg2="2" arg3="2" />
+		<reset number="258" if_flag="false" type="D" arg1="12038" arg2="0" arg3="2" />
+		<reset number="259" if_flag="false" type="D" arg1="12042" arg2="1" arg3="2" />
+		<reset number="260" if_flag="false" type="D" arg1="12049" arg2="3" arg3="2" />
+		<reset number="261" if_flag="false" type="D" arg1="12043" arg2="3" arg3="2" />
+		<reset number="262" if_flag="false" type="D" arg1="12036" arg2="1" arg3="2" />
+		<reset number="263" if_flag="false" type="D" arg1="12044" arg2="3" arg3="2" />
+		<reset number="264" if_flag="false" type="D" arg1="12037" arg2="1" arg3="2" />
+		<reset number="265" if_flag="false" type="D" arg1="12050" arg2="1" arg3="2" />
+		<reset number="266" if_flag="false" type="D" arg1="12055" arg2="3" arg3="2" />
+	</resets>
+</zone>

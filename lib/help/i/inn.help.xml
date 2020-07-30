@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<help first_keyword="inn" keyword_count="5" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="inns" />
+		<additional_keyword value="cryogenic" />
+		<additional_keyword value="cryo" />
+		<additional_keyword value="reception" />
+	</additional_keywords>
+	<entry>INN INNS CRYOGENIC CRYO RECEPTION
+
+Inns are places where the weary traveler may rest while the innkeeper looks
+after his equipment and treasure.
+
+Specifically, the game will save your equipment while you are logged out.
+There is a daily cost for renting, based on your equipment.  Each item has
+a per diem charge.  The per diem charge is calculated to the nearest second,
+however -- if you rent at the rate of 2400 coins per day, and you come back
+39 hours later, you will be charged 3900 coins.
+
+A CRYOGENIC CENTER will store your items for a one-time charge of four
+days rent.
+
+Rent files are deleted if you run out of money to pay the per diem charges
+or after 30 days.  Cryogenic-rent files are deleted after 60 days.
+
+See also: OFFER, RENT
+</entry>
+</help>

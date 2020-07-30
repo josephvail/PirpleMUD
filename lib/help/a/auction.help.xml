@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<help first_keyword="auction" keyword_count="6" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="gossip" />
+		<additional_keyword value="grats" />
+		<additional_keyword value="noauction" />
+		<additional_keyword value="nogossip" />
+		<additional_keyword value="nograts" />
+	</additional_keywords>
+	<entry>AUCTION GOSSIP GRATS NOAUCTION NOGOSSIP NOGRATS
+
+Usage: auction &lt;message&gt;
+       gossip &lt;message&gt;
+       grats &lt;message&gt;
+
+These are channels reserved for specific purposes.  Messages on these
+channels reach everyone who is monitoring them.  You must be at least level
+three to use these channels.
+
+Examples:
+
+  &gt; auction short sword -- minimum bid 100k
+  &gt; gossip Hey, is that a short sword on your belt or are you happy to see me?
+  &gt; grats LEVEL!!!!!!!!
+  &gt; grats GRATS CATJE!!!!!!!!
+
+See also: EMOTE, GSAY, HOLLER, NOREPEAT, SAY, SHOUT
+</entry>
+</help>

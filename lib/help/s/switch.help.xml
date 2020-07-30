@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<help first_keyword="switch" keyword_count="1" mini_mud="true">
+	<entry>SWITCH
+
+Usage: switch &lt;monster&gt;
+
+SWITCH is used to take over the body of mobiles; useful for interactive
+adventures.  If the monster in which you are switched is killed you will be
+returned to your own body.
+
+See also: RETURN
+</entry>
+</help>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<help first_keyword="help" keyword_count="1" mini_mud="true">
+	<entry>HELP
+
+Usage: help [command]
+
+Help searches for a partial match of the entered word, including any
+spaces that may follow the word.  Help alone will give a list of the
+most common commands in the game.
+
+Examples:
+
+  &gt; help magic mis
+    will find the help text for the magic missile spell.
+
+  &gt; help mag
+    will match 'magic user' or 'magic missile' depending on first
+    occurrence in the help file.
+
+See also: COMMANDS, SOCIALS
+</entry>
+</help>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<help first_keyword="enchant weapon" keyword_count="1" mini_mud="true">
+	<entry>"ENCHANT WEAPON"
+
+Usage       : cast 'enchant weapon' &lt;weapon&gt;
+Accumulative: No
+Duration    : Permanent
+Level       : Mage level 26.
+
+This spell will enchant non-magical (non-modifying) weapons only.
+By non-modifying weapons we refer to weapons that might alter any
+ability such as for example damage.  The only way to know if a weapon
+is suitable for enchantment is to fully identify it.
+
+The enchantment will modify the weapon as:
+
+    Level    Hit Roll    Damage
+
+     0..17     +1         +1
+    18..19     +2         +1
+    20..20+    +2         +2
+</entry>
+</help>

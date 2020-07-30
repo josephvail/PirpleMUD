@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="curse" keyword_count="1" mini_mud="true">
+	<entry>CURSE
+
+Usage       : cast 'curse' &lt;victim | object&gt;
+Accumulative: Yes
+Duration    : 7 Days, permanent on objects.
+Level       : Mage level 14.
+
+Curse cast on a person that fails the saving throw, will reduce their
+hitroll and damage roll both by one.  It will also reduce the saving
+throw versus paralysation by one. 
+
+When cast upon an object, the object will become undropable.
+</entry>
+</help>

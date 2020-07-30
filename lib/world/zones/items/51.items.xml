@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<items>
+	<item number="5100" name="longsword commoner" type="5" wear_flags="8193" extra_flags="4096" bitvector="0" weight="12" cost="1000" cost_per_day="500" short_description="a commoner's longsword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+			<affect location="19" modifier="1" />
+		</affects>
+		<description>A commoner's longsword made of adamantite has been left here.</description>
+	</item>
+	<item number="5101" name="longsword noble" type="5" wear_flags="8193" extra_flags="4096" bitvector="0" weight="12" cost="1500" cost_per_day="800" short_description="a noble's longsword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A drow noble's longsword, made of adamantite, lies here.</description>
+	</item>
+	<item number="5102" name="whip snake twoheaded" type="5" wear_flags="8193" extra_flags="3" bitvector="0" weight="12" cost="1750" cost_per_day="1500" short_description="a two-headed snake whip">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="6" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A whip with two snakes heads lies here.</description>
+	</item>
+	<item number="5103" name="whip snake threeheaded" type="5" wear_flags="8193" extra_flags="3" bitvector="0" weight="12" cost="5000" cost_per_day="2300" short_description="a three-headed snake whip">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="7" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A whip with three snake heads has been left here.</description>
+	</item>
+	<item number="5104" name="whip snake fourheaded" type="5" wear_flags="8193" extra_flags="3" bitvector="0" weight="12" cost="10250" cost_per_day="4000" short_description="a four-headed snake whip">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A whip with four snake heads has been carelessly left here.</description>
+	</item>
+	<item number="5105" name="longsword black" type="5" wear_flags="8193" extra_flags="4161" bitvector="0" weight="12" cost="10250" cost_per_day="4000" short_description="a black longsword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A black longsword has been carelessly left here.</description>
+	</item>
+	<item number="5106" name="whip snake fiveheaded" type="5" wear_flags="8193" extra_flags="577" bitvector="0" weight="12" cost="12000" cost_per_day="4500" short_description="a five-headed snake whip">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="6" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="1" modifier="-2" />
+			<affect location="3" modifier="-2" />
+		</affects>
+		<description>A whip with 5 snake heads has been carelessly dropped here.</description>
+	</item>
+	<item number="5107" name="whip snake sixheaded" type="5" wear_flags="8193" extra_flags="577" bitvector="0" weight="12" cost="15000" cost_per_day="8000" short_description="a six-headed snake whip">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="4" />
+			<value number="2" val="5" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="1" modifier="-3" />
+			<affect location="3" modifier="-3" />
+		</affects>
+		<description>A whip with six snake heads has been dropped here very carelessly.</description>
+	</item>
+	<item number="5108" name="bracers iron" type="9" wear_flags="257" extra_flags="65" bitvector="0" weight="3" cost="2000" cost_per_day="1000" short_description="a pair of bracers">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="-1" />
+		</affects>
+		<description>A pair of iron bracers has been dropped here.</description>
+	</item>
+	<item number="5109" name="gauntlets" type="11" wear_flags="129" extra_flags="1" bitvector="0" weight="2" cost="10000" cost_per_day="3000" short_description="a pair of gauntlets">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="1" modifier="2" />
+		</affects>
+		<description>A pair of gauntlets is lying on the ground.</description>
+	</item>
+	<item number="5110" name="wand blue silver" type="3" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="4000" cost_per_day="3000" short_description="a silvery blue wand">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="3" />
+			<value number="2" val="3" />
+			<value number="3" val="30" />
+		</values>
+		<description>A silvery blue wand has been dropped in the dirt.</description>
+	</item>
+	<item number="5111" name="helmet small" type="9" wear_flags="17" extra_flags="64" bitvector="0" weight="5" cost="6000" cost_per_day="3000" short_description="a small helmet">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="3" />
+		</affects>
+		<description>A small helmet lies up against a rock.</description>
+	</item>
+	<item number="5112" name="ring ruby" type="11" wear_flags="3" extra_flags="64" bitvector="0" weight="1" cost="20000" cost_per_day="8000" short_description="a small ruby ring">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="13" modifier="25" />
+		</affects>
+		<description>A small ruby ring lies in the dirt.</description>
+	</item>
+	<item number="5113" name="dagger sacrificial spider" type="5" wear_flags="8193" extra_flags="45632" bitvector="0" weight="8" cost="12000" cost_per_day="15000" short_description="a spider shaped dagger">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="18" modifier="3" />
+			<affect location="19" modifier="3" />
+		</affects>
+		<description>A dagger with spider leg shaped blades lies on the ground.</description>
+	</item>
+	<item number="5114" name="hat green" type="9" wear_flags="17" extra_flags="128" bitvector="0" weight="1" cost="2000" cost_per_day="600" short_description="a small bright green hat">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="9" modifier="-15" />
+			<affect location="17" modifier="-2" />
+		</affects>
+		<description>A small bright green hat lies in the dirt.</description>
+	</item>
+	<item number="5115" name="key adamantite" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="an adamantite key">
+		<values>
+			<value number="0" val="5115" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A key made of a strange metal is lying here.</description>
+	</item>
+	<item number="5116" name="gold treasure coins" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="17645" cost_per_day="0" short_description="a pile of golden coins">
+		<values>
+			<value number="0" val="17645" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large pile of golden coins is lying here.</description>
+	</item>
+</items>

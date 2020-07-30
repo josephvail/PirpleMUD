@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<help first_keyword="strength" keyword_count="1" mini_mud="true">
+	<entry>STRENGTH
+
+Usage       : cast 'strength' &lt;victim&gt;
+Accumulative: Yes
+Duration    : Level/2 + 4
+Level       : Mage level 6.
+
+A person will gain 1 strength point per spell (2 points if level of
+caster is greater than 18).  Maximum strength is 18/100.
+</entry>
+</help>

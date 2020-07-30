@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<help first_keyword="vnum" keyword_count="1" mini_mud="true">
+	<entry>VNUM
+
+Usage: vnum &lt;mob | obj&gt; &lt;name&gt;
+
+Gives a list of the virtual numbers of objects or mobiles which have the
+specified name.
+
+Examples:
+
+  &gt; vnum obj ring
+  1. [  904] a platinum ring
+  2. [ 2543] a seashell ring
+  3. [ 2588] a small emerald ring
+  
+  &gt; vnum mob dragon
+  1. [    1] Puff
+  2. [  908] the dragon turtle
+  3. [ 2548] the Master of Illusions
+</entry>
+</help>

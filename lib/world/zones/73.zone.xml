@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<zone number="73" name="The Tunnels In The Sewer" bottom="7300" top="7399" lifespan="25" reset_mode="2" mini_mud="false" rooms="0" mobiles="0" items="0" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="7040" arg2="1" arg3="7328" />
+		<reset number="2" if_flag="false" type="M" arg1="7041" arg2="2" arg3="7344" />
+		<reset number="3" if_flag="false" type="M" arg1="7042" arg2="2" arg3="7335" />
+		<reset number="4" if_flag="false" type="M" arg1="7043" arg2="3" arg3="7339" />
+		<reset number="5" if_flag="false" type="M" arg1="7044" arg2="6" arg3="7306" />
+		<reset number="6" if_flag="false" type="M" arg1="7045" arg2="1" arg3="7319" />
+		<reset number="7" if_flag="false" type="M" arg1="7046" arg2="1" arg3="7324" />
+		<reset number="8" if_flag="false" type="M" arg1="7010" arg2="2" arg3="7329" />
+		<reset number="9" if_flag="false" type="D" arg1="7304" arg2="2" arg3="1" />
+		<reset number="10" if_flag="false" type="D" arg1="7305" arg2="0" arg3="1" />
+		<reset number="11" if_flag="false" type="D" arg1="7305" arg2="2" arg3="1" />
+		<reset number="12" if_flag="false" type="D" arg1="7306" arg2="0" arg3="1" />
+		<reset number="13" if_flag="false" type="D" arg1="7315" arg2="0" arg3="1" />
+		<reset number="14" if_flag="false" type="D" arg1="7316" arg2="2" arg3="1" />
+		<reset number="15" if_flag="false" type="D" arg1="7321" arg2="3" arg3="1" />
+		<reset number="16" if_flag="false" type="D" arg1="7318" arg2="1" arg3="1" />
+		<reset number="17" if_flag="false" type="D" arg1="7324" arg2="0" arg3="2" />
+		<reset number="18" if_flag="false" type="D" arg1="7324" arg2="2" arg3="2" />
+		<reset number="19" if_flag="false" type="D" arg1="7324" arg2="1" arg3="1" />
+		<reset number="20" if_flag="false" type="D" arg1="7325" arg2="3" arg3="1" />
+		<reset number="21" if_flag="false" type="D" arg1="7333" arg2="3" arg3="1" />
+	</resets>
+</zone>

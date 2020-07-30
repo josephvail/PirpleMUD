@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<items>
+	<item number="7200" name="rod devil" type="5" wear_flags="8193" extra_flags="576" bitvector="0" weight="6" cost="16000" cost_per_day="800" short_description="the devil rod">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="5" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="3" />
+			<affect location="1" modifier="-1" />
+		</affects>
+		<description>The mysterious devil rod lies on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="devil rod">
+				<description>This is indeed a mysterious rod.  It is dark black at the base but has four
+very sharp purple tentacles at the end.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7201" name="mace large" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="10" cost="1000" cost_per_day="400" short_description="the large mace">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="6" />
+			<value number="3" val="7" />
+		</values>
+		<affects>
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A large mace lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="large mace">
+				<description>The mace is pretty large with a weight of 10 lbs.  The head is actually four
+purple tentacles tied together.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7202" name="mace small" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="6" cost="600" cost_per_day="200" short_description="the small mace">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="6" />
+			<value number="3" val="7" />
+		</values>
+		<affects>
+			<affect location="19" modifier="1" />
+		</affects>
+		<description>a small mace has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="small mace">
+				<description>This weapon does look like it does a lot of damage, but then you never know.
+It consists of a black handle and a purple head.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7203" name="cloak purple" type="11" wear_flags="5" extra_flags="64" bitvector="0" weight="20" cost="5000" cost_per_day="6000" short_description="a purple cloak">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="24" modifier="2" />
+			<affect location="17" modifier="-10" />
+		</affects>
+		<description>A purple cloak lies on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="cloak purple">
+				<description>This is a very fine made cloak from an unknown material, in a nice purple
+color.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7204" name="potion blue neon" type="10" wear_flags="1" extra_flags="64" bitvector="0" weight="4" cost="100" cost_per_day="1000" short_description="a neon blue potion">
+		<values>
+			<value number="0" val="14" />
+			<value number="1" val="6" />
+			<value number="2" val="15" />
+			<value number="3" val="16" />
+		</values>
+		<description>A neon blue potion stands on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion blue">
+				<description>In the flask is a transparent electric blue liquid.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7205" name="key black" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="2" cost="0" cost_per_day="0" short_description="a black key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A black key has been left on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="black key">
+				<description>This little key is made from a black metal of unknown origin.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7206" name="skull white" type="9" wear_flags="17" extra_flags="131" bitvector="0" weight="30" cost="0" cost_per_day="250" short_description="a strange white skull">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="2" modifier="-4" />
+		</affects>
+		<description>A strange white skull lies on the floor looking at you.</description>
+		<extra_descriptions>
+			<extra_description keyword="white skull">
+				<description>The skull has two small horns in the forehead. You notice some writing on
+the inside.
+</description>
+			</extra_description>
+			<extra_description keyword="writing text">
+				<description>You read the number '666'.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7207" name="gauntlets muddy" type="9" wear_flags="129" extra_flags="64" bitvector="0" weight="10" cost="6000" cost_per_day="1500" short_description="a pair of muddy gauntlets">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="1" modifier="1" />
+		</affects>
+		<description>A pair of muddy gauntlets have been thrown away here.</description>
+		<extra_descriptions>
+			<extra_description keyword="muddy gauntlets">
+				<description>These gauntlets are muddy indeed, however they look very effective.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7208" name="stick small" type="1" wear_flags="16385" extra_flags="0" bitvector="0" weight="4" cost="200" cost_per_day="200" short_description="a small stick">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small stick lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="small stick">
+				<description>The small stick does not look interesting at all.  But just as you are going
+to throw it away you notice some small letters.
+</description>
+			</extra_description>
+			<extra_description keyword="letters letter">
+				<description>They read:
+
+Hold me
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7209" name="boots muddy" type="9" wear_flags="65" extra_flags="64" bitvector="0" weight="10" cost="75" cost_per_day="500" short_description="a pair of muddy boots">
+		<values>
+			<value number="0" val="4" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="14" modifier="15" />
+		</affects>
+		<description>A pair of muddy boots has been dropped here.</description>
+		<extra_descriptions>
+			<extra_description keyword="boots muddy">
+				<description>The boots are muddy and they look well worn, but also very comfortable.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7210" name="treasure coins" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="6522" cost_per_day="0" short_description="a huge treasure">
+		<values>
+			<value number="0" val="6522" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a huge treasure here, looking very valuable.</description>
+		<extra_descriptions>
+			<extra_description keyword="treasure coins">
+				<description>This looks like a whole lot of coins.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7211" name="sword short" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="4" cost="100" cost_per_day="300" short_description="a short sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="3" />
+			<value number="3" val="3" />
+		</values>
+		<description>A short sword is lying here.</description>
+		<extra_descriptions>
+			<extra_description keyword="short sword">
+				<description>This is a very nice little weapon.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

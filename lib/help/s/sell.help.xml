@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<help first_keyword="sell" keyword_count="1" mini_mud="true">
+	<entry>SELL
+
+Usage: sell [#] &lt;item&gt;
+       sell &lt;#&gt;.&lt;item&gt;
+
+If you'd like to sell an item to a shopkeeper, trying selling it to them.
+Most shops specialize in what they will buy, so you may have to look around
+to find a buyer for your items.
+ 
+Examples:
+ 
+  &gt; sell sword       (sell the first sword in your inventory)
+  &gt; sell 3 sword     (sell the first three swords in your inventory)
+ 
+See also: BUY, LIST, SHOPS, VALUE
+</entry>
+</help>

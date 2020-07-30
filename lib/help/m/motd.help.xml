@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="motd" keyword_count="1" mini_mud="true">
+	<entry>MOTD
+
+Usage: motd
+
+Displays the message of the day.  Contains important information
+regarding the status of the MUD.  You should be sure to read it
+when you login.  If you miss it at login, just use this command!
+</entry>
+</help>

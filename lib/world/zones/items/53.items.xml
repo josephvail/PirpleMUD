@@ -1,0 +1,511 @@
+<?xml version="1.0"?>
+<items>
+	<item number="5300" name="mace egyptian" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="10" cost="800" cost_per_day="50" short_description="an egyptian mace">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="6" />
+			<value number="3" val="7" />
+		</values>
+		<description>A hierogylph-engraved mace has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="mace egyptian">
+				<description>The mace is formed from solid brass, and engraved in strange hieroglyphs.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5301" name="robe sand" type="9" wear_flags="1025" extra_flags="0" bitvector="0" weight="5" cost="500" cost_per_day="40" short_description="some sand-colored robes">
+		<values>
+			<value number="0" val="4" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Sand-colored robes lie here.</description>
+		<extra_descriptions>
+			<extra_description keyword="robes sand">
+				<description>The robes are colored a sandy off-white, and are in fact caked and covered
+with sand as well.  You don't seem to be able to remove all of the sand, no
+matter how much you try.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5302" name="dirk obsidian" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="8" cost="1000" cost_per_day="100" short_description="an obsidian dirk">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="3" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="2" modifier="1" />
+			<affect location="18" modifier="1" />
+		</affects>
+		<description>A flat dirk made of chipped obsidian lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="dirk obsidian">
+				<description>The blade of the dirk is black, glassy obsidian, chipped razor sharp.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5303" name="turban cloth" type="9" wear_flags="17" extra_flags="64" bitvector="0" weight="10" cost="1500" cost_per_day="250" short_description="a dirty cloth turban">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="2" modifier="1" />
+			<affect location="13" modifier="5" />
+		</affects>
+		<description>A dirty cloth turban has been forgotten here.</description>
+		<extra_descriptions>
+			<extra_description keyword="turban cloth">
+				<description>The turban used to be white cloth, now it is covered with oil and dirt from
+the head and hair of its previous owner, who must not have bathed much.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5304" name="wrappings cloth" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="15" cost="1250" cost_per_day="175" short_description="some cloth wrappings">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Long cloth wrappings lie on the ground in a pile.</description>
+		<extra_descriptions>
+			<extra_description keyword="wrappings cloth">
+				<description>The cloth wrappings are old, wrinkled, and stink of embalming fluid.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5305" name="bottle fluid" type="10" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="250" cost_per_day="50" short_description="a bottle of embalming fluid">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="33" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A dusty bottle lies here on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="bottle fluid">
+				<description>The bottle is dusty and the fluid has a strange sickly-sweet smell to it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5306" name="jar formaldehyde" type="10" wear_flags="1" extra_flags="0" bitvector="0" weight="6" cost="300" cost_per_day="60" short_description="a jar of formaldehyde">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="16" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A small jar lies here on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="jar formaldehyde">
+				<description>The jar is sticky and smells really bad.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5307" name="ball fire" type="1" wear_flags="16385" extra_flags="32833" bitvector="0" weight="10" cost="3500" cost_per_day="500" short_description="a small hot ball of fire">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="13" modifier="10" />
+			<affect location="14" modifier="50" />
+		</affects>
+		<description>A little ball of fire hovers in the air before your eyes.</description>
+		<extra_descriptions>
+			<extra_description keyword="ball fire">
+				<description>The ball of fire is hot to the touch and very very bright.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5308" name="scimitar stone" type="5" wear_flags="8193" extra_flags="28738" bitvector="0" weight="18" cost="10000" cost_per_day="750" short_description="a stone scimitar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="4" />
+			<value number="2" val="3" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="3" />
+		</affects>
+		<description>A curved scimitar made of stone rests on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="scimitar stone">
+				<description>The scimitar is formed from solid stone, chipped and carved to perfection,
+with a sharp, cold blade that is marred only by a few nicks here and there.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5309" name="key stone" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="15" cost="0" cost_per_day="0" short_description="a stone key">
+		<values>
+			<value number="0" val="5309" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A stone key has been dropped here.</description>
+		<extra_descriptions>
+			<extra_description keyword="key stone">
+				<description>The key is made from stone, but is otherwise unremarkable.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5310" name="sarcophagus stone" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="5000" cost="5000" cost_per_day="5000" short_description="a mighty stone sarcophagus">
+		<values>
+			<value number="0" val="500" />
+			<value number="1" val="15" />
+			<value number="2" val="5309" />
+			<value number="3" val="0" />
+		</values>
+		<description>A mighty stone sarcophagus lies in the center of the tomb.</description>
+		<extra_descriptions>
+			<extra_description keyword="sarcophagus stone">
+				<description>The sarcophagus is engraved on the sides with the images of pharoahs,
+great wars fought long ago, mighty pyramids being constructed...
+
+A raised image atop the sarcophagus is formed in the visage of one of
+the mighty pharoahs, painted in gold and studded with precious gems.
+
+You see a small keyhole in the side of the sarcophagus.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5311" name="dust" type="13" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="1" cost_per_day="1" short_description="some ancient dust">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small pile of dust is being scattered by the breeze.</description>
+		<extra_descriptions>
+			<extra_description keyword="dust">
+				<description>The dust is old.  As you sift it through your hands you find tiny chips
+of aged bone inside -- it must be the ancient remains of something.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5312" name="scarab emerald" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="5" cost="0" cost_per_day="0" short_description="a small emerald scarab">
+		<values>
+			<value number="0" val="5312" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small emerald scarab lies here on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="scarab emerald">
+				<description>The scarab is intricately detailed, down to the tiny hairs on its
+insectile legs and the faceting of the emeralds in its eyes.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5313" name="lamp" type="4" wear_flags="16385" extra_flags="1091" bitvector="0" weight="10" cost="25000" cost_per_day="600" short_description="the lamp">
+		<values>
+			<value number="0" val="25" />
+			<value number="1" val="5" />
+			<value number="2" val="5" />
+			<value number="3" val="51" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-5" />
+			<affect location="18" modifier="1" />
+		</affects>
+		<description>A small, tarnished, battered lamp has been dropped here.</description>
+		<extra_descriptions>
+			<extra_description keyword="lamp">
+				<description>The lamp is quite old and tarnished.  You rub at it to get some of the
+grime off, but it doesn't seem like anybody is home.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5314" name="ankh" type="9" wear_flags="16385" extra_flags="1280" bitvector="0" weight="9" cost="10000" cost_per_day="300" short_description="an ankh">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="1" />
+			<affect location="4" modifier="2" />
+		</affects>
+		<description>A small brass ankh has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="ankh">
+				<description>The ankh is a small brass symbol of an ancient religion.  It glows
+with a soft bright light that is soothing to you.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5315" name="book riddles" type="2" wear_flags="1" extra_flags="0" bitvector="0" weight="15" cost="7500" cost_per_day="250" short_description="a book of riddles">
+		<values>
+			<value number="0" val="21" />
+			<value number="1" val="201" />
+			<value number="2" val="20" />
+			<value number="3" val="22" />
+		</values>
+		<description>A medium-sized parchment book with well-worn pages lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="book riddles">
+				<description>The book has well-worn pages, containing many befuddling riddles
+to surprise, confuse, and amuse you.  You find yourself bewildered
+by its contents and put it down to sort your head out.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5316" name="paw lion" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="20" cost="18000" cost_per_day="600" short_description="a lion's paw">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="14" />
+			<value number="3" val="5" />
+		</values>
+		<affects>
+			<affect location="5" modifier="1" />
+			<affect location="18" modifier="4" />
+		</affects>
+		<description>The mighty paw of a lion-like creature has been dropped here.</description>
+		<extra_descriptions>
+			<extra_description keyword="paw lion">
+				<description>The massive paw has straps on it formed of bronze, so that it will
+fit snugly over your hand.  As you put it on, it melds with your hand,
+becoming an extension of your arm.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5317" name="parchment answer" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="1" cost_per_day="1" short_description="the answer">
+		<values>
+			<value number="0" val="5317" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small piece of parchment covered in hieroglyphics lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="answer hieroglyphics parchment">
+				<description>You cannot decipher the strange hieroglyphics that cover the
+sheet of parchment.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5318" name="treasure" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="23" cost="23850" cost_per_day="0" short_description="the treasure of the sphinx">
+		<values>
+			<value number="0" val="23850" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The massive treasure of the sphinx lies here in a big pile.</description>
+		<extra_descriptions>
+			<extra_description keyword="treasure">
+				<description>The treasure is incredibly large, filled with gold coins and valuables, more 
+wealth than you could ever possibly imagine accumulated in one place.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5319" name="sand pile" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="12" cost="12986" cost_per_day="0" short_description="a pile of sand">
+		<values>
+			<value number="0" val="12986" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>You see a small pile of sand.</description>
+		<extra_descriptions>
+			<extra_description keyword="sand pile">
+				<description>You think you see some coins and valuables glinting amongst the grains of
+sand.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5320" name="curse mummy" type="13" wear_flags="16385" extra_flags="236" bitvector="0" weight="1" cost="500" cost_per_day="50" short_description="the curse of the mummy">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="13" modifier="-50" />
+			<affect location="14" modifier="-100" />
+		</affects>
+		<description>Some fortunate soul has escaped the mummy's curse, for now.</description>
+		<extra_descriptions>
+			<extra_description keyword="curse mummy">
+				<description>Rumor has it that whomever disturbs the grave of the mummy shall be 
+cursed for all eternity, and that the descendents of that person shall
+likewise be cursed for ten generations to follow.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5321" name="elixir small glass" type="10" wear_flags="1" extra_flags="64" bitvector="0" weight="2" cost="10000" cost_per_day="500" short_description="a small elixir">
+		<values>
+			<value number="0" val="30" />
+			<value number="1" val="39" />
+			<value number="2" val="1" />
+			<value number="3" val="36" />
+		</values>
+		<description>A small glass elixir lies under your feet.</description>
+		<extra_descriptions>
+			<extra_description keyword="elixir small glass">
+				<description>The elixir is deceptively small.  Something tells you that its
+contents are truly quite potent.  Perhaps too potent for ordinary
+mortals to attempt to consume.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5322" name="mask golden" type="9" wear_flags="17" extra_flags="64" bitvector="0" weight="10" cost="15000" cost_per_day="750" short_description="a golden mask">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="12" modifier="25" />
+			<affect location="13" modifier="10" />
+		</affects>
+		<description>A beautiful, intricately detailed mask has been forgotten here.</description>
+		<extra_descriptions>
+			<extra_description keyword="mask golden">
+				<description>This beautiful mask was shaped from solid gold and magically enchanted
+to perfectly fit the face of any who choose to wear it, its golden features
+and turquoise highlights even moving to match the expressions of the face
+of the wearer.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5323" name="diamond" type="13" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="0" cost_per_day="0" short_description="the diamond">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<extra_descriptions>
+			<extra_description keyword="diamond">
+				<description>Aha!
+
+You see a multifaceted gemstone, which strangely reflects no
+light, making it very hard to see when it lies on the ground.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5324" name="wand sun brass pipe" type="3" wear_flags="16385" extra_flags="32833" bitvector="0" weight="10" cost="25000" cost_per_day="1000" short_description="a blazing sun wand">
+		<values>
+			<value number="0" val="25" />
+			<value number="1" val="5" />
+			<value number="2" val="5" />
+			<value number="3" val="27" />
+		</values>
+		<affects>
+			<affect location="21" modifier="-5" />
+			<affect location="24" modifier="-5" />
+		</affects>
+		<description>A small length of brass pipe shines here with its own light.</description>
+		<extra_descriptions>
+			<extra_description keyword="wand sun brass pipe">
+				<description>This small brass shaft is a holy weapon used by the ancient people of 
+this land to defend against the deadliest of foes.  It shines with the 
+brilliant blazing light of the sun.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5325" name="ring sandy" type="9" wear_flags="3" extra_flags="66" bitvector="0" weight="5" cost="20000" cost_per_day="750" short_description="a sandy-coloured ring">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="1" />
+			<affect location="12" modifier="35" />
+		</affects>
+		<description>A small sandy-coloured ring has been carelessly dropped here.</description>
+		<extra_descriptions>
+			<extra_description keyword="ring sandy">
+				<description>The ring is small, smooth, sandy-coloured and unremarkable, save that
+it gives off a continuous low humming noise that tickles your fingertips.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5326" name="sphinx golden" type="8" wear_flags="16385" extra_flags="64" bitvector="0" weight="5" cost="50000" cost_per_day="750" short_description="a small golden sphinx">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="4" modifier="2" />
+		</affects>
+		<description>A small golden sphinx glints in the light.</description>
+		<extra_descriptions>
+			<extra_description keyword="sphinx golden">
+				<description>The golden sphinx is incredibly detailed and very small, fitting easily
+into the palm of your hand.  You can even make out the expression
+of wisdom and peace on its face.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5327" name="leggings sphinxian" type="9" wear_flags="33" extra_flags="1088" bitvector="0" weight="20" cost="20000" cost_per_day="500" short_description="a pair of sphinxian leggings">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="1" modifier="3" />
+			<affect location="14" modifier="80" />
+		</affects>
+		<description>Massive leggings formed from the body of a sphinx stand here.</description>
+		<extra_descriptions>
+			<extra_description keyword="leggings sphinxian">
+				<description>These magically fashioned leggings impart the strength and stamina
+of the mightiest of the ancient sphinxes.  You feel ancient power 
+emanating from them; they seem to be almost alive.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

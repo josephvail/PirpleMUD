@@ -1,0 +1,1386 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="5300" name="The Great Eastern Desert" sector="2" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around
+you.  Rising out of the sand to the north you see a mighty pyramid.
+</description>
+		<directions>
+			<direction dir="north" to_room="5301">
+				<general_description>The sands of the desert continue onward towards the pyramid.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5040">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5050">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5035">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="pyramid">
+				<description>The massive pyramid rises out of the sand, a monument to long-dead pharoahs.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5301" name="At The Base Of The Pyramid" sector="2" flags="0">
+		<description>   The mighty pyramid towers above you out of the hot desert sands, made
+from huge blocks of stone that have been coated over with a rough sandy
+plaster-like substance.  The face of the pyramid is steep, but you think
+you might be able to climb it.
+</description>
+		<directions>
+			<direction dir="south" to_room="5300">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5302">
+				<general_description>The steep slope of the pyramid rises up before you.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="pyramid">
+				<description>You wonder how anyone could have built such a massive thing out in this
+heat.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5302" name="Climbing The Great Pyramid" sector="5" flags="0">
+		<description>   Hot air rises off the sides of the pyramid, and the wind chokes you with
+a flurry of sand and dust.  So far you have made it halfway up the side.  The
+walls of the pyramid are quite steep.
+</description>
+		<directions>
+			<direction dir="north" to_room="5303">
+				<general_description>If you are daring you could try to skirt around to the northern side.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5304">
+				<general_description>If you are daring you could try to skirt around to the southern side.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5307">
+				<general_description>It looks too dangerous to try to climb any higher.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5301">
+				<general_description>Far below you are the burning sands of the desert.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="pyramid">
+				<description>You wonder how anyone could have built such a massive thing out in this
+heat.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5303" name="Climbing The Great Pyramid" sector="5" flags="0">
+		<description>   Hot air rises off the sides of the pyramid, and the wind chokes you with
+a flurry of sand and dust.  The walls of the pyramid are quite steep, and
+you are having trouble keeping from sliding down into the sands below.
+</description>
+		<directions>
+			<direction dir="east" to_room="5305">
+				<general_description>If you are daring you could try to skirt around to the eastern side.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5302">
+				<general_description>If you are daring you could try to skirt around to the western side.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5307">
+				<general_description>It looks too dangerous to try to climb any higher.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5307">
+				<general_description>This side of the pyramid has a dangerous drop before the sandy floor.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="pyramid">
+				<description>You wonder how anyone could have built such a massive thing out in this
+heat.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5304" name="Climbing The Great Pyramid" sector="5" flags="0">
+		<description>   Hot air rises off the sides of the pyramid, and the wind chokes you with
+a flurry of sand and dust.  The walls of the pyramid are quite steep, and
+you are having trouble keeping from sliding down into the sands below.
+</description>
+		<directions>
+			<direction dir="east" to_room="5305">
+				<general_description>If you are daring you could try to skirt around to the eastern side.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5302">
+				<general_description>If you are daring you could try to skirt around to the western side.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5307">
+				<general_description>It looks too dangerous to try to climb any higher.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5307">
+				<general_description>This side of the pyramid has a dangerous drop before the sandy floor.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="pyramid">
+				<description>You wonder how anyone could have built such a massive thing out in this
+heat.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5305" name="Climbing The Great Pyramid" sector="5" flags="0">
+		<description>   Here on the eastern side of the pyramid there is a little more shelter
+from the heat and wind.  The stone side is not nearly so slippery smooth
+from the ravages of time, and you think you may be able to even reach the
+top from here.
+</description>
+		<directions>
+			<direction dir="north" to_room="5303">
+				<general_description>If you are daring you could try to skirt around to the northern side.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5304">
+				<general_description>If you are daring you could try to skirt around to the southern side.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5306">
+				<general_description>You see the apex of the pyramid many yards above you.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5307">
+				<general_description>This side of the pyramid has a dangerous drop before the sandy floor.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="pyramid">
+				<description>You wonder how anyone could have built such a massive thing out in this
+heat.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5306" name="The Apex Of The Great Pyramid" sector="1" flags="0">
+		<description>   Bathed in sweat, you have managed to reach the summit of the great
+pyramid.  The four sides of the pyramid slope sharply down into the
+hot sands in all four cardinal directions.
+A plaque has been set into the sandy stones beneath your feet.
+</description>
+		<directions>
+			<direction dir="north" to_room="5307">
+				<general_description>The north side of the pyramid slopes down into the sands.
+It looks really dangerous.  I wouldn't go that way.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5305">
+				<general_description>The east side of the pyramid slopes down into the sands.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5307">
+				<general_description>The south side of the pyramid slopes down into the sands.
+It looks really dangerous.  I wouldn't go that way.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5307">
+				<general_description>The west side of the pyramid slopes down into the sands.
+It looks really dangerous.  I wouldn't go that way.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5308" keyword="stones" flags="1">
+				<general_description>You see some sandy stones pressed closely together to form a hard surface.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="stones">
+				<description>As you look closer you can make out a crack in the center of the stones
+beneath your feet.  With some effort you might be able to lift that 
+section up and get inside!
+</description>
+			</extra_description>
+			<extra_description keyword="plaque">
+				<description>The plaque reads:
+
+                        The Great Pyramid
+
+                Created by the Andersen work crew.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5307" name="On The Dangerous Stones" sector="0" flags="10">
+		<description>   Here the elements have carved away at the sides of the pyramid quite a 
+bit.  You aren't so sure of your footing anymore...
+
+Suddenly the wind picks up, and you lose your balance!
+You tumble down the side of the pyramid, and fall to your death!
+
+SPLAT.
+
+Ouch.
+</description>
+	</room>
+	<room number="5308" name="A Ladder" sector="0" flags="12">
+		<description>   You are climbing an ancient ladder that leads down into the depths of
+the pyramid.  The air around is thick with layers of dust and a strange
+musty smell.  Above you you see tiny beams of light coming through the
+stones of the ceiling.
+</description>
+		<directions>
+			<direction dir="up" to_room="5306" keyword="stones" flags="1">
+				<general_description>You see the sandy stones of the ceiling.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5309">
+				<general_description>You see a small dusty chamber.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="stones">
+				<description>As you look closer you can make out a crack in the center of the stones
+above your head.  With some effort you might be able to lift that section
+up and get outside!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5309" name="A Musty Chamber" sector="0" flags="8">
+		<description>   You are standing in a dank, musty chamber just inside the pyramid. 
+Footprints and other strange marks are set into the dusty floor here.
+It would seem that some of the tenants of this monument are still alive.
+Exits lead in all directions.   The door to the west is covered with
+inscriptions.
+</description>
+		<directions>
+			<direction dir="north" to_room="5312">
+				<general_description>You see a tiny crawlway raised about three feet off the ground.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5339">
+				<general_description>A dust-covered hallway leads off to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5324">
+				<general_description>You see a small crack in the wall through which you might be able to slide.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5310" keyword="door stone" flags="1">
+				<general_description>You see a large stone door, covered in sigils and hieroglyphs.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5308">
+				<general_description>A small rickety ladder leads up.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="door stone">
+				<description>The stone door is covered in strange inscriptions and hieroglyphs that warn
+you not to proceed any further.
+</description>
+			</extra_description>
+			<extra_description keyword="sigils hieroglyphs inscriptions writing">
+				<description>You cannot understand the strange glyphs that cover the door, but most of
+them seem to depict scenes of fire and massive creatures of apparently
+tremendous strength.  You have a feeling that the glyphs are serving as a
+warning.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5310" name="The Fire Pool" sector="0" flags="12">
+		<description>   This room is dominated by a massive raised pool that is filled with
+not water but flames of intense heat.  The multicoloured flames lick out
+at you, searching for things to burn.  The pool proceeds to the east into
+a small chamber.
+</description>
+		<directions>
+			<direction dir="east" to_room="5309" keyword="door stone" flags="1">
+				<general_description>You see a large stone door.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5311">
+				<general_description>You see a small chamber filled with fire.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5311" name="The Chamber Of The Efreet" sector="7" flags="8">
+		<description>   You make your way across the fire pool, and into a small stone chamber.
+Here the flames are nearly as high as your head, singeing your face and 
+evaporating your sweat instantaneously.
+</description>
+		<directions>
+			<direction dir="east" to_room="5310">
+				<general_description>The pool of fire ends to the east.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5312" name="A Tiny Crawlway" sector="0" flags="9">
+		<description>   You have to go down onto your hands and knees to fit inside this tiny
+space.  The crawlway is thick with sand and dust, and markings of the
+passage of other creatures.
+</description>
+		<directions>
+			<direction dir="north" to_room="5313">
+				<general_description>The crawlway continues to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5309">
+				<general_description>The crawlway ends to the south in a musty chamber.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5337">
+				<general_description>A small hole above your head leads into a dank chamber.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5313" name="A Tiny Crawlway" sector="0" flags="9">
+		<description>   You are on your hands and knees, inside a small crawlway that winds
+through the inside of the pyramid.  The crawlway is thick with sand, dust, 
+and markings of the passage of other creatures.
+</description>
+		<directions>
+			<direction dir="south" to_room="5312">
+				<general_description>The crawlway continues to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5314">
+				<general_description>The crawlway continues to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5314" name="A Tiny Crawlway" sector="0" flags="9">
+		<description>   You are on your hands and knees, inside a small crawlway that winds
+through the inside of the pyramid.  The crawlway is thick with sand, dust, 
+and markings of the passage of other creatures.
+</description>
+		<directions>
+			<direction dir="east" to_room="5313">
+				<general_description>The crawlway continues to the east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5315">
+				<general_description>The crawlway gets a little tighter to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5315" name="A Tightening In The Crawlway" sector="0" flags="9">
+		<description>   Here you are forced to slide on your belly through a particularly tight
+section of the crawlway, as the stones of the pyramid close together about
+you.  Below you is a small, slippery-looking hole that plummets into
+blackness.
+</description>
+		<directions>
+			<direction dir="east" to_room="5314">
+				<general_description>The crawlway gets a little larger to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5316">
+				<general_description>The crawlway continues to diminish in size to the south.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5317">
+				<general_description>The hole looks very slippery and very dark.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5316" name="The Crawlway's End" sector="0" flags="9">
+		<description>   The crawlway shrinks away to nothing as the sandy stones of the pyramid
+close together into a space through which only a snake could fit.   There is
+barely enough space to turn around and make your way back through the tiny
+crawlway to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="5315">
+				<general_description>The crawlway gets a little larger to the north.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5317" name="A Slippery Hole" sector="0" flags="13">
+		<description>   The sides of this hole are slippery-smooth.  You lower yourself in, and 
+proceed to move downward... when suddenly you lose your purchase!
+
+You fall for what seems like an eternity, and smash into the stones below...
+
+
+
+Under The Hole
+   You are in a small chamber underneath the slippery hole, far below
+the pyramid now.   The floor is strewn with bones.  To the south is a
+small rocky crevasse.
+</description>
+		<directions>
+			<direction dir="south" to_room="5319">
+				<general_description>You see a rocky crevasse that proceeds deep under the pyramid.
+</general_description>
+			</direction>
+			<direction dir="up">
+				<general_description>The hole looks far too slippery to climb back up.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="bones">
+				<description>The bones have whitened and cracked in the dry air, apparently the remains 
+of adventurers, thieves, and creatures that did not survive the fall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5318" name="Under The Hole" sector="0" flags="9">
+		<description>   You are in a small chamber underneath the slippery hole, far below
+the pyramid now.   The floor is strewn with bones.  To the south is a
+small rocky crevasse.
+</description>
+		<directions>
+			<direction dir="south" to_room="5319">
+				<general_description>You see a rocky crevasse that proceeds deep under the pyramid.
+</general_description>
+			</direction>
+			<direction dir="up">
+				<general_description>The hole looks far too slippery to climb back up.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="bones">
+				<description>The bones have whitened and cracked in the dry air, apparently the remains 
+of adventurers, thieves, and creatures that did not survive the fall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5319" name="A Rough Crevasse" sector="0" flags="8">
+		<description>   You are now exploring deep within a strange rocky crevasse that plunges
+down into the rock on which the pyramid was constructed.  To the south you
+see the flickering light of a fire, and the crevasse proceeds downward.
+</description>
+		<directions>
+			<direction dir="north" to_room="5318">
+				<general_description>You see a small stone chamber littered with bones.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5320">
+				<general_description>You see the flickering light of a small fire.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5321">
+				<general_description>The crevasse continues downward into total darkness.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="rough">
+				<description>As you look through the rough terrain, your eyes catch a small glint of light!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5320" name="A Small Fire" sector="0" flags="8">
+		<description>   Here a small fire burns in a nook in the rocks, providing some warmth and
+comforting light in the cold, dark, dry air.
+Standing here is a strange-looking old man, who stares at you balefully.
+</description>
+		<directions>
+			<direction dir="north" to_room="5319">
+				<general_description>You see a massive crevasse that plunges into darkness.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="man old">
+				<description>The old man looks like he has been trapped down here far too long, and
+has begun to lose his mind.  He moves about slowly, cackling to himself.
+
+He turns to you and shouts, 'nope measse!  nope measse!', then turns 
+back and stares into the fire.
+
+'What a strange person,' you think to yourself.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5321" name="Down The Crevasse" sector="0" flags="9">
+		<description>   The crevasse proceeds downward into the dark depths of the earth.
+The air about you is now cold and quite dry, and your light source
+gutters in a cool breeze that wafts up from below.
+</description>
+		<directions>
+			<direction dir="up" to_room="5319">
+				<general_description>It is too dark for you to see any further along the crevasse.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5322">
+				<general_description>It is too dark for you to see any further along the crevasse.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5322" name="At The Crevasse's End" sector="0" flags="9">
+		<description>   Here the crevasse comes to an abrupt end.  A chilling wind howls
+at your face from a black shape to the south, but the light from your
+source is too dim to see exactly what it is.
+</description>
+		<directions>
+			<direction dir="south" to_room="5323" key="5323" keyword="sesame" flags="9">
+				<general_description>You see a strange-looking black shape.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5321">
+				<general_description>It is too dark for you to see anything along the crevasse.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="black shape">
+				<description>Wind howls about your ears like the roar of a tiger.  As your eyes
+adjust to the light the shape to the south almost seems to take the
+form of a massive animal head.
+</description>
+			</extra_description>
+			<extra_description keyword="tiger head animal sesame">
+				<description>You are now certain that the wind is the cold breath of some unearthly
+giant animal, whose voice rumbles lowly on the breeze, and whose
+massive jaws could easily swallow you whole.
+
+You move closer for a better look, when suddenly a pair of eyes flashes.
+A cold voice echoes: 'SEEK YE THE DIAMOND... IN THE ROUGH...'
+
+... Then all is silent.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5323" name="The Vault Of The Lamp" sector="0" flags="9">
+		<description>   The jaws of the massive stone tiger part wide to reveal a great vault.
+An arched ceiling lies far above your head... and all about you is a low
+guttural rumbling noise and a chill wind.
+Giant heaps of ancient treasure, gold coins, and valuables surround you
+on all sides.
+</description>
+		<directions>
+			<direction dir="north" to_room="5322" key="5323" flags="9">
+				<general_description>Through the jaws of the tiger you see the blackness of the crevasse.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="treasure gold coins valuables">
+				<description>You reach for some of the tasty goodies, when you hear a loud rumbling
+sound and see a bright flash of light...
+
+Then the words: 'TAKE ONLY THE LAMP... TOUCH NOTHING ELSE.'
+
+... All is silent once again.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5324" name="A Crack In The Wall" sector="0" flags="9">
+		<description>   You exhale, and squeeze yourself into the narrow crack in the wall.
+Dust fills your eyes as you disturb it, and chunks of mortar and stone
+mixed with a touch of sand fall on you as you scrape your way through.
+</description>
+		<directions>
+			<direction dir="north" to_room="5309">
+				<general_description>You see a musty chamber.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5325">
+				<general_description>You see a tomb.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5325" name="A Looted Tomb" sector="0" flags="8">
+		<description>  The floor of this small tomb is littered with the lids of 
+smashed sarcophagi, bits of treasure dropped by thieves and
+looters, and corpses pulled from their resting places.
+</description>
+		<directions>
+			<direction dir="north" to_room="5324">
+				<general_description>You see a small crack in the wall through which you might be able to slide.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5333">
+				<general_description>To the east is another tomb.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5326">
+				<general_description>To the west is another tomb.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5326" name="A Demolished Tomb" sector="0" flags="8">
+		<description>  This tomb has been utterly destroyed by thieves and looters in search of
+the treasures of the pharoahs.  Nothing of interest remains in this room,
+except a large stone coffin that leans against the western wall.
+</description>
+		<directions>
+			<direction dir="east" to_room="5325">
+				<general_description>To the east is another tomb.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5327" key="5312" keyword="coffin lid" flags="9">
+				<general_description>You see a large stone coffin.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="coffin lid">
+				<description>The coffin is sculpted into the form of a man, standing several heads above
+you, and clad in the garments of pharoahs.  It has apparently been untouched
+by the ravages of time and the activities of looters.  Several markings on the 
+side indicate spots where unsuccessful attempts were made to open the coffin.
+
+You can't see any way to open it.
+</description>
+			</extra_description>
+			<extra_description keyword="man garments pharoah">
+				<description>As you look closer at the figure sculpted into the stone coffin you notice a
+small marking carved into its chest.  It looks like a scarab or small beetle
+would fit into the small space, if properly sized.
+
+Hmmm.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5327" name="A Stairway" sector="0" flags="9">
+		<description>   You stand now at the head of a stairway that goes down into darkness.
+The steps and walls are smooth sandy stone, covered with a thick layer
+of dust.  Some inscriptions are carved into the wall here.
+</description>
+		<directions>
+			<direction dir="east" to_room="5326" keyword="coffin lid" flags="9">
+				<general_description>You see the backside of the coffin lid, featureless stone.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5328">
+				<general_description>It is too dark to see down the stairway.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="inscriptions">
+				<description>You blow dust away from the inscriptions to read:
+
+Beware the curse of the mummy.
+
+</description>
+			</extra_description>
+			<extra_description keyword="coffin lid">
+				<description>On this side the coffin lid is smooth featureless stone.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5328" name="A Stairway" sector="0" flags="9">
+		<description>   You are on a stairway that disappears into darkness in both directions.
+The smooth, uneven steps of the stairway have not been travelled in what
+appears to be centuries.
+</description>
+		<directions>
+			<direction dir="up" to_room="5327">
+				<general_description>It is too dark to see up the stairway.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5329">
+				<general_description>It is too dark to see down the stairway.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5329" name="A Stairway" sector="0" flags="9">
+		<description>   You stand now at the base of the uneven stairway.  The walls, floor,
+and ceiling of this small landing are covered with strange hieroglyphics.
+</description>
+		<directions>
+			<direction dir="south" to_room="5330" keyword="stone" flags="1">
+				<general_description>You see a seam in the stone wall.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5328">
+				<general_description>It is too dark to see up the stairway.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="walls floor ceiling hieroglyphics">
+				<description>The hieroglyphics are covered with a thick layer of dust.  You clear the
+dust away with your hand, and find that you cannot comprehend them.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5330" name="The Ancient Hall" sector="0" flags="9">
+		<description>   Here the air is deathly still, motes of dust thickly obscuring your
+vision.  Several stone statues line the walls of the hall, depicting the 
+gods of an ancient society.  Strange glyphs and sigils cover the walls, a 
+peculiar pictorial form of written language that you don't understand.
+   Some steps lead to a raised dais to the south.
+</description>
+		<directions>
+			<direction dir="north" to_room="5329" keyword="stone" flags="1">
+				<general_description>You see a seam in the stone wall.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5331">
+				<general_description>You see a small raised dais.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="writings glyphs sigils hieroglyphics symbols">
+				<description>You don't understand the meaning of these symbols.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5331" name="A Raised Dais" sector="0" flags="9">
+		<description>   You are at the southern end of the ancient hall, the dust and darkness
+absorbing your light so that you cannot see past the steps of the dais.
+A low pedestal rests here.  You see something written into the face of it.
+</description>
+		<directions>
+			<direction dir="north" to_room="5330">
+				<general_description>You cannot see past the steps of the dais.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5332" keyword="tomb" flags="1">
+				<general_description>You see a seam in the stone floor.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="pedestal writings">
+				<description>The writings are covered in sand and worn nearly away by the passage
+of time: 'I am Ramses the Damned, once counselor and aide to the mightiest
+of pharoahs and queens of this land.  Much time has passed since I last
+walked the earth.  Disturb my rest at your peril.'
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5332" name="The Tomb Of Ramses" sector="0" flags="9">
+		<description>   You stand in an empty tomb, a cubicle no more then ten feet to a side.
+</description>
+		<directions>
+			<direction dir="up" to_room="5331" keyword="tomb" flags="1">
+				<general_description>That leads back the way you came.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5333" name="A Ransacked Tomb" sector="0" flags="8">
+		<description>  This tomb has been completely ransacked and destroyed by the actions
+of pyramid thieves and looters.  The floor is littered with junk.
+</description>
+		<directions>
+			<direction dir="east" to_room="5334">
+				<general_description>To the east is a low-ceilinged tunnel.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5325">
+				<general_description>To the west is another tomb.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5334" name="A Tunnel" sector="0" flags="9">
+		<description>   The low-ceilinged tunnel runs east-west.
+</description>
+		<directions>
+			<direction dir="east" to_room="5335">
+				<general_description>You cannot see into the darkness of the low tunnel.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5333">
+				<general_description>You see a tomb.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5335" name="A Fork In The Tunnel" sector="0" flags="9">
+		<description>   Here the tunnel forks off through a gaping hole down in the
+southern wall, continuing onward to the east and west as well.
+</description>
+		<directions>
+			<direction dir="east" to_room="5336">
+				<general_description>You cannot see into the darkness of the low tunnel.
+</general_description>
+			</direction>
+			<direction dir="south">
+				<general_description>The hole is low, at the floor of the southern wall.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5334">
+				<general_description>You cannot see into the darkness of the low tunnel.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5346">
+				<general_description>Through the hole you see rubble and sand.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="hole">
+				<description>The hole is low, at the floor of the southern wall.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5336" name="A Tunnel" sector="0" flags="9">
+		<description>   The low-ceilinged tunnel makes a turn to the west and ends
+to the north as it spills out into a dusty hallway.
+</description>
+		<directions>
+			<direction dir="north" to_room="5342">
+				<general_description>The mouth of the tunnel is stone that has been torn away by looters.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5335">
+				<general_description>You cannot see into the darkness of the low tunnel.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5337" name="A Dank Chamber" sector="0" flags="8">
+		<description>   This chamber has a dank, dusty, musty smell to it.  Small footprints
+in the dust betray the recent passage of some sort of creatures.  A hole 
+in the floor lies to the west and a stairway is to the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="5338">
+				<general_description>You see a spiral stone stairway.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5312">
+				<general_description>You see only blackness through the hole in the floor.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5338" name="A Spiral Stairway" sector="0" flags="8">
+		<description>   Some dusty, broken stone stairs here spiral slowly in a constricted
+space down towards a dusty hallway.
+</description>
+		<directions>
+			<direction dir="up" to_room="5337">
+				<general_description>The stairs spiral up into a dank chamber.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5341">
+				<general_description>The stairs spiral down into a dusty hallway.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5339" name="A Dust-Covered Hallway" sector="0" flags="8">
+		<description>   This hallway is covered with dust that has accumulated over the
+centuries that the pyramid has stood.  Small markings and footprints
+in the dust betray the recent passage of others -- perhaps thieves?
+</description>
+		<directions>
+			<direction dir="east" to_room="5340">
+				<general_description>The hallway proceeds to the east towards a strange smell.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5309">
+				<general_description>The hallway proceeds towards the west towards a musty smell.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5340" name="A Smelly Chamber" sector="0" flags="8">
+		<description>   This small chamber has a sickly putrescent smell to it, the
+smell of formaldehyde and other ointments used to preserve the
+corpses of those who died ages ago.
+</description>
+		<directions>
+			<direction dir="east" to_room="5341">
+				<general_description>You see a dusty hallway.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5339">
+				<general_description>You a dusty hallway.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5341" name="A Dust-Covered Hallway" sector="0" flags="8">
+		<description>   This hallway is covered with a thick, choking dust that rises
+up to obscure your light source and sting your eyes.  Small marks
+and footprints in the dust betray the recent passage of others.
+</description>
+		<directions>
+			<direction dir="east" to_room="5342">
+				<general_description>The hallway turns to the north.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5340">
+				<general_description>You smell something peculiar over there.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5338">
+				<general_description>A tightly spiralling stone stairway leads up.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5342" name="A Turn In The Hallway" sector="0" flags="8">
+		<description>   You are standing in an elbow turn in a dust-covered stone hallway,
+that dead ends to the north and continues on to the west.  To the south
+the stones of the pyramid have been torn asunder by thieves, making
+a low-ceilinged tunnel.
+</description>
+		<directions>
+			<direction dir="north" to_room="5343">
+				<general_description>The hallway ends to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5336">
+				<general_description>The tunnel is dark.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5341">
+				<general_description>The dust-covered hallway continues to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5343" name="A Dead End" sector="0" flags="8">
+		<description>   The dust-covered hallway has come to an abrupt end at a stony,
+featureless wall.  Here and there are signs of the recent passage
+of others in the dust.
+</description>
+		<directions>
+			<direction dir="south" to_room="5342">
+				<general_description>The dusty hall continues to the south.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="5344" keyword="floor" flags="1">
+				<general_description>The floor is quite dusty, and made of stone.  You see some cracks.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="cracks">
+				<description>The cracks look like you might be able to pull away some pieces of
+the floor, perhaps even fit your body through the space you make.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5344" name="The Tomb Entrance" sector="0" flags="13">
+		<description>   You are in a small, dark chamber that has stood undisturbed for
+many years.  To the north stands a massive stone tomb, which is
+covered in hieroglyphics and gold-lined carvings that mark it as the
+final resting place of the mighty pharoahs of this land.
+</description>
+		<directions>
+			<direction dir="north" to_room="5345" keyword="tomb" flags="1">
+				<general_description>You see the tomb of the pharoahs.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5343" keyword="ceiling" flags="1">
+				<general_description>The stone ceiling has some cracks in it, through which a dim light streams.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="tomb">
+				<description>The tomb looks like it has stood for many years, much like the pyramid
+which encloses it.  It is covered in small hieroglyphics.
+</description>
+			</extra_description>
+			<extra_description keyword="hieroglyphics carvings">
+				<description>The markings indicate that this tomb is indeed the tomb of the greatest
+pharoahs of the ancient civilization that built this massive pyramid.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5345" name="The Tomb Of The Pharoahs" sector="0" flags="9">
+		<description>   Great golden sarcophogai line the walls of this massive tomb.  It has
+withstood the passage of time intact, untouched by the hands of thieves
+and looters.  The treasures taken by the pharoahs to their graves still
+lie before your feet.
+</description>
+		<directions>
+			<direction dir="south" to_room="5344" keyword="tomb" flags="1">
+				<general_description>That way leads back out of the tomb.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="treasures">
+				<description>The treasures are dusty and fragile, but still seem quite valuable.
+You decide not to take them out of respect for the ancient dead.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5346" name="A Rubble-Strewn Hallway" sector="0" flags="13">
+		<description>   This hallway formerly had a beautiful arch to the ceiling, now
+collapsed under the weight of the slowly settling stones of the
+pyramid.  Now, a massive pile of rubble leads up into a hole high 
+in the northern portion of the hallway.  To the south, through the 
+rubble and fallen stones you see a sandstone crypt.
+</description>
+		<directions>
+			<direction dir="south" to_room="5347">
+				<general_description>You see a sandstone crypt.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="5335">
+				<general_description>From here you see only darkness.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5347" name="A Sandstone Crypt" sector="0" flags="8">
+		<description>   This small crypt is lit by a hole in the wall to the south, through
+which sand pours from the desert outside.  A hot wind blows in from the
+desert, drying your skin instantly.  To the east and north the arched
+hallway continues.
+</description>
+		<directions>
+			<direction dir="north" to_room="5346">
+				<general_description>The arched hallway collapses into rubble shortly to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5348">
+				<general_description>You see a beautifully arched hallway.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5353">
+				<general_description>You see a lot of sand.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5348" name="An Arched Hall" sector="0" flags="8">
+		<description>   This hallway has a beautiful arch to it, formed painstakingly and
+exquisitely out of the sandy stones of the pyramid.  The dust that
+covers most of the rest of the pyramid interior is not present here,
+scoured away by the blowing of the desert winds that howl about
+your ears.
+</description>
+		<directions>
+			<direction dir="east" to_room="5349">
+				<general_description>The arched hall proceeds to the east, making a sharp southward turn.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5347">
+				<general_description>The arched hall proceeds into a sandstone crypt.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5349" name="An Arched Hall" sector="0" flags="8">
+		<description>   This hallway has a beautiful arch to it, formed painstakingly and
+exquisitely out of the sandy stones of the pyramid.  To the east is
+a small, golden-coloured crypt, and the hall proceeds to the south
+and north.
+</description>
+		<directions>
+			<direction dir="north" to_room="5348">
+				<general_description>The arched hall proceeds to the north, making a sharp westward turn.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5350">
+				<general_description>A small golden crypt lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5351">
+				<general_description>The arched hall proceeds to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5350" name="A Golden Crypt" sector="0" flags="8">
+		<description>   You stand inside a small crypt with walls and ceiling made of
+golden bricks that obscure the large sandy stones of the pyramid.
+Small rugs and tapestries are scattered about the floor here, and
+they appear to have been used recently.
+</description>
+		<directions>
+			<direction dir="west" to_room="5349">
+				<general_description>You see an arched hall.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="rug rugs tapestry tapestries">
+				<description>The rugs and tapestries are very fine and worn with age, their colors
+now faded.  They depict scenes of life in an ancient desert city.
+</description>
+			</extra_description>
+			<extra_description keyword="bricks">
+				<description>The small golden bricks are very smooth and also quite soft.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5351" name="An Arched Hall" sector="0" flags="8">
+		<description>   This hallway has a beautiful arch to it, formed painstakingly and
+exquisitely out of the sandy stones of the pyramid.  The arched
+hall proceeds to the north and ends to the south in a small vault.
+</description>
+		<directions>
+			<direction dir="north" to_room="5349">
+				<general_description>The arched hall continues to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5352">
+				<general_description>You see a small vault from which a shining light issues.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="5352" name="A Shining Vault" sector="0" flags="8">
+		<description>   The stones of the pyramid here take on a strange, twinkling quality,
+almost seeming to shine with an internal light.  As you look closer you
+see tiny glass-like glittery particles within the stones, that reflect
+the light from your light source so perfectly that they seem to shine.
+</description>
+		<directions>
+			<direction dir="north" to_room="5351">
+				<general_description>You see a hall with a beautifully arched ceiling.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="particles glass">
+				<description>The glassy particles reflect and refract your light source in a myriad
+of dazzling colours that dance across your eyes and make you giggle.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5353" name="A Massive Sand Dune" sector="2" flags="4">
+		<description>   You stand now on a massive sand dune on the southern side of
+the pyramid.  At the foot of the sand dune to the north you see a
+small hole where the stones of the pyramid have collapsed.  Not
+far to the south is a massive roiling sandstorm; the wind from the
+storm howls and bites at your face even here.
+</description>
+		<directions>
+			<direction dir="north" to_room="5347">
+				<general_description>You see a small hole leading back into the pyramid.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5354">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sand dune sandstorm">
+				<description>The sand is very white, and very sandy.  There sure is a lot of it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5354" name="A Swirling Sandstorm" sector="2" flags="0">
+		<description>   You are caught in the midst of a massive sandstorm.  Howling winds
+buffet you from all sides, and the sand tears at your skin, blinding
+you and choking you.  You have lost all sense of direction.
+</description>
+		<directions>
+			<direction dir="north" to_room="5353">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5354">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5355">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5354">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sand">
+				<description>Sand is about all you CAN see right now.  Unfortunately, it isn't very
+interesting sand, only white, dry, and blowing all over the place.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5355" name="A Swirling Sandstorm" sector="2" flags="0">
+		<description>   You are caught in the midst of a massive sandstorm.  Howling winds
+buffet you from all sides, and the sand tears at your skin, blinding
+you and choking you.  You have lost all sense of direction.
+</description>
+		<directions>
+			<direction dir="north" to_room="5354">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5355">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5356">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5355">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sand">
+				<description>Sand is about all you CAN see right now.  Unfortunately, it isn't very
+interesting sand, only white, dry, and blowing all over the place.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5356" name="A Swirling Sandstorm" sector="2" flags="0">
+		<description>   You are caught in the midst of a massive sandstorm.  Howling winds
+buffet you from all sides, and the sand tears at your skin, blinding
+you and choking you.  You have lost all sense of direction.
+</description>
+		<directions>
+			<direction dir="north" to_room="5355">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5356">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5357">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5356">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sand">
+				<description>Sand is about all you CAN see right now.  Unfortunately, it isn't very
+interesting sand, only white, dry, and blowing all over the place.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5357" name="A Swirling Sandstorm" sector="2" flags="0">
+		<description>   You are caught in the midst of a massive sandstorm.  Howling winds
+buffet you from all sides, and the sand tears at your skin, blinding
+you and choking you.  You have lost all sense of direction.
+</description>
+		<directions>
+			<direction dir="north" to_room="5356">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="5357">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5358">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="5357">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sand">
+				<description>Sand is about all you CAN see right now.  Unfortunately, it isn't very
+interesting sand, only white, dry, and blowing all over the place.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5358" name="A Massive Sand Dune" sector="2" flags="0">
+		<description>   Somehow you managed to make your way through the howling winds
+of the sandstorm, and clamber up on this sand dune.  You can see the
+storm to the north of you, and presumably the pyramid is somewhere
+beyond it.  Nothing but flat, featureless, open dunes of sand lie in
+every other direction.
+</description>
+		<directions>
+			<direction dir="north" to_room="5357">
+				<general_description>You see only a wall of whirling, blowing, dry sand.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5359" key="5317" keyword="riddle" flags="9">
+				<general_description>On the southern side of the sand dune is a small hole in the sand.
+For some reason you seem unable to get to it.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sand dune">
+				<description>The sand is very white, and very sandy.  There sure is a lot of it.
+</description>
+			</extra_description>
+			<extra_description keyword="riddle">
+				<description>A vision forms before your eyes, in glowing hieroglyphic symbols.
+</description>
+			</extra_description>
+			<extra_description keyword="hieroglyphics symbols">
+				<description>Like most of the ancient hieroglyphics of this land, the symbols are
+totally incomprehensible to you.  Perhaps the Sphinx has the answer
+to this ancient riddle.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="5359" name="Through The Hole In The Sand" sector="0" flags="13">
+		<description>   You squeeze through the small hole in the sand and land in a small
+white chamber.  Above you is a small hole, reachable by climbing up
+the small sandy slope down which you slid.
+</description>
+		<directions>
+			<direction dir="up" to_room="5358">
+				<general_description>You see a sand dune.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+</rooms>

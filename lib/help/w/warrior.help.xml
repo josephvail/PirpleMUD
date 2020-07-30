@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<help first_keyword="warrior" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="fighter" />
+	</additional_keywords>
+	<entry>WARRIOR FIGHTER
+
+Warriors are known to have more strength than the average player.  This makes
+them better at hand-to-hand-combat, as they possess skills of violence and
+fighting unequaled by the members of any other class.  However, they lack the
+ability to use magic of any sort.
+
+You can improve your skills by using the practice command.
+
+Skills available to warriors:
+
+kick, rescue, track, bash
+
+See also: PRACTICE
+</entry>
+</help>

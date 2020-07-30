@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<help first_keyword="open" keyword_count="4" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="close" />
+		<additional_keyword value="lock" />
+		<additional_keyword value="unlock" />
+	</additional_keywords>
+	<entry>OPEN CLOSE LOCK UNLOCK
+
+Usage: open | close | lock | unlock &lt;door&gt; [direction]
+
+To open, close, lock, and unlock doors, of course.
+
+Examples:
+
+  &gt; open portal
+  &gt; lock door
+  &gt; unlock door south
+  &gt; close gate
+
+See also: ENTER, LEAVE
+</entry>
+</help>

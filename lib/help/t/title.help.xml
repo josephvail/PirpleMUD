@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="title" keyword_count="1" mini_mud="true">
+	<entry>TITLE
+
+Usage: title &lt;new title&gt;
+
+Sets the title people see on the WHO list and when you're in the room with
+them.  You can't use parentheses (the "(" and ")" characters) because those
+are reserved for flags.
+
+Do not abuse this command; if you do, it will be taken from you.
+
+See also: FLAGS, WHO
+</entry>
+</help>

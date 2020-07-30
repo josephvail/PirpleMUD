@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<help first_keyword="protection from evil" keyword_count="1" mini_mud="true">
+	<entry>"PROTECTION FROM EVIL"
+
+Usage       : cast 'protection from evil' [self]
+Accumulative: Yes (Duration)
+Duration    : 24 hours
+Level       : Cleric level 8.
+
+The meaning of this spell is not yet fully defined.
+</entry>
+</help>

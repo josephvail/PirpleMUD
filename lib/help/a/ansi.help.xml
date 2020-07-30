@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<help first_keyword="ansi" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="color" />
+	</additional_keywords>
+	<entry>ANSI COLOR
+
+Usage: color [off | sparse | normal | complete]
+
+If you have a color-capable terminal and wish to see useful color-coding
+of information, use the COLOR command to set the level of coloring you see.
+
+  &gt; color off
+  This command disables all color.
+
+  &gt; color sparse
+  &gt; color normal
+  &gt; color complete
+
+These three commands turn color on to various levels.  Experiment to see
+which level suits your personal taste.
+
+'color' with no argument will display your current color level.
+
+Using color will slow down the speed at which you see messages VERY slightly.
+The effect is more noticeable on slower connections.  Even if you have
+color turned on, non-colorized messages will not be slowed down at all.
+
+See also: COLORSPRAY, "COLOR SPRAY"
+</entry>
+</help>

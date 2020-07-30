@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<items>
+	<item number="1500" name="scales justice scale" type="12" wear_flags="16385" extra_flags="1025" bitvector="0" weight="10" cost="15000" cost_per_day="2200" short_description="the Scales of Justice">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="1" />
+			<affect location="4" modifier="2" />
+		</affects>
+		<description>Two beautiful plates shaped like scales have been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="scales justice scale">
+				<description>As you look at the scales, you notice that they seem to sway back and forth
+of their own accord, as if weighing something that is to you still unseen.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1501" name="scroll parchment" type="12" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="500" cost_per_day="500" short_description="the Scroll of the Messenger">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="14" modifier="15" />
+			<affect location="19" modifier="-1" />
+		</affects>
+		<description>You see a solid and silver-lined scroll resting on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="scroll parchment">
+				<description>It seems to be some sort of spell designed to transport its user across
+vast distances, but how to make use of it is impossible to tell.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1502" name="sword blazing" type="5" wear_flags="8193" extra_flags="9283" bitvector="0" weight="10" cost="5000" cost_per_day="900" short_description="a blazing sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="13" modifier="-5" />
+		</affects>
+		<description>You are startled by the sight of a sword that glows as you approach it.</description>
+		<extra_descriptions>
+			<extra_description keyword="sword blazing">
+				<description>The edge of the blade is lined with writing, religious verse apparently, in
+a fine, silver-laced and flowing script.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1503" name="protector faithful shield" type="9" wear_flags="513" extra_flags="9216" bitvector="0" weight="20" cost="5000" cost_per_day="1500" short_description="the Protector of the Faithful">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A weighty looking shield has been abandoned by one unworthy to hold it.</description>
+		<extra_descriptions>
+			<extra_description keyword="protector faithful shield">
+				<description>It evades your attempts to focus on it, deflecting your gaze as it deflects
+the weapons that will try to kill you.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1504" name="armband band faded" type="12" wear_flags="257" extra_flags="512" bitvector="0" weight="0" cost="15" cost_per_day="50" short_description="a faded armband">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="6" modifier="2" />
+			<affect location="5" modifier="-1" />
+		</affects>
+		<description>A ragged and faded looking piece of cloth has been left here, forgotten.</description>
+		<extra_descriptions>
+			<extra_description keyword="armband faded band">
+				<description>It has some sort of militia insignia on it, perhaps an indication of a rank
+or award in some military order unknown to you.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1505" name="scimitar jeweled" type="5" wear_flags="8193" extra_flags="9217" bitvector="0" weight="5" cost="5000" cost_per_day="500" short_description="a jeweled scimitar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="7" />
+			<value number="2" val="1" />
+			<value number="3" val="3" />
+		</values>
+		<description>A stunning curved blade glistens on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="scimitar jeweled">
+				<description>The entire rim and edge of the scimitar's handle is bedecked in a gorgeous
+array of stones and precious metals.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1506" name="ember charred" type="1" wear_flags="16385" extra_flags="57857" bitvector="0" weight="0" cost="5" cost_per_day="2500" short_description="a charred ember">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="12" modifier="10" />
+		</affects>
+		<description>You glance briefly at a smouldering ember that rests at your feet.</description>
+		<extra_descriptions>
+			<extra_description keyword="ember charred">
+				<description>It glares back at you, almost angrily.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1507" name="ethereal flame" type="1" wear_flags="16385" extra_flags="50689" bitvector="0" weight="0" cost="5" cost_per_day="2500" short_description="an ethereal flame">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="12" modifier="8" />
+			<affect location="13" modifier="10" />
+		</affects>
+		<description>The entire room is aglow from the flame at your feet.</description>
+		<extra_descriptions>
+			<extra_description keyword="ethereal flame">
+				<description>Even being near it fills you with a peaceful and comforted feeling.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1508" name="key gates" type="18" wear_flags="16385" extra_flags="3329" bitvector="0" weight="0" cost="1000" cost_per_day="500" short_description="the Key to the Gates">
+		<values>
+			<value number="0" val="1508" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="2" />
+		</affects>
+		<description>You have found at last the Key to the Gates of eternity.</description>
+		<extra_descriptions>
+			<extra_description keyword="key gates">
+				<description>There are no gates.  They are inside of you.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1509" name="history burnt book" type="13" wear_flags="16385" extra_flags="0" bitvector="0" weight="2" cost="10" cost_per_day="500" short_description="a burnt history">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="4" modifier="2" />
+		</affects>
+		<description>You have found a burnt book, some forgotten history lying on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="history burnt book">
+				<description>So this is the jester's joke.  All of our works have turned to dust,
+and will end in nothing.  It is for this that he laughs.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1510" name="surah book" type="1" wear_flags="16385" extra_flags="15368" bitvector="0" weight="0" cost="500" cost_per_day="8000" short_description="a surah of the book">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="3" />
+			<affect location="19" modifier="3" />
+		</affects>
+		<description>You notice a thin parchment, with flowing script and rich decorative trim.</description>
+		<extra_descriptions>
+			<extra_description keyword="surah book">
+				<description>Al-Kafirun
+Say: "Oh ye that reject the Faith, I do not worship what you worship, nor
+do you worship what I worship.  To you be your Way, and to me mine."
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1511" name="forge unity" type="9" wear_flags="129" extra_flags="15616" bitvector="0" weight="5" cost="12000" cost_per_day="4000" short_description="the Forge of Unity">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="19" modifier="2" />
+			<affect location="13" modifier="10" />
+		</affects>
+		<description>It is surely the best of men who has left these gloves to aid you.</description>
+	</item>
+	<item number="1512" name="ankh" type="11" wear_flags="5" extra_flags="2049" bitvector="0" weight="3" cost="5000" cost_per_day="2000" short_description="an Ankh">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="12" modifier="10" />
+			<affect location="12" modifier="5" />
+		</affects>
+		<description>You see a beautiful pendant of ancient and noble craftsmanship.</description>
+		<extra_descriptions>
+			<extra_description keyword="ankh">
+				<description>It is an even earlier version of the old Christian cross, an oval loop
+above the crossed arms of white gold.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1513" name="amulet ra" type="11" wear_flags="5" extra_flags="65" bitvector="0" weight="5" cost="7500" cost_per_day="1500" short_description="the Amulet of Ra">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="2" />
+			<affect location="4" modifier="2" />
+		</affects>
+		<description>You have found a beautiful gleaming disc with a golden image of the sun god.</description>
+	</item>
+	<item number="1514" name="image azathoth graven" type="1" wear_flags="16385" extra_flags="68096" bitvector="0" weight="2" cost="1000" cost_per_day="500" short_description="a graven image of Azathoth">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="6" modifier="2" />
+		</affects>
+		<description>You frown in disgust at the hideous icon of a false god that you have found.</description>
+	</item>
+</items>

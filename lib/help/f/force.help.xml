@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="force" keyword_count="1" mini_mud="true">
+	<entry>FORCE
+
+Usage: force &lt;victim | all&gt; &lt;command&gt; &lt;arguments&gt;
+
+FORCE forces a character, either monster or player, to perform a certain
+action.  FORCE ALL forces everyone in the game; FORCE ROOM forces everyone in
+your room.
+
+Example:
+
+  &gt; force fido drop meat
+  &gt; force all save
+  &gt; force room look fido
+
+If you are invisible to the one being forced, the force will be performed
+silently.
+</entry>
+</help>

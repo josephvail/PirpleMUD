@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="follow" keyword_count="1" mini_mud="true">
+	<entry>FOLLOW
+
+Usage: follow &lt;leader&gt;
+
+Use FOLLOW to automatically follow someone else.
+
+Examples:
+
+  &gt; follow ras
+  &gt; follow self
+
+See also: GROUP, SNEAK
+</entry>
+</help>

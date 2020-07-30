@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="page" keyword_count="1" mini_mud="true">
+	<entry>PAGE
+
+Usage: page &lt;player | all&gt; &lt;message&gt;
+
+PAGE is used to send a message, along with a beep, to another player.  Use
+PAGE ALL to send a message and a beep to everyone in the game.
+
+Examples:
+
+  &gt; page rasmussen Hey, are you still at the keyboard?
+  &gt; page all GAME WILL BE SHUTTING DOWN IN 10 MINUTES
+
+Do not abuse this command.
+</entry>
+</help>

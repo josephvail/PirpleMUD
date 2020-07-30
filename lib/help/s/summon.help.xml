@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="summon" keyword_count="1" mini_mud="true">
+	<entry>SUMMON
+
+Usage       : cast 'summon' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Cleric level 10.
+
+Will summon a person of the name spoken.  It is not possible to
+summon someone of three or more levels above yourself.
+If you attempt to summon a monster, it will get a saving throw.
+
+See also: NOSUMMON
+</entry>
+</help>

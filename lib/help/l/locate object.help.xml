@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="locate object" keyword_count="1" mini_mud="true">
+	<entry>"LOCATE OBJECT"
+
+Usage       : cast 'locate object' &lt;object&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Mage level 6.
+
+If possible you will know exactly where an object is, or the
+name of the person using it.  If more than one object by the
+same name exists, you will get a listing of several objects.
+The maximum number of objects you can simultaneously locate is
+your level divided by 2.
+</entry>
+</help>

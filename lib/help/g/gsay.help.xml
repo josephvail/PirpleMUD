@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="gsay" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="gtell" />
+	</additional_keywords>
+	<entry>GSAY GTELL
+
+Usage: gsay &lt;message&gt;
+       gtell &lt;message&gt;
+
+Tell something to all the members of your group, even if they're not in the
+room.
+
+See also: GROUP, TELL, SAY
+</entry>
+</help>

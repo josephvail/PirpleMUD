@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="blindness" keyword_count="1" mini_mud="true">
+	<entry>BLINDNESS
+
+Usage       : cast 'blindness' &lt;victim&gt;
+Accumulative: No
+Duration    : 2 hours.
+Level       : Mage level 9, Cleric level 6.
+
+Blindness will blind a victim failing its saving throw.
+A blinded person will have -4 penalty to both hitroll and AC.
+
+See also: AC
+</entry>
+</help>

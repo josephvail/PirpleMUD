@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="consider" keyword_count="1" mini_mud="true">
+	<entry>CONSIDER
+
+Usage: consider &lt;monster&gt;
+
+This command will compare your Level with the &lt;monsters&gt; level.  You will then
+receive a rough estimate, which is by no means exact.  Consider does not take
+hitpoints/special attacks/damage into account.
+
+Example:
+
+  &gt; consider fido
+
+See also: HIT, KILL
+</entry>
+</help>

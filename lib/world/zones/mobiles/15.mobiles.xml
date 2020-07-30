@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="1500" name="allah god yahweh" level="30" sex="1" alignment="1000" flags="256274" aff_flags="128" position="8" default_position="8" dam_nodice="8" dam_sizedice="8" max_manapoints="1" max_movepoints="2999" armor="-100" experience="400000" hitroll="30" damroll="9" short_description="Allah">
+		<long_description>You resist the urge to avert your eyes from the sight of the one true God.
+</long_description>
+		<description>The sight is for each man a different, a mirror into the true nature of
+each person's body and soul.  At first a proud, bitter old man, but just
+as easily a gentle extended hand, a smile, and gardens... gardens.
+</description>
+	</mobile>
+	<mobile number="1501" name="michael angel archangel" level="29" sex="1" alignment="1000" flags="2050" aff_flags="128" position="8" default_position="8" dam_nodice="6" dam_sizedice="7" max_manapoints="100" max_movepoints="1900" armor="-70" experience="280000" hitroll="26" damroll="7" short_description="Michael">
+		<long_description>The archangel Michael turns and begins to look you over.
+</long_description>
+		<description>At first you see nothing but a bright and comforting glow; then the
+image sharpens suddenly, and you see a face, eyes, hands, but then
+that too fades, and you see nothing.
+</description>
+	</mobile>
+	<mobile number="1502" name="gabriel angel archangel" level="29" sex="1" alignment="1000" flags="2050" aff_flags="128" position="8" default_position="8" dam_nodice="6" dam_sizedice="7" max_manapoints="100" max_movepoints="1900" armor="-70" experience="280000" hitroll="26" damroll="7" short_description="Gabriel">
+		<long_description>The archangel Gabriel smiles, and begins to tell you something.
+</long_description>
+		<description>Known as the Messenger, it is this angel that has brought the Divine Word
+to the chosen prophets, and in turn brought the Seal of the Prophets on a
+miraculous journey to the holy city of Jerusalem.
+</description>
+	</mobile>
+	<mobile number="1503" name="raphael angel archangel" level="29" sex="1" alignment="1000" flags="2050" aff_flags="128" position="8" default_position="8" dam_nodice="6" dam_sizedice="7" max_manapoints="100" max_movepoints="1900" armor="-70" experience="280000" hitroll="26" damroll="7" short_description="Raphael">
+		<long_description>The archangel Raphael looks up and frowns at you in disapproval.
+</long_description>
+		<description>It is impossible to get a solid glance at the archangel.  He is nothing
+that is human, and with a mere whisper, he dispels every image that you
+attempt to create in your mind.
+</description>
+	</mobile>
+	<mobile number="1504" name="uriel angel archangel" level="29" sex="1" alignment="1000" flags="2050" aff_flags="128" position="8" default_position="8" dam_nodice="6" dam_sizedice="7" max_manapoints="100" max_movepoints="1900" armor="-70" experience="280000" hitroll="26" damroll="7" short_description="Uriel">
+		<long_description>Uriel, the angel of darkness, stands here guarding the way forward.
+</long_description>
+		<description>After the Fall of the bringer of light, the Lord had need for the
+service of a fourth, and it was this angel, Uriel, that rose to the
+highest ranks.
+</description>
+	</mobile>
+	<mobile number="1505" name="cherub cherubin cherubim" level="17" sex="0" alignment="0" flags="34" aff_flags="128" position="8" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="260" armor="0" experience="40000" hitroll="19" damroll="4" short_description="the cherubin">
+		<long_description>The cherubin of the blazing sword looks at you and begins to chuckle.
+</long_description>
+		<description>The monster before you seems to be nothing more than a baby or young
+child, wrapped in a glowing white cloth, but as you try to walk past,
+the beast grins and cackles, drawing its sword and blocking the way.
+</description>
+	</mobile>
+	<mobile number="1506" name="jester" level="13" sex="1" alignment="-300" flags="2" aff_flags="0" position="6" default_position="6" dam_nodice="2" dam_sizedice="8" max_manapoints="2" max_movepoints="180" armor="10" gold="3450" experience="21000" hitroll="14" damroll="2" short_description="the jester">
+		<long_description>A mad, drunken jester is sitting here, lost in his deepening stupor.
+</long_description>
+		<description>He is dimly aware of your gaze.  Chuckling softly, you hear him mutter
+something obscure: dragons, the temple, the falling of great empires.
+He laughs at you and takes another drink.
+</description>
+	</mobile>
+	<mobile number="1507" name="jinn sprite" level="23" sex="0" alignment="0" flags="68" aff_flags="2" position="8" default_position="8" dam_nodice="3" dam_sizedice="9" max_manapoints="2" max_movepoints="400" armor="-20" experience="70000" hitroll="20" damroll="3" short_description="the jinn">
+		<long_description>One of the jinn dances in and out of the air before your eyes, taunting you.
+</long_description>
+		<description>You have heard legends of these creatures, the mischievous little demons
+said to be trapped in lamps and bottles, capable of granting all kinds of
+powerful wishes.  To you, it looks like nothing more than an annoying little
+sprite.
+</description>
+	</mobile>
+	<mobile number="1508" name="man old" level="26" sex="1" alignment="-1000" flags="34" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="9" max_manapoints="10" max_movepoints="840" armor="-50" gold="34000" experience="180000" hitroll="24" damroll="6" short_description="the slumped old man">
+		<long_description>A slumped, shaking old man stands up and begins to yell at the world.
+</long_description>
+		<description>He wears a faded uniform, decorated with honors of his own creation,
+slackened jaws and pasty white bags sagging under his ugly, hating eyes.
+A tuft of reckless dark hair scatters across his forehead, and his right
+hand shakes and shakes.
+</description>
+	</mobile>
+	<mobile number="1509" name="caliph hakim al-hakim" level="26" sex="1" alignment="-1000" flags="34" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="9" max_manapoints="10" max_movepoints="840" armor="-50" gold="34000" experience="180000" hitroll="24" damroll="6" short_description="al-Hakim">
+		<long_description>The mad Caliph al-Hakim is here, dissecting a young boy.
+</long_description>
+		<description>The darkest skin, and eyes so white.  Covered only in a shoddy woolen
+tunic, he has not bathed in months nor eaten in days, and yet his smile,
+so charming.
+</description>
+	</mobile>
+	<mobile number="1510" name="judas escariot apostle" level="25" sex="1" alignment="-1000" flags="6" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="650" armor="-40" gold="1" experience="145000" hitroll="23" damroll="5" short_description="Judas Escariot">
+		<long_description>The wayward apostle approaches slowly, extending his arms in a hug.
+</long_description>
+		<description>You see nothing but the sadness of a man who would sell his own God.
+</description>
+	</mobile>
+	<mobile number="1511" name="pharoah" level="25" sex="1" alignment="-1000" flags="2" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="650" armor="-40" gold="25000" experience="145000" hitroll="23" damroll="5" short_description="Pharoah">
+		<long_description>Pharoah has been sent here in retribution for a lifetime of evils.
+</long_description>
+		<description>Richly clothed and postured in arrogance and love of power, he looks at
+you with nothing more than a smirk of contempt.
+</description>
+	</mobile>
+	<mobile number="1512" name="abu bakr first caliph" level="25" sex="1" alignment="1000" flags="2" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="650" armor="-40" gold="25000" experience="145000" hitroll="23" damroll="5" short_description="Abu Bakr">
+		<long_description>Abu Bakr, first of the Rashidun, mourns over the death of the Prophet.
+</long_description>
+		<description>You see a simple man, dressed in dark and unadorned robes, bent over and
+pensive, reliving the memories of a man he never thought would die.
+</description>
+	</mobile>
+	<mobile number="1513" name="umar second caliph" level="25" sex="1" alignment="1000" flags="2" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="650" armor="-40" gold="25000" experience="145000" hitroll="23" damroll="5" short_description="Umar">
+		<long_description>You see Umar, second of the Rashidun, the successors of the Prophet.
+</long_description>
+		<description>You are amazed at the piety of the man.  He looks at you in sadness,
+saying: "I do not wish to fight you, but if you refuse the truth of
+the Word, then I must."
+</description>
+	</mobile>
+	<mobile number="1514" name="uthman third caliph" level="26" sex="1" alignment="1000" flags="34" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="9" max_manapoints="10" max_movepoints="840" armor="-50" gold="34000" experience="180000" hitroll="24" damroll="6" short_description="Uthman">
+		<long_description>The third of the rightly-guided Caliphs, Uthman, stands before you.
+</long_description>
+		<description>He was chosen as leader by a clique of jealous rivals who could agree
+upon no other.  The memory of the Prophet fading quickly from the minds
+of the faithful, he could do little, and was in the end killed by his
+enemies.
+</description>
+	</mobile>
+	<mobile number="1515" name="ali fourth last caliph" level="26" sex="1" alignment="1000" flags="34" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="9" max_manapoints="10" max_movepoints="840" armor="-50" gold="34000" experience="180000" hitroll="24" damroll="6" short_description="Ali">
+		<long_description>You have come before Ali, fourth and last of the Rashidun.
+</long_description>
+		<description>Some view him as the closest to God among all of the Caliphs, the one
+most deserving of our respect and reverence.  Still others saw him as
+a schismatic, a heretic, one to be killed and forgotten.  To look at
+him now is for you to decide for yourself.
+</description>
+	</mobile>
+	<mobile number="1516" name="angel beautiful iblis" level="25" sex="1" alignment="-1000" flags="38" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="5" max_movepoints="650" armor="-40" gold="25000" experience="145000" hitroll="23" damroll="5" short_description="Iblis">
+		<long_description>You gaze in awe at the most beautiful of all angels, Iblis, the Fallen.
+</long_description>
+		<description>He smiles calmly, and begins to tell you of the time when he would not
+kneel, would not prostrate himself before the first human beings.  And
+then he gestures at you, smiling, and conjures an image of all the 
+temptations that will be yours if you in turn but follow him.
+</description>
+	</mobile>
+	<mobile number="1517" name="iblis satan devil voice" level="25" sex="1" alignment="-1000" flags="38" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="5" max_movepoints="650" armor="-40" gold="25000" experience="145000" hitroll="23" damroll="5" short_description="the Temptation">
+		<long_description>You pause nervously as a voice whispers at you from over your shoulder.
+</long_description>
+		<description>There is no physical figure attached to the presence that dominates this
+place, just tormented laughter, moaning, screaming, and begging.
+</description>
+	</mobile>
+	<mobile number="1518" name="serpent dragon devil iblis" level="27" sex="1" alignment="-1000" flags="38" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="8" max_manapoints="2" max_movepoints="825" armor="-50" gold="40000" experience="180000" hitroll="24" damroll="5" short_description="the raging dragon">
+		<long_description>A raging dragon turns to you in violent lust for your soul.
+</long_description>
+		<description>The serpent of babylon, the aged and violet hued monster that has 
+watched all of mankind succumb before its power, turns to you as
+its last victim.
+</description>
+	</mobile>
+	<mobile number="1519" name="demon fire" level="27" sex="1" alignment="-1000" flags="38" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="8" max_manapoints="2" max_movepoints="825" armor="-50" gold="40000" experience="180000" hitroll="24" damroll="5" short_description="the demon">
+		<long_description>The hell-fire around you is dominated by a massive, burning demon.
+</long_description>
+		<description>You see nothing but the inexorably red and burning anger of the 
+lord of the underworld that you fear to be your fate.
+</description>
+	</mobile>
+	<mobile number="1520" name="baby innocent" level="22" sex="1" alignment="1000" flags="2" aff_flags="1032" position="4" default_position="4" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="150" armor="-40" gold="20000" experience="145000" hitroll="23" damroll="4" short_description="the innocent baby">
+		<long_description>Lying on the ground wrapped in blankets is the most innocent of babies.
+</long_description>
+		<description>The baby is barely aware of your presence, lost in a sleepy and
+contented yawn.
+</description>
+	</mobile>
+	<mobile number="1521" name="boy teenage" level="24" sex="1" alignment="1000" flags="2" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="680" armor="-40" gold="22000" experience="145000" hitroll="23" damroll="5" short_description="the teenage boy">
+		<long_description>You stop in surprise at the sight of a teenage boy staring off to the distance.
+</long_description>
+		<description>He is young, and has not yet seen the bloodiness of this world.  You follow
+his gaze and notice that he is gazing in wonderment at the fullness of the
+moon.
+</description>
+	</mobile>
+	<mobile number="1522" name="man" level="26" sex="1" alignment="1000" flags="2050" aff_flags="1032" position="5" default_position="5" dam_nodice="4" dam_sizedice="8" max_manapoints="2" max_movepoints="820" armor="-50" gold="40000" experience="180000" hitroll="24" damroll="5" short_description="the man">
+		<long_description>A middle-aged man is here, kneeling in prayer.
+</long_description>
+		<description>He is tired, the lines of age marking his face, but in his robe, 
+kneeling, he is the image of perfect contentment.
+</description>
+	</mobile>
+	<mobile number="1523" name="soul" level="28" sex="1" alignment="1000" flags="34" aff_flags="1032" position="8" default_position="8" dam_nodice="4" dam_sizedice="8" max_manapoints="2" max_movepoints="820" armor="-50" experience="190000" hitroll="24" damroll="5" short_description="the bodyless soul">
+		<long_description>You are overwhelmed by the presence of a soul that has transcended its body.
+</long_description>
+		<description>You sense certain tastes and smells, the winds through the gardens.
+Nothing can explain or describe this perfection, this utter bliss.
+</description>
+	</mobile>
+</mobiles>

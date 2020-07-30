@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<help first_keyword="report" keyword_count="1" mini_mud="true">
+	<entry>REPORT
+
+Usage: report
+
+This command sends a report of your current health to the other people in
+your group.
+</entry>
+</help>

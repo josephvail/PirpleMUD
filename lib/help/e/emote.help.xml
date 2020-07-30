@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<help first_keyword="emote" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value=":" />
+	</additional_keywords>
+	<entry>EMOTE :
+
+Usage: emote &lt;message&gt;
+       : &lt;message&gt;
+
+Show people what you're feeling.  The shorthand is ":".
+
+"emote &lt;string&gt;" will display your name, then the string.
+
+Example:
+
+If your name is "Helt",
+
+  &gt; emote is feeling very sad today.
+
+will display:
+
+Helt is feeling very sad today.
+
+See also: SOCIALS
+</entry>
+</help>

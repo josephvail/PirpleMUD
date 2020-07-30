@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="5300" name="asp snake" level="5" sex="0" alignment="0" flags="97" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="6" max_manapoints="5" max_movepoints="50" armor="80" gold="10" experience="1000" hitroll="6" damroll="1" short_description="the horrible asp">
+		<long_description>A small, poisonous asp slithers over your feet.
+</long_description>
+		<description>The asp is a small, smooth-scaled snake the color of worn pottery.
+The poison bite of this snake has felled many a mighty pharoah.
+</description>
+	</mobile>
+	<mobile number="5301" name="cobra snake" level="7" sex="0" alignment="0" flags="97" aff_flags="0" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="7" max_movepoints="70" armor="70" gold="25" experience="2000" hitroll="7" damroll="2" short_description="the hooded cobra snake">
+		<long_description>A cobra snake rears up and opens its fearsome hood.
+</long_description>
+		<description>The cobra snake waves back and forth before you, its hood displaying brilliant
+colors designed to serve notice to its prey that it is about to strike.
+</description>
+	</mobile>
+	<mobile number="5302" name="mongoose" level="11" sex="2" alignment="10" flags="96" aff_flags="1024" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="11" max_movepoints="110" armor="60" gold="100" experience="10000" hitroll="10" damroll="3" short_description="the wily little mongoose">
+		<long_description>A small mongoose slinks along the ground, hunting snakes.
+</long_description>
+		<description>The mongoose is a wily rodent, a quick hunter of nasty poisonous snakes.
+She sniffs you and appears to be looking for food in your hand.
+</description>
+	</mobile>
+	<mobile number="5303" name="pyramid watcher" level="8" sex="1" alignment="250" flags="4114" aff_flags="32768" position="8" default_position="8" dam_nodice="2" dam_sizedice="6" max_manapoints="8" max_movepoints="80" armor="50" gold="200" experience="3750" hitroll="8" damroll="2" short_description="the pyramid watcher">
+		<long_description>The pyramid watcher protects the tombs from intruders.
+</long_description>
+		<description>The pyramid watcher has made a pledge to destroy any would-be looters of
+the tombs of the pharoahs.  He is clad from head to foot in utilitarian
+sand-colored clothing.
+</description>
+	</mobile>
+	<mobile number="5304" name="thief tomb" level="10" sex="1" alignment="-250" flags="193" aff_flags="819200" position="8" default_position="8" dam_nodice="2" dam_sizedice="6" max_manapoints="10" max_movepoints="100" armor="50" gold="500" experience="9000" hitroll="10" damroll="3" short_description="the tomb thief">
+		<long_description>A sneaky tomb thief moves about in search of treasure.
+</long_description>
+		<description>The thief brushes against you briefly, then slinks back into the shadows.
+</description>
+	</mobile>
+	<mobile number="5305" name="ali baba thief" level="18" sex="1" alignment="-300" flags="2133" aff_flags="294912" position="8" default_position="8" dam_nodice="3" dam_sizedice="8" max_manapoints="18" max_movepoints="180" armor="0" gold="1000" experience="30000" hitroll="18" damroll="2" short_description="Ali Baba">
+		<long_description>Ali Baba is here, hunting for the pharoah's tomb.
+</long_description>
+		<description>You see a tall, full-bearded man with a mischevious glint in his eye.  Ali Baba
+has made his life from stealing things from others, including many items stolen
+recently from under the nose of the hapless guardians of this pyramid.  Someday
+he might get caught, but not today...
+</description>
+	</mobile>
+	<mobile number="5306" name="magic carpet" level="9" sex="0" alignment="500" flags="256018" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="9" max_movepoints="90" armor="70" gold="250" experience="6000" hitroll="9" damroll="2" short_description="the magic carpet">
+		<long_description>A small woven carpet lies under your feet.
+</long_description>
+		<description>The carpet is simply beautiful, made from intricately woven silken material.  
+It seems to rise up at the touch of your feet.  Wait, it is rising, a few feet
+above the ground!  In fact, it seems to be ALIVE!
+</description>
+	</mobile>
+	<mobile number="5307" name="mummy corpse" level="12" sex="0" alignment="-600" flags="188512" aff_flags="33832" position="8" default_position="8" dam_nodice="1" dam_sizedice="6" max_manapoints="12" max_movepoints="120" armor="40" gold="750" experience="15000" hitroll="12" damroll="6" short_description="the mummy">
+		<long_description>A mummy reaches for you, disturbed by your presence.
+</long_description>
+		<description>You only see the disfigured, rotting features of decaying human flesh,
+animated by the distempered spirit of a long-deceased person.
+</description>
+	</mobile>
+	<mobile number="5308" name="sand man sandman" level="14" sex="1" alignment="0" flags="190576" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="7" max_manapoints="14" max_movepoints="140" armor="20" gold="1500" experience="18000" hitroll="14" damroll="4" short_description="the sandman">
+		<long_description>A sandman rises up from the desert floor.
+</long_description>
+		<description>The sandman is exactly that -- some sort of strange being formed from the sands
+of the desert floor.  It seems quite large and strong and at home in the heat
+and sandy winds.
+</description>
+	</mobile>
+	<mobile number="5309" name="efreeti efreet" level="20" sex="1" alignment="-600" flags="256051" aff_flags="33800" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="20" max_movepoints="200" armor="-10" gold="11000" experience="40000" hitroll="20" damroll="4" short_description="the efreeti">
+		<long_description>The efreeti stands here, sheathed in a column of fire.
+</long_description>
+		<description>The efreeti is a mighty being formed from living fire.  He gazes down at
+you with disdain and scorn, arms folded across his mighty chest.
+</description>
+	</mobile>
+	<mobile number="5310" name="caryatid column" level="24" sex="2" alignment="0" flags="260114" aff_flags="33792" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="24" max_movepoints="240" armor="-30" gold="35000" experience="100000" hitroll="24" damroll="8" short_description="the caryatid">
+		<long_description>A sandstone column stands here, carved into a feminine figure.
+</long_description>
+		<description>The column has been carved into a set of four shapely women, each facing
+outward into the room.  The sandstone of the caryatid is smooth with age,
+but you can still make out a deadly stone sword in the hands of each figure.
+</description>
+	</mobile>
+	<mobile number="5311" name="djinn genie" level="28" sex="1" alignment="600" flags="256019" aff_flags="33800" position="8" default_position="8" dam_nodice="6" dam_sizedice="6" max_manapoints="28" max_movepoints="280" armor="-60" gold="60000" experience="310000" hitroll="28" damroll="12" short_description="the djinn">
+		<long_description>The djinn issues forth from the confines of a small lamp.
+</long_description>
+		<description>The djinn is a mighty being formed from the air itself and frequently
+imprisoned in a small lamp, used to do the bidding of those who find him.
+He smiles down at you congenially, arms folded across his blue-tinged 
+skin, and strokes his goatee.
+</description>
+	</mobile>
+	<mobile number="5312" name="hieracosphinx sphinx" level="15" sex="0" alignment="-200" flags="92272" aff_flags="33792" position="8" default_position="8" dam_nodice="1" dam_sizedice="10" max_manapoints="15" max_movepoints="150" armor="30" gold="7500" experience="21000" hitroll="15" damroll="5" short_description="the hieracosphinx">
+		<long_description>A hieracosphinx looks at you cunningly.
+</long_description>
+		<description>The hieracosphinx are cunning, small, but nasty creatures, having the heads
+of birds, mighty wingspans, and a full set of four paws to rend their victims
+to pieces.  They tend to be quite jealous of the sharper wits of their older
+cousins.
+</description>
+	</mobile>
+	<mobile number="5313" name="gynosphinx sphinx" level="19" sex="2" alignment="100" flags="92179" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="10" max_manapoints="19" max_movepoints="190" armor="0" gold="10000" experience="35000" hitroll="19" damroll="10" short_description="the gynosphinx">
+		<long_description>A gynosphinx sits here, befuddled by a riddle.
+</long_description>
+		<description>The gynosphinx is a crafty but gentle creature, having the body of a
+beautiful dark-skinned woman from the waist up, a feathery set of wings
+and the hind legs of a mighty cat.  Right now she is confused, having 
+just heard a puzzling riddle from a cousin criosphinx.
+</description>
+	</mobile>
+	<mobile number="5314" name="criosphinx sphinx" level="23" sex="1" alignment="300" flags="92179" aff_flags="33800" position="8" default_position="8" dam_nodice="3" dam_sizedice="10" max_manapoints="23" max_movepoints="230" armor="-20" gold="25000" experience="80000" hitroll="23" damroll="15" short_description="the criosphinx">
+		<long_description>A criosphinx calmly watches you.
+</long_description>
+		<description>The criosphinx is a calm and friendly creature, having the head of a ram atop
+the body of a well-furred feline with eagle-like wings.  He delights in riddles,
+and in poking occasional fun at his easily confused lesser cousins.
+</description>
+	</mobile>
+	<mobile number="5315" name="androsphinx sphinx" level="27" sex="0" alignment="400" flags="92179" aff_flags="33800" position="8" default_position="8" dam_nodice="4" dam_sizedice="10" max_manapoints="27" max_movepoints="270" armor="-60" gold="50000" experience="200000" hitroll="27" damroll="20" short_description="the androsphinx">
+		<long_description>A mighty androsphinx tosses its lion-like mane.
+</long_description>
+		<description>The mighty androsphinx is a huge creature, with the body of a lion whose
+face  is quite man-like, perhaps even handsome, and a massive pair of feathered
+wings.  Tales are told of pharoahs that were rendered permanently deaf by the 
+mighty roar of this sphinx.
+</description>
+	</mobile>
+	<mobile number="5316" name="great sphinx" level="41" sex="0" alignment="500" flags="256019" aff_flags="33928" position="8" default_position="8" dam_nodice="5" dam_sizedice="10" max_manapoints="41" max_movepoints="410" armor="-200" gold="125000" experience="1500000" hitroll="41" damroll="25" short_description="the great sphinx">
+		<long_description>A mighty sphinx rests here in the sand, dormant now for centuries.
+</long_description>
+		<description>The great sphinx towers tens of feet above you, resting here in a state of 
+dormancy.  It has become almost indistinguishable from the sand that surrounds
+it, although you can still make out the features of the handsome face that once
+advised many rulers.
+</description>
+	</mobile>
+	<mobile number="5317" name="ramses mummy" level="38" sex="1" alignment="150" flags="190483" aff_flags="33928" position="8" default_position="8" dam_nodice="8" dam_sizedice="5" max_manapoints="38" max_movepoints="380" armor="-180" gold="88000" experience="1000000" hitroll="38" damroll="40" short_description="Ramses the Damned">
+		<long_description>You have awakened the mighty servant to the pharoahs, Ramses.
+</long_description>
+		<description>As your light spills over his face and body, you can see his features
+begin to fill out, swell, and harden, until an apparently healthy man 
+stands before you, clad only in the raiments he was left in when he last 
+slept.  His hair is a soft black, his skin a deep chocolate, and his 
+tall frame is totally still, his chest not even moving to breathe.
+</description>
+	</mobile>
+</mobiles>

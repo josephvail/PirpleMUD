@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<help first_keyword="wizhelp" keyword_count="1" mini_mud="true">
+	<entry>WIZHELP
+
+Usage: wizhelp
+
+Gives a list of the special commands available at your level.
+</entry>
+</help>

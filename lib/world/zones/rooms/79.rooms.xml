@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="7900" name="Outside Redferne's Residence" sector="0" flags="516">
+		<description>   A huge cloud forms the plateau on which you are now standing.  The
+wind here is absolutely quiet and the sun is shining warmly upon you.
+From under the cloud you can hear the faint sounds of Midgaard.  Right
+before you to the north lies the grand Mansion of Naris.
+</description>
+		<directions>
+			<direction dir="north" to_room="7901" key="7901" keyword="gate huge arched" flags="9">
+				<general_description>You see an enormous arched gate leading into this magnificent building.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7918">
+				<general_description>You see a Huge Chain that anchors the Mansion of Naris to the ground.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7901" name="The Southern End Of The Hall" sector="0" flags="524">
+		<description>   You are standing in a vast hall that is dimly lit, but wherever the
+light comes from, is a mystery.  The walls seem to radiate warmth and
+give the pleasent feeling of being welcome here.  A large portrait is
+hanging on one of the walls.  A large wooden staircase leads up into
+the tower.  To the east there is a high passage away from the hall.
+This ends shortly after by a tall oak door.  The enormous hall extends
+further north from here.  To the south you can see a huge, and VERY 
+heavy-looking iron-wrought door.  It looks like this is the only exit
+from this magnificent old house.
+</description>
+		<directions>
+			<direction dir="north" to_room="7904">
+				<general_description>The hallway continues that way.  You can see more doorways under the
+wooden staircase in that direction.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7910" keyword="door oak tall" flags="1">
+				<general_description>You see a tall oak door there.  It looks quite tightly closed to you.
+On it little runes are chiselled into the wood.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7900" key="7901" keyword="gate iron huge" flags="9">
+				<general_description>Here you see a REAL door.  It would be more proper to call this a
+'GATE', rather than a 'door'.  It is really HUGE!  On it hangs a
+large sign with very large letters spelling:
+
+                EMERGENCY EXIT
+
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7902" keyword="door ashen ash yellow" flags="1">
+				<general_description>This looks like a 'door' in the meaning of the word.  The ashen wood
+is painted in a peculiar yellow color.  Small letters are written
+with black on it.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="7909">
+				<general_description>You see the staircase extending upwards into the very high tower.
+It ends in what seems like a large bedroom up there.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="runes">
+				<description>These runes are utterly strange to you, but you are in luck today:
+Under the runes you can just make out a sentence in Common.  It
+reads:
+
+Stay out, if you treasure your life.  That is if you are mortal.
+
+</description>
+			</extra_description>
+			<extra_description keyword="letters">
+				<description>They read:
+
+                LIBRARY
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7902" name="Redferne's Library" sector="0" flags="524">
+		<description>   This is truly a magnificent place!  Books and scrolls lie together
+on every shelf.  A large globe, with the map of the world upon it,
+stands in the dimly lit north-western corner of the room.  Two large
+and comfortable looking leather armchairs adorn the center of the
+library together with a huge oak desk.  Dim light radiates from an
+enormous crystal chandelier hanging down from the ceiling approximately
+10 feet off the floor.  To the east there is a great old ashen door.  A
+large glass window is set in the west wall.
+</description>
+		<directions>
+			<direction dir="east" to_room="7901" keyword="door ash ashen" flags="1">
+				<general_description>You can see an old ashen door, painted in a peculiar yellow color.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="globe world map">
+				<description>You see a large world map stretch out on the enormous globe.  It has towns
+drawn in every spot available for such.  In the middle of the map you can
+spot a large town with the name 'MIDGAARD' written over it.  The rest is
+mountains, woods, plains and water.
+</description>
+			</extra_description>
+			<extra_description keyword="midgaard town city">
+				<description>You see a small speck with woods on the west from it, plains to the east
+from it and mountains to the north from it.  To the east of it you can
+see a thin trail lead to a large castle.  Finally you notice a rather
+large river pour in from the east and go through Midgaard in the middle.
+</description>
+			</extra_description>
+			<extra_description keyword="chairs leather armchairs chair armchair">
+				<description>These two chairs are exactly alike one another.  They look incredibly
+comfortable.  They are both made from old leather, and yet they seem
+so worn that they can be nothing but a perfect place for a long needed
+rest.
+</description>
+			</extra_description>
+			<extra_description keyword="window glass">
+				<description>These windows are really BIG!  They reach from about 20 inches above the
+floor to approximately 10 inches under the ceiling.  If you try and
+'look out', you might see what might lie beyond these windows.
+</description>
+			</extra_description>
+			<extra_description keyword="out outside beyond">
+				<description>The clouds muster and form the ground on which this entire building is set.
+Through the thinnest of the clouds you can just make out Midgaard with all
+of its magnificent activity.
+</description>
+			</extra_description>
+			<extra_description keyword="river">
+				<description>You see a large and winding river cut through the landscape, starting at an
+enormous inland lake, it seeps through Midgaard and finally ends up in the
+Grand Sea on the west coast of the land.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7903" name="The Artifact Room Of Naris" sector="0" flags="524">
+		<description>   This is gloomy and dark room with only a faint light radiating from the
+walls.  A bunch of funny-looking items fill the center of the room.  There
+is no furniture here what-so-ever.  The only way out seems to be west,
+through the low steel door.
+</description>
+		<directions>
+			<direction dir="west" to_room="7910" key="7900" keyword="door steel safe" flags="9">
+				<general_description>You see only the back of a safe's steel door.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7904" name="The Northern End Of The Hall" sector="0" flags="524">
+		<description>   You are standing in the northern end of the huge hall.  This part is
+under the grand wooden staircase so the light seems to be a little less
+bright here, but this doesn't affect your sight at all.  To the north
+lies the kitchen.  To the south lies the southern end of the hall.  To
+the east there is a huge metal door.  To the west there is a large
+aspenwood door.
+</description>
+		<directions>
+			<direction dir="north" to_room="7906" />
+			<direction dir="east" to_room="7913" keyword="door metal huge" flags="9">
+				<general_description>You see a huge metal door.  From it a foul stench emanates.  The smell is
+the most awful experience in your entire life.  A thought seeps through this
+terrible stench and into your mind: 'Monsters', you feel BAD about opening
+that door.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7901">
+				<general_description>The rest of the hall lies in that direction, and so does the exit.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="7905" keyword="door aspen wood" flags="1">
+				<general_description>The door has 'SITTING ROOM' written on it.  It is made from Aspenwood and
+is beautifully carved with small elves as main issue of sculpture.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7905" name="The Sitting Room Of Naris" sector="0" flags="524">
+		<description>   You are standing in the middle of a really comfortable place.  The
+walls are decorated with paintings of smiling Kings and Queens.  The
+most attractive picture is one of a Prince in shining armour.  By one
+of the walls there is an old armchair.  The only exit is through the
+aspenwood door to the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="7904" keyword="door aspen heavy" flags="1">
+				<general_description>The door seems to be a very HEAVY door, carved completely from the trunk of
+an Aspen tree.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="chair armchair">
+				<description>This is truly a wonderful relic of the past.  In it is a large cushion.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7906" name="The Kitchen Of Naris" sector="0" flags="524">
+		<description>   This must be the place of food and drink.  You can hear the faint noise
+of rats feasting on meat and bread from somewhere undeterminable.  The sound
+makes you feel the agony of HUNGER.  The only visible exit is south to the
+Northern end of the hall.
+</description>
+		<directions>
+			<direction dir="north" to_room="7907" keyword="larder wooden cupboard" flags="1">
+				<general_description>It is dark in there.  But the sounds from there are unmistakable.  The rats
+are here for your information.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="7908" keyword="fridge" flags="1">
+				<general_description>You can see the fridge from here.  There are drinks all over the place.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="7904">
+				<general_description>You can see the northern end of the hall.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7907" name="The Larder" sector="0" flags="524">
+		<description>   You can see food all over.  Among the heaps of food you notice HUGE rats
+scuttling around, nibbling pieces off the heaps here and there.
+</description>
+		<directions>
+			<direction dir="south" to_room="7906" keyword="door wooden larder" flags="1" />
+		</directions>
+	</room>
+	<room number="7908" name="The Fridge" sector="0" flags="524">
+		<description>   This place is LOADED with drink, water and booze.
+</description>
+		<directions>
+			<direction dir="west" to_room="7906" keyword="door fridge" flags="1" />
+		</directions>
+	</room>
+	<room number="7909" name="On The Stairs" sector="0" flags="524">
+		<description>   You can see up and down the stairway.  It seems to take forever, either
+going up OR down.  It is just a seemingly insurmountable climb, either way.
+Up is the bedroom of Redferne, and down leads to the southern end of the
+hall.
+</description>
+		<directions>
+			<direction dir="up" to_room="7911" />
+			<direction dir="down" to_room="7901" />
+		</directions>
+	</room>
+	<room number="7910" name="The Treasure Room" sector="0" flags="524">
+		<description>   This place is gloomy.  A HUGE safe is cemented into the west wall.  The
+only visible exit is west, through the oak door.
+</description>
+		<directions>
+			<direction dir="east" to_room="7903" key="7900" keyword="safe steel" flags="9" />
+			<direction dir="west" to_room="7901" keyword="door oak tall" flags="1">
+				<general_description>You see a tall oak door.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7911" name="Redferne's Bedroom" sector="0" flags="524">
+		<description>   This is a snugly set bedroom with all the necessities for a romantic
+evening.  A large fireplace adorns the east wall, and sizzling away is
+the wood that is ablaze within.  The bed is enormous, covering at least
+HALF of this great room.  The room stretches at least 140 feet, so can
+you imagine the BED?  A large staircase leads down to the hall.  A couple
+of doors open up to a broad balcony to the south.
+</description>
+		<directions>
+			<direction dir="south" to_room="7912" keyword="doors" flags="1">
+				<general_description>The sun seems to shine out there, warmly and comforting.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7909" />
+		</directions>
+	</room>
+	<room number="7912" name="Redferne's Balcony" sector="0" flags="516">
+		<description>   You see a splendid of the most of this world.  The valleys stretch as
+far as the eye reaches to the south from here.  Down below you can see
+the entrance of this magnificent building.  To the north are the doors
+to Redferne's bedroom.
+</description>
+		<directions>
+			<direction dir="north" to_room="7911" keyword="doors" flags="1">
+				<general_description>You see the comfortable bedroom of Naris.
+</general_description>
+			</direction>
+			<direction dir="down">
+				<general_description>You see the ground on which this castle is set.  Funnily it seems to you
+that it is no more than clouds.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7913" name="The Monster Pen" sector="0" flags="520">
+		<description>   This looks like the cage in which a large carnivore is being kept.
+Judging by the state the walls are in, this could very well be a large
+AGGRESSIVE animal.  This makes you pretty insecure, this stating your
+feeling about the place quite mildly.
+</description>
+		<directions>
+			<direction dir="west" to_room="7904" keyword="door cage metal pen" flags="1">
+				<general_description>This looks like the only exit from here.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7914" name="On The Huge Chain" sector="5" flags="4">
+		<description>   This place has quite a good view over Midgaard.  Your possibilities of
+movement seem to extend only to the up and down directions.  Unless you
+want to let go of the secure and seemingly unmovable chain, then those are
+the directions you should take from here.
+</description>
+		<directions>
+			<direction dir="up" to_room="7915">
+				<general_description>Upwards, you see the chain disappearing into the clouds above.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="3120">
+				<general_description>Down below, you see the huge chain anchored to the ground at the Road
+Crossing of southern Midgaard.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7915" name="The Chain Where It Is Too Windy" sector="5" flags="4">
+		<description>   Hanging on to the chain you figure out that there is no way of leaving
+down from here.  The wind pulls you from left to right and back.  This
+seems like a totally impossible task.  The ascend is the only way ahead
+for you.  Otherwise you would risk death by falling to the hard ground
+below.  DO NOT DESCEND NOW OR YOU WILL SURELY DIE!!!!
+</description>
+		<directions>
+			<direction dir="up" to_room="7916">
+				<general_description>That way seems to be the only way away from here.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7920">
+				<general_description>THAT WAY IS CERTAIN DEATH!!!!  You can see the wind tearing at the chain
+down below you.  It swings like a furious serpent from side to side!  The
+descent is ABSOLUTELY out of the QUESTION.  
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7916" name="On The Great Chain Of Naris" sector="5" flags="4">
+		<description>   You are approximately on the middle of the treacherous Chain.  One false
+step and death will come and collect you quickly.  The chain leads upwards
+and down.  No way are you going to descend now... You've only just begun
+your climb.  Besides it could cost you your life.  Look down and you'll
+see why.
+</description>
+		<directions>
+			<direction dir="up" to_room="7918">
+				<general_description>There seems to be only one way from here and that's up.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7915">
+				<general_description>The chain down there is swinging wildly back and forth.  Going down there
+will be pretty risky!
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7917" name="The Chain" sector="5" flags="4">
+		<description>   As you descend, the chain seems to absorb all weather around it, making
+it swing less and less in the very powerful wind tearing at it.  The Chain
+seems to chuckle quietly, and as you descend further you hear a soft whisper
+originating from within the Chain *ITSELF*.  It says 'Welcome back some
+other time, stranger.  Your company is always... hmmm... interesting.  God
+Speed.'  The chain extends further down through the now spreading clouds.
+</description>
+		<directions>
+			<direction dir="up">
+				<general_description>It seems to you that the Chain is dissolving again.  Maybe it is just an 
+illusion, but still...
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7914">
+				<general_description>That way seems safe enough... now.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7918" name="The Mighty Chain Of Naris" sector="5" flags="4">
+		<description>   This place truly a splendid view of the WHOLE COUNTRY SIDE!  A magnificent
+light shines upon you and the way up through the clouds is opened.  Up there
+you can now see the Mansion of Naris, Residence of the Greater God Redferne.
+The chain beneath you seems to evaporate in the mustering clouds that
+surround you by now.
+</description>
+		<directions>
+			<direction dir="up" to_room="7900">
+				<general_description>You see the sunny top of the clouds.  Beyond these, the Mansion towers before
+your eyes.  Beautiful!!
+</general_description>
+			</direction>
+			<direction dir="down" to_room="7917">
+				<general_description>You see nothing but the thick clouds.  They've closed completely around the
+Chain.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="7920" name="The Free Fall From The Chain" sector="0" flags="10">
+		<description>   This is probably the third worst place to be in this entire MUD right
+now.  You fall
+.  
+.
+.
+and fall
+.
+.
+.
+and fall
+.
+.
+.
+and HIT THE GROUND WITH SUCH A *SPLUTCH* that you die horribly, but instantly.
+Good-bye cruel world.
+</description>
+		<directions>
+			<direction dir="north" to_room="7914" />
+			<direction dir="east" to_room="7915" />
+			<direction dir="south" to_room="7916" />
+			<direction dir="west" to_room="7917" />
+			<direction dir="up" to_room="7918" />
+			<direction dir="down" to_room="3120" />
+		</directions>
+	</room>
+</rooms>

@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<shops>
+	<shop number="12011" keeper="12011" trade_with_flags="0" no_money_temper="0" buy_profit="225" sell_profit="60">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s We are out of that item right now." />
+			<keeper_message number="2" message="%s You don't have that.  Stop wasting my time!" />
+			<keeper_message number="3" message="%s This is a weapon and armour shop!  Go someplace else!" />
+			<keeper_message number="4" message="%s A fine weapon indeed, but more than I can afford." />
+			<keeper_message number="5" message="%s NO CREDIT!" />
+			<keeper_message number="6" message="%s Here you go.  That will be %d coins.  Don't get hurt!" />
+			<keeper_message number="7" message="%s You'll get %d for that." />
+		</keeper_messages>
+		<will_buy>
+			<criteria type="73" />
+			<criteria type="0" />
+		</will_buy>
+		<will_construct>
+			<construct_item number="3020" />
+			<construct_item number="3021" />
+			<construct_item number="3022" />
+			<construct_item number="3023" />
+			<construct_item number="3024" />
+			<construct_item number="3025" />
+			<construct_item number="12008" />
+		</will_construct>
+		<locations>
+			<location room_number="12006" />
+		</locations>
+	</shop>
+	<shop number="12012" keeper="12012" trade_with_flags="0" no_money_temper="1" buy_profit="120" sell_profit="60">
+		<shop_hours>
+			<hours number="1" open="7" close="13" />
+			<hours number="2" open="14" close="19" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s I don't have anything like that.  Sorry." />
+			<keeper_message number="2" message="%s I don't think you have that." />
+			<keeper_message number="3" message="%s I don't stock that stuff.  Try another shop." />
+			<keeper_message number="4" message="%s I can't afford to buy anything, I'm only a poor peddler." />
+			<keeper_message number="5" message="%s No cash, no goods!" />
+			<keeper_message number="6" message="%s Here you go.  That'll be... %d coins." />
+			<keeper_message number="7" message="%s Thank-you very much.  Here are your %d coins as payment." />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="12006" />
+			<construct_item number="12007" />
+		</will_construct>
+		<locations>
+			<location room_number="12032" />
+		</locations>
+	</shop>
+	<shop number="12016" keeper="12016" trade_with_flags="0" no_money_temper="1" buy_profit="160" sell_profit="30">
+		<shop_hours>
+			<hours number="1" open="9" close="17" />
+			<hours number="2" open="18" close="22" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s We don't sell that." />
+			<keeper_message number="2" message="%s I don't think you have that." />
+			<keeper_message number="3" message="%s I don't stock that stuff.  Try another shop." />
+			<keeper_message number="4" message="%s I can't afford to buy anything, I'm only a poor peddler." />
+			<keeper_message number="5" message="%s No cash, no goods!" />
+			<keeper_message number="6" message="%s Here you go.  That'll be... %d coins." />
+			<keeper_message number="7" message="%s Thank-you very much.  Here are your %d coins as payment." />
+		</keeper_messages>
+		<locations>
+			<location room_number="12003" />
+			<location room_number="12004" />
+			<location room_number="12008" />
+			<location room_number="12015" />
+			<location room_number="12022" />
+			<location room_number="12023" />
+		</locations>
+	</shop>
+	<shop number="12034" keeper="12034" trade_with_flags="96" no_money_temper="2" buy_profit="185" sell_profit="50" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="8" close="18" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s We don't carry that item." />
+			<keeper_message number="2" message="%s You don't have that." />
+			<keeper_message number="3" message="%s I can't buy that.  See another shop." />
+			<keeper_message number="4" message="%s We are low on cash.  Come back later." />
+			<keeper_message number="5" message="%s Sorry, but you can't afford that." />
+			<keeper_message number="6" message="%s Here you go.  That will cost you %d." />
+			<keeper_message number="7" message="%s I will give you %d coins for that." />
+		</keeper_messages>
+		<will_buy>
+			<criteria type="68" />
+			<criteria type="69" />
+		</will_buy>
+		<will_construct>
+			<construct_item number="3050" />
+			<construct_item number="3051" />
+			<construct_item number="3052" />
+			<construct_item number="3053" />
+			<construct_item number="3054" />
+			<construct_item number="12030" />
+		</will_construct>
+		<locations>
+			<location room_number="12042" />
+		</locations>
+	</shop>
+	<shop number="12036" keeper="12036" trade_with_flags="0" no_money_temper="2" buy_profit="110" sell_profit="80" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s We don't have that item in stock right now." />
+			<keeper_message number="2" message="%s I don't think you have that item." />
+			<keeper_message number="3" message="%s Hmmmm... if I was in a good mood, I'd consider it.  But I'm not." />
+			<keeper_message number="4" message="%s The Emperor's tax collector just came.  I don't have the cash.  Sorry." />
+			<keeper_message number="5" message="%s NO CREDIT!  We don't even take the Renaissance Express card!" />
+			<keeper_message number="6" message="%s That will be %d coins.  Enjoy!" />
+			<keeper_message number="7" message="%s You'll get %d coins for that." />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3000" />
+			<construct_item number="3001" />
+			<construct_item number="3009" />
+			<construct_item number="3010" />
+			<construct_item number="3011" />
+			<construct_item number="12006" />
+			<construct_item number="12007" />
+		</will_construct>
+		<locations>
+			<location room_number="12062" />
+		</locations>
+	</shop>
+	<shop number="12037" keeper="12037" trade_with_flags="0" no_money_temper="2" buy_profit="175" sell_profit="60" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="6" close="20" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s We don't have that item on stock." />
+			<keeper_message number="2" message="%s I don't think you have that." />
+			<keeper_message number="3" message="%s I don't stock that stuff.  Try another shop." />
+			<keeper_message number="4" message="%s I can't afford it right now.  Come back tomorrow." />
+			<keeper_message number="5" message="%s No cash, no goods!" />
+			<keeper_message number="6" message="%s Here you go.  That'll be... %d coins." />
+			<keeper_message number="7" message="%s Thank-you very much.  Here are your %d coins as payment." />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3030" />
+			<construct_item number="3031" />
+			<construct_item number="3032" />
+			<construct_item number="3033" />
+			<construct_item number="3036" />
+			<construct_item number="12003" />
+		</will_construct>
+		<locations>
+			<location room_number="12063" />
+		</locations>
+	</shop>
+</shops>

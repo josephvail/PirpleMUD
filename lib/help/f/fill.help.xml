@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="fill" keyword_count="1" mini_mud="true">
+	<entry>FILL
+
+Usage: fill &lt;item&gt; &lt;object to fill from&gt;
+
+If you want to fill a container you're holding with liquid from a fountain
+in the same room as you.
+
+Example:
+
+  &gt; fill canteen fountain
+
+See also: POUR
+</entry>
+</help>

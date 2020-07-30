@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<zone number="64" name="Rand's Tower" bottom="6400" top="6499" lifespan="20" reset_mode="1" mini_mud="false" rooms="46" mobiles="6" items="21" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="6400" arg2="3" arg3="6400" />
+		<reset number="2" if_flag="false" type="M" arg1="6400" arg2="3" arg3="6402" />
+		<reset number="3" if_flag="false" type="M" arg1="6400" arg2="3" arg3="6404" />
+		<reset number="4" if_flag="false" type="M" arg1="6401" arg2="2" arg3="6407" />
+		<reset number="5" if_flag="false" type="M" arg1="6401" arg2="2" arg3="6407" />
+		<reset number="6" if_flag="false" type="M" arg1="6402" arg2="1" arg3="6412" />
+		<reset number="7" if_flag="true" type="G" arg1="6410" arg2="20" />
+		<reset number="8" if_flag="true" type="G" arg1="6411" arg2="20" />
+		<reset number="9" if_flag="false" type="M" arg1="6403" arg2="1" arg3="6411" />
+		<reset number="10" if_flag="false" type="M" arg1="6405" arg2="1" arg3="6437" />
+		<reset number="11" if_flag="false" type="O" arg1="6416" arg2="1" arg3="6416" />
+		<reset number="12" if_flag="false" type="M" arg1="6404" arg2="3" arg3="6416" />
+		<reset number="13" if_flag="true" type="P" arg1="6401" arg2="50" arg3="6416" />
+		<reset number="14" if_flag="false" type="O" arg1="6417" arg2="1" arg3="6416" />
+		<reset number="15" if_flag="false" type="M" arg1="6404" arg2="3" arg3="6416" />
+		<reset number="16" if_flag="true" type="P" arg1="6405" arg2="100" arg3="6417" />
+		<reset number="17" if_flag="true" type="P" arg1="6407" arg2="50" arg3="6417" />
+		<reset number="18" if_flag="false" type="O" arg1="6418" arg2="1" arg3="6416" />
+		<reset number="19" if_flag="false" type="M" arg1="6404" arg2="1" arg3="6416" />
+		<reset number="20" if_flag="true" type="P" arg1="6406" arg2="100" arg3="6418" />
+		<reset number="21" if_flag="true" type="P" arg1="6408" arg2="1" arg3="6418" />
+		<reset number="22" if_flag="true" type="P" arg1="6412" arg2="10" arg3="6418" />
+		<reset number="23" if_flag="false" type="R" arg1="6411" arg2="6404" />
+		<reset number="24" if_flag="false" type="O" arg1="6404" arg2="5" arg3="6411" />
+		<reset number="25" if_flag="false" type="O" arg1="6409" arg2="1" arg3="6411" />
+		<reset number="26" if_flag="false" type="P" arg1="6402" arg2="50" arg3="6409" />
+		<reset number="27" if_flag="false" type="P" arg1="6403" arg2="50" arg3="6409" />
+		<reset number="28" if_flag="false" type="P" arg1="6400" arg2="50" arg3="6409" />
+		<reset number="29" if_flag="false" type="R" arg1="6441" arg2="6413" />
+		<reset number="30" if_flag="false" type="O" arg1="6413" arg2="100" arg3="6441" />
+		<reset number="31" if_flag="false" type="R" arg1="6441" arg2="6414" />
+		<reset number="32" if_flag="false" type="O" arg1="6414" arg2="100" arg3="6441" />
+		<reset number="33" if_flag="false" type="R" arg1="6436" arg2="6415" />
+		<reset number="34" if_flag="false" type="O" arg1="6415" arg2="10" arg3="6436" />
+		<reset number="35" if_flag="false" type="R" arg1="6410" arg2="6419" />
+		<reset number="36" if_flag="false" type="O" arg1="6419" arg2="1" arg3="6410" />
+		<reset number="37" if_flag="false" type="R" arg1="6424" arg2="6420" />
+		<reset number="38" if_flag="false" type="O" arg1="6420" arg2="10" arg3="6424" />
+		<reset number="39" if_flag="false" type="R" arg1="6424" arg2="6420" />
+		<reset number="40" if_flag="false" type="O" arg1="6420" arg2="10" arg3="6424" />
+		<reset number="41" if_flag="false" type="D" arg1="6406" arg2="5" arg3="1" />
+		<reset number="42" if_flag="false" type="D" arg1="6407" arg2="4" arg3="1" />
+		<reset number="43" if_flag="false" type="D" arg1="6407" arg2="2" arg3="1" />
+		<reset number="44" if_flag="false" type="D" arg1="6408" arg2="0" arg3="1" />
+		<reset number="45" if_flag="false" type="D" arg1="6409" arg2="0" arg3="1" />
+		<reset number="46" if_flag="false" type="D" arg1="6409" arg2="2" arg3="1" />
+		<reset number="47" if_flag="false" type="D" arg1="6410" arg2="0" arg3="1" />
+		<reset number="48" if_flag="false" type="D" arg1="6411" arg2="2" arg3="1" />
+		<reset number="49" if_flag="false" type="D" arg1="6412" arg2="1" arg3="1" />
+		<reset number="50" if_flag="false" type="D" arg1="6412" arg2="3" arg3="1" />
+		<reset number="51" if_flag="false" type="D" arg1="6413" arg2="3" arg3="1" />
+		<reset number="52" if_flag="false" type="D" arg1="6414" arg2="1" arg3="1" />
+		<reset number="53" if_flag="false" type="D" arg1="6414" arg2="5" arg3="1" />
+		<reset number="54" if_flag="false" type="D" arg1="6415" arg2="3" arg3="1" />
+		<reset number="55" if_flag="false" type="D" arg1="6416" arg2="4" arg3="1" />
+		<reset number="56" if_flag="false" type="D" arg1="6417" arg2="0" arg3="1" />
+		<reset number="57" if_flag="false" type="D" arg1="6417" arg2="1" arg3="1" />
+		<reset number="58" if_flag="false" type="D" arg1="6417" arg2="2" arg3="1" />
+		<reset number="59" if_flag="false" type="D" arg1="6418" arg2="0" arg3="1" />
+		<reset number="60" if_flag="false" type="D" arg1="6419" arg2="2" arg3="1" />
+		<reset number="61" if_flag="false" type="D" arg1="6420" arg2="0" arg3="1" />
+		<reset number="62" if_flag="false" type="D" arg1="6421" arg2="2" arg3="1" />
+		<reset number="63" if_flag="false" type="D" arg1="6423" arg2="0" arg3="1" />
+		<reset number="64" if_flag="false" type="D" arg1="6424" arg2="2" arg3="1" />
+		<reset number="65" if_flag="false" type="D" arg1="6435" arg2="3" arg3="2" />
+		<reset number="66" if_flag="false" type="D" arg1="6436" arg2="1" arg3="2" />
+		<reset number="67" if_flag="false" type="D" arg1="6437" arg2="3" arg3="1" />
+		<reset number="68" if_flag="false" type="D" arg1="6438" arg2="1" arg3="1" />
+	</resets>
+</zone>

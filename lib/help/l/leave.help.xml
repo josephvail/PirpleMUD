@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<help first_keyword="leave" keyword_count="1" mini_mud="true">
+	<entry>LEAVE
+
+Usage: leave
+
+If you feel claustrophobic, typing 'leave' will make you use the nearest
+obvious exit to the outside.
+</entry>
+</help>

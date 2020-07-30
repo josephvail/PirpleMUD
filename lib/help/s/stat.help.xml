@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<help first_keyword="stat" keyword_count="1" mini_mud="true">
+	<entry>STAT
+
+Usage: stat [player | object | mobile | file] &lt;name&gt;
+
+Gives information about players, monsters, and objects in the game.  The type
+argument is optional.
+
+STAT PLAYER will search only for players; useful for statting people with
+names such as Red or Cityguard.
+
+STAT OBJECT will search only for objects.
+
+STAT MOBILE will search only for monsters.
+
+STAT FILE is used to stat players who are not logged in; the information
+displayed comes from the playerfile.
+
+Examples:
+
+  &gt; stat fido
+  &gt; stat player red
+  &gt; stat mobile red
+  &gt; stat file niandra
+  &gt; stat object thunderbolt
+
+See also: VSTAT
+</entry>
+</help>

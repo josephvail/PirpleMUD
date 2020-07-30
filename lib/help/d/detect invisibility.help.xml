@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<help first_keyword="detect invisibility" keyword_count="1" mini_mud="true">
+	<entry>"DETECT INVISIBILITY"
+
+Usage       : cast 'detect invisibility' [self]
+Accumulative: Yes (Duration)
+Duration    : 12 hours + level/4
+Level       : Mage level 2, Cleric level 6.
+
+This spell enables you to see invisible items and players.
+</entry>
+</help>

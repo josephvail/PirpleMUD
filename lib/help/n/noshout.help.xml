@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<help first_keyword="noshout" keyword_count="1" mini_mud="true">
+	<entry>NOSHOUT
+
+Usage: noshout
+
+NOSHOUT toggles whether or not you hear shouts.  (deaf) will appear after
+your name in the WHO list.
+
+See also: FLAGS, HOLLER, SHOUT, TOGGLE, WHO
+</entry>
+</help>

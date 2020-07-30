@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<zone number="52" name="The City Of Thalos" bottom="5200" top="5299" lifespan="15" reset_mode="2" mini_mud="false" rooms="51" mobiles="10" items="44" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="5200" arg2="1" arg3="5250" />
+		<reset number="2" if_flag="true" type="E" arg1="5217" arg2="3" arg3="17" />
+		<reset number="3" if_flag="true" type="E" arg1="5208" arg2="3" arg3="11" />
+		<reset number="4" if_flag="true" type="E" arg1="5223" arg2="1" arg3="3" />
+		<reset number="5" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5235" />
+		<reset number="6" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5232" />
+		<reset number="7" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5236" />
+		<reset number="8" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5237" />
+		<reset number="9" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5242" />
+		<reset number="10" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5218" />
+		<reset number="11" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5219" />
+		<reset number="12" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5220" />
+		<reset number="13" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5225" />
+		<reset number="14" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5226" />
+		<reset number="15" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5203" />
+		<reset number="16" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5204" />
+		<reset number="17" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5206" />
+		<reset number="18" if_flag="false" type="M" arg1="5201" arg2="25" arg3="5208" />
+		<reset number="19" if_flag="false" type="M" arg1="5209" arg2="25" arg3="5205" />
+		<reset number="20" if_flag="false" type="M" arg1="5209" arg2="25" arg3="5209" />
+		<reset number="21" if_flag="false" type="M" arg1="5209" arg2="25" arg3="5216" />
+		<reset number="22" if_flag="false" type="M" arg1="5209" arg2="25" arg3="5221" />
+		<reset number="23" if_flag="false" type="M" arg1="5209" arg2="25" arg3="5224" />
+		<reset number="24" if_flag="false" type="M" arg1="5209" arg2="25" arg3="5229" />
+		<reset number="25" if_flag="false" type="M" arg1="5209" arg2="25" arg3="5234" />
+		<reset number="26" if_flag="false" type="M" arg1="5209" arg2="25" arg3="5240" />
+		<reset number="27" if_flag="false" type="M" arg1="5202" arg2="1" arg3="5229" />
+		<reset number="28" if_flag="true" type="E" arg1="5214" arg2="4" arg3="17" />
+		<reset number="29" if_flag="false" type="M" arg1="5203" arg2="1" arg3="5226" />
+		<reset number="30" if_flag="true" type="G" arg1="5215" arg2="4" />
+		<reset number="31" if_flag="false" type="M" arg1="5204" arg2="1" arg3="5219" />
+		<reset number="32" if_flag="true" type="G" arg1="5218" arg2="4" />
+		<reset number="33" if_flag="false" type="M" arg1="5205" arg2="1" arg3="5238" />
+		<reset number="34" if_flag="true" type="E" arg1="5214" arg2="4" arg3="17" />
+		<reset number="35" if_flag="false" type="M" arg1="5206" arg2="1" arg3="5236" />
+		<reset number="36" if_flag="true" type="E" arg1="5222" arg2="4" arg3="12" />
+		<reset number="37" if_flag="false" type="M" arg1="5207" arg2="4" arg3="5232" />
+		<reset number="38" if_flag="false" type="M" arg1="5207" arg2="4" arg3="5217" />
+		<reset number="39" if_flag="false" type="M" arg1="5207" arg2="4" arg3="5227" />
+		<reset number="40" if_flag="false" type="M" arg1="5207" arg2="4" arg3="5244" />
+		<reset number="41" if_flag="false" type="M" arg1="5208" arg2="3" arg3="5247" />
+		<reset number="42" if_flag="true" type="E" arg1="5224" arg2="1" arg3="17" />
+		<reset number="43" if_flag="true" type="E" arg1="5200" arg2="5" arg3="5" />
+		<reset number="44" if_flag="false" type="M" arg1="5208" arg2="3" arg3="5246" />
+		<reset number="45" if_flag="true" type="E" arg1="5226" arg2="1" arg3="17" />
+		<reset number="46" if_flag="false" type="M" arg1="5208" arg2="3" arg3="5248" />
+		<reset number="47" if_flag="true" type="E" arg1="5221" arg2="5" arg3="16" />
+		<reset number="48" if_flag="false" type="O" arg1="5225" arg2="1" arg3="5231" />
+		<reset number="49" if_flag="true" type="P" arg1="5215" arg2="1" arg3="5225" />
+		<reset number="50" if_flag="true" type="P" arg1="5216" arg2="2" arg3="5225" />
+		<reset number="51" if_flag="false" type="O" arg1="5227" arg2="1" arg3="5233" />
+		<reset number="52" if_flag="true" type="P" arg1="5201" arg2="1" arg3="5227" />
+		<reset number="53" if_flag="true" type="P" arg1="5202" arg2="1" arg3="5227" />
+		<reset number="54" if_flag="true" type="P" arg1="5203" arg2="1" arg3="5227" />
+		<reset number="55" if_flag="true" type="P" arg1="5204" arg2="1" arg3="5227" />
+		<reset number="56" if_flag="true" type="P" arg1="5205" arg2="1" arg3="5227" />
+		<reset number="57" if_flag="true" type="P" arg1="5206" arg2="1" arg3="5227" />
+		<reset number="58" if_flag="false" type="R" arg1="5242" arg2="5228" />
+		<reset number="59" if_flag="false" type="O" arg1="5228" arg2="10" arg3="5242" />
+		<reset number="60" if_flag="false" type="R" arg1="5217" arg2="5219" />
+		<reset number="61" if_flag="false" type="O" arg1="5219" arg2="5" arg3="5217" />
+		<reset number="62" if_flag="false" type="R" arg1="5234" arg2="5220" />
+		<reset number="63" if_flag="false" type="O" arg1="5220" arg2="1" arg3="5234" />
+		<reset number="64" if_flag="false" type="R" arg1="5229" arg2="5207" />
+		<reset number="65" if_flag="false" type="O" arg1="5207" arg2="5" arg3="5229" />
+		<reset number="66" if_flag="false" type="R" arg1="5238" arg2="5210" />
+		<reset number="67" if_flag="false" type="O" arg1="5210" arg2="2" arg3="5238" />
+		<reset number="68" if_flag="false" type="R" arg1="5238" arg2="5211" />
+		<reset number="69" if_flag="false" type="O" arg1="5211" arg2="2" arg3="5238" />
+		<reset number="70" if_flag="false" type="R" arg1="5238" arg2="5213" />
+		<reset number="71" if_flag="false" type="O" arg1="5213" arg2="2" arg3="5238" />
+		<reset number="72" if_flag="false" type="R" arg1="5230" arg2="5250" />
+		<reset number="73" if_flag="false" type="O" arg1="5250" arg2="2" arg3="5230" />
+		<reset number="74" if_flag="false" type="R" arg1="5230" arg2="5251" />
+		<reset number="75" if_flag="false" type="O" arg1="5251" arg2="2" arg3="5230" />
+		<reset number="76" if_flag="false" type="O" arg1="5230" arg2="1" arg3="5202" />
+		<reset number="77" if_flag="false" type="O" arg1="5231" arg2="1" arg3="5205" />
+		<reset number="78" if_flag="false" type="O" arg1="5232" arg2="1" arg3="5208" />
+		<reset number="79" if_flag="false" type="O" arg1="5233" arg2="1" arg3="5211" />
+		<reset number="80" if_flag="false" type="O" arg1="5234" arg2="1" arg3="5214" />
+		<reset number="81" if_flag="false" type="O" arg1="5235" arg2="1" arg3="5217" />
+		<reset number="82" if_flag="false" type="O" arg1="5236" arg2="1" arg3="5220" />
+		<reset number="83" if_flag="false" type="O" arg1="5237" arg2="1" arg3="5224" />
+		<reset number="84" if_flag="false" type="O" arg1="5238" arg2="1" arg3="5227" />
+		<reset number="85" if_flag="false" type="O" arg1="5239" arg2="1" arg3="5230" />
+		<reset number="86" if_flag="false" type="O" arg1="5240" arg2="1" arg3="5234" />
+		<reset number="87" if_flag="false" type="O" arg1="5241" arg2="1" arg3="5238" />
+		<reset number="88" if_flag="false" type="O" arg1="5242" arg2="1" arg3="5241" />
+		<reset number="89" if_flag="false" type="O" arg1="5243" arg2="1" arg3="5246" />
+		<reset number="90" if_flag="false" type="O" arg1="5244" arg2="1" arg3="5250" />
+	</resets>
+</zone>

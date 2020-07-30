@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<zone number="31" name="Southern part of Midgaard" bottom="3100" top="3299" lifespan="40" reset_mode="2" mini_mud="false" rooms="54" mobiles="11" items="18" shops="1">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="3060" arg2="20" arg3="3111" />
+		<reset number="2" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="3" if_flag="true" type="G" arg1="3105" arg2="2" />
+		<reset number="4" if_flag="false" type="M" arg1="3060" arg2="20" arg3="3111" />
+		<reset number="5" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="6" if_flag="false" type="M" arg1="3060" arg2="20" arg3="3111" />
+		<reset number="7" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="8" if_flag="false" type="M" arg1="3060" arg2="20" arg3="3111" />
+		<reset number="9" if_flag="true" type="E" arg1="3022" arg2="100" arg3="16" />
+		<reset number="10" if_flag="false" type="M" arg1="3068" arg2="4" arg3="3106" />
+		<reset number="11" if_flag="false" type="M" arg1="3100" arg2="1" arg3="3106" />
+		<reset number="12" if_flag="true" type="G" arg1="3100" arg2="500" />
+		<reset number="13" if_flag="true" type="G" arg1="3101" arg2="500" />
+		<reset number="14" if_flag="true" type="G" arg1="3102" arg2="500" />
+		<reset number="15" if_flag="false" type="M" arg1="3101" arg2="1" arg3="3106" />
+		<reset number="16" if_flag="true" type="G" arg1="3106" arg2="2" />
+		<reset number="17" if_flag="false" type="M" arg1="3102" arg2="1" arg3="3110" />
+		<reset number="18" if_flag="true" type="G" arg1="3107" arg2="2" />
+		<reset number="19" if_flag="false" type="M" arg1="3103" arg2="4" arg3="3110" />
+		<reset number="20" if_flag="true" type="M" arg1="3103" arg2="4" arg3="3110" />
+		<reset number="21" if_flag="true" type="M" arg1="3103" arg2="4" arg3="3110" />
+		<reset number="22" if_flag="true" type="M" arg1="3103" arg2="4" arg3="3110" />
+		<reset number="23" if_flag="false" type="M" arg1="3104" arg2="1" arg3="3137" />
+		<reset number="24" if_flag="false" type="M" arg1="3105" arg2="1" arg3="3138" />
+		<reset number="25" if_flag="true" type="E" arg1="3112" arg2="1" arg3="17" />
+		<reset number="26" if_flag="false" type="M" arg1="3106" arg2="1" arg3="3120" />
+		<reset number="27" if_flag="false" type="M" arg1="3120" arg2="1" arg3="3114" />
+		<reset number="28" if_flag="false" type="M" arg1="3121" arg2="1" arg3="3114" />
+		<reset number="29" if_flag="false" type="M" arg1="3122" arg2="1" arg3="3109" />
+		<reset number="30" if_flag="false" type="M" arg1="3123" arg2="2" arg3="3113" />
+		<reset number="31" if_flag="false" type="M" arg1="3123" arg2="2" arg3="3115" />
+		<reset number="32" if_flag="false" type="O" arg1="3109" arg2="1" arg3="3110" />
+		<reset number="33" if_flag="true" type="P" arg1="3108" arg2="1" arg3="3109" />
+		<reset number="34" if_flag="false" type="O" arg1="3110" arg2="1" arg3="3110" />
+		<reset number="35" if_flag="true" type="P" arg1="3115" arg2="1" arg3="3110" />
+		<reset number="36" if_flag="false" type="R" arg1="3101" arg2="3111" />
+		<reset number="37" if_flag="false" type="O" arg1="3111" arg2="3" arg3="3101" />
+		<reset number="38" if_flag="false" type="R" arg1="3102" arg2="3111" />
+		<reset number="39" if_flag="false" type="O" arg1="3111" arg2="3" arg3="3102" />
+		<reset number="40" if_flag="false" type="R" arg1="3103" arg2="3111" />
+		<reset number="41" if_flag="false" type="O" arg1="3111" arg2="3" arg3="3103" />
+		<reset number="42" if_flag="false" type="R" arg1="3141" arg2="3113" />
+		<reset number="43" if_flag="false" type="O" arg1="3113" arg2="1" arg3="3141" />
+		<reset number="44" if_flag="false" type="O" arg1="3114" arg2="1" arg3="3141" />
+		<reset number="45" if_flag="false" type="O" arg1="3116" arg2="1" arg3="3155" />
+		<reset number="46" if_flag="false" type="O" arg1="3117" arg2="1" arg3="3124" />
+		<reset number="47" if_flag="false" type="D" arg1="3111" arg2="3" arg3="2" />
+		<reset number="48" if_flag="false" type="D" arg1="3110" arg2="1" arg3="2" />
+		<reset number="49" if_flag="false" type="D" arg1="3129" arg2="2" arg3="2" />
+		<reset number="50" if_flag="false" type="D" arg1="3150" arg2="0" arg3="2" />
+		<reset number="51" if_flag="false" type="D" arg1="3154" arg2="2" arg3="1" />
+		<reset number="52" if_flag="false" type="D" arg1="3155" arg2="0" arg3="1" />
+	</resets>
+</zone>

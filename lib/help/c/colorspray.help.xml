@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="colorspray" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="color spray" />
+	</additional_keywords>
+	<entry>COLORSPRAY "COLOR SPRAY"
+
+Usage       : cast 'color spray' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Mage level 11.
+Save        : Versus spell for half damage.
+
+This spell is more powerful than the lightning bolt spell.
+
+See also: "LIGHTNING BOLT"
+
+For help on actual color, see:  ANSI
+</entry>
+</help>

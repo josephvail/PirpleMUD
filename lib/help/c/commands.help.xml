@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<help first_keyword="commands" keyword_count="1" mini_mud="true">
+	<entry>COMMANDS
+
+Usage: commands
+
+The COMMANDS command gives a canonical list of all the known verbs.
+
+Each command listed should have help available by typing "HELP &lt;command&gt;".
+
+See also: SOCIAL, SOCIALS
+</entry>
+</help>

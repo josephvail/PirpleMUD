@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="gold" keyword_count="1" mini_mud="true">
+	<entry>GOLD
+
+Usage: gold
+
+Displays how much gold your carrying.
+
+See also: BALANCE, DEPOSIT, WITHDRAW
+</entry>
+</help>

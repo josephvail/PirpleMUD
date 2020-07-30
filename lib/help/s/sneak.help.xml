@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="sneak" keyword_count="1" mini_mud="true">
+	<entry>SNEAK
+
+Thieves Only.
+
+Usage: sneak
+
+Used for sneaking (moving in and out of rooms without anyone taking notice).
+When you type sneak, there is no way to know if you're actually sneaking.
+If you successfully sneak, then you'll continue to sneak for a little while.
+
+See also: HIDE
+</entry>
+</help>

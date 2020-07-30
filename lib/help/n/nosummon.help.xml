@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="nosummon" keyword_count="1" mini_mud="true">
+	<entry>NOSUMMON
+
+Usage: nosummon
+
+Due to problems we've had with players killing other players by summoning
+them to Bad Places, all characters now have SUMMON PROTECTION turned on by
+default.  This prevents people from summoning you and gives you a warning
+message if someone tries.  If you want to let someone summon you (i.e. if
+someone wants to summon you for a legitimate reason), type NOSUMMON to turn
+off summon protection.  You can then type NOSUMMON again to turn protection
+back on.
+
+See also: SUMMON, TOGGLE
+</entry>
+</help>

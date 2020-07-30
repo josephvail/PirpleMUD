@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="shocking grasp" keyword_count="1" mini_mud="true">
+	<entry>"SHOCKING GRASP"
+
+Usage       : cast 'shocking grasp' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Mage level 7.
+Save        : Versus spell for half damage.
+
+This spell is more powerful than the burning hands spell.
+
+See also: "BURNING HANDS"
+</entry>
+</help>

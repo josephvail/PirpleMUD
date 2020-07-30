@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<help first_keyword="nohassle" keyword_count="1" mini_mud="true">
+	<entry>NOHASSLE
+
+Usage: nohassle
+
+Toggles a flag to prevent aggressive monsters from attacking.
+</entry>
+</help>

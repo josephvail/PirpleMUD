@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<zone number="70" name="The Sewer, First Level" bottom="7000" top="7099" lifespan="15" reset_mode="2" mini_mud="false" rooms="62" mobiles="18" items="0" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="7001" arg2="9" arg3="7041" />
+		<reset number="2" if_flag="false" type="M" arg1="7001" arg2="9" arg3="7025" />
+		<reset number="3" if_flag="false" type="M" arg1="7001" arg2="9" arg3="7004" />
+		<reset number="4" if_flag="false" type="M" arg1="7001" arg2="9" arg3="7004" />
+		<reset number="5" if_flag="false" type="M" arg1="7002" arg2="3" arg3="7049" />
+		<reset number="6" if_flag="false" type="M" arg1="7002" arg2="3" arg3="7031" />
+		<reset number="7" if_flag="false" type="M" arg1="7003" arg2="8" arg3="7039" />
+		<reset number="8" if_flag="false" type="M" arg1="7003" arg2="8" arg3="7039" />
+		<reset number="9" if_flag="false" type="M" arg1="7003" arg2="8" arg3="7039" />
+		<reset number="10" if_flag="false" type="M" arg1="7003" arg2="8" arg3="7037" />
+		<reset number="11" if_flag="false" type="M" arg1="7003" arg2="8" arg3="7037" />
+		<reset number="12" if_flag="false" type="M" arg1="7003" arg2="8" arg3="7050" />
+		<reset number="13" if_flag="false" type="D" arg1="7047" arg2="1" arg3="1" />
+		<reset number="14" if_flag="false" type="D" arg1="7053" arg2="3" arg3="1" />
+	</resets>
+</zone>

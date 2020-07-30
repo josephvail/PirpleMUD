@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<help first_keyword="enter" keyword_count="1" mini_mud="true">
+	<entry>ENTER
+
+Usage: enter [place]
+
+If you type 'enter' while you are outdoors, you'll enter any nearby shelter.
+You can also follow 'enter' with an argument; for example, 'enter window'.
+</entry>
+</help>

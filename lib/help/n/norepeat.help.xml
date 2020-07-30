@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<help first_keyword="norepeat" keyword_count="1" mini_mud="true">
+	<entry>NOREPEAT
+
+Usage: norepeat
+
+This command toggles whether or not you see your communication echoed
+back to you (i.e., from commands such as SAY, SHOUT, HOLLER, GOSSIP, etc.)
+Useful if you have a slow connection or if it just annoys you.
+
+See also: TOGGLE
+</entry>
+</help>

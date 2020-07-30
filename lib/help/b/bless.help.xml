@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="bless" keyword_count="1" mini_mud="true">
+	<entry>BLESS
+
+Usage       : cast 'bless' &lt;victim | object&gt;
+Accumulative: No
+Duration    : 6 Hours, permanent for objects.
+Level       : Cleric level 5.
+
+Bless on a victim will improve the victims saving throw versus spells
+by 1, and furthermore improve the hitroll by 2.
+
+Bless on an item currently has no defined action.  It is only possible
+to bless non-evil items, and the object blessed may weigh no more
+than five pounds per level of caster. 
+</entry>
+</help>

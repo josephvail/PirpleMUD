@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<help first_keyword="read" keyword_count="1" mini_mud="true">
+	<entry>READ
+
+Usage: read &lt;object&gt;
+       read &lt;board message number&gt;
+
+When you want to read something.
+
+READ is also used to read messages on bulletin boards; type HELP BOARDS
+for more information.
+
+Example:
+
+  &gt; read note
+
+See also: BOARDS
+</entry>
+</help>

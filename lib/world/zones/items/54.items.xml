@@ -1,0 +1,931 @@
+<?xml version="1.0"?>
+<items>
+	<item number="5400" name="palace key" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="5" cost="0" cost_per_day="0" short_description="the palace key of New Thalos">
+		<values>
+			<value number="0" val="5400" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large key bearing the crest of New Thalos lies here.</description>
+	</item>
+	<item number="5401" name="city key" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="5" cost="0" cost_per_day="0" short_description="the Key to the City of New Thalos">
+		<values>
+			<value number="0" val="5401" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The heavy city key lies here in the dust</description>
+	</item>
+	<item number="5402" name="fountain water" type="23" wear_flags="0" extra_flags="20" bitvector="0" weight="9999" cost="0" cost_per_day="0" short_description="the large central fountain">
+		<values>
+			<value number="0" val="9999" />
+			<value number="1" val="9999" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The large central fountain domintating the central square rests here.</description>
+	</item>
+	<item number="5403" name="morningstar morning star" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="5" cost="1200" cost_per_day="500" short_description="a morningstar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="5" />
+			<value number="3" val="6" />
+		</values>
+		<description>A small spiked metal ball connected to a rod by links of chain lies here.</description>
+	</item>
+	<item number="5404" name="awl-pike" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="3" cost="2100" cost_per_day="100" short_description="an awl-pike">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="12" />
+			<value number="3" val="5" />
+		</values>
+		<description>An awl pike lies here.</description>
+	</item>
+	<item number="5405" name="bardiche" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="4" cost="1900" cost_per_day="110" short_description="a bardiche">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="6" />
+			<value number="3" val="3" />
+		</values>
+		<description>A bardiche lies here.</description>
+	</item>
+	<item number="5406" name="corbin bec" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="3" cost="5400" cost_per_day="50" short_description="a bec de corbin">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<description>A bec de corbin lies here.</description>
+	</item>
+	<item number="5407" name="guisarme bill" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="3" cost="1300" cost_per_day="50" short_description="a bill-guisarme">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="10" />
+			<value number="3" val="3" />
+		</values>
+		<description>A bill-guisarme lies here.</description>
+	</item>
+	<item number="5408" name="fauchard" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="3" cost="1250" cost_per_day="20" short_description="a fauchard">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="8" />
+			<value number="3" val="1" />
+		</values>
+		<description>A fauchard lies here.</description>
+	</item>
+	<item number="5409" name="glaive" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="3" cost="1870" cost_per_day="20" short_description="a glaive">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="10" />
+			<value number="3" val="5" />
+		</values>
+		<description>A glaive lies here.</description>
+	</item>
+	<item number="5410" name="guisarme" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="4" cost="1953" cost_per_day="20" short_description="a guisarme">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="4" />
+			<value number="3" val="4" />
+		</values>
+		<description>A guisarme lies here.</description>
+	</item>
+	<item number="5411" name="sickle" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="1" cost="500" cost_per_day="10" short_description="a sickle">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="4" />
+			<value number="3" val="3" />
+		</values>
+		<description>A sickle lies here.</description>
+	</item>
+	<item number="5412" name="sword bastard two-handed" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="18" cost="12580" cost_per_day="10000" short_description="a two-handed bastard sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<description>A two handed bastard sword lies here.</description>
+	</item>
+	<item number="5413" name="scimitar" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="10" cost="1200" cost_per_day="150" short_description="a scimitar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="9" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="19" modifier="1" />
+		</affects>
+		<description>A scimitar lies here.</description>
+	</item>
+	<item number="5414" name="rapier" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="10" cost="3100" cost_per_day="100" short_description="a rapier">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+		</affects>
+		<description>A rapier lies here.</description>
+	</item>
+	<item number="5415" name="suit mail banded" type="9" wear_flags="9" extra_flags="28737" bitvector="0" weight="25" cost="3400" cost_per_day="800" short_description="a suit of banded mail">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A suit of banded mail lies here.</description>
+	</item>
+	<item number="5416" name="suit brigandine" type="9" wear_flags="9" extra_flags="20545" bitvector="0" weight="20" cost="2000" cost_per_day="420" short_description="a suit of brigandine">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A suit of brigandine lies here.</description>
+	</item>
+	<item number="5417" name="suit plate field" type="9" wear_flags="9" extra_flags="28737" bitvector="0" weight="28" cost="4000" cost_per_day="1000" short_description="a suit of field plate">
+		<values>
+			<value number="0" val="9" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A suit of field plate lies here.</description>
+	</item>
+	<item number="5418" name="suit ringmail ring mail" type="9" wear_flags="9" extra_flags="8192" bitvector="0" weight="6" cost="1385" cost_per_day="100" short_description="a suit of ringmail">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A suit of ringmail lies here.</description>
+	</item>
+	<item number="5419" name="suit splintmail splint mail" type="9" wear_flags="9" extra_flags="4096" bitvector="0" weight="5" cost="2500" cost_per_day="100" short_description="a suit of splintmail">
+		<values>
+			<value number="0" val="4" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A suit of splintmail aromr lies here.</description>
+	</item>
+	<item number="5420" name="shield wooden" type="9" wear_flags="513" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="1" short_description="a wooden shield">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A wooden shield lies here</description>
+	</item>
+	<item number="5421" name="shield splinted" type="9" wear_flags="513" extra_flags="0" bitvector="0" weight="8" cost="175" cost_per_day="17" short_description="a splinted shield">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A splinted shield lies here.</description>
+	</item>
+	<item number="5422" name="buckler shield" type="9" wear_flags="513" extra_flags="0" bitvector="0" weight="6" cost="30" cost_per_day="7" short_description="a buckler">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A buckler lies here.</description>
+	</item>
+	<item number="5423" name="jacket leather" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="6" cost="600" cost_per_day="200" short_description="a leather jacket">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A leather jacket lies here.</description>
+	</item>
+	<item number="5424" name="sleeves leather" type="9" wear_flags="257" extra_flags="0" bitvector="0" weight="2" cost="350" cost_per_day="200" short_description="a pair of leather sleeves">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of leather sleeves lies here.</description>
+	</item>
+	<item number="5425" name="cap leather" type="9" wear_flags="17" extra_flags="0" bitvector="0" weight="2" cost="65" cost_per_day="200" short_description="a leather cap">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A leather cap lies here</description>
+	</item>
+	<item number="5426" name="pants leather" type="9" wear_flags="33" extra_flags="0" bitvector="0" weight="2" cost="850" cost_per_day="200" short_description="a pair of leather pants">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of leather pants lies here.</description>
+	</item>
+	<item number="5427" name="gloves leather" type="9" wear_flags="129" extra_flags="0" bitvector="0" weight="2" cost="150" cost_per_day="200" short_description="a pair of leather gloves">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of leather gloves lies here.</description>
+	</item>
+	<item number="5428" name="boots padded leather" type="9" wear_flags="65" extra_flags="0" bitvector="0" weight="2" cost="410" cost_per_day="200" short_description="a pair of padded leather boots">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of padded leather boots lies here.</description>
+	</item>
+	<item number="5429" name="jacket studded leather" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="10" cost="650" cost_per_day="200" short_description="a studded leather jacket">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A studded leather jacket lies here.</description>
+	</item>
+	<item number="5430" name="sleeves studded leather" type="9" wear_flags="257" extra_flags="0" bitvector="0" weight="3" cost="500" cost_per_day="200" short_description="a pair of studded leather sleeves">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of studded leather sleeves lie here.</description>
+	</item>
+	<item number="5431" name="pants studded leather" type="9" wear_flags="33" extra_flags="0" bitvector="0" weight="3" cost="500" cost_per_day="200" short_description="a pair of studded leather pants">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of studded leather pants lie here.</description>
+	</item>
+	<item number="5432" name="gloves studded leather" type="9" wear_flags="129" extra_flags="0" bitvector="0" weight="3" cost="500" cost_per_day="200" short_description="a pair of studded leather gloves">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of studded leather gloves lie here.</description>
+	</item>
+	<item number="5433" name="shield leather" type="9" wear_flags="513" extra_flags="0" bitvector="0" weight="3" cost="50" cost_per_day="200" short_description="a leather shield">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A leather shield lies here.</description>
+	</item>
+	<item number="5434" name="sack" type="15" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="20" cost_per_day="200" short_description="a sack">
+		<values>
+			<value number="0" val="50" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A sack lies here</description>
+	</item>
+	<item number="5435" name="lamp oil oillamp" type="1" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="100" cost_per_day="200" short_description="an oil lamp">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="48" />
+			<value number="3" val="0" />
+		</values>
+		<description>An oil lamp lies here</description>
+	</item>
+	<item number="5436" name="backpack back pack" type="15" wear_flags="1025" extra_flags="0" bitvector="0" weight="8" cost="100" cost_per_day="100" short_description="a backpack">
+		<values>
+			<value number="0" val="75" />
+			<value number="1" val="1" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A backpack lies here</description>
+	</item>
+	<item number="5437" name="basket" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="4" cost="250" cost_per_day="50" short_description="a basket">
+		<values>
+			<value number="0" val="50" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A basket lies here.</description>
+	</item>
+	<item number="5438" name="pouch belt" type="15" wear_flags="2049" extra_flags="0" bitvector="0" weight="3" cost="100" cost_per_day="20" short_description="a belt pouch">
+		<values>
+			<value number="0" val="25" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A belt pouch lies here</description>
+	</item>
+	<item number="5439" name="candle" type="1" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="35" cost_per_day="10" short_description="a candle">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="50" />
+			<value number="3" val="0" />
+		</values>
+		<description>A candle lies here</description>
+	</item>
+	<item number="5440" name="cheese" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="5" cost_per_day="10" short_description="a hunk of cheese">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A hunk of cheese lies here.</description>
+	</item>
+	<item number="5441" name="bread" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="3" cost_per_day="10" short_description="some bread">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Some bread lies here.</description>
+	</item>
+	<item number="5442" name="rations dry" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="2" cost="20" cost_per_day="30" short_description="some dry rations">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Some dry rations lie here.</description>
+	</item>
+	<item number="5443" name="rations iron" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="3" cost="25" cost_per_day="50" short_description="some iron rations">
+		<values>
+			<value number="0" val="25" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A tin of iron rations lies here.</description>
+	</item>
+	<item number="5445" name="nuts" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="1" cost_per_day="10" short_description="some nuts">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Some nuts lie scatterd on the ground.</description>
+	</item>
+	<item number="5446" name="belt" type="9" wear_flags="2049" extra_flags="0" bitvector="0" weight="2" cost="2" cost_per_day="10" short_description="a belt">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made belt lies here.</description>
+	</item>
+	<item number="5447" name="boots hiking" type="9" wear_flags="65" extra_flags="0" bitvector="0" weight="3" cost="390" cost_per_day="10" short_description="a pair of hiking boots">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made pair of boots lies here.</description>
+	</item>
+	<item number="5448" name="cloak fur" type="9" wear_flags="1025" extra_flags="0" bitvector="0" weight="2" cost="4550" cost_per_day="50" short_description="a fur cloak">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made fur cloak lies here.</description>
+	</item>
+	<item number="5449" name="girdle" type="9" wear_flags="2049" extra_flags="0" bitvector="0" weight="1" cost="375" cost_per_day="10" short_description="a girdle">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made girdle lies here.</description>
+	</item>
+	<item number="5450" name="hose" type="9" wear_flags="33" extra_flags="0" bitvector="0" weight="1" cost="120" cost_per_day="10" short_description="a pair of hose">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made pair of hose lies here.</description>
+	</item>
+	<item number="5451" name="robe common" type="9" wear_flags="5" extra_flags="0" bitvector="0" weight="2" cost="90" cost_per_day="20" short_description="a common robe">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made robe of common cloth lies here.</description>
+	</item>
+	<item number="5452" name="robe embroidered" type="9" wear_flags="5" extra_flags="0" bitvector="0" weight="2" cost="2500" cost_per_day="5" short_description="an embroidered robe">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made robe of embroidered cloth lies here.</description>
+	</item>
+	<item number="5453" name="sandals" type="9" wear_flags="65" extra_flags="0" bitvector="0" weight="1" cost="15" cost_per_day="10" short_description="a pair of sandals">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made pair of sandals lies here.</description>
+	</item>
+	<item number="5454" name="sash" type="9" wear_flags="2049" extra_flags="0" bitvector="0" weight="1" cost="20" cost_per_day="10" short_description="a sash">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made sash lies here.</description>
+	</item>
+	<item number="5455" name="jacket silk" type="9" wear_flags="1025" extra_flags="0" bitvector="0" weight="1" cost="3800" cost_per_day="100" short_description="a silk jacket">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nicely made silk jacket lies here.</description>
+	</item>
+	<item number="5456" name="egg" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="3" cost_per_day="10" short_description="an egg">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An egg lies here.</description>
+	</item>
+	<item number="5457" name="carrot" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="4" cost_per_day="10" short_description="a carrot">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A carrot lies here.</description>
+	</item>
+	<item number="5458" name="tomato" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="8" cost_per_day="10" short_description="a tomato">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A tomato lies here.</description>
+	</item>
+	<item number="5459" name="fig" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="2" cost_per_day="10" short_description="a fig">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A fig lies here.</description>
+	</item>
+	<item number="5460" name="dates" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="4" cost_per_day="10" short_description="some dates">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bunch of dates lies here.</description>
+	</item>
+	<item number="5461" name="lamb leg" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="2" cost="10" cost_per_day="20" short_description="a leg of lamb">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A leg of lamb lies here.</description>
+	</item>
+	<item number="5462" name="beef side" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="20" cost_per_day="50" short_description="a side of beef">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A side of beef lies here.</description>
+	</item>
+	<item number="5463" name="chicken whole" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="3" cost="12" cost_per_day="30" short_description="a whole chicken">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A whole skinned chicken lies here.</description>
+	</item>
+	<item number="5464" name="herring salted" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="8" cost_per_day="10" short_description="a salted herring">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A salted herring lies here.</description>
+	</item>
+	<item number="5465" name="muscle" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="4" cost_per_day="10" short_description="a muscle">
+		<values>
+			<value number="0" val="4" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A muscle lies here.</description>
+	</item>
+	<item number="5467" name="glass liquor blue oasis whisky" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="1800" cost_per_day="10" short_description="a glass">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="5" />
+			<value number="2" val="5" />
+			<value number="3" val="0" />
+		</values>
+		<description>A glass of blue alcohol rests here.</description>
+	</item>
+	<item number="5468" name="glass wine" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="3800" cost_per_day="10" short_description="a glass">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="1" />
+			<value number="2" val="2" />
+			<value number="3" val="0" />
+		</values>
+		<description>A glass rests here.</description>
+	</item>
+	<item number="5469" name="bottle grog ale" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="8000" cost_per_day="10" short_description="a bottle of grog">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="2" />
+			<value number="2" val="3" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bottle lies here.</description>
+	</item>
+	<item number="5470" name="vial glowing blue" type="10" wear_flags="16385" extra_flags="65" bitvector="0" weight="1" cost="800" cost_per_day="15" short_description="a glowing blue vial">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="1" />
+			<value number="2" val="3" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A glowing blue vial lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="vial glowing blue">
+				<description>The blueish liquid inside this potion bottle is glowing with
+a strange light.  There is a small label that reads 'Protection'
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5471" name="potion green" type="10" wear_flags="16385" extra_flags="65" bitvector="0" weight="1" cost="5000" cost_per_day="15" short_description="a deep-green potion">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="15" />
+			<value number="2" val="35" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A deep-green potion lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion green">
+				<description>The potion inside the bottle is a greenish colour and has a
+small label which reads 'Curative'
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5472" name="potion crystal clear" type="10" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="3000" cost_per_day="15" short_description="a crystal clear potion">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="50" />
+			<value number="2" val="51" />
+			<value number="3" val="35" />
+		</values>
+		<description>A crystal clear potion lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion crystal clear">
+				<description>This glass bottle appears to contain a clear liquid.  There is a
+label on the bottle which reads 'Preparation'
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5473" name="potion white" type="10" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="3000" cost_per_day="15" short_description="an off-white potion">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="14" />
+			<value number="2" val="28" />
+			<value number="3" val="36" />
+		</values>
+		<description>An off-white potion lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion white">
+				<description>This potion bottle contains a whitish liquid that looks rather thick.
+A small label reads 'Redemption'
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5474" name="potion dark blue" type="10" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="4000" cost_per_day="15" short_description="a dark blue potion">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="35" />
+			<value number="2" val="14" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A dark blue potion lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion dark blue">
+				<description>This dark blue potion has a small label on it reading 'Restoration'
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5475" name="bottle scorpion flaming beer" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="500" cost_per_day="10" short_description="a flaming scorpion">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="5" />
+			<value number="2" val="1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bottle of strong beer lies here.</description>
+	</item>
+	<item number="5476" name="barrel beer" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="15" cost="900" cost_per_day="50" short_description="a barrel">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="10" />
+			<value number="2" val="1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A barrel of beer lies here.</description>
+	</item>
+	<item number="5477" name="shot whisky" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="350" cost_per_day="10" short_description="a shot">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="1" />
+			<value number="2" val="5" />
+			<value number="3" val="0" />
+		</values>
+		<description>A shot of strong liquor lies here.</description>
+	</item>
+	<item number="5478" name="scroll recall" type="2" wear_flags="16385" extra_flags="64" bitvector="0" weight="4" cost="2000" cost_per_day="25" short_description="a scroll of recall">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="42" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A scroll of recall lies here.</description>
+	</item>
+	<item number="5479" name="wand grey silver" type="3" wear_flags="16385" extra_flags="57408" bitvector="0" weight="1" cost="10000" cost_per_day="15" short_description="a grey-silver wand">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="1" />
+			<value number="2" val="1" />
+			<value number="3" val="6" />
+		</values>
+		<description>A grey-silver wand lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="wand grey silver">
+				<description>You see a small engraved storm cloud at the base of this wand.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5480" name="wand yellow" type="3" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="666" cost_per_day="15" short_description="a wand of glinting yellow">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="1" />
+			<value number="2" val="1" />
+			<value number="3" val="19" />
+		</values>
+		<description>A wand of glinting yellow lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="wand yellow">
+				<description>You see a shape slowly fading into existance at the base of this wand.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5481" name="wand oak" type="3" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="500" cost_per_day="15" short_description="an oak wand">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="1" />
+			<value number="2" val="1" />
+			<value number="3" val="32" />
+		</values>
+		<description>A wand of oak lies here.</description>
+	</item>
+	<item number="5482" name="wand pink" type="3" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="5000" cost_per_day="15" short_description="a pink wand">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="1" />
+			<value number="2" val="1" />
+			<value number="3" val="38" />
+		</values>
+		<description>A pink wand lies here</description>
+	</item>
+	<item number="5483" name="shears sewing" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="2" cost="100" cost_per_day="50" short_description="a pair of sewing shears">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="4" />
+			<value number="3" val="1" />
+		</values>
+		<description>A pair of sewing shears lies here.</description>
+	</item>
+	<item number="5484" name="cleaver meat" type="5" wear_flags="8193" extra_flags="12" bitvector="0" weight="5" cost="100" cost_per_day="10" short_description="a meat cleaver">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="5" />
+			<value number="3" val="0" />
+		</values>
+		<description>A meat cleaver lies here</description>
+	</item>
+	<item number="5485" name="pen fountain" type="5" wear_flags="8193" extra_flags="2" bitvector="0" weight="1" cost="100" cost_per_day="5" short_description="a fountain pen">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="3" />
+			<value number="3" val="11" />
+		</values>
+		<description>A fountain pen lies here.</description>
+	</item>
+	<item number="5486" name="hammer sledge" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="24" cost="200" cost_per_day="40" short_description="a sledge hammer">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="3" />
+			<value number="3" val="6" />
+		</values>
+		<description>A sledge hammer lies here.</description>
+	</item>
+	<item number="5487" name="shoe horse" type="9" wear_flags="16389" extra_flags="66" bitvector="0" weight="2" cost="1000" cost_per_day="200" short_description="a horse shoe">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+		</affects>
+		<description>A horse shoe lies here.</description>
+	</item>
+	<item number="5488" name="saddle" type="12" wear_flags="1" extra_flags="0" bitvector="0" weight="4" cost="100" cost_per_day="50" short_description="a saddle">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A saddle lies here.</description>
+	</item>
+	<item number="5489" name="crop riding" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="1" cost="50" cost_per_day="10" short_description="a riding crop">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="4" />
+			<value number="3" val="2" />
+		</values>
+		<description>A riding crop lies here.</description>
+	</item>
+	<item number="5490" name="chessboard" type="5" wear_flags="16385" extra_flags="0" bitvector="0" weight="10" cost="100" cost_per_day="20" short_description="a chessboard">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="30" />
+			<value number="3" val="6" />
+		</values>
+		<description>A heavy marble chessboard lies here.</description>
+	</item>
+	<item number="5491" name="seed sesame" type="19" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="0" short_description="a sesame seed">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A sesame seed lies here.</description>
+	</item>
+	<item number="5492" name="spear gae bolg" type="5" wear_flags="8193" extra_flags="28737" bitvector="0" weight="12" cost="18000" cost_per_day="12500" short_description="Gae Bolg">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="5" />
+			<value number="2" val="3" />
+			<value number="3" val="11" />
+		</values>
+		<description>A beautiful spear is lying on the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="spear gae bolg">
+				<description>The beautiful, glowing spear is close to eight feet long and has
+a bright, polished silver blade that tapers at the end into what
+must be the finest point you have ever seen.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5493" name="key" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="100" cost_per_day="200" short_description="the jail key">
+		<values>
+			<value number="0" val="5493" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The key to the jail lies here.</description>
+	</item>
+	<item number="5494" name="key" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="100" cost_per_day="200" short_description="the dungeon key">
+		<values>
+			<value number="0" val="5494" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>The dungeon key lies here.</description>
+	</item>
+	<item number="5495" name="claw wolverine" type="5" wear_flags="8193" extra_flags="2050" bitvector="0" weight="2" cost="400" cost_per_day="50" short_description="the wolverine claw">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="6" />
+			<value number="3" val="8" />
+		</values>
+		<affects>
+			<affect location="13" modifier="-20" />
+		</affects>
+		<description>A claw from some animal lies here.</description>
+	</item>
+	<item number="5496" name="wrath allah mace" type="5" wear_flags="8193" extra_flags="53313" bitvector="0" weight="16" cost="25000" cost_per_day="12500" short_description="the wrath of Allah">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="4" />
+			<value number="2" val="4" />
+			<value number="3" val="6" />
+		</values>
+		<description>A large ornate mace floats above the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="wrath allah mace">
+				<description>This enormous weapon looks like it could pound the stuffing out of
+anything or anyone around.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

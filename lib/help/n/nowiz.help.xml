@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="nowiz" keyword_count="1" mini_mud="true">
+	<entry>NOWIZ
+
+Usage: nowiz
+
+Allows you to hear or ignore messages coming over the wiznet.
+
+See also: WIZNET
+</entry>
+</help>

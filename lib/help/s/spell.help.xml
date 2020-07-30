@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<help first_keyword="spell" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="spells" />
+	</additional_keywords>
+	<entry>SPELL SPELLS
+
+           Magic User               Cleric
+
+           (1) Magic Missile        (1) Armor
+           (1) -                    (1) Cure Light
+
+           (2) Detect Magic         (2) Create Water
+           (2) Detect Invisible     (2) Create Food
+
+           (3) Chill Touch          (3) Detect Poison
+           (3) Infravision          (3) -
+
+           (4) Invisibility         (4) Cure Blindness
+           (4) Armor                (4) Detect Evil
+           (4) -                    (4) Detect Alignment
+
+           (5) Burning Hands        (5) Bless
+
+           (6) Locate Object        (6) Blindness
+           (6) Strength             (6) Detect Invisible
+
+           (7) Shocking Grasp       (7) Infravision
+
+           (8) Sleep                (8) Protection From Evil
+           (8) -                    (8) Poison
+
+           (9) Lightning Bolt       (9) Cure Critical
+           (9) Blindness            (9) Group Armor
+
+          (10) Detect Poison       (10) Summon
+          (10) -                   (10) Remove Poison
+
+          (11) Color Spray         (11) -
+
+          (12) -                   (12) Earthquake
+          (12) -                   (12) Word of Recall
+
+          (13) Energy Drain        (13) -
+
+          (14) Curse               (14) Detect Evil
+          (14) Poison              (14) Detect Good
+          (14) -                   (14) Dispel Evil
+          (14) -                   (14) Dispel Good
+
+          (15) Fireball            (15) Call Lightning
+          (15) -                   (15) Sanctuary
+
+          (16) Charm Person        (16) Heal
+
+          (17) Sense Life          (17) Control Weather
+
+          (19) -                   (19) Harm
+
+          (22) -                   (22) Group Heal
+
+          (26) Enchant Weapon      (26) Remove Curse
+</entry>
+</help>

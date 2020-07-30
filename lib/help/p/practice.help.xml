@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="practice" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="practise" />
+	</additional_keywords>
+	<entry>PRACTICE PRACTISE
+
+Usage: practice [skill or spell name]
+
+Practice is the way you improve your spells and skills.  You can only do
+so in your guild, where your guildmaster can help you train.  Type
+"practice &lt;skill&gt;" to improve your abilities while in your guild.  You can
+only practice a certain amount for each level you gain.  Unused practice
+sessions will accumulate for use in future levels.
+
+If you type practice anywhere other than in your guild, you will get a list
+of all of the spells and skills you know and your level of proficiency at
+each.
+</entry>
+</help>

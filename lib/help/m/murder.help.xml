@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="murder" keyword_count="1" mini_mud="true">
+	<entry>MURDER
+
+Usage: murder &lt;victim&gt;
+
+Kill command to hit another player.  To avoid accidental flagging (i.e.
+trying to type "kiss Nia" but accidentally typing "kill Nia").
+
+Note that it is illegal to kill other players.  If you try you will get
+a KILLER flag.  If you are flagged as a killer, you are unable to do
+damage and other players will be allowed to use the MURDER command to
+kill you without being flagged themselves.
+
+See also: FLAGS
+</entry>
+</help>

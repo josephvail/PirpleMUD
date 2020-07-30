@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="kick" keyword_count="1" mini_mud="true">
+	<entry>KICK
+
+Fighters only.
+
+Usage: kick &lt;victim&gt;
+
+The success of a kick depends upon how well you are learned.  The higher
+level you reach the harder you kick.  There is one small catch -- whenever
+you kick (or miss) you will be unable to type any command for three 
+rounds of 'Violence' -- so be sure that you do not need to flee!
+
+See also: BASH, RESCUE
+</entry>
+</help>

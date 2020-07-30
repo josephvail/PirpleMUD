@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<help first_keyword="get" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="take" />
+	</additional_keywords>
+	<entry>GET TAKE
+
+"Get" and "take" are exactly the same and can be used interchangeably.
+
+Usage: get | take &lt;object&gt;
+       get | take all [object]
+       get | take all all.&lt;object&gt;
+       get | take all.&lt;object&gt; all.&lt;object&gt;
+
+If you find something interesting on the ground, you may use 'get' to pick
+it up.  'get' can also be used to extract items from containers.
+
+Examples:
+
+  &gt; get sword corpse
+  &gt; get all corpse
+  &gt; get all all.bag
+  &gt; get all.bread all.bag
+
+See also: DROP, PUT
+</entry>
+</help>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="create food" keyword_count="1" mini_mud="true">
+	<entry>"CREATE FOOD"
+
+Usage       : cast 'create food'
+Accumulative: -
+Duration    : Instantaneous
+Level       : Cleric level 2.
+
+This spell instantly creates a fresh waybread.  The waybread will be
+filling for the next (5+level) hours, up to a maximum of 24 hours.
+
+See also: "CREATE WATER"
+</entry>
+</help>

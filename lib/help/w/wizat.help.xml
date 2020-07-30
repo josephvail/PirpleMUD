@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<help first_keyword="wizat" keyword_count="1" mini_mud="true">
+	<entry>WIZAT
+
+Usage: at &lt;room VNUM | item | mob | player name&gt; &lt;command&gt; &lt;arguments&gt;
+
+AT can be used to perform an action in a location other than where you are
+standing.  The first argument can be a virtual room number or the name of a
+character or object.  The remainder of the line is passed to the command
+interpreter.
+
+Examples:
+
+  &gt; at 3001 look
+  &gt; at fido kill fido
+  &gt; at 3.corpse get all corpse
+  &gt; at catje wave catje
+
+See also: GOTO
+</entry>
+</help>

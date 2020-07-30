@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<help first_keyword="reply" keyword_count="1" mini_mud="true">
+	<entry>REPLY
+
+Usage: reply &lt;message&gt;
+
+This command will send a reply to the last person to send you a message
+using TELL.  It works just as if you had typed 'tell &lt;player&gt; &lt;message&gt;'
+but makes it a bit easier.  It can also be very useful in case someone
+invisible sends you a message.
+
+Example:
+
+Ras tells you, 'Hi!'
+&gt; reply hey
+You tell Ras, 'hey'
+&gt;
+Someone tells you, 'I am your secret admirer.'
+&gt; reply Who are you?
+You tell someone, 'Who are you?'
+
+See also: TELL, NOTELL
+</entry>
+</help>

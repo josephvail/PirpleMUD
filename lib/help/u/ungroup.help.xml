@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<help first_keyword="ungroup" keyword_count="1" mini_mud="true">
+	<entry>UNGROUP
+
+Usage: ungroup [group member]
+
+UNGROUP can be used by group leaders to disband the entire group, or
+to kick a specific group member out of the group (and stop him/her from
+following the leader).
+
+Examples:
+
+  &gt; ungroup
+  &gt; ungroup homer
+
+See also: GROUP
+</entry>
+</help>

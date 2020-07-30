@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="last" keyword_count="1" mini_mud="true">
+	<entry>LAST
+
+Usage: last &lt;player_name&gt;
+
+For checking the last time a person logged on, their sitename, and their
+ID number.
+
+Example: 
+
+  &gt; last ras
+  [  24] [14 Cl] Ras          : somesite.edu : Tue May 16 22:07:09 1995
+
+See also: STAT
+</entry>
+</help>

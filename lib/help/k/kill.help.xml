@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="kill" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="hit" />
+	</additional_keywords>
+	<entry>KILL HIT
+
+Usage: kill &lt;victim&gt;
+       hit &lt;victim&gt;
+
+A good way to start a fight.  Not a good idea to hit other players.
+
+See also: FLEE, WIMPY
+</entry>
+</help>

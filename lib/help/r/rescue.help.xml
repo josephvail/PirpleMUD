@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<help first_keyword="rescue" keyword_count="1" mini_mud="true">
+	<entry>RESCUE
+
+Fighters Only.
+
+Usage: rescue &lt;victim&gt;
+
+This command is useful if you want to try and make an attacker hit you
+instead of your poor friend who is being pummeled.  You can only 'turn'
+one monster for each rescue attempt.  This is very useful when playing
+in groups, of course.
+
+Example:
+
+  &gt; rescue Yankee
+</entry>
+</help>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<help first_keyword="earthquake" keyword_count="1" mini_mud="true">
+	<entry>EARTHQUAKE
+
+Usage       : cast 'earthquake'
+Accumulative: -
+Duration    : Instantaneous
+Level       : Cleric level 12.
+Save        : -
+
+This spell will damage everybody except the caster by
+1d8+level_of_caster hitpoints.
+</entry>
+</help>

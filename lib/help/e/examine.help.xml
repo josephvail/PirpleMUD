@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<help first_keyword="examine" keyword_count="1" mini_mud="true">
+	<entry>EXAMINE
+
+Usage: examine &lt;thing to examine&gt;
+
+May give you some valuable information about an item or monster.
+
+See also: LOOK
+</entry>
+</help>

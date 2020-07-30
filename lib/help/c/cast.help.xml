@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<help first_keyword="cast" keyword_count="1" mini_mud="true">
+	<entry>CAST
+
+Usage: cast '&lt;spell name&gt;' [target]
+
+For "magical" people.  If you want to throw a spell at someone or something.
+
+Example:
+
+  &gt; cast 'burning hands' &lt;player&gt;
+  Note that the name of the spell must be enclosed by "'"s.
+
+See also: help on each individual spell:
+
+Examples:
+
+  &gt; help cure ligh
+  &gt; help ventri
+  &gt; help energy drain
+</entry>
+</help>

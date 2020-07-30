@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="1500" name="A Road Leading From The Bank" sector="4" flags="4">
+		<description>   You find yourself on a small road leading away from the edge
+of the River of Lost Souls.  The dark waters of the River can
+be seen and heard just south of here.  Looking to the east and
+west, you see only the walls of the rocky cliffs.  Off to the
+north a strange path seems to lead straight into the depths of
+the mountain.
+</description>
+		<directions>
+			<direction dir="north" to_room="1501">
+				<general_description>A strange path leads northwards.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="5619">
+				<general_description>The River of Lost Souls flows just to the south of here.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="1501" name="A Long Road" sector="0" flags="8">
+		<description>   You stand here in spiritual emptiness, beginning a long and dangerous
+path.  Your honest submission has already been made, but the truth of your
+heart has yet to be told.  Leave here now, and do not come back until
+you have grown.
+</description>
+		<directions>
+			<direction dir="north" to_room="1502" />
+			<direction dir="south" to_room="1500" />
+		</directions>
+	</room>
+	<room number="1502" name="A Long Road" sector="0" flags="8">
+		<description>   You stop for a moment, screaming in frustration.  Surely it was that one
+sin that was avoidable, of all that you regret.  The hitting and the hurting
+flash briefly before you.  Moments later the pain passes, and the straight
+path reveals itself before you.
+</description>
+		<directions>
+			<direction dir="north" to_room="1503" />
+			<direction dir="south" to_room="1501" />
+		</directions>
+	</room>
+	<room number="1503" name="A Long Road" sector="0" flags="8">
+		<description>   The road clears, the fog and pain of the first few steps left behind
+you.  Despite the sudden clarity, your mind is still haunted, images of
+an old woman kneeling in prayer, eyes closing, smiling and crying.
+</description>
+		<directions>
+			<direction dir="north" to_room="1504" />
+			<direction dir="south" to_room="1502" />
+		</directions>
+	</room>
+	<room number="1504" name="A Long Road" sector="0" flags="8">
+		<description>   Looking ahead, you can see that the path you have been following will
+soon come to an end, but something in the cold and the breeze tells you
+that that will be only the beginning of the journey.
+</description>
+		<directions>
+			<direction dir="north" to_room="1505" />
+			<direction dir="south" to_room="1503" />
+		</directions>
+	</room>
+	<room number="1505" name="A Test for the Faithful" sector="0" flags="8">
+		<description>   It is here finally that decisions must be made.  The first one that
+confronts you is simple enough, to walk in the darkness, or to walk in
+the light.  Only the depths of your soul can decide, but remember this
+much: the same truth lies at the end of both paths.
+</description>
+		<directions>
+			<direction dir="up" to_room="1507" />
+			<direction dir="down" to_room="1506" />
+		</directions>
+	</room>
+	<room number="1506" name="Halls of the Forgotten" sector="0" flags="8">
+		<description>   Even the darkest have a place on the road to the truth.  It is in this
+place, so empty and forgotten, that God has chosen the worst, and brought
+them close to Him for one last time.
+</description>
+		<directions>
+			<direction dir="east" to_room="1513" />
+			<direction dir="west" to_room="1508" />
+			<direction dir="up" to_room="1505" />
+		</directions>
+	</room>
+	<room number="1507" name="Shahadah" sector="0" flags="8">
+		<description>   It was written once, on an ancient parchment in a curious and flowing
+script, that there is in fact no god but Allah, and that Muhammad was
+the last of His Prophets.  With this recognition, all else became empty
+and meaningless.
+</description>
+		<directions>
+			<direction dir="east" to_room="1523" />
+			<direction dir="west" to_room="1518" />
+			<direction dir="down" to_room="1505" />
+		</directions>
+	</room>
+	<room number="1508" name="Earthly Evil" sector="0" flags="9">
+		<description>   Whatever it carries, that rage converts into a weapon.  Wrath supplies
+all with arms.  When an angry man thirsts for blood anything will serve
+him for a spear.  Fury turns a stick into a cudgel.
+</description>
+		<directions>
+			<direction dir="north" to_room="1509" />
+			<direction dir="east" to_room="1506" />
+		</directions>
+	</room>
+	<room number="1509" name="Misguidance" sector="0" flags="9">
+		<description>   Some have been brought here not for what they did, but what they
+failed to do.  It is these, the poor souls that were presented the
+fair evidence and rejected it with an honest mind, that deserve our
+pity the most of all.
+</description>
+		<directions>
+			<direction dir="north" to_room="1510" />
+			<direction dir="south" to_room="1508" />
+		</directions>
+	</room>
+	<room number="1510" name="Temptation" sector="0" flags="9">
+		<description>   Old tales tell of a conversation between the devil and the Prophet
+Jesus: the devil offered him a kingdom, vast riches, the temptation of
+a glorious near-death saved by his angels.  Even this Messenger of God
+was forced to stop and think.  Imagine how hard it could be for the rest.
+</description>
+		<directions>
+			<direction dir="north" to_room="1511" />
+			<direction dir="south" to_room="1509" />
+		</directions>
+	</room>
+	<room number="1511" name="Hypocrisy" sector="0" flags="9">
+		<description>   He called the populace to strict religious purity, rigidly enforcing
+the times of prayer and the most correct forms of the words of the Muezzin.
+All of this he strengthened by his most impeccable example, shunning all
+riches and riding in tattered rags through his capital on the back of a
+donkey.  Despite all this, remember.  Behind closed doors, all men are
+hypocrites.
+</description>
+		<directions>
+			<direction dir="north" to_room="1512" />
+			<direction dir="south" to_room="1510" />
+		</directions>
+	</room>
+	<room number="1512" name="Hate" sector="0" flags="9">
+		<description>   There is little in life much easier, and truthfully, little that is a
+quicker ticket to damnation.  You give brief thanks that you have come to
+the end of these trials, but your words are drowned out by something
+much louder, a mechanical preaching that drowns your ears in anger.  You
+hear a steady, repetitive litany of the same phrase, over and over again:
+"I go the way history dictates with the blind assurance of a sleep-walker."
+</description>
+		<directions>
+			<direction dir="north" to_room="1528" />
+			<direction dir="south" to_room="1511" />
+		</directions>
+	</room>
+	<room number="1513" name="Spiritual Danger" sector="0" flags="9">
+		<description>   Some evils are tangible, solid, so evident that they spit you right in
+the face.  Others are more clever, more subtle, and it is these that present
+the greatest danger.  Looking down the hall before you, a great fear fills
+your heart, and a great, heavy longing.
+</description>
+		<directions>
+			<direction dir="north" to_room="1514" />
+			<direction dir="west" to_room="1506" />
+		</directions>
+	</room>
+	<room number="1514" name="The Fall" sector="0" flags="9">
+		<description>   In the beginning, he was the best, the most beautiful of all the angels,
+and God's most loved creation.  Look at your own beauty, human, and do what
+he could not.  Look at your beauty, and learn to kneel!
+</description>
+		<directions>
+			<direction dir="north" to_room="1515" />
+			<direction dir="south" to_room="1513" />
+		</directions>
+	</room>
+	<room number="1515" name="Temptation" sector="0" flags="9">
+		<description>   Temptation is the IF, the wondering, the second-guessing, the "I will
+be a better man... if..."  And that if is usually taken, sitting alone,
+listening to that voice, calling you, offering such an easy way, but such
+a crooked one.
+</description>
+		<directions>
+			<direction dir="north" to_room="1516" />
+			<direction dir="south" to_room="1514" />
+		</directions>
+	</room>
+	<room number="1516" name="The Last Day" sector="0" flags="9">
+		<description>   The din of a great battle shakes these halls, the moans of the earth
+erupting at the shakings of the End Time.  Be ready for that day, be very
+ready, for if you are not, he will claim you for one of his own.
+</description>
+		<directions>
+			<direction dir="north" to_room="1517" />
+			<direction dir="south" to_room="1515" />
+		</directions>
+	</room>
+	<room number="1517" name="Flame" sector="0" flags="9">
+		<description>   Undescribable horror and pain, a blackness drowned out only by the
+burning anguish, the inextinguishable fire coming not from some burning
+wood or molten lava but from the brightness and pain of the horrible,
+tortured souls that surround, everywhere you turn.
+</description>
+		<directions>
+			<direction dir="north" to_room="1530" />
+			<direction dir="south" to_room="1516" />
+		</directions>
+	</room>
+	<room number="1518" name="Earthly Light" sector="0" flags="8">
+		<description>   To slip into evil is easy, but walking this path is the hardest of
+all.  Even the four you will find here today have strayed from the line
+at least once in their lives, and there are still some living who curse
+the very sound of their names.  Despite all this, confront them now, and
+let their actions serve as your example.
+</description>
+		<directions>
+			<direction dir="north" to_room="1519" />
+			<direction dir="east" to_room="1507" />
+		</directions>
+	</room>
+	<room number="1519" name="The Light of the Rashidun" sector="0" flags="8">
+		<description>   Many believed that the Prophet would never die, but when the stark
+evidence of his body confronted them, it soon became necessary to provide
+for the future.  The four that came after are called the Rashidun, the
+rightly-guided Caliphs that would spread the word and the light, and with
+it forge one of history's greatest empires.
+</description>
+		<directions>
+			<direction dir="north" to_room="1520" />
+			<direction dir="south" to_room="1518" />
+		</directions>
+	</room>
+	<room number="1520" name="The Light of the Rashidun" sector="0" flags="8">
+		<description>   The first Caliphs were chosen by consultation with a noble council
+of elders, each of whom, hoping to lead the world of Islam alone, voted
+to elect the one amongst them they thought was the weakest.  Each time,
+they were wrong.  Each one was more noble, more upright than the one
+before.
+</description>
+		<directions>
+			<direction dir="north" to_room="1521" />
+			<direction dir="south" to_room="1519" />
+		</directions>
+	</room>
+	<room number="1521" name="The Light of the Rashidun" sector="0" flags="8">
+		<description>   Every majestic and happy tale must end, usually all too soon, and thus
+it was with the golden age of the Caliphate.  The Rashidun were pure men,
+good men, true to the path, but their followers soon began to bicker, and
+civil war was on the horizon.
+</description>
+		<directions>
+			<direction dir="north" to_room="1522" />
+			<direction dir="south" to_room="1520" />
+		</directions>
+	</room>
+	<room number="1522" name="The Light of the Rashidun" sector="0" flags="8">
+		<description>   The end of the Rashidun was the beginning of Schism.  The memories
+of the Prophet and the living example of the Caliphs proved to be
+insufficient example to the faithful.  Ali died, and some say that
+with him the Caliphate died too, a martyr, his blood still flowing in
+the nameless river.
+</description>
+		<directions>
+			<direction dir="north" to_room="1531" />
+			<direction dir="south" to_room="1521" />
+		</directions>
+	</room>
+	<room number="1523" name="Spritual Reward" sector="0" flags="8">
+		<description>   Behold, Allah is the Provider, the most Generous.  He would not suffer
+his believers to walk the path of light without guidance.  He provided the
+Prophets, may peace be upon them, and in the examples of their own growth,
+we shall find the truth of our own.
+</description>
+		<directions>
+			<direction dir="north" to_room="1524" />
+			<direction dir="west" to_room="1507" />
+		</directions>
+	</room>
+	<room number="1524" name="Creation" sector="0" flags="8">
+		<description>   In the creation of the heavens and the earth, and in the alternation of
+night and day, there are signs for men of sense; those that remember Allah
+say: "Lord, You have not created this in vain!"
+</description>
+		<directions>
+			<direction dir="north" to_room="1525" />
+			<direction dir="south" to_room="1523" />
+		</directions>
+	</room>
+	<room number="1525" name="Revelation" sector="0" flags="8">
+		<description>   The Angel Gabriel came to him and said: "Read!"  He replied: "But I
+cannot!"  The order was repeated three times, until the Angel himself
+said: "Read, in the name of your Lord who created man from clots of blood.
+Praise be to God, Lord of the Universe."
+</description>
+		<directions>
+			<direction dir="north" to_room="1526" />
+			<direction dir="south" to_room="1524" />
+		</directions>
+	</room>
+	<room number="1526" name="Conversion" sector="0" flags="8">
+		<description>   Unbelievers, I do not worship what you worship, nor do you worship
+what I worship.  I shall never worship what you worship, nor will you
+ever worship what I worship.  You have your own religion, and I have
+mine.
+</description>
+		<directions>
+			<direction dir="north" to_room="1527" />
+			<direction dir="south" to_room="1525" />
+		</directions>
+	</room>
+	<room number="1527" name="Deliverance" sector="0" flags="8">
+		<description>   The balance had been made, the soul placed in readiness, and the final
+measurement taken.  For those that have come this far, surely this is the
+day of immortality!
+</description>
+		<directions>
+			<direction dir="north" to_room="1533" />
+			<direction dir="south" to_room="1526" />
+		</directions>
+	</room>
+	<room number="1528" name="Repentance" sector="0" flags="9">
+		<description>   God forgives those who commit evil in ignorance, for He is all-knowing
+and wise.  But He will not forgive those who do evil, and when death comes
+to them, say: "Now we repent!"  For those We have prepared a woeful scourge.
+</description>
+		<directions>
+			<direction dir="east" to_room="1529" />
+			<direction dir="south" to_room="1512" />
+			<direction dir="up" to_room="1534" />
+		</directions>
+	</room>
+	<room number="1529" name="Pilgrimage" sector="0" flags="9">
+		<description>   It is incumbent upon all Muslims to make the pilgrimage to Mecca once
+in their lifetime, if they are able, and for those unfortunate enough to
+follow the lives of the lower evils, such a pilgrimage with an open and
+contrite heart shall absolve them of all.
+</description>
+		<directions>
+			<direction dir="east" to_room="1530" />
+			<direction dir="west" to_room="1528" />
+			<direction dir="up" to_room="1535" />
+		</directions>
+	</room>
+	<room number="1530" name="Intercession" sector="0" flags="9">
+		<description>   It is written that no one may intercede with God on behalf of another.
+No prayers from another may save the soul of a doomed man; his only hope
+is prayers of his own.
+</description>
+		<directions>
+			<direction dir="south" to_room="1517" />
+			<direction dir="west" to_room="1529" />
+			<direction dir="up" to_room="1536" />
+		</directions>
+	</room>
+	<room number="1531" name="The Upper Reaches" sector="0" flags="8">
+		<description>   You have traveled the righteous path, and you have faced the examples
+of the true models of the Prophet.  Only the final journey awaits you;
+live like this and you shall live forever.
+</description>
+		<directions>
+			<direction dir="east" to_room="1532" />
+			<direction dir="south" to_room="1522" />
+			<direction dir="down" to_room="1534" />
+		</directions>
+	</room>
+	<room number="1532" name="The Upper Reaches" sector="0" flags="8">
+		<description>   When the records of men's deeds are laid open, and heaven is stripped
+bare; when Hell burns fiercely and Paradise is brought near: then each
+soul shall know what it has done.
+</description>
+		<directions>
+			<direction dir="east" to_room="1533" />
+			<direction dir="west" to_room="1531" />
+			<direction dir="down" to_room="1535" />
+		</directions>
+	</room>
+	<room number="1533" name="The Upper Reaches" sector="0" flags="8">
+		<description>   You have traveled the righteous path, and your own journey has
+imitated the evolution of the most perfect soul.  Only one final
+path awaits you; die as the one in the room before, and your death
+will mean nothing.
+</description>
+		<directions>
+			<direction dir="south" to_room="1527" />
+			<direction dir="west" to_room="1532" />
+			<direction dir="down" to_room="1536" />
+		</directions>
+	</room>
+	<room number="1534" name="The Final Facing" sector="0" flags="12">
+		<description>   The last of the darkness lies behind you; only the straight path
+remains.  Go forth with a clean heart.  Only the penitent shall find
+what they seek.
+</description>
+		<directions>
+			<direction dir="east" to_room="1535" />
+			<direction dir="up" to_room="1531" />
+			<direction dir="down" to_room="1528" />
+		</directions>
+	</room>
+	<room number="1535" name="The Final Facing" sector="0" flags="12">
+		<description>   The last of the darkness lies behind you; only the straight path
+remains.  Go forth with a clean heart.  Only the penitent shall find
+what they seek.
+</description>
+		<directions>
+			<direction dir="north" to_room="1537" />
+			<direction dir="east" to_room="1536" />
+			<direction dir="west" to_room="1534" />
+			<direction dir="up" to_room="1532" />
+			<direction dir="down" to_room="1529" />
+		</directions>
+	</room>
+	<room number="1536" name="The Final Facing" sector="0" flags="12">
+		<description>   The last of the darkness lies behind you; only the straight path
+remains.  Go forth with a clean heart.  Only the penitent shall find
+what they seek.
+</description>
+		<directions>
+			<direction dir="west" to_room="1535" />
+			<direction dir="up" to_room="1533" />
+			<direction dir="down" to_room="1530" />
+		</directions>
+	</room>
+	<room number="1537" name="A Straight Path" sector="0" flags="8">
+		<description>   The Compassionate, the Merciful, Sovereign of the Day of Judgment!
+You alone we worship, and to You alone we turn for help.  Guide us to
+the Straight Path, the path of those whom You have favored, not of
+those who have gone astray.
+</description>
+		<directions>
+			<direction dir="north" to_room="1538" />
+			<direction dir="south" to_room="1535" />
+		</directions>
+	</room>
+	<room number="1538" name="Progression" sector="0" flags="8">
+		<description>   Were We worn out by the First Creation?  Yet they are in doubt about
+a new creation.  WE created man.  We know the promptings of his soul,
+and are closer to him than his jugular vein.
+</description>
+		<directions>
+			<direction dir="north" to_room="1539" />
+			<direction dir="south" to_room="1537" />
+		</directions>
+	</room>
+	<room number="1539" name="Judgment" sector="0" flags="8">
+		<description>   Undoubtedly the shortest path is the straightest one.  Only one more
+step awaits before a final decision is made and a home given to you for
+all eternity.
+</description>
+		<directions>
+			<direction dir="north" to_room="1540" />
+			<direction dir="south" to_room="1538" />
+		</directions>
+	</room>
+	<room number="1540" name="The Utmost Throne" sector="0" flags="8">
+		<description>   You have come at last to the resting place of the most holy.  Startling
+crystal clarity of vision has been granted to you; seven guardians rim
+the periphery of the throne and all is bathed in a warm and clean light.
+It is here that the final choice is to be made, and no defiance of yours
+can change the outcome.
+</description>
+		<directions>
+			<direction dir="south" to_room="1539" />
+		</directions>
+	</room>
+</rooms>

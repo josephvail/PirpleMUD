@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<items>
+	<item number="6200" name="key" type="18" wear_flags="16385" extra_flags="65548" bitvector="0" weight="1" cost="20" cost_per_day="0" short_description="a key">
+		<values>
+			<value number="0" val="6200" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A key sits here.</description>
+		<extra_descriptions>
+			<extra_description keyword="key">
+				<description>It is a plain looking key.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="6201" name="manacles" type="9" wear_flags="129" extra_flags="128" bitvector="0" weight="20" cost="100" cost_per_day="20" short_description="a set of manacles">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="-20" />
+		</affects>
+		<description>A set of iron manacles lie here.</description>
+		<extra_descriptions>
+			<extra_description keyword="manacles">
+				<description>They're big steel cuffs, meant to be locked around the hands.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="6202" name="shackles" type="9" wear_flags="65" extra_flags="128" bitvector="0" weight="20" cost="100" cost_per_day="20" short_description="a set of shackles">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="14" modifier="-80" />
+		</affects>
+		<description>A set of shackles sit here, discarded.</description>
+		<extra_descriptions>
+			<extra_description keyword="shackles">
+				<description>Big iron cuffs, meant to be locked around the ankles.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="6203" name="Runestone rune stone" type="1" wear_flags="16385" extra_flags="1" bitvector="0" weight="1" cost="10000" cost_per_day="2000" short_description="the Runestone">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="12" modifier="8" />
+		</affects>
+		<description>A small stone with an inscription sits here.</description>
+		<extra_descriptions>
+			<extra_description keyword="runestone rune stone">
+				<description>It is a small, carved stone with a strange symbol
+carved upon it.  Strange...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="6204" name="club" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="12" cost="10" cost_per_day="2" short_description="a club">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="2" />
+			<value number="3" val="7" />
+		</values>
+		<description>A crude wooden club sits here.</description>
+		<extra_descriptions>
+			<extra_description keyword="club">
+				<description>It is a big, wooden club.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="6205" name="Starkblade knife dagger blade" type="5" wear_flags="8193" extra_flags="32770" bitvector="0" weight="1" cost="100000" cost_per_day="20000" short_description="Starkblade">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="7" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="12" modifier="10" />
+			<affect location="13" modifier="-20" />
+		</affects>
+		<description>A knife hums with eternal energy here.</description>
+		<extra_descriptions>
+			<extra_description keyword="starkblade knife dagger blade">
+				<description>It is an odd knife, with an inset of sapphire in the
+pommel.  It hums constantly, and your hand stings a 
+bit when you touch it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

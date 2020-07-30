@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<help first_keyword="levels" keyword_count="1" mini_mud="true">
+	<entry>LEVELS
+
+Usage: levels
+
+Lists the levels of your class and the experience required to attain each
+level.
+</entry>
+</help>

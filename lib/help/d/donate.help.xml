@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="donate" keyword_count="1" mini_mud="true">
+	<entry>DONATE
+
+Usage: donate &lt;object&gt;
+       donate &lt;number&gt; coins
+
+
+This command takes an object that you no longer want and deposits it in the
+donation room of Midgaard to assist newbies in getting started.  There is
+a 75% chance objects donated will wind up in a donation room in Midgaard,
+and a 25% chance the item will be junked.
+
+  &gt; donate shield
+  &gt; donate all.bread
+  &gt; donate 500 coins
+
+See also: JUNK
+</entry>
+</help>

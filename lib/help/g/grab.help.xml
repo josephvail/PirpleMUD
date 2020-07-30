@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="grab" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="hold" />
+	</additional_keywords>
+	<entry>GRAB HOLD
+
+Usage: grab &lt;object&gt;
+       hold &lt;object&gt;
+
+For getting a good grip on something; a torch, for example.
+
+Examples:
+
+  &gt; hold torch
+  &gt; grab stone
+
+See also: EQUIPMENT, REMOVE, WEAR, WIELD
+</entry>
+</help>

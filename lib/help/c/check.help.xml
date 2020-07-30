@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<help first_keyword="check" keyword_count="3" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="mail" />
+		<additional_keyword value="receive" />
+	</additional_keywords>
+	<entry>CHECK MAIL RECEIVE
+
+Usage: check
+       mail &lt;person&gt;
+       receive
+       
+
+The commands used by the Midgaard Mail System (MMS) are MAIL, CHECK, and
+RECEIVE.  These commands can only be used while in an Official MMS Post
+Office.  You must be at least second level in order to use the MMS.
+
+Examples:
+
+  To check and see if you have any mail waiting:
+  &gt; check
+
+  To write mail to Niandra:
+  &gt; mail Niandra
+
+  To ask the Postmaster to give you your mail, if you have any waiting:
+  &gt; receive
+
+Stamps cost 150 coins.
+</entry>
+</help>

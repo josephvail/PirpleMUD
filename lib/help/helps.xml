@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<helps count="216" count_mini_mud="216">
+	<help first_keyword="!" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="^" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="alias" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="aliases" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="ansi" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="color" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="assist" keyword_count="1" mini_mud="true" />
+	<help first_keyword="auction" keyword_count="6" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="gossip" />
+			<additional_keyword value="grats" />
+			<additional_keyword value="noauction" />
+			<additional_keyword value="nogossip" />
+			<additional_keyword value="nograts" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="autoexit" keyword_count="1" mini_mud="true" />
+	<help first_keyword="backstab" keyword_count="1" mini_mud="true" />
+	<help first_keyword="bank" keyword_count="4" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="withdraw" />
+			<additional_keyword value="deposit" />
+			<additional_keyword value="balance" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="bash" keyword_count="1" mini_mud="true" />
+	<help first_keyword="brief" keyword_count="1" mini_mud="true" />
+	<help first_keyword="bug" keyword_count="3" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="typo" />
+			<additional_keyword value="idea" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="buy" keyword_count="1" mini_mud="true" />
+	<help first_keyword="clear" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="cls" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="commands" keyword_count="1" mini_mud="true" />
+	<help first_keyword="compact" keyword_count="1" mini_mud="true" />
+	<help first_keyword="consider" keyword_count="1" mini_mud="true" />
+	<help first_keyword="diagnose" keyword_count="1" mini_mud="true" />
+	<help first_keyword="display" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="prompt" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="donate" keyword_count="1" mini_mud="true" />
+	<help first_keyword="drop" keyword_count="1" mini_mud="true" />
+	<help first_keyword="eat" keyword_count="4" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="drink" />
+			<additional_keyword value="sip" />
+			<additional_keyword value="taste" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="emote" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value=":" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="enter" keyword_count="1" mini_mud="true" />
+	<help first_keyword="equipment" keyword_count="1" mini_mud="true" />
+	<help first_keyword="examine" keyword_count="1" mini_mud="true" />
+	<help first_keyword="exits" keyword_count="1" mini_mud="true" />
+	<help first_keyword="fill" keyword_count="1" mini_mud="true" />
+	<help first_keyword="flee" keyword_count="1" mini_mud="true" />
+	<help first_keyword="follow" keyword_count="1" mini_mud="true" />
+	<help first_keyword="get" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="take" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="give" keyword_count="1" mini_mud="true" />
+	<help first_keyword="gold" keyword_count="1" mini_mud="true" />
+	<help first_keyword="grab" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="hold" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="group" keyword_count="1" mini_mud="true" />
+	<help first_keyword="gsay" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="gtell" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="help" keyword_count="1" mini_mud="true" />
+	<help first_keyword="hide" keyword_count="1" mini_mud="true" />
+	<help first_keyword="house" keyword_count="1" mini_mud="true" />
+	<help first_keyword="info" keyword_count="4" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="news" />
+			<additional_keyword value="policy" />
+			<additional_keyword value="version" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="inventory" keyword_count="1" mini_mud="true" />
+	<help first_keyword="junk" keyword_count="1" mini_mud="true" />
+	<help first_keyword="kick" keyword_count="1" mini_mud="true" />
+	<help first_keyword="kill" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="hit" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="leave" keyword_count="1" mini_mud="true" />
+	<help first_keyword="levels" keyword_count="1" mini_mud="true" />
+	<help first_keyword="list" keyword_count="1" mini_mud="true" />
+	<help first_keyword="look" keyword_count="1" mini_mud="true" />
+	<help first_keyword="check" keyword_count="3" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="mail" />
+			<additional_keyword value="receive" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="motd" keyword_count="1" mini_mud="true" />
+	<help first_keyword="murder" keyword_count="1" mini_mud="true" />
+	<help first_keyword="norepeat" keyword_count="1" mini_mud="true" />
+	<help first_keyword="north" keyword_count="6" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="south" />
+			<additional_keyword value="east" />
+			<additional_keyword value="west" />
+			<additional_keyword value="up" />
+			<additional_keyword value="down" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="noshout" keyword_count="1" mini_mud="true" />
+	<help first_keyword="nosummon" keyword_count="1" mini_mud="true" />
+	<help first_keyword="notell" keyword_count="1" mini_mud="true" />
+	<help first_keyword="offer" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="rent" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="open" keyword_count="4" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="close" />
+			<additional_keyword value="lock" />
+			<additional_keyword value="unlock" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="order" keyword_count="1" mini_mud="true" />
+	<help first_keyword="pick locks" keyword_count="1" mini_mud="true" />
+	<help first_keyword="pour" keyword_count="1" mini_mud="true" />
+	<help first_keyword="practice" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="practise" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="put" keyword_count="1" mini_mud="true" />
+	<help first_keyword="qsay" keyword_count="1" mini_mud="true" />
+	<help first_keyword="quaff" keyword_count="3" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="potion" />
+			<additional_keyword value="potions" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="quest" keyword_count="1" mini_mud="true" />
+	<help first_keyword="qui" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="shutdow" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="quit" keyword_count="1" mini_mud="true" />
+	<help first_keyword="read" keyword_count="1" mini_mud="true" />
+	<help first_keyword="recite" keyword_count="3" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="scroll" />
+			<additional_keyword value="scrolls" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="remove" keyword_count="1" mini_mud="true" />
+	<help first_keyword="reply" keyword_count="1" mini_mud="true" />
+	<help first_keyword="report" keyword_count="1" mini_mud="true" />
+	<help first_keyword="rescue" keyword_count="1" mini_mud="true" />
+	<help first_keyword="save" keyword_count="1" mini_mud="true" />
+	<help first_keyword="say" keyword_count="8" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="tell" />
+			<additional_keyword value="ask" />
+			<additional_keyword value="whisper" />
+			<additional_keyword value="shout" />
+			<additional_keyword value="yell" />
+			<additional_keyword value="holler" />
+			<additional_keyword value="'" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="score" keyword_count="1" mini_mud="true" />
+	<help first_keyword="sell" keyword_count="1" mini_mud="true" />
+	<help first_keyword="sleep" keyword_count="1" mini_mud="true" />
+	<help first_keyword="sneak" keyword_count="1" mini_mud="true" />
+	<help first_keyword="split" keyword_count="1" mini_mud="true" />
+	<help first_keyword="steal" keyword_count="1" mini_mud="true" />
+	<help first_keyword="time" keyword_count="1" mini_mud="true" />
+	<help first_keyword="title" keyword_count="1" mini_mud="true" />
+	<help first_keyword="toggle" keyword_count="1" mini_mud="true" />
+	<help first_keyword="track" keyword_count="1" mini_mud="true" />
+	<help first_keyword="ungroup" keyword_count="1" mini_mud="true" />
+	<help first_keyword="use" keyword_count="5" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="wand" />
+			<additional_keyword value="staff" />
+			<additional_keyword value="staffs" />
+			<additional_keyword value="wands" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="value" keyword_count="1" mini_mud="true" />
+	<help first_keyword="visible" keyword_count="1" mini_mud="true" />
+	<help first_keyword="wake" keyword_count="5" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="sleeping" />
+			<additional_keyword value="rest" />
+			<additional_keyword value="sit" />
+			<additional_keyword value="stand" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="wear" keyword_count="1" mini_mud="true" />
+	<help first_keyword="weather" keyword_count="1" mini_mud="true" />
+	<help first_keyword="where" keyword_count="1" mini_mud="true" />
+	<help first_keyword="who" keyword_count="1" mini_mud="true" />
+	<help first_keyword="whoami" keyword_count="1" mini_mud="true" />
+	<help first_keyword="wield" keyword_count="1" mini_mud="true" />
+	<help first_keyword="wimpy" keyword_count="1" mini_mud="true" />
+	<help first_keyword="wizlist" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="immlist" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="write" keyword_count="1" mini_mud="true" />
+	<help first_keyword="ac" keyword_count="1" mini_mud="true" />
+	<help first_keyword="areas" keyword_count="1" mini_mud="true" />
+	<help first_keyword="boards" keyword_count="1" mini_mud="true" />
+	<help first_keyword="cleric" keyword_count="1" mini_mud="true" />
+	<help first_keyword="experience" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="xp" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="flags" keyword_count="1" mini_mud="true" />
+	<help first_keyword="guild" keyword_count="1" mini_mud="true" />
+	<help first_keyword="houses" keyword_count="1" mini_mud="true" />
+	<help first_keyword="implementor" keyword_count="1" mini_mud="true" />
+	<help first_keyword="inn" keyword_count="5" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="inns" />
+			<additional_keyword value="cryogenic" />
+			<additional_keyword value="cryo" />
+			<additional_keyword value="reception" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="link" keyword_count="1" mini_mud="true" />
+	<help first_keyword="magic user" keyword_count="3" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="wizard" />
+			<additional_keyword value="mage" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="mana" keyword_count="1" mini_mud="true" />
+	<help first_keyword="midgaard" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="map" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="shops" keyword_count="1" mini_mud="true" />
+	<help first_keyword="spell" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="spells" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="thief" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="thieves" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="warrior" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="fighter" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="circle" keyword_count="3" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="circlemud" />
+			<additional_keyword value="credits" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="french" keyword_count="1" mini_mud="true" />
+	<help first_keyword="kiss" keyword_count="1" mini_mud="true" />
+	<help first_keyword="smile" keyword_count="1" mini_mud="true" />
+	<help first_keyword="socials" keyword_count="1" mini_mud="true" />
+	<help first_keyword="armor" keyword_count="1" mini_mud="true" />
+	<help first_keyword="bless" keyword_count="1" mini_mud="true" />
+	<help first_keyword="blindness" keyword_count="1" mini_mud="true" />
+	<help first_keyword="burning hands" keyword_count="1" mini_mud="true" />
+	<help first_keyword="call lightning" keyword_count="1" mini_mud="true" />
+	<help first_keyword="cast" keyword_count="1" mini_mud="true" />
+	<help first_keyword="charm person" keyword_count="1" mini_mud="true" />
+	<help first_keyword="chill touch" keyword_count="1" mini_mud="true" />
+	<help first_keyword="colorspray" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="color spray" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="control weather" keyword_count="1" mini_mud="true" />
+	<help first_keyword="create food" keyword_count="1" mini_mud="true" />
+	<help first_keyword="create water" keyword_count="1" mini_mud="true" />
+	<help first_keyword="cure blind" keyword_count="1" mini_mud="true" />
+	<help first_keyword="cure critic" keyword_count="1" mini_mud="true" />
+	<help first_keyword="cure light" keyword_count="1" mini_mud="true" />
+	<help first_keyword="curse" keyword_count="1" mini_mud="true" />
+	<help first_keyword="detect alignment" keyword_count="1" mini_mud="true" />
+	<help first_keyword="detect invisibility" keyword_count="1" mini_mud="true" />
+	<help first_keyword="detect magic" keyword_count="1" mini_mud="true" />
+	<help first_keyword="detect poison" keyword_count="1" mini_mud="true" />
+	<help first_keyword="dispel evil" keyword_count="1" mini_mud="true" />
+	<help first_keyword="dispel good" keyword_count="1" mini_mud="true" />
+	<help first_keyword="earthquake" keyword_count="1" mini_mud="true" />
+	<help first_keyword="enchant weapon" keyword_count="1" mini_mud="true" />
+	<help first_keyword="energy drain" keyword_count="1" mini_mud="true" />
+	<help first_keyword="fireball" keyword_count="1" mini_mud="true" />
+	<help first_keyword="harm" keyword_count="1" mini_mud="true" />
+	<help first_keyword="heal" keyword_count="1" mini_mud="true" />
+	<help first_keyword="infravision" keyword_count="1" mini_mud="true" />
+	<help first_keyword="invisibility" keyword_count="1" mini_mud="true" />
+	<help first_keyword="lightning bolt" keyword_count="1" mini_mud="true" />
+	<help first_keyword="locate object" keyword_count="1" mini_mud="true" />
+	<help first_keyword="magic missile" keyword_count="1" mini_mud="true" />
+	<help first_keyword="poison" keyword_count="1" mini_mud="true" />
+	<help first_keyword="protection from evil" keyword_count="1" mini_mud="true" />
+	<help first_keyword="remove curse" keyword_count="1" mini_mud="true" />
+	<help first_keyword="remove poison" keyword_count="1" mini_mud="true" />
+	<help first_keyword="sanctuary" keyword_count="1" mini_mud="true" />
+	<help first_keyword="shocking grasp" keyword_count="1" mini_mud="true" />
+	<help first_keyword="sense life" keyword_count="1" mini_mud="true" />
+	<help first_keyword="strength" keyword_count="1" mini_mud="true" />
+	<help first_keyword="summon" keyword_count="1" mini_mud="true" />
+	<help first_keyword="ventriloquate" keyword_count="1" mini_mud="true" />
+	<help first_keyword="word of recall" keyword_count="1" mini_mud="true" />
+	<help first_keyword="advance" keyword_count="1" mini_mud="true" />
+	<help first_keyword="wizat" keyword_count="1" mini_mud="true" />
+	<help first_keyword="ban" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="unban" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="date" keyword_count="1" mini_mud="true" />
+	<help first_keyword="dc" keyword_count="1" mini_mud="true" />
+	<help first_keyword="echo" keyword_count="4" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="gecho" />
+			<additional_keyword value="qecho" />
+			<additional_keyword value="send" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="force" keyword_count="1" mini_mud="true" />
+	<help first_keyword="freeze" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="thaw" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="goto" keyword_count="3" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="trans" />
+			<additional_keyword value="wizteleport" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="handbook" keyword_count="1" mini_mud="true" />
+	<help first_keyword="hcontrol" keyword_count="1" mini_mud="true" />
+	<help first_keyword="holylight" keyword_count="1" mini_mud="true" />
+	<help first_keyword="imotd" keyword_count="1" mini_mud="true" />
+	<help first_keyword="invis" keyword_count="1" mini_mud="true" />
+	<help first_keyword="last" keyword_count="1" mini_mud="true" />
+	<help first_keyword="load" keyword_count="1" mini_mud="true" />
+	<help first_keyword="mute" keyword_count="1" mini_mud="true" />
+	<help first_keyword="nohassle" keyword_count="1" mini_mud="true" />
+	<help first_keyword="notitle" keyword_count="1" mini_mud="true" />
+	<help first_keyword="nowiz" keyword_count="1" mini_mud="true" />
+	<help first_keyword="olc" keyword_count="1" mini_mud="true" />
+	<help first_keyword="page" keyword_count="1" mini_mud="true" />
+	<help first_keyword="pardon" keyword_count="1" mini_mud="true" />
+	<help first_keyword="poofin" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value="poofout" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="purge" keyword_count="1" mini_mud="true" />
+	<help first_keyword="reload" keyword_count="1" mini_mud="true" />
+	<help first_keyword="reroll" keyword_count="1" mini_mud="true" />
+	<help first_keyword="restore" keyword_count="1" mini_mud="true" />
+	<help first_keyword="return" keyword_count="1" mini_mud="true" />
+	<help first_keyword="roomflags" keyword_count="1" mini_mud="true" />
+	<help first_keyword="set" keyword_count="1" mini_mud="true" />
+	<help first_keyword="show" keyword_count="1" mini_mud="true" />
+	<help first_keyword="shutdown" keyword_count="1" mini_mud="true" />
+	<help first_keyword="skillset" keyword_count="1" mini_mud="true" />
+	<help first_keyword="slowns" keyword_count="1" mini_mud="true" />
+	<help first_keyword="snoop" keyword_count="1" mini_mud="true" />
+	<help first_keyword="snowball" keyword_count="1" mini_mud="true" />
+	<help first_keyword="stat" keyword_count="1" mini_mud="true" />
+	<help first_keyword="string" keyword_count="1" mini_mud="true" />
+	<help first_keyword="switch" keyword_count="1" mini_mud="true" />
+	<help first_keyword="syslog" keyword_count="1" mini_mud="true" />
+	<help first_keyword="unaffect" keyword_count="1" mini_mud="true" />
+	<help first_keyword="uptime" keyword_count="1" mini_mud="true" />
+	<help first_keyword="users" keyword_count="1" mini_mud="true" />
+	<help first_keyword="vnum" keyword_count="1" mini_mud="true" />
+	<help first_keyword="vstat" keyword_count="1" mini_mud="true" />
+	<help first_keyword="wizhelp" keyword_count="1" mini_mud="true" />
+	<help first_keyword="wizlock" keyword_count="1" mini_mud="true" />
+	<help first_keyword="wiznet" keyword_count="2" mini_mud="true">
+		<additional_keywords>
+			<additional_keyword value=";" />
+		</additional_keywords>
+	</help>
+	<help first_keyword="zreset" keyword_count="1" mini_mud="true" />
+</helps>

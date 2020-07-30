@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="1" name="Puff dragon fractal" level="26" sex="2" alignment="1000" flags="253953" aff_flags="33800" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="550" armor="-10" gold="10000" experience="155000" hitroll="19" damroll="3" short_description="Puff">
+		<long_description>Puff the Fractal Dragon is here, contemplating a higher reality.
+</long_description>
+		<description>Is that some type of differential curve involving some strange, and
+unknown calculus that she seems to be made out of?
+</description>
+	</mobile>
+	<mobile number="10" name="clone" level="1" sex="0" alignment="0" flags="2" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="1" max_manapoints="1" max_movepoints="1" armor="0" experience="0" hitroll="20" damroll="1" short_description="the clone">
+		<long_description>A boring old clone is standing here.
+</long_description>
+		<description>This clone is nothing to look at.  No, really, it is quite boring.
+</description>
+	</mobile>
+	<mobile number="11" name="zombie undead humanoid" level="1" sex="0" alignment="0" flags="2" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="1" max_manapoints="1" max_movepoints="1" armor="0" experience="0" hitroll="20" damroll="1" short_description="the zombie">
+		<long_description>A strange humanoid is here.  How odd, its flesh seems to be falling off!
+</long_description>
+		<description>This strange humanoid is moving rather slowly, and appears to be
+a corpse, a walking corpse!  It must be a zombie or something of
+the sort.
+</description>
+	</mobile>
+	<mobile number="19" name="aerial servant shape" level="1" sex="0" alignment="0" flags="2" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="1" max_manapoints="1" max_movepoints="1" armor="0" experience="0" hitroll="20" damroll="1" short_description="the aerial servant">
+		<long_description>An amorphous shape is floating in the air.
+</long_description>
+		<description>As you stare at this amorphous shape, it begins to appear to take
+the shape of a cloud-like humanoid.
+</description>
+	</mobile>
+	<mobile number="20" name="elemental" level="1" sex="0" alignment="0" flags="2" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="1" max_manapoints="1" max_movepoints="1" armor="0" experience="0" hitroll="20" damroll="1" short_description="the elemental">
+		<long_description>An elemental is standing patiently here.
+</long_description>
+		<description>This creature is the essence of the elements, and appears to be
+waiting patiently for something to occur.
+</description>
+	</mobile>
+</mobiles>

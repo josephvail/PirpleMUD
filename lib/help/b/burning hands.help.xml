@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="burning hands" keyword_count="1" mini_mud="true">
+	<entry>"BURNING HANDS"
+
+Usage       : cast 'burning hands' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Mage level 5.
+Save        : Versus spell for half damage.
+
+This spell is more powerful than the chill touch spell.
+
+See also: "CHILL TOUCH"
+</entry>
+</help>

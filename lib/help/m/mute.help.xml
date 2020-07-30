@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<help first_keyword="mute" keyword_count="1" mini_mud="true">
+	<entry>MUTE
+
+Usage: mute &lt;victim&gt;
+
+MUTE is used to shut a player up.  When muted, a player will not be able to
+use most communication channels until he/she is unmuted.
+
+See also: FLAGS
+</entry>
+</help>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<help first_keyword="hcontrol" keyword_count="1" mini_mud="true">
+	<entry>HCONTROL
+
+Usage: hcontrol build &lt;house vnum&gt; &lt;exit dir&gt; &lt;player name&gt;
+       hcontrol destroy &lt;house vnum&gt;
+       hcontrol pay &lt;house vnum&gt;
+       hcontrol show
+
+House control, controls the addition, removal, and payments of houses.
+Hcontrol show will show all the houses currently defined in the game
+along with their last 'rent' payment date.
+
+See also: HOUSE, HOUSES
+</entry>
+</help>

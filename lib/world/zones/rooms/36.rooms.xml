@@ -1,0 +1,1364 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="3600" name="The Great Chessboard Of Midgaard" sector="1" flags="4">
+		<description>   You stand in the archway of the Chessboard of Midgaard.  The giant
+wooden gate is rusted open.
+   A narrow dirt path leads eastwards into the thick grass and the
+chessboard opens up to the west.
+</description>
+		<directions>
+			<direction dir="east" to_room="3066">
+				<general_description>A dirt path leads away through the great field north of Midgaard.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3632">
+				<general_description>The huge chessboard opens up to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3601" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of the Black Queen's Rook.
+</description>
+		<directions>
+			<direction dir="east" to_room="3602">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3609">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3602" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of the Black Queen's Knight.
+</description>
+		<directions>
+			<direction dir="east" to_room="3603">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3610">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3601">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3603" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of the Black Queen's Bishop.
+</description>
+		<directions>
+			<direction dir="east" to_room="3604">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3611">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3602">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3604" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of the Black Queen.
+</description>
+		<directions>
+			<direction dir="east" to_room="3605">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3612">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3603">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="3665" key="3614" keyword="marble square" flags="9" />
+		</directions>
+	</room>
+	<room number="3605" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of the Black King.
+</description>
+		<directions>
+			<direction dir="east" to_room="3606">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3613">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3604">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3606" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of the Black King's Bishop.
+</description>
+		<directions>
+			<direction dir="east" to_room="3607">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3614">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3605">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3607" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of the Black King's Knight.
+</description>
+		<directions>
+			<direction dir="east" to_room="3608">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3615">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3606">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3608" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of the Black King's Rook.
+</description>
+		<directions>
+			<direction dir="south" to_room="3616">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3607">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3609" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of one of the Black Queen's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3601">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3610">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3617">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3610" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of one of the Black Queen's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3602">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3611">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3618">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3609">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3611" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of one of the Black Queen's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3603">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3612">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3619">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3610">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3612" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of one of the Black Queen's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3604">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3613">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3620">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3611">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3613" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of one of the Black King's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3605">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3614">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3621">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3612">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3614" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of one of the Black King's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3606">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3615">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3622">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3613">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3615" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of one of the Black King's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3607">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3616">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3623">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3614">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3616" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of one of the Black King's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3608">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3624">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3615">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3617" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3609">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3618">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3625">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3618" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3610">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3619">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3626">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3617">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3619" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3611">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3620">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3627">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3618">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3620" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3612">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3621">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3628">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3619">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3621" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3613">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3622">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3629">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3620">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3622" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3614">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3623">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3630">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3621">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3623" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3615">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3624">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3631">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3622">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3624" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  You can see a rusty gate
+to the south.
+</description>
+		<directions>
+			<direction dir="north" to_room="3616">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3632">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3623">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3625" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3617">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3626">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3633">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3626" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3618">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3627">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3634">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3625">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3627" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3619">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3628">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3635">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3626">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3628" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3620">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3629">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3636">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3627">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3629" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3621">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3630">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3637">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3628">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3630" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3622">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3631">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3638">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3629">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3631" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  There is a rusty gate
+a short distance to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="3623">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3632">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3639">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3630">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3632" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  There is a large rusty
+gate to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="3624">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3600">
+				<general_description>The gate to the chessboard is just to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3640">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3631">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3633" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3625">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3634">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3641">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3634" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3626">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3635">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3642">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3633">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3635" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3627">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3636">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3643">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3634">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3636" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3628">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3637">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3644">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3635">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3637" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3629">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3638">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3645">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3636">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3638" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3630">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3639">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3646">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3637">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3639" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3631">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3640">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3647">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3638">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3640" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  There is a rusty gate
+to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="3632">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3648">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3639">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3641" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3633">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3642">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3649">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3642" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3634">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3643">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3650">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3641">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3643" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3635">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3644">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3651">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3642">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3644" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3636">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3645">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3652">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3643">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3645" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3637">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3646">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3653">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3644">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3646" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3638">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3647">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3654">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3645">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3647" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3639">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3648">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3655">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3646">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3648" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.
+</description>
+		<directions>
+			<direction dir="north" to_room="3640">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3656">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3647">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3649" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of one of the White Queen's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3641">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3650">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3657">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3650" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of one of the White Queen's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3642">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3651">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3658">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3649">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3651" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of one of the White Queen's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3643">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3652">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3659">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3650">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3652" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of one of the White Queen's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3644">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3653">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3660">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3651">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3653" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of one of the White King's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3645">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3654">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3661">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3652">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3654" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of one of the White King's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3646">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3655">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3662">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3653">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3655" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of one of the White King's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3647">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3656">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3663">
+				<general_description>A black square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3654">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3656" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of one of the White King's Pawns.
+</description>
+		<directions>
+			<direction dir="north" to_room="3648">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3664">
+				<general_description>A white square lies to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3655">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3657" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of the White Queen's Rook.
+</description>
+		<directions>
+			<direction dir="north" to_room="3649">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3658">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3658" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of the White Queen's Knight.
+</description>
+		<directions>
+			<direction dir="north" to_room="3650">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3659">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3657">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3659" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of the White Queen's Bishop.
+</description>
+		<directions>
+			<direction dir="north" to_room="3651">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3660">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3658">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3660" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of the White Queen.
+</description>
+		<directions>
+			<direction dir="north" to_room="3652">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3661">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3659">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="3666" key="3615" keyword="marble square" flags="9" />
+		</directions>
+	</room>
+	<room number="3661" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of the White King.
+</description>
+		<directions>
+			<direction dir="north" to_room="3653">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3662">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3660">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3662" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of the White King's Bishop.
+</description>
+		<directions>
+			<direction dir="north" to_room="3654">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3663">
+				<general_description>A black square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3661">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3663" name="A Black Square" sector="1" flags="0">
+		<description>   You are standing on a black marble square.  This is usually the home
+of the White King's Knight.
+</description>
+		<directions>
+			<direction dir="north" to_room="3655">
+				<general_description>A white square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3664">
+				<general_description>A white square lies to the east.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3662">
+				<general_description>A white square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3664" name="A White Square" sector="1" flags="0">
+		<description>   You are standing on a white marble square.  This is usually the home
+of the White King's Rook.
+</description>
+		<directions>
+			<direction dir="north" to_room="3656">
+				<general_description>A black square lies to the north.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3663">
+				<general_description>A black square lies to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3665" name="The Black Treasury" sector="0" flags="521">
+		<description>   You are standing in the treasury of the Black Court.  Hopefully no one 
+has looted the Crown's treasure.
+</description>
+		<directions>
+			<direction dir="up" to_room="3604" key="3614" keyword="marble square" flags="9">
+				<general_description>A small staircase rises above you.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3666" name="The White Treasury" sector="0" flags="521">
+		<description>   You are standing in the treasury of the White Court.  Hopefully no one 
+has looted the Crown's treasure.
+</description>
+		<directions>
+			<direction dir="up" to_room="3660" key="3615" keyword="marble square" flags="9">
+				<general_description>A small staircase rises above you.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+</rooms>

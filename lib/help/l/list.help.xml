@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="list" keyword_count="1" mini_mud="true">
+	<entry>LIST
+
+Usage: list [item type]
+
+If you'd like to see what items a shop has for sale, take a look at the
+list.  The list contains all of the items currently for sale and in
+what quantity.  The price for each item is also listed.  If you are
+interested in a particular type of item, you can specify which items to
+list.
+ 
+Examples:
+ 
+  &gt; list             (list all items for sale)
+  &gt; list sword       (list all swords for sale)
+ 
+See also: BUY, SELL, SHOPS, VALUE
+</entry>
+</help>

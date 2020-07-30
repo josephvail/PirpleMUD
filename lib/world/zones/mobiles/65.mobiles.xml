@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="6500" name="guard dwarf dwarven" level="21" sex="1" alignment="1000" flags="6147" aff_flags="1160" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="20" max_movepoints="336" armor="-10" gold="10000" experience="60000" hitroll="20" damroll="9" short_description="the dwarf guard">
+		<long_description>A dwarven guard is here.
+</long_description>
+		<description>The guard looks very tough and mean.  He wears his beard long, and he
+smells like he hasn't bathed in over a month.
+</description>
+	</mobile>
+	<mobile number="6501" name="worker dwarf dwarven" level="13" sex="1" alignment="900" flags="6208" aff_flags="0" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="5" max_movepoints="170" armor="20" gold="3500" experience="16000" hitroll="13" damroll="6" short_description="the dwarf worker">
+		<long_description>A dwarven mining worker is here.
+</long_description>
+		<description>He is very dirty, and looks extremely over-worked.
+</description>
+	</mobile>
+	<mobile number="6502" name="wraith" level="25" sex="1" alignment="-900" flags="188451" aff_flags="1064" position="8" default_position="8" dam_nodice="4" dam_sizedice="5" max_manapoints="7" max_movepoints="500" armor="-60" gold="45708" experience="125000" hitroll="16" damroll="25" short_description="the wraith">
+		<long_description>A wraith is awaiting your first move here.
+</long_description>
+		<description>A black, almost transparent wraith.
+</description>
+	</mobile>
+	<mobile number="6503" name="storekeeper" level="33" sex="1" alignment="1000" flags="6147" aff_flags="8" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="33500" experience="800000" hitroll="20" damroll="32" short_description="the Hide &amp; Tooth storekeeper">
+		<long_description>The Hide &amp; Tooth storekeeper is standing here, waiting patiently.
+</long_description>
+		<description>The storekeeper is very rotund, but looks in excellent condition.
+</description>
+	</mobile>
+	<mobile number="6504" name="baker granite head" level="33" sex="1" alignment="900" flags="6147" aff_flags="8" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="55000" experience="800000" hitroll="20" damroll="22" short_description="Granite Head the baker">
+		<long_description>Granite Head, the baker, is waiting for a customer here.
+</long_description>
+		<description>Granite Head is covered with flour and grains.
+</description>
+	</mobile>
+	<mobile number="6505" name="lizard giant" level="21" sex="1" alignment="100" flags="64" aff_flags="1032" position="8" default_position="8" dam_nodice="3" dam_sizedice="7" max_manapoints="20" max_movepoints="340" armor="10" gold="200" experience="55000" hitroll="20" damroll="4" short_description="the giant lizard">
+		<long_description>A giant lizard is foraging for food along the cavern floor here.
+</long_description>
+		<description>This scaly creature looks like it is well adapted to its underground
+habitat.  He looks very powerful.
+</description>
+	</mobile>
+	<mobile number="6506" name="giant" level="19" sex="1" alignment="600" flags="2112" aff_flags="1024" position="8" default_position="8" dam_nodice="3" dam_sizedice="3" max_manapoints="20" max_movepoints="300" armor="0" gold="2000" experience="45000" hitroll="18" damroll="8" short_description="the giant">
+		<long_description>A giant is wandering around the mountainside here.
+</long_description>
+		<description>The giant is about 18 feet tall, with arms of steel, and looks in
+excellent physical condition.
+</description>
+	</mobile>
+	<mobile number="6507" name="mineworker dwarven dwarf miner worker" level="4" sex="1" alignment="500" flags="2050" aff_flags="1024" position="8" default_position="8" dam_nodice="1" dam_sizedice="3" max_manapoints="13" max_movepoints="40" armor="70" gold="600" experience="700" hitroll="4" damroll="2" short_description="the dwarven mineworker">
+		<long_description>A dwarven mineworker is here.
+</long_description>
+		<description>The mineworker is very tired, and very dirty, and he has bulging muscles.
+</description>
+	</mobile>
+	<mobile number="6508" name="mineleader dwarven dwarf mine leader" level="19" sex="1" alignment="700" flags="2050" aff_flags="1024" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="2" max_movepoints="270" armor="0" gold="18000" experience="35000" hitroll="19" damroll="6" short_description="the mine leader">
+		<long_description>A dwarven mine leader is here, supervising the work.
+</long_description>
+		<description>The mine leader is very big and very strong, though he must be fairly
+bright also, to have gotten this job.
+</description>
+	</mobile>
+	<mobile number="6509" name="doctor dwarven healer" level="22" sex="1" alignment="999" flags="2051" aff_flags="1160" position="8" default_position="8" dam_nodice="3" dam_sizedice="8" max_manapoints="4" max_movepoints="375" armor="-10" gold="20000" experience="60000" hitroll="20" damroll="4" short_description="the dwarven doctor">
+		<long_description>The dwarven doctor is here, aiding the sick of his people.
+</long_description>
+		<description>He is a very skilled healer, and extremely faithful to his god.
+</description>
+	</mobile>
+	<mobile number="6510" name="peon dwarven" level="3" sex="1" alignment="500" flags="4098" aff_flags="1024" position="8" default_position="8" dam_nodice="2" dam_sizedice="3" max_manapoints="3" max_movepoints="35" armor="70" gold="75" experience="350" hitroll="2" damroll="2" short_description="the dwarven peon">
+		<long_description>A dwarven peon is awaiting help here.
+</long_description>
+	</mobile>
+	<mobile number="6511" name="dwarf" level="6" sex="1" alignment="500" flags="2" aff_flags="1024" position="8" default_position="8" dam_nodice="3" dam_sizedice="3" max_manapoints="15" max_movepoints="70" armor="40" gold="625" experience="1500" hitroll="5" damroll="1" short_description="the Dwarf">
+		<long_description>A dwarf is here.
+</long_description>
+	</mobile>
+	<mobile number="6514" name="guard barrack" level="14" sex="1" alignment="100" flags="4098" aff_flags="1024" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="10" max_movepoints="170" armor="10" gold="1300" experience="20000" hitroll="14" damroll="4" short_description="the barrack guard">
+		<long_description>A barrack guard is here, lounging around while off duty.
+</long_description>
+	</mobile>
+	<mobile number="6516" name="mazekeeper keeper" level="29" sex="1" alignment="-1000" flags="2083" aff_flags="1160" position="8" default_position="8" dam_nodice="4" dam_sizedice="3" max_manapoints="4" max_movepoints="2000" armor="-70" gold="2000" experience="1700000" hitroll="20" damroll="5" short_description="the mazekeeper">
+		<long_description>A mazekeeper is here.
+</long_description>
+		<description>He looks VERY tough.
+</description>
+	</mobile>
+	<mobile number="6517" name="snake giant" level="33" sex="1" alignment="-1000" flags="34" aff_flags="1024" position="8" default_position="8" dam_nodice="4" dam_sizedice="4" max_manapoints="6" max_movepoints="600" armor="-100" gold="3000" experience="800000" hitroll="20" damroll="22" short_description="the giant snake">
+		<long_description>There is a giant snake here.
+</long_description>
+	</mobile>
+</mobiles>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<help first_keyword="junk" keyword_count="1" mini_mud="true">
+	<entry>JUNK
+
+Usage: junk &lt;object&gt;
+       junk &lt;number&gt; coins
+
+Use JUNK instead of DROP if you want to keep the world a little cleaner.  If
+you JUNK something, it will disappear and you'll get a few coins or experience
+points, just as if you had dropped it in the dump.
+
+Examples:
+
+  &gt; junk cup
+  &gt; junk all.bronze
+  &gt; junk 500 coins
+
+See also: DONATE, DROP
+</entry>
+</help>

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="5000" name="dervish raggity" level="5" sex="1" alignment="900" flags="196" aff_flags="786432" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="10" max_movepoints="60" armor="50" gold="70" experience="1000" hitroll="5" short_description="the dervish">
+		<long_description>A raggity dervish walks on aimlessly.
+</long_description>
+		<description>Dressed in loose fitting rags, this man looks like he could use some rest.
+</description>
+	</mobile>
+	<mobile number="5001" name="dervish large" level="8" sex="1" alignment="650" flags="96" aff_flags="786432" position="8" default_position="8" dam_nodice="2" dam_sizedice="6" max_manapoints="6" max_movepoints="100" armor="30" gold="150" experience="7000" hitroll="8" damroll="1" short_description="the dervish">
+		<long_description>A large dervish watches for signs of trouble.
+</long_description>
+		<description>Dressed in loose fitting rags, this man looks like he could use LOTS of
+rest.
+</description>
+	</mobile>
+	<mobile number="5002" name="snake coral" level="4" sex="0" alignment="-10" flags="64" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="9" max_manapoints="6" max_movepoints="40" armor="40" experience="600" hitroll="3" short_description="the coral snake">
+		<long_description>A brightly colored snake slithers along the sands.
+</long_description>
+		<description>This relatively harmless snake has bright alternating bands of red, yellow
+and black.
+</description>
+	</mobile>
+	<mobile number="5003" name="scorpion small" level="3" sex="0" alignment="-50" flags="64" aff_flags="0" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="6" max_movepoints="40" armor="10" experience="500" hitroll="3" short_description="the small scorpion">
+		<long_description>A small, red scorpion scuttles away at your approach.
+</long_description>
+		<description>The little tail is mighty dangerous for such a small creature.
+</description>
+	</mobile>
+	<mobile number="5004" name="worm giant purple" level="21" sex="0" alignment="-300" flags="165939" aff_flags="1064" position="8" default_position="8" dam_nodice="3" dam_sizedice="7" max_manapoints="10" max_movepoints="320" armor="30" gold="2540" experience="65000" hitroll="20" damroll="14" short_description="the sand worm">
+		<long_description>A giant, purple sand worm thrusts up out of the sand and attacks!
+</long_description>
+		<description>He's big, mean, and purple.  Watch out!
+</description>
+	</mobile>
+	<mobile number="5005" name="dragon brass" level="20" sex="2" alignment="950" flags="65587" aff_flags="33928" position="8" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="6" max_movepoints="500" armor="0" gold="1500" experience="45000" hitroll="19" damroll="4" short_description="the brass dragon">
+		<long_description>A very large brass dragon steps out of the darkness and says 'Hello.'
+</long_description>
+		<description>Then adds to it, 'Prepare to die, have a nice day!'
+</description>
+	</mobile>
+	<mobile number="5006" name="nomad leader" level="14" sex="1" alignment="950" flags="2178" aff_flags="8" position="6" default_position="6" dam_nodice="2" dam_sizedice="8" max_manapoints="6" max_movepoints="170" armor="0" gold="1000" experience="18000" hitroll="13" damroll="5" short_description="the nomad leader">
+		<long_description>The nomad leader sits silently in prayer.
+</long_description>
+		<description>He is clad in silk robes lined with gold thread. At his side is a large,
+engraved cutlass.  He has an especially haughty air about him.
+</description>
+	</mobile>
+	<mobile number="5007" name="nomad commander" level="12" sex="1" alignment="900" flags="2178" aff_flags="0" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="6" max_movepoints="135" armor="10" gold="600" experience="14000" hitroll="12" damroll="3" short_description="the nomad commander">
+		<long_description>The nomad commander stands here staring at you suspiciously.
+</long_description>
+		<description>This is the nomad leader's second in command.  His clothes are richly woven
+of silk and gold thread.  A nasty cutlass hangs at his side.
+</description>
+	</mobile>
+	<mobile number="5008" name="nomad warrior" level="10" sex="1" alignment="700" flags="2" aff_flags="0" position="8" default_position="8" dam_nodice="2" dam_sizedice="6" max_manapoints="6" max_movepoints="105" armor="20" gold="300" experience="7000" hitroll="9" damroll="1" short_description="the nomad warrior">
+		<long_description>A proud nomad warrior stands here.
+</long_description>
+		<description>This warrior is dressed in typical nomad clothing and looks quite mean.
+</description>
+	</mobile>
+	<mobile number="5009" name="slave young" level="3" sex="2" alignment="1000" flags="130" aff_flags="0" position="5" default_position="5" dam_nodice="1" dam_sizedice="5" max_manapoints="4" max_movepoints="25" armor="90" experience="300" hitroll="2" short_description="the slave">
+		<long_description>A young slave sits here staring at you with pleading eyes.
+</long_description>
+		<description>She looks quite thin and weak.
+</description>
+	</mobile>
+	<mobile number="5010" name="dracolich lich" level="24" sex="0" alignment="-1000" flags="124979" aff_flags="33962" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="12" max_movepoints="520" armor="-60" gold="75000" experience="125000" hitroll="20" damroll="35" short_description="the dracolich">
+		<long_description>A pile of bones rises up to form a skeletal dracolich.
+</long_description>
+		<description>The dracolich is now only bone with pieces of flesh hanging from it.
+Obviously it no longer fears death.
+</description>
+	</mobile>
+	<mobile number="5011" name="drider" level="8" sex="0" alignment="-1000" flags="96" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="6" max_manapoints="6" max_movepoints="95" armor="20" gold="200" experience="4000" hitroll="8" damroll="2" short_description="the drider">
+		<long_description>The drider looks at you viciously while it draws its sword.
+</long_description>
+		<description>This half-spider, half-drow creature is a formidable opponent.
+</description>
+	</mobile>
+	<mobile number="5012" name="duergar dark dwarf" level="5" sex="1" alignment="-850" flags="96" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="11" max_movepoints="60" armor="30" gold="170" experience="1250" hitroll="4" damroll="1" short_description="the dark dwarf">
+		<long_description>A duergar is here mining precious stones with his pick.
+</long_description>
+		<description>The duergar could probably crush your head as easily as he does those
+rocks.
+</description>
+	</mobile>
+	<mobile number="5013" name="myconoid" level="6" sex="1" alignment="850" flags="192" aff_flags="1032" position="8" default_position="8" dam_nodice="2" dam_sizedice="7" max_manapoints="12" max_movepoints="68" armor="40" gold="50" experience="600" hitroll="5" short_description="the myconoid">
+		<long_description>A myconoid lumbers along peacefully.
+</long_description>
+		<description>The myconoid looks something like a giant mushroom (and probably has the
+same effect).
+</description>
+	</mobile>
+	<mobile number="5014" name="myconoid shaman" level="14" sex="1" alignment="950" flags="2309" aff_flags="1160" position="8" default_position="8" dam_nodice="2" dam_sizedice="7" max_manapoints="12" max_movepoints="173" armor="10" gold="2500" experience="18000" hitroll="13" damroll="2" short_description="the myconoid shaman">
+		<long_description>A rather large myconoid stands here chanting in a strange tongue.
+</long_description>
+		<description>The shaman shoots spores into the air.
+</description>
+	</mobile>
+	<mobile number="5015" name="dustdigger oasis" level="7" sex="0" alignment="-200" flags="196646" aff_flags="0" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="6" max_movepoints="85" armor="10" gold="450" experience="2250" hitroll="10" short_description="the dustdigger">
+		<long_description>A small oasis invites you to dive in.
+</long_description>
+		<description>Looking a little closer at this oasis, you begin to wonder why
+it seems to be moving about...
+</description>
+	</mobile>
+	<mobile number="5017" name="camel" level="5" sex="0" alignment="-351" flags="65570" aff_flags="0" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="6" max_movepoints="60" armor="60" gold="270" experience="900" hitroll="8" damroll="3" short_description="the camel">
+		<long_description>A very dangerous creature, a camel, snorts at you.
+</long_description>
+		<description>It is advisable not to mess with this creature.  After all, you
+have heard many a horror story about experiences with camels.
+Bad experiences.
+</description>
+	</mobile>
+</mobiles>

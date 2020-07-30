@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<help first_keyword="buy" keyword_count="1" mini_mud="true">
+	<entry>BUY
+
+Usage: buy &lt;item name&gt;
+       buy #&lt;item number&gt;
+       buy n.&lt;item name&gt;
+       buy n &lt;item name&gt;
+       buy n #&lt;item number&gt;
+
+If you'd like to purchase an item from a shop and have the money, you can buy
+it.  Items can be bought by name, or by their number in the shop listing,
+and can be bought in quantity.
+ 
+Examples:
+ 
+  &gt; buy sword        (buy the first sword on the list)
+  &gt; buy #3           (buy the third item on the list)
+  &gt; buy 4.sword      (buy the fourth sword on the list)
+  &gt; buy 10 bread     (buy 10 pieces of bread)
+  &gt; buy 10 #2        (buy 10 of the second item on the list)
+ 
+See also: LIST, SELL, SHOPS, VALUE
+</entry>
+</help>

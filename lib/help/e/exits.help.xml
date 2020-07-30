@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<help first_keyword="exits" keyword_count="1" mini_mud="true">
+	<entry>EXITS
+
+Usage: exits
+
+Gives you a list of the obvious exits from your location.  Of course, the less
+obvious ones won't show up here - you have to THINK in order to locate those.
+
+See also: AUTOEXIT
+</entry>
+</help>

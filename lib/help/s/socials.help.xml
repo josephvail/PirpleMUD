@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<help first_keyword="socials" keyword_count="1" mini_mud="true">
+	<entry>SOCIALS
+
+Usage: &lt;social&gt; [&lt;victim&gt;]
+
+Socials are commands used to show your affective state to others.  The
+actor, victim and bystanders may receive different messages.  Generally,
+social commands are used only to express emotion and not to take action,
+but it is possible that some mobs (or players) will take action based on
+the social.  (Slap a dragon lately?)
+
+Example:
+
+  &gt; shake homer
+  &gt; applaud marge
+  &gt; stare
+
+The SOCIALS command generates a canonical listing of all available socials.
+
+  &gt; socials
+
+See also: EMOTE
+</entry>
+</help>

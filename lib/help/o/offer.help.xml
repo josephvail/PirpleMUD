@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<help first_keyword="offer" keyword_count="2" mini_mud="true">
+	<additional_keywords>
+		<additional_keyword value="rent" />
+	</additional_keywords>
+	<entry>OFFER RENT
+
+Usage: offer
+       rent
+
+For use in the receptions of inns.
+
+Offer makes the innkeeper tell you the cost of storing your belongings
+for one day.  Rent stores you belongings and exits you from the game.
+When you re-enter, you will start where you rented.
+
+There is a daily charge for rent.  You may store your things at the
+CRYOGENIC CENTER for a one-time charge of four days rent.  See INNS
+for details on the rent policy.
+
+See also: CRYOGENIC, INN, RECEPTION
+</entry>
+</help>

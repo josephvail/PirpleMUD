@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="1200" name="The Meeting Room Of The Gods" sector="0" flags="8">
+		<description>   The meeting room is plain and very simple.  A circular table sits
+in the middle of the room, lit by some unseen light source.  There
+are many chairs around the table, all empty.  The Immortal Board Room
+is to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="1204">
+				<general_description>The Immortal Board Room can be seen to the north.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="1201" name="The Inn Of The Gods" sector="0" flags="520">
+		<description>   The Inn of the Gods is a small room, holding only a shelf with many
+small precious stones on it.  When a God comes to rent his belongings,
+his essence is stored in the stones.  The Immortal Board Room is to
+the south.
+</description>
+		<directions>
+			<direction dir="south" to_room="1204">
+				<general_description>The Immortal Board Room can be seen to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="1202" name="The Ice Box Of The Gods" sector="0" flags="184">
+		<description>   The Ice Box is for little boys and girls that cannot play nice. Be good
+and maybe someone will come and get you.
+</description>
+	</room>
+	<room number="1203" name="The Gods' Mortal Board Room" sector="0" flags="8">
+		<description>   Here the Gods have magically created an exact copy of the mortal board
+room.  Any God can easily post and read messages from the mortal board room
+without being seen by any mortals.  The Immortal Board Room is to the west.
+</description>
+		<directions>
+			<direction dir="west" to_room="1204">
+				<general_description>The Immortal Board Room can be seen to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="1204" name="The Immortal Board Room" sector="0" flags="8">
+		<description>   The main hang out of the Gods, the Immortal Board Room is the place to
+be.  Gods exchange messages here most every day.  The mortal board room is
+to the east and the meeting room for the gods is to the south.  To the north
+is the Gods' Inn and to the west is a post office for Gods.  There is a large
+staircase leading down to the main temple in the city of Midgaard.  In the
+northeast corner you spot a small staircase leading upwards.
+</description>
+		<directions>
+			<direction dir="north" to_room="1201">
+				<general_description>The Gods' Inn can be seen just to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="1203">
+				<general_description>The Mortal Board Room can be seen just to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="1200">
+				<general_description>The Gods' Meeting Room is located to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="1205">
+				<general_description>The Gods' Post Office is just to the west.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="1206">
+				<general_description>There is a small stair in the corner leading up to the social room of
+the Gods.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="3001">
+				<general_description>You see the hustle and bustle of the Temple of Midgaard at the bottom of
+the stairs.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="1205" name="The Post Office Of The Gods" sector="0" flags="8">
+		<description>   The Post Office Of The Gods is the same as most Post Offices except that
+it is not as slow.  Even the Postal service knows not to anger the Gods.
+Piles of junk mail line the walls.  I guess even Gods get on mailing lists.
+The Immortal Board Room is to the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="1204">
+				<general_description>The Immortal Board Room is just to the east.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="1206" name="The Social Gathering Room" sector="0" flags="8">
+		<description>   This elegantly decorated room has one simple purpose.  To socialize with
+everyone else around in one central location.
+</description>
+		<directions>
+			<direction dir="down" to_room="1204">
+				<general_description>The Immortal Board Room is just down through the floor.  Funny how you
+didn't notice that exit before isn't it?
+</general_description>
+			</direction>
+		</directions>
+	</room>
+</rooms>

@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="900" name="homba" level="4" sex="0" alignment="-100" flags="6178" aff_flags="33866" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="40" armor="50" gold="100" experience="1500" hitroll="4" damroll="4" short_description="the homba">
+		<long_description>The homba flits about.
+</long_description>
+		<description>Part kestrel, part bear, part wolf.  Parts is parts, and makes an ugly whole.
+</description>
+	</mobile>
+	<mobile number="901" name="swordsman" level="7" sex="1" alignment="-400" flags="6178" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="10" max_movepoints="80" armor="30" gold="250" experience="3000" hitroll="8" damroll="2" short_description="the swordsman">
+		<long_description>The greatest swordsman in the land is standing here with a sneer on his face.
+</long_description>
+		<description>This is the ultimate swordsman.
+</description>
+	</mobile>
+	<mobile number="902" name="mummy rabscuttle" level="11" sex="0" alignment="-780" flags="6178" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="6" max_manapoints="3" max_movepoints="130" armor="10" gold="750" experience="10500" hitroll="10" damroll="2" short_description="the Mummy of Rabscuttle">
+		<long_description>The Mummy of Rabscuttle wanders here, hands aloft, walking towards you.
+</long_description>
+		<description>All bandages, no personality.
+</description>
+	</mobile>
+	<mobile number="903" name="lizard giant" level="16" sex="1" alignment="100" flags="6178" aff_flags="33800" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="2" max_movepoints="220" armor="20" gold="1200" experience="26000" hitroll="14" damroll="5" short_description="the giant lizard">
+		<long_description>A giant lizard is here.
+</long_description>
+		<description>This scaly creature looks like it is well adapted to its underground
+habitat.  He looks very powerful.
+</description>
+	</mobile>
+	<mobile number="904" name="woundwort general demon" level="25" sex="1" alignment="-1000" flags="6178" aff_flags="33928" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="8" max_movepoints="520" armor="-10" gold="10000" experience="120000" hitroll="20" damroll="12" short_description="General Woundwort">
+		<long_description>General Woundwort, the dark demon of Minos, awaits to maul you to shreds.
+</long_description>
+		<description>He looks vaguely like a rabbit, but sure doesn't act like one.
+</description>
+	</mobile>
+	<mobile number="905" name="franz henchman" level="12" sex="1" alignment="-300" flags="6178" aff_flags="33928" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="10" max_movepoints="120" armor="40" gold="1000" experience="14000" hitroll="13" damroll="4" short_description="Franz the Henchman">
+		<long_description>Franz, Minos' henchman, is here ready to pump you up.
+</long_description>
+		<description>Franz is no girlie man.  He is very muscular and looks as if he could
+squeeze your head like a grapefruit.
+</description>
+	</mobile>
+	<mobile number="906" name="hanz henchman" level="12" sex="1" alignment="-300" flags="6178" aff_flags="33928" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="10" max_movepoints="120" armor="40" gold="1000" experience="14000" hitroll="13" damroll="4" short_description="Hanz the Henchman">
+		<long_description>Hanz is here flexing his muscles and squeezing grapefruits.
+</long_description>
+		<description>Hanz is no girlie man.  He is very muscular and looks as if he could
+lift a large dragon.
+</description>
+	</mobile>
+	<mobile number="907" name="minos king minotaur" level="26" sex="1" alignment="-1000" flags="96290" aff_flags="33960" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="8" max_movepoints="590" armor="-20" experience="160000" hitroll="20" damroll="10" short_description="King Minos the Minotaur">
+		<long_description>King Minos the Minotaur is ready and waiting to gore you to death.
+</long_description>
+		<description>He smells something awful.
+</description>
+	</mobile>
+	<mobile number="908" name="turtle dragon" level="22" sex="1" alignment="-200" flags="65632" aff_flags="33800" position="8" default_position="8" dam_nodice="1" dam_sizedice="20" max_manapoints="6" max_movepoints="350" armor="-50" gold="10000" experience="80000" hitroll="16" damroll="5" short_description="the dragon turtle">
+		<long_description>A large dragon turtle breaks the surface churning the water into huge waves.
+</long_description>
+		<description>The turtle's shell is the size of a small house and looks as hard as rock.
+</description>
+	</mobile>
+	<mobile number="909" name="hag sea" level="4" sex="2" alignment="-700" flags="96" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="4" max_movepoints="35" armor="60" gold="100" experience="750" hitroll="4" short_description="the sea hag">
+		<long_description>You notice the face of an ugly hag in the sea weeds.
+</long_description>
+		<description>The sea hag is terribly fightful and has razor sharp teeth.
+</description>
+	</mobile>
+	<mobile number="910" name="merman" level="5" sex="1" alignment="350" flags="96290" aff_flags="820232" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="5" max_movepoints="65" armor="50" gold="1500" experience="1000" hitroll="6" damroll="2" short_description="the merman">
+		<long_description>There is a merman swimming here brandishing his trident at you!
+</long_description>
+		<description>The merman has a powerful tail fin instead of legs.
+</description>
+	</mobile>
+	<mobile number="911" name="crab crusty" level="2" sex="0" alignment="0" flags="65696" aff_flags="33800" position="8" default_position="8" dam_nodice="1" dam_sizedice="5" max_manapoints="2" max_movepoints="25" armor="40" experience="150" hitroll="2" short_description="the crusty crab">
+		<long_description>A crusty looking crab is crawling around here searching for food.
+</long_description>
+		<description>It looks like a crab... what more can be said?
+</description>
+	</mobile>
+</mobiles>

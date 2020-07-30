@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<items>
+	<item number="900" name="key golden heavy" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a golden key">
+		<values>
+			<value number="0" val="900" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A heavy golden key lies here.</description>
+	</item>
+	<item number="901" name="shield minotaur" type="9" wear_flags="513" extra_flags="200" bitvector="0" weight="12" cost="5000" cost_per_day="1350" short_description="a dark minotaur shield">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="23" modifier="-4" />
+		</affects>
+		<description>A dark minotaur shield has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="shield minotaur">
+				<description>A strong, sturdy shield.  It brings to mind legends of a shield that
+provided protection from poisonous gases.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="902" name="potion speckled" type="10" wear_flags="1" extra_flags="64" bitvector="0" weight="2" cost="1300" cost_per_day="500" short_description="a speckled potion">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="15" />
+			<value number="2" val="15" />
+			<value number="3" val="15" />
+		</values>
+		<description>A speckled potion speckles here.</description>
+	</item>
+	<item number="903" name="gauntlets troll" type="9" wear_flags="129" extra_flags="64" bitvector="0" weight="8" cost="2000" cost_per_day="1350" short_description="a pair of troll gauntlets">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of gauntlets made from troll skin lie on the ground.</description>
+	</item>
+	<item number="904" name="ring platinum" type="1" wear_flags="16387" extra_flags="193" bitvector="0" weight="1" cost="2000" cost_per_day="5500" short_description="a platinum ring">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="10" />
+			<affect location="18" modifier="2" />
+		</affects>
+		<description>A shining ring of platinum lies here.  It has a tiny inscription.</description>
+		<extra_descriptions>
+			<extra_description keyword="ring platinum inscription">
+				<description>The inscription on the ring reads:
+
+Cursed be the gods that supply coins to mortals!
+And cursed be the mortal that accepts valuable gifts from the gods!
+Especially cursed are those who do not leave the toilet seat up!
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="905" name="flail" type="5" wear_flags="8193" extra_flags="224" bitvector="0" weight="8" cost="5000" cost_per_day="3500" short_description="a flail">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="4" />
+			<value number="3" val="7" />
+		</values>
+		<affects>
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A flail has been carelessly left here.</description>
+	</item>
+	<item number="906" name="coins gold treasure" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="20" cost="43500" cost_per_day="0" short_description="a great pile of treasure">
+		<values>
+			<value number="0" val="43500" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A great, gleaming pile of treasure lies at your feet.</description>
+	</item>
+	<item number="907" name="spear heavy" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="8" cost="450" cost_per_day="200" short_description="a heavy spear">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="7" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="19" modifier="1" />
+		</affects>
+		<description>A heavy spear has been tossed on the ground here.</description>
+	</item>
+	<item number="908" name="trident" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="8" cost="350" cost_per_day="200" short_description="a trident">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<description>There is a warrior's trident here.</description>
+		<extra_descriptions>
+			<extra_description keyword="trident">
+				<description>This is a common trident, often used by gladiators or mermen.  It has
+three sharp prongs jutting from the business end and a smooth wooden
+handle with two comfortable grip points.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="909" name="boots boat" type="22" wear_flags="65" extra_flags="65560" bitvector="0" weight="1" cost="5000" cost_per_day="1850" short_description="a pair of boots">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="14" modifier="-20" />
+		</affects>
+		<description>A pair of boots sit here in a puddle of water.</description>
+		<extra_descriptions>
+			<extra_description keyword="boots boat">
+				<description>The boots are made of a strange lightweight hide and float in a puddle
+of water.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

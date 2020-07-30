@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<shops>
+	<shop number="2505" keeper="2505" trade_with_flags="112" no_money_temper="0" buy_profit="209" sell_profit="50" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Haven't got that in storage, try LIST!" />
+			<keeper_message number="2" message="%s You can't sell what you don't HAVE!" />
+			<keeper_message number="3" message="%s Sorry, I'm not a fence." />
+			<keeper_message number="4" message="%s I'd love to buy it, I just can't spare the coinage" />
+			<keeper_message number="5" message="%s Bah, come back when you can pay!" />
+			<keeper_message number="6" message="%s That'll be %d coins -- thank you." />
+			<keeper_message number="7" message="%s I'll give ya %d coins for that!" />
+		</keeper_messages>
+		<will_buy>
+			<criteria type="79" />
+			<criteria type="67" />
+		</will_buy>
+		<will_construct>
+			<construct_item number="2504" />
+			<construct_item number="2545" />
+			<construct_item number="2546" />
+			<construct_item number="3010" />
+			<construct_item number="3100" />
+			<construct_item number="3101" />
+		</will_construct>
+		<locations>
+			<location room_number="2518" />
+		</locations>
+	</shop>
+	<shop number="2506" keeper="2506" trade_with_flags="112" no_money_temper="0" buy_profit="250" sell_profit="30" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Say again?" />
+			<keeper_message number="2" message="%s You don't have that, try INVENTORY!" />
+			<keeper_message number="3" message="%s What do I look like, a fence?" />
+			<keeper_message number="4" message="%s Sorry, I just can't afford such a costly item." />
+			<keeper_message number="5" message="%s You can't afford it!" />
+			<keeper_message number="6" message="%s You're getting a bargain for that at only %d!" />
+			<keeper_message number="7" message="%s I guess I could give ya %d for that." />
+		</keeper_messages>
+		<will_buy>
+			<criteria type="68" />
+			<criteria type="69" />
+			<criteria type="70" />
+			<criteria type="76" />
+		</will_buy>
+		<will_construct>
+			<construct_item number="3050" />
+			<construct_item number="3051" />
+			<construct_item number="3053" />
+		</will_construct>
+		<locations>
+			<location room_number="2519" />
+		</locations>
+	</shop>
+</shops>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<help first_keyword="put" keyword_count="1" mini_mud="true">
+	<entry>PUT
+
+Usage: put &lt;item&gt; &lt;container&gt;
+       put all.&lt;item&gt; &lt;container&gt;
+       put all &lt;container&gt;
+
+For putting items into containers.
+
+Examples:
+
+  &gt; put bread bag
+  &gt; put all.bread bag
+  &gt; put all chest
+
+See also: GET
+</entry>
+</help>

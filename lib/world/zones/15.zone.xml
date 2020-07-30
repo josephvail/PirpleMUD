@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<zone number="15" name="The Straight Path" bottom="1500" top="1599" lifespan="10" reset_mode="2" mini_mud="false" rooms="41" mobiles="24" items="15" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="1500" arg2="1" arg3="1540" />
+		<reset number="2" if_flag="false" type="M" arg1="1501" arg2="1" arg3="1533" />
+		<reset number="3" if_flag="true" type="E" arg1="1500" arg2="2" arg3="17" />
+		<reset number="4" if_flag="false" type="M" arg1="1502" arg2="1" arg3="1531" />
+		<reset number="5" if_flag="true" type="E" arg1="1501" arg2="3" arg3="17" />
+		<reset number="6" if_flag="false" type="M" arg1="1503" arg2="1" arg3="1530" />
+		<reset number="7" if_flag="true" type="E" arg1="1503" arg2="2" arg3="11" />
+		<reset number="8" if_flag="false" type="M" arg1="1504" arg2="1" arg3="1528" />
+		<reset number="9" if_flag="true" type="E" arg1="1502" arg2="1" arg3="16" />
+		<reset number="10" if_flag="false" type="M" arg1="1505" arg2="1" arg3="1501" />
+		<reset number="11" if_flag="true" type="E" arg1="1508" arg2="5" arg3="17" />
+		<reset number="12" if_flag="false" type="M" arg1="1506" arg2="1" arg3="1505" />
+		<reset number="13" if_flag="true" type="E" arg1="1509" arg2="5" arg3="17" />
+		<reset number="14" if_flag="false" type="M" arg1="1507" arg2="5" arg3="1509" />
+		<reset number="15" if_flag="false" type="M" arg1="1507" arg2="5" arg3="1516" />
+		<reset number="16" if_flag="false" type="M" arg1="1507" arg2="5" arg3="1521" />
+		<reset number="17" if_flag="false" type="M" arg1="1507" arg2="5" arg3="1524" />
+		<reset number="18" if_flag="false" type="M" arg1="1507" arg2="5" arg3="1539" />
+		<reset number="19" if_flag="false" type="M" arg1="1508" arg2="1" arg3="1512" />
+		<reset number="20" if_flag="true" type="E" arg1="1504" arg2="1" arg3="10" />
+		<reset number="21" if_flag="false" type="M" arg1="1509" arg2="1" arg3="1511" />
+		<reset number="22" if_flag="false" type="M" arg1="1510" arg2="1" arg3="1510" />
+		<reset number="23" if_flag="false" type="M" arg1="1511" arg2="1" arg3="1509" />
+		<reset number="24" if_flag="true" type="E" arg1="1512" arg2="3" arg3="3" />
+		<reset number="25" if_flag="false" type="M" arg1="1512" arg2="1" arg3="1519" />
+		<reset number="26" if_flag="true" type="E" arg1="1505" arg2="4" arg3="16" />
+		<reset number="27" if_flag="false" type="M" arg1="1513" arg2="1" arg3="1520" />
+		<reset number="28" if_flag="false" type="M" arg1="1514" arg2="1" arg3="1521" />
+		<reset number="29" if_flag="true" type="E" arg1="1510" arg2="3" arg3="0" />
+		<reset number="30" if_flag="false" type="M" arg1="1515" arg2="1" arg3="1522" />
+		<reset number="31" if_flag="true" type="E" arg1="1511" arg2="1" arg3="9" />
+		<reset number="32" if_flag="false" type="M" arg1="1516" arg2="1" arg3="1514" />
+		<reset number="33" if_flag="false" type="M" arg1="1517" arg2="1" arg3="1515" />
+		<reset number="34" if_flag="true" type="E" arg1="1514" arg2="1" arg3="0" />
+		<reset number="35" if_flag="false" type="M" arg1="1518" arg2="1" arg3="1516" />
+		<reset number="36" if_flag="true" type="E" arg1="1513" arg2="1" arg3="3" />
+		<reset number="37" if_flag="false" type="M" arg1="1519" arg2="1" arg3="1517" />
+		<reset number="38" if_flag="true" type="G" arg1="1506" arg2="1" />
+		<reset number="39" if_flag="false" type="M" arg1="1520" arg2="1" arg3="1524" />
+		<reset number="40" if_flag="false" type="M" arg1="1521" arg2="1" arg3="1525" />
+		<reset number="41" if_flag="false" type="M" arg1="1522" arg2="1" arg3="1526" />
+		<reset number="42" if_flag="false" type="M" arg1="1523" arg2="1" arg3="1527" />
+		<reset number="43" if_flag="true" type="G" arg1="1507" arg2="1" />
+	</resets>
+</zone>

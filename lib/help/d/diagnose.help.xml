@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<help first_keyword="diagnose" keyword_count="1" mini_mud="true">
+	<entry>DIAGNOSE
+
+Usage: diagnose [character]
+
+The DIAGNOSE command tells you how wounded a character looks.  If you are
+fighting someone, you can use DIAGNOSE with no arguments to diagnose the
+person you're fighting.
+
+Examples: 
+
+  &gt; diagnose
+  &gt; diagnose rasmussen
+
+See also: CONSIDER
+</entry>
+</help>

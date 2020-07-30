@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="3600" name="black pawn" level="6" sex="1" alignment="-400" flags="198" aff_flags="8" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="4" max_movepoints="50" armor="50" gold="500" experience="1000" hitroll="18" damroll="2" short_description="the Pawn of the Black Court">
+		<long_description>You see a pawn standing here waiting for orders.
+</long_description>
+		<description>The Black Pawn looks quite like a small knight without his powerful steed.
+His armor is shiny and black.  He stands ready to give his life for the
+Crown.
+</description>
+	</mobile>
+	<mobile number="3601" name="white pawn" level="6" sex="1" alignment="400" flags="198" aff_flags="8" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="4" max_movepoints="50" armor="50" gold="500" experience="1000" hitroll="18" damroll="2" short_description="the Pawn of the White Court">
+		<long_description>You see a pawn standing here waiting for orders.
+</long_description>
+		<description>The White Pawn looks quite like a small knight without his powerful steed.
+His armor is spotless and white.  He stands ready to give his life for the
+Crown.
+</description>
+	</mobile>
+	<mobile number="3602" name="black rook castle" level="27" sex="0" alignment="-600" flags="229378" aff_flags="8" position="8" default_position="8" dam_nodice="3" dam_sizedice="8" max_manapoints="6" max_movepoints="500" armor="10" gold="5000" experience="85000" hitroll="9" damroll="5" short_description="the Black Rook">
+		<long_description>In the corner you see a large, black, stone castle on wheels.
+</long_description>
+		<description>The Black Rook is a very large man-made tomb on wheels.  Just
+from the looks of it, it will probably be YOUR tomb.
+</description>
+	</mobile>
+	<mobile number="3603" name="white rook castle" level="27" sex="0" alignment="600" flags="229378" aff_flags="8" position="8" default_position="8" dam_nodice="3" dam_sizedice="8" max_manapoints="6" max_movepoints="500" armor="10" gold="5000" experience="85000" hitroll="9" damroll="5" short_description="the White Rook">
+		<long_description>In the corner you see a large, white, stone castle on wheels.
+</long_description>
+		<description>The White Rook is a very large man-made tomb on wheels.  Just
+from the looks of it, it will probably be YOUR tomb.
+</description>
+	</mobile>
+	<mobile number="3604" name="black knight" level="18" sex="0" alignment="-400" flags="34" aff_flags="8" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="8" max_movepoints="350" armor="0" gold="3000" experience="22500" hitroll="12" damroll="1" short_description="the Black Knight">
+		<long_description>Here stands a magnificent knight of the dark realm.
+</long_description>
+		<description>The Black Knight is here, riding his ebony black war horse.  His eyes
+flash behind his visor in vengence.
+</description>
+	</mobile>
+	<mobile number="3605" name="white knight" level="18" sex="0" alignment="400" flags="34" aff_flags="8" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="8" max_movepoints="350" armor="0" gold="3000" experience="22500" hitroll="12" damroll="1" short_description="the White Knight">
+		<long_description>Here stands a magnificent knight of the light realm.
+</long_description>
+		<description>The White Knight is here, riding his ivory white war horse.  His eyes
+gleam behind his visor in joy.
+</description>
+	</mobile>
+	<mobile number="3606" name="black bishop priest" level="24" sex="0" alignment="-500" flags="2" aff_flags="8" position="8" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="350" armor="10" gold="4000" experience="43500" hitroll="9" damroll="13" short_description="the Black Bishop">
+		<long_description>A dark priest stands here.
+</long_description>
+		<description>The Black Bishop seems willing to help you straight into your grave so
+he can bless you properly.
+</description>
+	</mobile>
+	<mobile number="3607" name="white bishop priest" level="24" sex="0" alignment="500" flags="2" aff_flags="8" position="8" default_position="8" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="350" armor="10" gold="4000" experience="43500" hitroll="9" damroll="13" short_description="the White Bishop">
+		<long_description>A light priest stands here.
+</long_description>
+		<description>The White Bishop seems willing to help you in any possible so that he can
+attain a higher spirituality.
+</description>
+	</mobile>
+	<mobile number="3608" name="black queen" level="32" sex="0" alignment="-750" flags="2086" aff_flags="136" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="900" armor="-30" gold="10000" experience="200000" hitroll="9" damroll="13" short_description="the Black Queen">
+		<long_description>The Black Queen stands here.
+</long_description>
+		<description>The Black Queen is a strikingly beautiful woman with pale skin and a
+mass of dark hair that crowns her head like a black cloud.  If looks
+could kill, you would already be dead.
+</description>
+	</mobile>
+	<mobile number="3609" name="white queen" level="32" sex="0" alignment="750" flags="2086" aff_flags="136" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="900" armor="-30" gold="10000" experience="200000" hitroll="9" damroll="13" short_description="the White Queen">
+		<long_description>The White Queen stands here.
+</long_description>
+		<description>The White Queen is a stunningly beautiful woman with dark skin and a mass
+of light hair that frames her head like the sun.  This is surely love at
+first sight for you.
+</description>
+	</mobile>
+	<mobile number="3610" name="black king" level="36" sex="0" alignment="-999" flags="2102" aff_flags="136" position="8" default_position="8" dam_nodice="5" dam_sizedice="8" max_manapoints="10" max_movepoints="2000" armor="-60" gold="20000" experience="300000" hitroll="6" damroll="20" short_description="the Black King">
+		<long_description>The Black King stands here.
+</long_description>
+		<description>The Black King is a menacing figure.  You can easily understand why he
+is the king and you are not.
+</description>
+	</mobile>
+	<mobile number="3611" name="white king" level="36" sex="0" alignment="999" flags="2102" aff_flags="136" position="8" default_position="8" dam_nodice="5" dam_sizedice="8" max_manapoints="10" max_movepoints="2000" armor="-60" gold="20000" experience="300000" hitroll="6" damroll="20" short_description="the White King">
+		<long_description>The White King stands here.
+</long_description>
+		<description>The White King is a stately figure.  You can easily understand why he
+is the king and you are not.
+</description>
+	</mobile>
+</mobiles>

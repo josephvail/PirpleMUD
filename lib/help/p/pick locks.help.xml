@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<help first_keyword="pick locks" keyword_count="1" mini_mud="true">
+	<entry>"PICK LOCKS"
+
+Thieves only.
+
+Usage: pick &lt;lock name&gt; [direction]
+
+For picking locks.  Not all locks can be picked.
+
+Examples:
+
+  &gt; pick door south
+  &gt; pick safe
+
+See Also : OPEN, CLOSE, LOCK, UNLOCK
+</entry>
+</help>

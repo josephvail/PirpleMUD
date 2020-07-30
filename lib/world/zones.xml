@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<zones count="30" count_mini_mud="3">
+	<zone number="0" mini_mud="true" />
+	<zone number="9" mini_mud="false" />
+	<zone number="12" mini_mud="true" />
+	<zone number="15" mini_mud="false" />
+	<zone number="25" mini_mud="false" />
+	<zone number="30" mini_mud="true" />
+	<zone number="31" mini_mud="false" />
+	<zone number="33" mini_mud="false" />
+	<zone number="35" mini_mud="false" />
+	<zone number="36" mini_mud="false" />
+	<zone number="40" mini_mud="false" />
+	<zone number="50" mini_mud="false" />
+	<zone number="51" mini_mud="false" />
+	<zone number="52" mini_mud="false" />
+	<zone number="53" mini_mud="false" />
+	<zone number="54" mini_mud="false" />
+	<zone number="60" mini_mud="false" />
+	<zone number="61" mini_mud="false" />
+	<zone number="62" mini_mud="false" />
+	<zone number="63" mini_mud="false" />
+	<zone number="64" mini_mud="false" />
+	<zone number="65" mini_mud="false" />
+	<zone number="70" mini_mud="false" />
+	<zone number="71" mini_mud="false" />
+	<zone number="72" mini_mud="false" />
+	<zone number="73" mini_mud="false" />
+	<zone number="79" mini_mud="false" />
+	<zone number="120" mini_mud="false" />
+	<zone number="150" mini_mud="false" />
+	<zone number="186" mini_mud="false" />
+</zones>

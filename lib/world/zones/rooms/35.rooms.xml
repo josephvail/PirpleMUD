@@ -1,0 +1,818 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="3500" name="The Plains" sector="1" flags="0">
+		<description>   You are standing on the plains.  This is a vast desolate place where
+the wind can howl undisturbed since nothing but you bars its way.  However
+you are not the first to wander here.  Before you somebody has left a small
+path.  The path looks rather bewildered and is not the kind of path to lead
+to anywhere significant or important but it seems to have made up its mind
+to enter the hills far away north.  A narrow trail scars its way off to the
+east as it leads up towards a hillside.
+</description>
+		<directions>
+			<direction dir="north" to_room="4000" />
+			<direction dir="east" to_room="3300" />
+			<direction dir="south" to_room="3501" />
+		</directions>
+	</room>
+	<room number="3501" name="The Lane" sector="1" flags="0">
+		<description>   You are strolling along a pleasant, shady lane.  The road is lined on both
+sides by tall, stately trees which lend the scene with a sense of quiet
+serenity.
+   You can follow the road north or south.
+</description>
+		<directions>
+			<direction dir="north" to_room="3500" />
+			<direction dir="south" to_room="3502" />
+		</directions>
+	</room>
+	<room number="3502" name="The Laneway" sector="1" flags="0">
+		<description>   The trees stand close here, and the tall, bushy undergrowth prevents you
+from seeing far in any direction save east, where a broad lane continues off
+into the distance; and west, where the same lane continues towards what looks
+like a fairly large city.  The muted sounds of city commotion reach your ears
+from a distance; stray dogs barking, children crying, and street salesmen
+shouting.
+   A steep path leads down from here to the northeast towards the Dwarven
+Village, and a small trail leads through the trees towards the hills to the
+north.
+</description>
+		<directions>
+			<direction dir="north" to_room="3501" />
+			<direction dir="east" to_room="15000">
+				<general_description>You see a fairly large road leading towards a grand castle in the distance.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3503" />
+			<direction dir="down" to_room="6500">
+				<general_description>The well trodden path leads down to the northeast towards a small bustling
+village.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3503" name="The City Entrance" sector="1" flags="4">
+		<description>   You stand on the outskirts of a large city - Midgaard; the capital of
+this land.  The road leads east into the peace and quiet - and dangers -
+of the forest; and to the west it becomes the main street of the town;
+surrounded by a confusion of shops, bars, and market places.
+</description>
+		<directions>
+			<direction dir="east" to_room="3502" />
+			<direction dir="west" to_room="3053" />
+		</directions>
+	</room>
+	<room number="3504" name="The South Gate" sector="3" flags="0">
+		<description>   You are standing on a small, dusty path leading away from the south
+gate of Midgaard, to the forest of Miden'Nir (Goblinic for 'Green Blood').
+You can still see the city to the east, but if you go south, there is
+fresh air and greenery.
+</description>
+		<directions>
+			<direction dir="east" to_room="3127">
+				<general_description>You can see the walls of the South Gate.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3505">
+				<general_description>If you go south, you will enter the Miden'Nir.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3505" name="The Trail To Miden'Nir" sector="3" flags="4">
+		<description>   You are in a light forest.  A path leads south, but the passage to
+the east is easy enough.  To the west, smoke can be seen rising above
+the treetops.  The sprawl of Midgaard lies north of here.
+</description>
+		<directions>
+			<direction dir="north" to_room="3504">
+				<general_description>To the north, you see the South Gate of Midgaard.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3506">
+				<general_description>More light forest.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3507">
+				<general_description>This path cuts through the darkness of the Miden'Nir.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3570">
+				<general_description>The Woodsman's Inn can be seen a short distance to the west, it appears
+to be the source of the smoke.  
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3506" name="The Miden'nir" sector="3" flags="0">
+		<description>   You are in a dark forest.  To the east, mountains block passage.  From
+here, only the lighter forest to the west or south offer a way to travel.
+</description>
+		<directions>
+			<direction dir="east" to_room="3550">
+				<general_description>The mountains can be seen jutting up to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3509">
+				<general_description>The forest is darker to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3505">
+				<general_description>The forest gets lighter as you go west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3507" name="The Miden'nir" sector="3" flags="0">
+		<description>   The forest is deep here and the wind blows through the trees and
+through your hair.  To the north, the forest gets lighter.  However,
+the southern and western paths place you even deeper in the wood.
+</description>
+		<directions>
+			<direction dir="north" to_room="3505">
+				<general_description>The forest is lighter in this direction.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3510">
+				<general_description>More and darker woods.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3508">
+				<general_description>There is a small path leading west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3508" name="On a Small Path" sector="3" flags="0">
+		<description>   A path is here, leading east and south through the dark woods of
+Miden'nir.  Mountains slash the scenery to the west of here.
+</description>
+		<directions>
+			<direction dir="east" to_room="3507">
+				<general_description>Wind-swept forest.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3511">
+				<general_description>To the south, the trail continues.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3509" name="The Miden'nir" sector="3" flags="0">
+		<description>   The trees of Miden'nir are lush and green, hiding the evil that lurks
+in these woods.  The trees become too thick to the west, but you may go
+north, south or travel toward the mountains that lie east of here.
+</description>
+		<directions>
+			<direction dir="north" to_room="3506">
+				<general_description>The trees lighten up a bit this way.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3512">
+				<general_description>Huge grey mountains lie in this direction.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3514">
+				<general_description>The forest continues.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3510" name="A Crossroads" sector="3" flags="0">
+		<description>   Here footworn paths meet leading north, south and east.  The trees
+seem to be closing in on you at this point, and you can barely see
+the sky through the thick branches above your head.
+</description>
+		<directions>
+			<direction dir="north" to_room="3507">
+				<general_description>Trees as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3514">
+				<general_description>There is an especially dark part of the forest this way.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3516">
+				<general_description>There is an especially dark section of forest this way.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3511" name="The Trail" sector="3" flags="0">
+		<description>   You are on a north-south trail through the woods.  To the west,
+impassable mountains glare at you, and the thick woods and undergrowth
+prevent any movement westward.
+</description>
+		<directions>
+			<direction dir="north" to_room="3508">
+				<general_description>The trail bends to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3515">
+				<general_description>To the south, the path re-enters the forest.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3512" name="The Miden'nir" sector="3" flags="0">
+		<description>   The trees of Miden'nir are lush and green, hiding the evil that lurks
+in these woods.  You can go north toward the mountains, or west to the
+forest, but the steep mountains prevent any movement east.
+</description>
+		<directions>
+			<direction dir="north" to_room="3550">
+				<general_description>The mountains can be seen to the north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3513">
+				<general_description>A light section of forest.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3509">
+				<general_description>The forest continues here.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3513" name="The Miden'nir" sector="3" flags="0">
+		<description>   The forest is dark, and becomes even darker west.  You sense
+that there is something evil hidden in these woods.  The forest
+gets lighter to the north.  The wind kicks up as you ponder your
+options.
+</description>
+		<directions>
+			<direction dir="north" to_room="3512">
+				<general_description>There is a small clearing to the north.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3514">
+				<general_description>It gets darker and thicker this way.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3514" name="The Deep Forest" sector="3" flags="0">
+		<description>   It is quite dark here, forest surrounds you.  With each step, the
+forest seems to close around you, and get darker and more foreboding.
+It might just be time to head back to somewhere safe.
+</description>
+		<directions>
+			<direction dir="north" to_room="3509">
+				<general_description>More forest.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3513">
+				<general_description>Lighter forest and mountains in the distance.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3517">
+				<general_description>More trees.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3510">
+				<general_description>The forest continues.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3515" name="The Light Forest" sector="3" flags="0">
+		<description>   The forest is light here and you can easily pick your way through the 
+trail.  To the east, the forest becomes thick and darker.  South, the
+trail continues.
+</description>
+		<directions>
+			<direction dir="north" to_room="3511">
+				<general_description>A trail leading north-south.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3516">
+				<general_description>The trees get thicker as you go east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3518">
+				<general_description>More trees and some small hills.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3516" name="Some Muddy Ground" sector="3" flags="0">
+		<description>   The ground is quite muddy here and puddles are all around.  Your
+boots make a disgusting SQUISH as you walk here.  You can go in any
+of the four cardinal directions from here.  Hopefully, it will be
+dryer.
+</description>
+		<directions>
+			<direction dir="north" to_room="3510">
+				<general_description>The Miden'nir continues.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3517">
+				<general_description>More trees.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3519">
+				<general_description>The trees get VERY thick to the south.  You can barely see...
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3515">
+				<general_description>Some light trees and daylight.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3517" name="Near The Mountains" sector="3" flags="0">
+		<description>   The most prominent feature here is the mountains that lie to the
+east.  You can only go north and west from here as the rocks stop all
+other movement.
+</description>
+		<directions>
+			<direction dir="north" to_room="3514">
+				<general_description>Many trees to the north.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3516">
+				<general_description>There is a bit of a slope downward to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3518" name="The Fading Trail" sector="3" flags="0">
+		<description>   The trail becomes nearly unpassable here.  You can go north
+as the forest is relatively light.  To the south, you can see a
+path.
+</description>
+		<directions>
+			<direction dir="north" to_room="3515">
+				<general_description>You can see a trail this way.
+</general_description>
+			</direction>
+			<direction dir="east">
+				<general_description>The trees are nearly trunk-to-trunk this way.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3522">
+				<general_description>Dark forests.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3519" name="The Dark Path" sector="3" flags="0">
+		<description>   You are hemmed in by trees on either side of you.  The path
+continues north and south, and while is much to thick to explore
+west, you can head off into the woods to the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="3516">
+				<general_description>The forest gets lighter this way.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3520">
+				<general_description>The forest continues.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3521">
+				<general_description>There is a strong stench coming from this direction.
+</general_description>
+			</direction>
+			<direction dir="west">
+				<general_description>The trees are nearly trunk-to-trunk this way.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3520" name="The Dark Forest" sector="3" flags="0">
+		<description>   You stomp your way through the underbrush.  The dark forest of
+Miden'nir get pretty thick here, and the branches high above your
+head are so thick that they block out all direct sunlight.  While
+it is much too thick to go further east, you might be able to make
+your way though the forest to the south and west.
+</description>
+		<directions>
+			<direction dir="south" to_room="3523">
+				<general_description>The thick forest continues.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3519">
+				<general_description>The thick forest continues.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3521" name="The Carnage" sector="3" flags="1">
+		<description>   Here, you see a gruesome sight.  Blood is everywhere... on the trees and
+soaked into the ground.  Two carcasses lie in front of you, seeming to look
+up at you.  The forest is impassible to the south, but the other directions
+look ok.
+</description>
+		<directions>
+			<direction dir="north" to_room="3519">
+				<general_description>Darkness...
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3523">
+				<general_description>Your light does not extend that far.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3522">
+				<general_description>More dark forest.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="carcass body corpse carcasses bodies corpses">
+				<description>The corpses looked as if they have been pierced by a large, jagged
+spear.  The damage these people sustained is simply amazing.  Worse,
+the lips on the bodies are a light shade of blue, hinting at poison
+in their systems.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3522" name="Deep In The Forest Of Miden'nir" sector="3" flags="0">
+		<description>   There is a sickening stench here.  It smells of blood and death.
+To the north, you catch glimpses of daylight.  To the east, you
+simply cannot see.  The trees are close and stifling.
+</description>
+		<directions>
+			<direction dir="north" to_room="3518">
+				<general_description>You see daylight and a trail to follow.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3521">
+				<general_description>The stench seems to becoming from this direction.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3523" name="The Dark Forest" sector="3" flags="0">
+		<description>   The branches above you block out all direct sunlight, making the forest
+in this area rather dark.  The forest continues east, where it meets the
+mountains.  The air is still and stuffy - a stench comes from the west and
+an ugly feeling causes the hair to rise on the back of your neck!
+</description>
+		<directions>
+			<direction dir="north" to_room="3520">
+				<general_description>It appears to get much darker that direction.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3551">
+				<general_description>The forest appears to get much darker in this direction.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3521">
+				<general_description>The sky becomes lighter in this direction.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3550" name="At The Foot Of The Mountains" sector="5" flags="0">
+		<description>   You find yourself at the foot of the mountains, where it is much
+to steep to continue north or east.  You see the lush, green forest
+of Miden'nir to the south and west.
+</description>
+		<directions>
+			<direction dir="south" to_room="3512">
+				<general_description>The forest of Miden'nir spreads out before you.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3506">
+				<general_description>The forest of Miden'nir spreads out before you.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3551" name="Deep In The Forest Of Miden'nir" sector="3" flags="1">
+		<description>   The branches above you block out all direct sunlight, making
+the forest in this area very dark.  The forest continues west,
+but mountains block further exploration in all other directions,
+except south, where you notice a small tunnel dug into the
+mountainside.
+</description>
+		<directions>
+			<direction dir="south" to_room="3552">
+				<general_description>The tunnel leads into the mountainside.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3523">
+				<general_description>The forest continues, but appears to be getting lighter.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3552" name="A Tunnel In The Mountains" sector="1" flags="1">
+		<description>   The walls of this tunnel were carved out many years ago by the goblins
+of this forest.  The floor is well worn, and continues south, into the
+mountain, or back north out into the forest.
+</description>
+		<directions>
+			<direction dir="north" to_room="3551">
+				<general_description>Outside, you see the forest of Miden'nir.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3553">
+				<general_description>The tunnel continues to the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3553" name="A Tunnel In The Mountains" sector="1" flags="1">
+		<description>   The tunnel gets lighter to the north, presumably leading out, while to
+the south the passage gets smaller and smaller.  A small alcove has been
+carved into the east wall.
+</description>
+		<directions>
+			<direction dir="north" to_room="3552">
+				<general_description>The tunnel gets wider in this direction.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3554">
+				<general_description>You see a small alcove.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3555">
+				<general_description>The tunnel gets smaller in this direction.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3554" name="A Small Alcove" sector="1" flags="1">
+		<description>   A small alcove has been carved out here.  There are a bunch of twigs
+and leaves thrown into a pile here, probably serving as a bed.
+</description>
+		<directions>
+			<direction dir="west" to_room="3553">
+				<general_description>You see the main passageway.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="twigs leaves bead">
+				<description>The twigs and leaves have all been piled together as a makeshift bed for
+some small humanoid.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3555" name="A Tunnel In The Mountains" sector="1" flags="1">
+		<description>   As you explore further into the mountainside, the tunnel gets smaller
+and smaller to the south.  You almost have to hunch over to make your way
+through this area.  A small archway to the south leads into a large chamber.
+</description>
+		<directions>
+			<direction dir="north" to_room="3553">
+				<general_description>The tunnel continues north.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3556">
+				<general_description>You see a small cavern.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3556" name="The Goblin HeadQuarters" sector="1" flags="1">
+		<description>   The tunnel widens into a large (well, large for goblins) cavern that
+serves as the living quarters for the goblins of Miden'nir.  The bones of
+numbers woodland creatures are strewn about the room, the remanents of a
+recent meal.
+</description>
+		<directions>
+			<direction dir="north" to_room="3555">
+				<general_description>The tunnel heads north.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3570" name="The Front Of The Inn" sector="3" flags="0">
+		<description>   You are standing on a well-worn path which opens into a clearing.
+An old, wooden building is here with smoke billowing from its
+chimney.  A painted sign is visible on the porch to the west.  You
+could go north or south around the building or leave this place and
+return to the forest.
+</description>
+		<directions>
+			<direction dir="north" to_room="3571">
+				<general_description>You can go north around the Inn.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3505">
+				<general_description>Back through the trees to the Miden'nir.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3572">
+				<general_description>You can go south around the Inn.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3574">
+				<general_description>The front door of the Inn beckons.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>The sign reads:
+
+   The Woodsman
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3571" name="North Of The Inn" sector="3" flags="0">
+		<description>   You are standing north of the Inn.  Things don't look much different
+from this angle.  The air here is filled with smells of smoke and cooking.
+South, the front porch is waiting for you... or you can see if there is
+a back door.
+</description>
+		<directions>
+			<direction dir="south" to_room="3570">
+				<general_description>You see the front of the Inn.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3572" name="South Of The Inn" sector="3" flags="0">
+		<description>   You are standing south of the Inn.  You could easily go north and enter
+through the front door, or west and to the rear of the establishment.  You
+here some muffled cries from a tiny trail leading south of here.
+</description>
+		<directions>
+			<direction dir="north" to_room="3570">
+				<general_description>This way leads to the front of the Inn.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3575">
+				<general_description>The trail heads south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3573">
+				<general_description>This way leads to the back of the Inn.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3573" name="Behind The Inn" sector="3" flags="0">
+		<description>   You now stand behind the Inn.  The smell here is not so pleasant as
+the keeper and his help throw a good deal of garbage here.  A couple of
+piles of rubbish are to the west, but you will smell the worse for
+meddling there.  As a clean alternative, you can go north or east around
+the Inn.
+</description>
+		<directions>
+			<direction dir="east" to_room="3572">
+				<general_description>You can go around the Inn this way.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3578">
+				<general_description>Only rats and fool adventurers play in garbage.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3574" name="The Woodsman Inn" sector="1" flags="12">
+		<description>   You are in the common room of the Woodsman Inn.  A thin haze of smoke
+sits in the air here.  The Inn is often empty, as the forest has become
+overrun by goblins as of late, and it is no longer safe in these parts.
+The bar is just north of here.  If you'd rather have your own table, one
+is empty to the south.
+</description>
+		<directions>
+			<direction dir="north" to_room="3576">
+				<general_description>The bar is here, manned by the Innkeeper.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="3570">
+				<general_description>You can leave now and return to fresher air.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3579">
+				<general_description>An empty table is a rare commodity.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3577">
+				<general_description>There is a table to the south occupied by a heavy drinker.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3575" name="The Ambush Point" sector="3" flags="0">
+		<description>   This is a overgrown foot-trail south of the Inn.  It leads west, but you
+would be hard pressed to follow it far.  A number of bushes are trampled on
+and some medium sized branches have been knocked down.  Obviously there has
+been a battle here rather recently.
+</description>
+		<directions>
+			<direction dir="north" to_room="3572">
+				<general_description>The Inn lies to the north.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3581">
+				<general_description>A trail through the woods.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3576" name="The Bar" sector="1" flags="40">
+		<description>   This is where people use to come and enjoy the food, drink and
+hospitality of the Innkeeper, but as of late, he only serves the
+few adventurers that manage to survive a trip through the forest.
+You can leave south and return to the common room.
+</description>
+		<directions>
+			<direction dir="south" to_room="3574">
+				<general_description>You may retreat south back to the common room.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3577" name="The Bard's Table" sector="1" flags="8">
+		<description>   You are in a darker corner in the Inn.  A large round table with a few
+wooden chairs sits here.  There is a large stain on the table, the remnants
+of a spilled drink.
+</description>
+		<directions>
+			<direction dir="east" to_room="3574">
+				<general_description>You see the main floor of the Inn to the east.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3578" name="The Garbage Dump" sector="3" flags="0">
+		<description>You stand knee deep in garbage.  YECCH!!!  It smells terrible and who knows
+what vermin live in these piles of filth...
+</description>
+		<directions>
+			<direction dir="east" to_room="3573">
+				<general_description>You can return to cleaner lands this way.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3579" name="A Quieter Section Of The Inn" sector="0" flags="8">
+		<description>There seems to be no one in this end of the Woodsman, probably a safe place
+to rest and lick your wounds...
+</description>
+		<directions>
+			<direction dir="north" to_room="3574">
+				<general_description>You see the common room.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3581" name="On The Trail Of The Horsemen" sector="3" flags="0">
+		<description>   The path continues east and west of here.  You notice fresh tracks in
+the soft ground that show the horsemen fled to the west.
+</description>
+		<directions>
+			<direction dir="east" to_room="3575">
+				<general_description>Back to ambush point.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3582">
+				<general_description>The trail continues.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3582" name="On The Trail Of The Horsemen" sector="3" flags="0">
+		<description>   The path continues east and south.  You notice fresh tracks in the
+soft ground that show the horsemen turned, and fled south.
+</description>
+		<directions>
+			<direction dir="east" to_room="3581">
+				<general_description>The trail continues.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3583">
+				<general_description>The tracks lead south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3583" name="On The Trail Of The Horsemen" sector="3" flags="0">
+		<description>   The trail of the horsemen continues east and north along this path
+through the forest.  The tracks are still fresh, so they must be near.
+</description>
+		<directions>
+			<direction dir="north" to_room="3582">
+				<general_description>The trail continues.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="3584">
+				<general_description>The tracks lead east.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="3584" name="A Dead End Trail" sector="3" flags="0">
+		<description>   The path comes to an abrupt end here, as the trees close around you and
+make any further exploration impossible.  Fresh tracks cover the ground, and
+end right here.  The horsemen must be nearby.
+</description>
+		<directions>
+			<direction dir="east" to_room="3583">
+				<general_description>Back to along the trail.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+</rooms>

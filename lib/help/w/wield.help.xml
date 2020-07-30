@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<help first_keyword="wield" keyword_count="1" mini_mud="true">
+	<entry>WIELD
+
+Usage: wield &lt;weapon&gt;
+
+When you get tired of bashing monsters with your fists, you might consider
+wielding a weapon.
+
+Example:
+
+  &gt; wield sword
+  &gt; wield 3.sword    (Wield the third sword in your inventory)
+
+See also: EQUIPMENT, REMOVE, WEAR
+</entry>
+</help>

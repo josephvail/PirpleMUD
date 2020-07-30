@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<help first_keyword="areas" keyword_count="1" mini_mud="true">
+	<entry>AREAS
+
+   This is a listing of the areas available for exploration on this
+CircleMUD.
+
+Limbo                    -- DikuMud
+River Island Of Minos    -- Mahatma of HexOynx
+God Simplex              -- CircleMUD, modified by Taz of Tazmania
+The Straight Path        -- Steppin of ChicagoMUD
+The High Tower Of Magic  -- Skylar of SillyMUD*
+Midgaard                 -- DikuMud
+The Three Of Swords      -- C.A.W.
+Miden'Nir                -- Copper II, modified by VampLestat of MercMUD*
+The Chessboard           -- Exxon of SillyMUD
+Mount Moria              -- Redferne of DikuMud*
+The Great Eastern Desert -- Rorschach
+The Drow City            -- Rorschach
+The City Of Thalos       -- Rorschach
+The Great Pyramid        -- Andersen of HexOynx*
+New Thalos               -- Duke Of SillyMUD*
+The Haon-Dor Forest      -- Quifael of DikuMud, extended by by Derkhil
+                            of CircleMUD
+The Orc Enclave          -- C.A.W.
+Arachnos                 -- Mahatma of HexOynx
+Rand's Tower             -- C.A.W.
+The Dwarven Kingdom      -- Depeche of DikuMud
+The Sewers               -- Redferne of DikuMud
+Redferne's Residence     -- DikuMud, modified by Cyron of VieMud
+Rome                     -- Onivel of JediMUD
+King Welmar's Castle     -- CircleMUD*
+Newbie Zone              -- Maynard of StrangeMUD
+
+All those marked with * have been heavily modified by Furry of VieMud
+C.A.W. stands for the Curious Areas Workshop.  For more information
+mail &lt;fletchra@qsilver.queensu.ca&gt;.
+
+See also: CREDITS
+</entry>
+</help>

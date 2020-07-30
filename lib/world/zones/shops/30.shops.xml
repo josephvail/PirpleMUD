@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<shops>
+	<shop number="3000" keeper="3000" trade_with_flags="2" no_money_temper="0" buy_profit="115" sell_profit="15" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Sorry, I haven't got exactly that item." />
+			<keeper_message number="2" message="%s You don't seem to have that." />
+			<keeper_message number="3" message="%s I don't buy such items." />
+			<keeper_message number="4" message="%s That is too expensive for me!" />
+			<keeper_message number="5" message="%s You can't afford it!" />
+			<keeper_message number="6" message="%s That'll be %d coins, please." />
+			<keeper_message number="7" message="%s You'll get %d coins for it!" />
+		</keeper_messages>
+		<will_buy>
+			<criteria type="68" />
+			<criteria type="69" />
+			<criteria type="70" />
+			<criteria type="76" />
+		</will_buy>
+		<will_construct>
+			<construct_item number="3050" />
+			<construct_item number="3051" />
+			<construct_item number="3052" />
+			<construct_item number="3053" />
+			<construct_item number="3054" />
+		</will_construct>
+		<locations>
+			<location room_number="3033" />
+		</locations>
+	</shop>
+	<shop number="3001" keeper="3001" trade_with_flags="0" no_money_temper="0" buy_profit="140" sell_profit="100" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Haven't got that on storage - try list!" />
+			<keeper_message number="2" message="%s I don't buy!" />
+			<keeper_message number="3" message="%s I don't buy!" />
+			<keeper_message number="4" message="%s I don't buy!" />
+			<keeper_message number="5" message="%s If you have no money, you'll have to go!" />
+			<keeper_message number="6" message="%s That'll be %d coins." />
+			<keeper_message number="7" message="%s Oops - %d a minor bug - please report!" />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3009" />
+			<construct_item number="3010" />
+			<construct_item number="3011" />
+		</will_construct>
+		<locations>
+			<location room_number="3009" />
+		</locations>
+	</shop>
+	<shop number="3002" keeper="3002" trade_with_flags="0" no_money_temper="0" buy_profit="150" sell_profit="40" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Haven't got that on storage - try list!" />
+			<keeper_message number="2" message="%s You don't seem to have that." />
+			<keeper_message number="3" message="%s I don't buy THAT... Try another shop." />
+			<keeper_message number="4" message="%s I can't afford such a treasure." />
+			<keeper_message number="5" message="%s You can't afford it!" />
+			<keeper_message number="6" message="%s That'll be %d coins, please." />
+			<keeper_message number="7" message="%s You'll get %d coins for it!" />
+		</keeper_messages>
+		<will_buy>
+			<criteria type="78" />
+			<criteria type="68" />
+			<criteria type="0" />
+		</will_buy>
+		<will_construct>
+			<construct_item number="3030" />
+			<construct_item number="3031" />
+			<construct_item number="3032" />
+			<construct_item number="3033" />
+			<construct_item number="3036" />
+		</will_construct>
+		<locations>
+			<location room_number="3010" />
+		</locations>
+	</shop>
+	<shop number="3003" keeper="3003" trade_with_flags="0" no_money_temper="0" buy_profit="130" sell_profit="40" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s I haven't got that kind of a weapon!" />
+			<keeper_message number="2" message="%s You don't carry that weapon!" />
+			<keeper_message number="3" message="%s I only buy weapons." />
+			<keeper_message number="4" message="%s I can't afford such a great weapon!" />
+			<keeper_message number="5" message="%s sorry, but NO CREDIT!" />
+			<keeper_message number="6" message="%s That costs just %d coins." />
+			<keeper_message number="7" message="%s Here, you can have %d coins for that." />
+		</keeper_messages>
+		<will_buy>
+			<criteria type="73" />
+		</will_buy>
+		<will_construct>
+			<construct_item number="3020" />
+			<construct_item number="3021" />
+			<construct_item number="3022" />
+			<construct_item number="3023" />
+			<construct_item number="3024" />
+			<construct_item number="3025" />
+		</will_construct>
+		<locations>
+			<location room_number="3011" />
+		</locations>
+	</shop>
+	<shop number="3004" keeper="3004" trade_with_flags="0" no_money_temper="0" buy_profit="100" sell_profit="50" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Haven't got that on storage - try list!" />
+			<keeper_message number="2" message="%s You don't seem to have that." />
+			<keeper_message number="3" message="%s I only buy armors.. Go away!" />
+			<keeper_message number="4" message="%s That is too expensive for me - Try a wizard!" />
+			<keeper_message number="5" message="%s You can't afford it!" />
+			<keeper_message number="6" message="%s That'll be %d coins, please." />
+			<keeper_message number="7" message="%s You'll get %d coins for it!" />
+		</keeper_messages>
+		<will_buy>
+			<criteria type="0" />
+		</will_buy>
+		<will_construct>
+			<construct_item number="3040" />
+			<construct_item number="3041" />
+			<construct_item number="3042" />
+			<construct_item number="3043" />
+			<construct_item number="3044" />
+			<construct_item number="3045" />
+			<construct_item number="3046" />
+			<construct_item number="3070" />
+			<construct_item number="3071" />
+			<construct_item number="3075" />
+			<construct_item number="3076" />
+			<construct_item number="3080" />
+			<construct_item number="3081" />
+			<construct_item number="3085" />
+			<construct_item number="3086" />
+		</will_construct>
+		<locations>
+			<location room_number="3020" />
+		</locations>
+	</shop>
+	<shop number="3006" keeper="3006" trade_with_flags="0" no_money_temper="0" buy_profit="120" sell_profit="90" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="6" close="22" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Sorry pal, I have not got that kind of ship." />
+			<keeper_message number="2" message="%s Ok, but let me see it first." />
+			<keeper_message number="3" message="%s I only trade ships." />
+			<keeper_message number="4" message="%s I can't afford such a nice ship." />
+			<keeper_message number="5" message="%s This ship is too expensive for you." />
+			<keeper_message number="6" message="%s Here is your ship, I'll take %d gold coins." />
+			<keeper_message number="7" message="%s What a fine deal, you get %d gold coins." />
+		</keeper_messages>
+		<will_buy>
+			<criteria type="0" />
+		</will_buy>
+		<will_construct>
+			<construct_item number="3060" />
+			<construct_item number="3061" />
+		</will_construct>
+		<locations>
+			<location room_number="3049" />
+		</locations>
+	</shop>
+	<shop number="3007" keeper="3007" trade_with_flags="1" no_money_temper="2" buy_profit="100" sell_profit="100" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Sorry, you aren't on my list of people I can sell to." />
+			<keeper_message number="2" message="%s Sorry, I don't buy from outsiders." />
+			<keeper_message number="3" message="%s Sorry, I don't buy from outsiders." />
+			<keeper_message number="4" message="%s Sorry, I don't buy from outsiders." />
+			<keeper_message number="5" message="%s Sorry, but here, no money means no goods!" />
+			<keeper_message number="6" message="%s That will be %d coins, please.  Thank you." />
+			<keeper_message number="7" message="%s Oops - %d a minor bug - please report." />
+		</keeper_messages>
+		<locations>
+			<location room_number="3050" />
+		</locations>
+	</shop>
+	<shop number="3009" keeper="3009" trade_with_flags="0" no_money_temper="0" buy_profit="100" sell_profit="100" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Sorry, I don't have that -- try list!" />
+			<keeper_message number="2" message="%s Sorry, I don't buy waters from outsiders." />
+			<keeper_message number="3" message="%s Sorry, I don't buy waters from outsiders." />
+			<keeper_message number="4" message="%s Sorry, I don't buy waters from outsiders." />
+			<keeper_message number="5" message="%s Sorry, but here, no money means no water!" />
+			<keeper_message number="6" message="%s That will be %d coins, please.  Thank you." />
+			<keeper_message number="7" message="%s Oops - %d a minor bug - please report." />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3102" />
+			<construct_item number="3103" />
+			<construct_item number="3104" />
+		</will_construct>
+		<locations>
+			<location room_number="3058" />
+		</locations>
+	</shop>
+	<shop number="3040" keeper="3040" trade_with_flags="0" no_money_temper="0" buy_profit="110" sell_profit="100" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s It's very noisy in here, what did you say you wanted to buy?" />
+			<keeper_message number="2" message="%s I don't buy!" />
+			<keeper_message number="3" message="%s I don't buy!" />
+			<keeper_message number="4" message="%s I don't buy!" />
+			<keeper_message number="5" message="%s Are you drunk or what?? - NO CREDIT!" />
+			<keeper_message number="6" message="%s That'll be - say %d coins." />
+			<keeper_message number="7" message="%s Oops - %d a minor bug - please report!" />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3000" />
+			<construct_item number="3001" />
+			<construct_item number="3002" />
+			<construct_item number="3003" />
+			<construct_item number="3004" />
+		</will_construct>
+		<locations>
+			<location room_number="3007" />
+		</locations>
+	</shop>
+	<shop number="3042" keeper="3042" trade_with_flags="112" no_money_temper="0" buy_profit="100" sell_profit="100" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Haven't got that on storage - try list!" />
+			<keeper_message number="2" message="%s I don't buy!" />
+			<keeper_message number="3" message="%s I don't buy!" />
+			<keeper_message number="4" message="%s I don't buy!" />
+			<keeper_message number="5" message="%s If you have no money, you'll have to go!" />
+			<keeper_message number="6" message="%s That'll be %d coins." />
+			<keeper_message number="7" message="%s Oops - %d a minor bug - please report!" />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3002" />
+			<construct_item number="3003" />
+		</will_construct>
+		<locations>
+			<location room_number="3018" />
+		</locations>
+	</shop>
+	<shop number="3043" keeper="3043" trade_with_flags="104" no_money_temper="0" buy_profit="110" sell_profit="100" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Haven't got that on storage - try list!" />
+			<keeper_message number="2" message="%s I don't buy!" />
+			<keeper_message number="3" message="%s I don't buy!" />
+			<keeper_message number="4" message="%s I don't buy!" />
+			<keeper_message number="5" message="%s If you have no money, you'll have to go!" />
+			<keeper_message number="6" message="%s That'll be %d coins." />
+			<keeper_message number="7" message="%s Oops - %d a minor bug - please report!" />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3002" />
+			<construct_item number="3004" />
+		</will_construct>
+		<locations>
+			<location room_number="3003" />
+		</locations>
+	</shop>
+	<shop number="3044" keeper="3044" trade_with_flags="88" no_money_temper="0" buy_profit="170" sell_profit="100" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Haven't got that on storage - try list!" />
+			<keeper_message number="2" message="%s I don't buy!" />
+			<keeper_message number="3" message="%s I don't buy!" />
+			<keeper_message number="4" message="%s I don't buy!" />
+			<keeper_message number="5" message="%s If you have no money, you'll have to go!" />
+			<keeper_message number="6" message="%s That'll be %d coins." />
+			<keeper_message number="7" message="%s Oops - %d a minor bug - please report!" />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3003" />
+			<construct_item number="3004" />
+		</will_construct>
+		<locations>
+			<location room_number="3028" />
+		</locations>
+	</shop>
+	<shop number="3045" keeper="3045" trade_with_flags="56" no_money_temper="0" buy_profit="150" sell_profit="100" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s Haven't got that on storage - try list!" />
+			<keeper_message number="2" message="%s I don't buy!" />
+			<keeper_message number="3" message="%s I don't buy!" />
+			<keeper_message number="4" message="%s I don't buy!" />
+			<keeper_message number="5" message="%s If you have no money, you'll have to go!" />
+			<keeper_message number="6" message="%s That'll be %d coins." />
+			<keeper_message number="7" message="%s Oops - %d a minor bug - please report!" />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3002" />
+			<construct_item number="3003" />
+			<construct_item number="3004" />
+		</will_construct>
+		<locations>
+			<location room_number="3022" />
+		</locations>
+	</shop>
+	<shop number="3046" keeper="3046" trade_with_flags="0" no_money_temper="0" buy_profit="100" sell_profit="100" bitvector="2">
+		<shop_hours>
+			<hours number="1" open="0" close="28" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s It's very noisy in here, what did you say you wanted to buy?" />
+			<keeper_message number="2" message="%s I don't buy!" />
+			<keeper_message number="3" message="%s I don't buy!" />
+			<keeper_message number="4" message="%s I don't buy!" />
+			<keeper_message number="5" message="%s Oh, bugger off, NO CREDIT!" />
+			<keeper_message number="6" message="%s That'll be - say %d coins." />
+			<keeper_message number="7" message="%s Oops - %d a minor bug - please report!" />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="3004" />
+			<construct_item number="3003" />
+		</will_construct>
+		<locations>
+			<location room_number="3048" />
+		</locations>
+	</shop>
+</shops>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<help first_keyword="fireball" keyword_count="1" mini_mud="true">
+	<entry>FIREBALL
+
+Usage       : cast 'fireball' &lt;victim&gt;
+Accumulative: -
+Duration    : Instantaneous
+Level       : Mage level 15.
+Save        : Versus spell for half damage.
+
+This spell is the most powerful spell a magic user can cast.
+
+See also: "COLOR SPRAY"
+</entry>
+</help>
