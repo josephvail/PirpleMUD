@@ -1,0 +1,9 @@
+** Color Yellow:
+#ffff66
+** Color Cyan:
+#00CED1
+** Color Blue:
+#1e90ff
+** Color Dark Blue: 
+#002266
+
