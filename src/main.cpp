@@ -82,6 +82,7 @@ int main(int argc, char** argv)
             break;
         case 'n':
             MUD.AddRunFlag(Pirple::CMUD::RF_SLOW_NAMESERVER);
+            break;
         case 'h':
             /* From: Anil Mahajan <amahajan@proxicom.com> */
             cout << "Usage: " << argv[0] << " [-c] [-m] [-q] [-r] [-s] [-d pathname] [port #]" << endl;
