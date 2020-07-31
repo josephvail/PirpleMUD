@@ -23,6 +23,7 @@
 #include <vector>
 #include <memory>
 #include <sys/param.h>
+#include <random>
 
 #include "pirple_utils_.h"
 #include "pirple_skillsspells_.h"

@@ -402,6 +402,11 @@ private:
      */
     bool LogInternal(const string& format, va_list args);
 
+    // Load world files
+    bool InitializeWorld();
+    // Load misc data as well as world files
+    bool InitializeData();
+
     void Sleep(struct timeval* pTimeOut);
     void Heartbeat(const pm_pulse& pPulse);
     void HeartbeatZones();

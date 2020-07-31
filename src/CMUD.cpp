@@ -44,15 +44,13 @@ bool CMUD::Initialize(pm_ushint pPort)
         ;// TODO boot_world();
     else
     {
-        // TODO socket_t mother_desc;
-
         /* We don't want to restart if we crash before we get up. */
         // TODO touch(KILLSCRIPT_FILE);
 
         // TODO circle_srandom(time(0));
 
         Log("Finding player limit.");
-        // TODO max_players = get_max_players();
+        InitializeMaxClients();
 
         Log("Opening server connection.");
         server.Initialize(pPort);
@@ -446,6 +444,7 @@ bool CMUD::Stop()
 
 CMUD::SBan::TYPE CMUD::HostBanned(const string& pHost)
 {
+	// TODO FIX
     return CMUD::SBan::NONE;
 }
 
