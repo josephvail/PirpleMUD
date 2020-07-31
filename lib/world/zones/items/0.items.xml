@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<items>
+<items zone="0">
 	<item number="0" name="bug" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a bug">
 		<values>
 			<value number="0" val="0" />

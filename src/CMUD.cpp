@@ -411,7 +411,6 @@ bool CMUD::Stop()
     Log("Saving current MUD time.");
 // TODO        save_mud_time(&time_info);
 
-    // F THIS
     /* TODO
     if (circle_reboot) {
         Log("Rebooting.");
@@ -524,5 +523,11 @@ void CMUD::HeartbeatSaveMUDTime()
 {
     //TODO            save_mud_time(&time_info);
 
+}
+
+bool CMUD::InitializeWorld()
+{
+
+	return true;
 }
 }
