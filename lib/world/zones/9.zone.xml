@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<zone number="9" name="River Island Of Minos" bottom="900" top="999" lifespan="39" reset_mode="1" mini_mud="false" rooms="24" mobiles="12" items="10" shops="0">
+<zone number="1" name="River Island Of Minos" lifespan="39" reset_mode="1" mini_mud="false" rooms="24" mobiles="12" items="10" shops="0">
 	<resets>
 		<reset number="1" if_flag="false" type="M" arg1="900" arg2="3" arg3="915" />
 		<reset number="2" if_flag="false" type="M" arg1="900" arg2="3" arg3="915" />

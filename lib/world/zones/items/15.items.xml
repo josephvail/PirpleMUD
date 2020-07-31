@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <items>
-	<item number="0" name="scales justice scale" type="12" wear_flags="16385" extra_flags="1025" bitvector="0" weight="10" cost="15000" cost_per_day="2200" short_description="the Scales of Justice">
+	<item number="1500" name="scales justice scale" type="12" wear_flags="16385" extra_flags="1025" bitvector="0" weight="10" cost="15000" cost_per_day="2200" short_description="the Scales of Justice">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />
@@ -20,7 +20,7 @@ of their own accord, as if weighing something that is to you still unseen.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="1" name="scroll parchment" type="12" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="500" cost_per_day="500" short_description="the Scroll of the Messenger">
+	<item number="1501" name="scroll parchment" type="12" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="500" cost_per_day="500" short_description="the Scroll of the Messenger">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />
@@ -40,7 +40,7 @@ vast distances, but how to make use of it is impossible to tell.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="2" name="sword blazing" type="5" wear_flags="8193" extra_flags="9283" bitvector="0" weight="10" cost="5000" cost_per_day="900" short_description="a blazing sword">
+	<item number="1502" name="sword blazing" type="5" wear_flags="8193" extra_flags="9283" bitvector="0" weight="10" cost="5000" cost_per_day="900" short_description="a blazing sword">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="3" />
@@ -59,7 +59,7 @@ a fine, silver-laced and flowing script.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="3" name="protector faithful shield" type="9" wear_flags="513" extra_flags="9216" bitvector="0" weight="20" cost="5000" cost_per_day="1500" short_description="the Protector of the Faithful">
+	<item number="1503" name="protector faithful shield" type="9" wear_flags="513" extra_flags="9216" bitvector="0" weight="20" cost="5000" cost_per_day="1500" short_description="the Protector of the Faithful">
 		<values>
 			<value number="0" val="15" />
 			<value number="1" val="0" />
@@ -75,7 +75,7 @@ the weapons that will try to kill you.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="4" name="armband band faded" type="12" wear_flags="257" extra_flags="512" bitvector="0" weight="0" cost="15" cost_per_day="50" short_description="a faded armband">
+	<item number="1504" name="armband band faded" type="12" wear_flags="257" extra_flags="512" bitvector="0" weight="0" cost="15" cost_per_day="50" short_description="a faded armband">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />
@@ -95,7 +95,7 @@ or award in some military order unknown to you.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="5" name="scimitar jeweled" type="5" wear_flags="8193" extra_flags="9217" bitvector="0" weight="5" cost="5000" cost_per_day="500" short_description="a jeweled scimitar">
+	<item number="1505" name="scimitar jeweled" type="5" wear_flags="8193" extra_flags="9217" bitvector="0" weight="5" cost="5000" cost_per_day="500" short_description="a jeweled scimitar">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="7" />
@@ -111,7 +111,7 @@ array of stones and precious metals.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="6" name="ember charred" type="1" wear_flags="16385" extra_flags="57857" bitvector="0" weight="0" cost="5" cost_per_day="2500" short_description="a charred ember">
+	<item number="1506" name="ember charred" type="1" wear_flags="16385" extra_flags="57857" bitvector="0" weight="0" cost="5" cost_per_day="2500" short_description="a charred ember">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />
@@ -130,7 +130,7 @@ array of stones and precious metals.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="7" name="ethereal flame" type="1" wear_flags="16385" extra_flags="50689" bitvector="0" weight="0" cost="5" cost_per_day="2500" short_description="an ethereal flame">
+	<item number="1507" name="ethereal flame" type="1" wear_flags="16385" extra_flags="50689" bitvector="0" weight="0" cost="5" cost_per_day="2500" short_description="an ethereal flame">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />
@@ -149,10 +149,10 @@ array of stones and precious metals.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="8" name="key gates" type="18" wear_flags="16385" extra_flags="3329" bitvector="0" weight="0" cost="1000" cost_per_day="500" short_description="the Key to the Gates">
+	<item number="1508" name="key gates" type="18" wear_flags="16385" extra_flags="3329" bitvector="0" weight="0" cost="1000" cost_per_day="500" short_description="the Key to the Gates">
 		<values>
-			<value number="0" val="15" />
-			<value number="1" val="8" />
+			<value number="0" val="1508" />
+			<value number="1" val="0" />
 			<value number="2" val="0" />
 			<value number="3" val="0" />
 		</values>
@@ -167,7 +167,7 @@ array of stones and precious metals.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="9" name="history burnt book" type="13" wear_flags="16385" extra_flags="0" bitvector="0" weight="2" cost="10" cost_per_day="500" short_description="a burnt history">
+	<item number="1509" name="history burnt book" type="13" wear_flags="16385" extra_flags="0" bitvector="0" weight="2" cost="10" cost_per_day="500" short_description="a burnt history">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />
@@ -186,7 +186,7 @@ and will end in nothing.  It is for this that he laughs.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="10" name="surah book" type="1" wear_flags="16385" extra_flags="15368" bitvector="0" weight="0" cost="500" cost_per_day="8000" short_description="a surah of the book">
+	<item number="1510" name="surah book" type="1" wear_flags="16385" extra_flags="15368" bitvector="0" weight="0" cost="500" cost_per_day="8000" short_description="a surah of the book">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />
@@ -207,7 +207,7 @@ do you worship what I worship.  To you be your Way, and to me mine."
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="11" name="forge unity" type="9" wear_flags="129" extra_flags="15616" bitvector="0" weight="5" cost="12000" cost_per_day="4000" short_description="the Forge of Unity">
+	<item number="1511" name="forge unity" type="9" wear_flags="129" extra_flags="15616" bitvector="0" weight="5" cost="12000" cost_per_day="4000" short_description="the Forge of Unity">
 		<values>
 			<value number="0" val="5" />
 			<value number="1" val="0" />
@@ -220,7 +220,7 @@ do you worship what I worship.  To you be your Way, and to me mine."
 		</affects>
 		<description>It is surely the best of men who has left these gloves to aid you.</description>
 	</item>
-	<item number="12" name="ankh" type="11" wear_flags="5" extra_flags="2049" bitvector="0" weight="3" cost="5000" cost_per_day="2000" short_description="an Ankh">
+	<item number="1512" name="ankh" type="11" wear_flags="5" extra_flags="2049" bitvector="0" weight="3" cost="5000" cost_per_day="2000" short_description="an Ankh">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />
@@ -240,7 +240,7 @@ above the crossed arms of white gold.
 			</extra_description>
 		</extra_descriptions>
 	</item>
-	<item number="13" name="amulet ra" type="11" wear_flags="5" extra_flags="65" bitvector="0" weight="5" cost="7500" cost_per_day="1500" short_description="the Amulet of Ra">
+	<item number="1513" name="amulet ra" type="11" wear_flags="5" extra_flags="65" bitvector="0" weight="5" cost="7500" cost_per_day="1500" short_description="the Amulet of Ra">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />
@@ -253,7 +253,7 @@ above the crossed arms of white gold.
 		</affects>
 		<description>You have found a beautiful gleaming disc with a golden image of the sun god.</description>
 	</item>
-	<item number="14" name="image azathoth graven" type="1" wear_flags="16385" extra_flags="68096" bitvector="0" weight="2" cost="1000" cost_per_day="500" short_description="a graven image of Azathoth">
+	<item number="1514" name="image azathoth graven" type="1" wear_flags="16385" extra_flags="68096" bitvector="0" weight="2" cost="1000" cost_per_day="500" short_description="a graven image of Azathoth">
 		<values>
 			<value number="0" val="0" />
 			<value number="1" val="0" />

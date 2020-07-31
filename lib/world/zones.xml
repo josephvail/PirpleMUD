@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <zones count="30" count_mini_mud="3">
 	<zone number="0" mini_mud="true" />
-	<zone number="1" mini_mud="false" />
+	<zone number="9" mini_mud="false" />
 	<zone number="12" mini_mud="true" />
 	<zone number="15" mini_mud="false" />
 	<zone number="25" mini_mud="false" />
