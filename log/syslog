@@ -1,0 +1,8 @@
+Jul 30 18:32:03 :: PirpleMUD, version 0.1
+Jul 30 18:32:03 :: Using lib as data directory.
+Jul 30 18:32:03 :: Finding player limit.
+Jul 30 18:32:03 :: Opening server connection.
+Jul 30 18:32:03 :: Binding to all IP interfaces on this host.
+Jul 30 18:32:03 :: Signal trapping.
+Jul 30 18:32:03 :: Running game on port 4444.
+Jul 30 18:32:03 :: No connections.  Going to sleep.

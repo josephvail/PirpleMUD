@@ -34,10 +34,10 @@ namespace Pirple
 typedef signed long pm_index;
 enum
 {
-    NOBODY = 0,
-    NOTHING = 0,
-    NOWHERE = 0,
-    DARKNESS = 0
+	NOBODY = 0,
+	NOTHING = 0,
+	NOWHERE = 0,
+	DARKNESS = 0
 };
 typedef signed short pm_level;
 typedef signed long long pm_currency;
@@ -52,12 +52,12 @@ typedef signed short pm_savingthrow;
 
 enum DIRECTION
 {
-    NORTH = 0,
-    EAST,
-    SOUTH,
-    WEST,
-    UP,
-    DOWN
+	NORTH = 0,
+	EAST,
+	SOUTH,
+	WEST,
+	UP,
+	DOWN
 };
 enum { NUM_DIRECTIONS = DOWN + 1 };
 

@@ -104,7 +104,7 @@ private:
      *
      * @sa CircleMUD comm.c
      */
-    string path = "../lib";
+    string path = "lib";
     /*!
      * @var log
      * @sa CMUD::GetLog(), CMUD::GetLogName(), CMUD::SetLogName(), CMUD::InitializeLog(),
@@ -120,7 +120,7 @@ private:
      *
      * @sa CircleMUD comm.c CircleMUD utils.c
      */
-    string logName = "../log/syslog";
+    string logName = "log/syslog";
     /*!
      * @var initialized
      * @sa CMUD::Initialize(), CMUD::IsInitialized()

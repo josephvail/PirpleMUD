@@ -21,7 +21,7 @@ bool CTCPServer::Initialize(const pm_ushint& pPort)
         return false;
 
     int opt;
-    if ((descriptor = socket(AF_INET, SOCK_STREAM, SOCK_NONBLOCK)) < 0)
+    if ((descriptor = socket(PF_INET, SOCK_STREAM, 0)) < 0)
     {
         perror("SYSERR: Error creating socket");
         exit(1); // TODO exit replaced with throws?
