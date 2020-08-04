@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<shops>
+	<shop number="0" keeper="0" zkeeper="6" trade_with_flags="0" no_money_temper="0" buy_profit="110" sell_profit="90">
+		<shop_hours>
+			<hours number="1" open="6" close="22" />
+			<hours number="2" open="23" close="24" />
+		</shop_hours>
+		<keeper_messages>
+			<keeper_message number="1" message="%s I haven't got such a drink." />
+			<keeper_message number="2" message="%s I see no such thing." />
+			<keeper_message number="3" message="%s I do not buy, would you like a drink?" />
+			<keeper_message number="4" message="%s BUG, Please report." />
+			<keeper_message number="5" message="%s You can't afford such a fine drink, try the Grubby Inn." />
+			<keeper_message number="6" message="%s Fine, that'll be %d gold pieces." />
+			<keeper_message number="7" message="%s Bug, please report (%d)." />
+		</keeper_messages>
+		<will_construct>
+			<construct_item number="0" znumber="6" />
+			<construct_item number="1" znumber="6" />
+			<construct_item number="2" znumber="6" />
+		</will_construct>
+		<locations>
+			<location room_number="6" zone_number="6" />
+		</locations>
+	</shop>
+</shops>

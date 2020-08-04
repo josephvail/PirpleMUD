@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<items>
+	<item number="1" name="sword newbie" type="5" wear_flags="8193" extra_flags="65" bitvector="0" weight="4" cost="0" cost_per_day="0" short_description="a shiny newbie sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="5" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="19" modifier="1" />
+		</affects>
+		<description>A shiny newbie sword is lying here waiting to be possessed.</description>
+	</item>
+	<item number="2" name="vest newbie" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="4" cost="0" cost_per_day="0" short_description="a bright green newbie vest">
+		<values>
+			<value number="0" val="4" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bright green newbie vest is lying here looking for a body to hug.</description>
+	</item>
+	<item number="3" name="helm helmet newbie" type="9" wear_flags="17" extra_flags="65" bitvector="0" weight="4" cost="0" cost_per_day="0" short_description="a bright newbie helm">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="5" modifier="1" />
+		</affects>
+		<description>A bright newbie helm is hoping a loose head will wander by.</description>
+	</item>
+	<item number="4" name="cloak dark newbie" type="9" wear_flags="1025" extra_flags="65" bitvector="0" weight="2" cost="100" cost_per_day="0" short_description="a dark newbie cloak">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-3" />
+			<affect location="4" modifier="1" />
+		</affects>
+		<description>A dark newbie cloak is lying here hoping to smother you.</description>
+	</item>
+	<item number="5" name="ring signet newbie" type="9" wear_flags="3" extra_flags="96" bitvector="0" weight="1" cost="500" cost_per_day="0" short_description="a newbie signet ring">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-2" />
+		</affects>
+		<description>A newbie signet ring is lying in the dust here.</description>
+	</item>
+	<item number="6" name="dagger newbie" type="5" wear_flags="24577" extra_flags="65" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a shiny newbie dagger">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="19" modifier="1" />
+		</affects>
+		<description>A shiny newbie dagger is lying here looking for a back to stab.</description>
+	</item>
+	<item number="7" name="collar dragon" type="9" wear_flags="5" extra_flags="64" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a pet dragon collar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+			<affect location="17" modifier="-1" />
+		</affects>
+		<description>Someone's pet dragon has escaped and left his collar here.</description>
+	</item>
+	<item number="8" name="key newbie" type="18" wear_flags="1" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a wee little key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A key with the newbie crest on it is here.</description>
+	</item>
+	<item number="9" name="light jar" type="1" wear_flags="1" extra_flags="65" bitvector="0" weight="2" cost="0" cost_per_day="0" short_description="a brightly glowing jar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="24" modifier="-1" />
+		</affects>
+		<description>A jar of glowing fluid wants to brighten your day.</description>
+	</item>
+	<item number="10" name="horns horn" type="9" wear_flags="17" extra_flags="8192" bitvector="0" weight="8" cost="100" cost_per_day="0" short_description="the horns of the Minotaur">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="1" modifier="1" />
+		</affects>
+		<description>The horns of the great Minotaur lie here.</description>
+	</item>
+	<item number="11" name="hide skin" type="11" wear_flags="1033" extra_flags="8192" bitvector="0" weight="6" cost="100" cost_per_day="0" short_description="the smelly hide of the Minotaur">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-6" />
+			<affect location="13" modifier="15" />
+		</affects>
+		<description>The hide of the great Minotaur is lying here.</description>
+	</item>
+	<item number="12" name="leggings newbie" type="9" wear_flags="33" extra_flags="0" bitvector="0" weight="4" cost="200" cost_per_day="0" short_description="some cool newbie leggings">
+		<values>
+			<value number="0" val="4" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of neat looking leggings are here.</description>
+	</item>
+	<item number="13" name="sleeves newbie" type="9" wear_flags="257" extra_flags="0" bitvector="0" weight="3" cost="400" cost_per_day="0" short_description="some cool newbie sleeves">
+		<values>
+			<value number="0" val="4" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="1" />
+		</affects>
+		<description>A set of nifty sleeves is here.</description>
+	</item>
+	<item number="14" name="mace newbie" type="5" wear_flags="8193" extra_flags="65" bitvector="0" weight="8" cost="300" cost_per_day="0" short_description="a glowing newbie mace">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="6" />
+			<value number="3" val="7" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-2" />
+		</affects>
+		<description>A finely crafted newbie mace is waiting for a worthy owner.</description>
+	</item>
+</items>

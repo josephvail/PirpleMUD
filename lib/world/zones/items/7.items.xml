@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<items>
+	<item number="0" name="orange" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="8" cost_per_day="8" short_description="an orange">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An orange lies on the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="orange">
+				<description>You wonder how it got here, seeing how 
+oranges are non-migratory.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1" name="bale wheat" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="100" cost="1000" cost_per_day="1000" short_description="a bale of wheat">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a bale of wheat here.</description>
+		<extra_descriptions>
+			<extra_description keyword="bale wheat">
+				<description>It doesn't look appetizing to you, but
+a horse might enjoy this...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="2" name="zither" type="8" wear_flags="1" extra_flags="0" bitvector="0" weight="40" cost="200000" cost_per_day="20000" short_description="a big zither">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A HUGE zither made of gold rests in the corner</description>
+		<extra_descriptions>
+			<extra_description keyword="zither">
+				<description>Someone truly huge with big fingers might be
+able to play this.  You can't.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3" name="barrel perfume" type="8" wear_flags="1" extra_flags="0" bitvector="0" weight="20" cost="100000" cost_per_day="10000" short_description="a barrel of perfume">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>You can smell a barrel on the other side of the room from here.</description>
+		<extra_descriptions>
+			<extra_description keyword="barrel perfume">
+				<description>Smells good...the label reads:
+
+   "Somewhere between GPA and MUD there lies...
+		OBSESSION"
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="4" name="statue" type="8" wear_flags="1" extra_flags="0" bitvector="0" weight="30" cost="150000" cost_per_day="15000" short_description="a statue">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>There is a statue of Aglandiir here, made of solid gold.</description>
+		<extra_descriptions>
+			<extra_description keyword="statue">
+				<description>He's a pretty striking chap, for a dragon.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5" name="halberd" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="16" cost="10000" cost_per_day="3000" short_description="a halberd">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="12" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="5" />
+		</affects>
+		<description>A runed halberd lies on the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="halberd">
+				<description>The runes glow with a bright light, making you
+think that this might be a pretty decent weapon.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="6" name="potion protection dun vial" type="10" wear_flags="1" extra_flags="1" bitvector="0" weight="1" cost="10000" cost_per_day="2000" short_description="a potion of protection">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="36" />
+			<value number="2" val="1" />
+			<value number="3" val="3" />
+		</values>
+		<description>A vial of a dun fluid is here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion protection dun vial">
+				<description>Looks thick, and brownish-grey (dun).  Ick!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7" name="crown" type="8" wear_flags="0" extra_flags="1" bitvector="0" weight="400" cost="0" cost_per_day="0" short_description="a dragon's crown">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Aglandiir's crown sits here, radiating a shield.</description>
+		<extra_descriptions>
+			<extra_description keyword="crown">
+				<description>The shield repulses you, making you wonder how
+you're going to get your hands on this huge, valuble
+chunk of gold...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="8" name="apple" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="5" cost_per_day="2" short_description="an apple">
+		<values>
+			<value number="0" val="4" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A scrawny red apple sits here.</description>
+		<extra_descriptions>
+			<extra_description keyword="apple">
+				<description>It is not wormy... yet.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="9" name="bread loaf" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="5" short_description="a loaf of bread">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A fresh loaf of bread lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="bread loaf">
+				<description>Mmmm... Rye!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="10" name="melon" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="3" cost="8" cost_per_day="3" short_description="a melon">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A melon sits here, discarded evidently.</description>
+		<extra_descriptions>
+			<extra_description keyword="melon">
+				<description>Wow!  Look at the size of that melon!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="11" name="knife" type="5" wear_flags="24577" extra_flags="8200" bitvector="0" weight="8" cost="1000000" cost_per_day="20000" short_description="a knife">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="5" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="18" modifier="3" />
+			<affect location="2" modifier="2" />
+		</affects>
+		<description>An exquisitely crafted knife rests here.</description>
+		<extra_descriptions>
+			<extra_description keyword="knife">
+				<description>The craftsmanship... it takes your breath away!
+This knife... it had to have been forged by the 
+legendary smith Gabadiel.  It must be worth a
+fortune!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="12" name="sword long" type="5" wear_flags="24577" extra_flags="12296" bitvector="0" weight="15" cost="750000" cost_per_day="15000" short_description="a long sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="7" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="1" modifier="1" />
+		</affects>
+		<description>A superb long sword sticks in the earth.</description>
+		<extra_descriptions>
+			<extra_description keyword="sword long">
+				<description>This sword is light, but the heft is perfectly
+balanced.  Such an incredible weapon can only have
+be crafted by the legendary smith Gabadiel, and
+as such be worth a fortune!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="13" name="sword short" type="5" wear_flags="24577" extra_flags="12553" bitvector="0" weight="10" cost="10000000" cost_per_day="30000" short_description="a short sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="4" />
+			<value number="2" val="6" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="4" />
+			<affect location="2" modifier="3" />
+		</affects>
+		<description>A short sword lies here... a work of art!</description>
+		<extra_descriptions>
+			<extra_description keyword="sword short">
+				<description>It brings tears to your eyes.  This must have
+been Gabadiel the smith's masterpiece; his final
+work.  Simply invaluble.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="14" name="corpse" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="1" cost="1" cost_per_day="1" short_description="a dismembered and burnt corpse">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A dismembered and burnt corpse lies on the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="corpse">
+				<description>It is still smouldering a little; the culprits can't
+be far off!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15" name="scimitar" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="10" cost="500" cost_per_day="50" short_description="a scimitar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="7" />
+			<value number="3" val="3" />
+		</values>
+		<description>A scimitar as long as your arm lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="scimitar">
+				<description>This weapon really isn't of too high a quality.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="16" name="crate" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="50" cost="100" cost_per_day="20" short_description="a crate">
+		<values>
+			<value number="0" val="200" />
+			<value number="1" val="5" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A crate is stacked here.</description>
+		<extra_descriptions>
+			<extra_description keyword="crate">
+				<description>It's a standard wooden crate.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="17" name="bow hunting" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="6" cost="400" cost_per_day="40" short_description="a hunting bow">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="5" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="19" modifier="1" />
+		</affects>
+		<description>A hunting bow lies here, unwanted</description>
+		<extra_descriptions>
+			<extra_description keyword="bow hunting">
+				<description>This is the type of weapon you would use to bag
+some deer or rabbits, but not the type you'd take
+into battle...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="18" name="vest leather" type="9" wear_flags="9" extra_flags="64" bitvector="0" weight="6" cost="5000" cost_per_day="500" short_description="a leather vest">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nice leather vest lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="vest leather">
+				<description>The seams are delicately sewn with a enruned thread...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="19" name="glass beer" type="17" wear_flags="16385" extra_flags="0" bitvector="0" weight="2" cost="5" cost_per_day="1" short_description="a glass">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="1" />
+			<value number="2" val="2" />
+			<value number="3" val="0" />
+		</values>
+		<description>A glass of beer sits forgotten here.</description>
+		<extra_descriptions>
+			<extra_description keyword="glass">
+				<description>This is a nice glass filled with homebrew.  There doesn't seem to
+be too much stuff floating in it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="20" name="glass mead ale" type="17" wear_flags="16385" extra_flags="0" bitvector="0" weight="2" cost="8" cost_per_day="3" short_description="a glass">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="1" />
+			<value number="2" val="4" />
+			<value number="3" val="0" />
+		</values>
+		<description>A big glass of mead sits here, cool and frosty.</description>
+		<extra_descriptions>
+			<extra_description keyword="glass mead">
+				<description>Looks good.  Looks warm.  Doesn't matter; it still looks good.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="21" name="shot whisky" type="17" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="5" short_description="a shot">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="1" />
+			<value number="2" val="6" />
+			<value number="3" val="0" />
+		</values>
+		<description>A shot of whisky is sitting here.</description>
+		<extra_descriptions>
+			<extra_description keyword="shot">
+				<description>Whew!  Looks like potent stuff!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

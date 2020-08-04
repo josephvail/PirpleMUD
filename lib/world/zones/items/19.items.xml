@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<items>
+	<item number="0" name="key black" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a black key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A somewhat plain black key has been left here.</description>
+	</item>
+	<item number="1" name="knife thief" type="5" wear_flags="8193" extra_flags="47168" bitvector="0" weight="9" cost="1000" cost_per_day="2500" short_description="a very sharp knife">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="8" />
+			<value number="2" val="1" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="2" modifier="2" />
+			<affect location="18" modifier="3" />
+		</affects>
+		<description>A very sharp knife lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="knife thief">
+				<description>A keen knife, very sharp -- you could cut the air in two!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="2" name="hat wizard" type="9" wear_flags="17" extra_flags="57440" bitvector="0" weight="5" cost="20000" cost_per_day="10000" short_description="a wizard's hat">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="2" />
+			<affect location="12" modifier="17" />
+		</affects>
+		<description>A blue wizard's hat lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="hat wizard">
+				<description>A hat made of blue cloth.  It looks very comfortable.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3" name="headress pontiff ornament cone head" type="9" wear_flags="17" extra_flags="53344" bitvector="0" weight="5" cost="20000" cost_per_day="10000" short_description="a pontiff's headress">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="4" modifier="3" />
+			<affect location="12" modifier="13" />
+		</affects>
+		<description>A white cone-shaped head ornament with religious symbols lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="headress pontiff ornament cone head">
+				<description>A starchy headress worn by powerful secular types.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="4" name="visor black knight" type="9" wear_flags="17" extra_flags="28768" bitvector="0" weight="5" cost="20000" cost_per_day="10000" short_description="a black knight's visor">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="1" modifier="1" />
+			<affect location="5" modifier="2" />
+		</affects>
+		<description>A black visor sits here.</description>
+		<extra_descriptions>
+			<extra_description keyword="visor black knight">
+				<description>A visor that protects the head, good for warriors.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5" name="potion thick white" type="10" wear_flags="1" extra_flags="64" bitvector="0" weight="9" cost="21000" cost_per_day="1000" short_description="a thick white potion">
+		<values>
+			<value number="0" val="25" />
+			<value number="1" val="15" />
+			<value number="2" val="35" />
+			<value number="3" val="19" />
+		</values>
+		<description>A thick white potion has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion thick white">
+				<description>It is disgusting thick white gunk which looks like liquid web and smells like
+medicine.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

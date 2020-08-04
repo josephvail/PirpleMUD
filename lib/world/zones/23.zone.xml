@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<zone number="23" name="The Second Sewer" lifespan="20" reset_mode="2" mini_mud="false" rooms="26" mobiles="0" items="1" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="22" arg2="4" arg3="3" arg4="23" arg5="2" />
+		<reset number="2" if_flag="false" type="M" arg1="22" arg2="5" arg3="7" arg4="23" arg5="12" />
+		<reset number="3" if_flag="false" type="M" arg1="22" arg2="5" arg3="7" arg4="23" arg5="12" />
+		<reset number="4" if_flag="false" type="M" arg1="22" arg2="5" arg3="7" arg4="23" arg5="22" />
+		<reset number="5" if_flag="false" type="M" arg1="22" arg2="2" arg3="7" arg4="23" arg5="4" />
+		<reset number="6" if_flag="false" type="M" arg1="22" arg2="0" arg3="3" arg4="23" arg5="3" />
+		<reset number="7" if_flag="false" type="M" arg1="22" arg2="0" arg3="3" arg4="23" arg5="3" />
+		<reset number="8" if_flag="false" type="M" arg1="22" arg2="6" arg3="7" arg4="23" arg5="13" />
+		<reset number="9" if_flag="false" type="M" arg1="22" arg2="6" arg3="7" arg4="23" arg5="22" />
+		<reset number="10" if_flag="false" type="M" arg1="22" arg2="6" arg3="7" arg4="23" arg5="22" />
+		<reset number="11" if_flag="false" type="D" arg1="23" arg2="6" arg3="5" arg4="1" />
+		<reset number="12" if_flag="false" type="D" arg1="23" arg2="11" arg3="5" arg4="1" />
+		<reset number="13" if_flag="false" type="D" arg1="23" arg2="21" arg3="5" arg4="1" />
+		<reset number="14" if_flag="false" type="D" arg1="24" arg2="79" arg3="4" arg4="1" />
+		<reset number="15" if_flag="false" type="D" arg1="23" arg2="16" arg3="5" arg4="1" />
+		<reset number="16" if_flag="false" type="D" arg1="24" arg2="80" arg3="4" arg4="1" />
+	</resets>
+</zone>

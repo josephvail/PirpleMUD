@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="1" name="The Webbed Entrance" sector="2" flags="4">
+		<description>   Sticky, sticky, sticky!  The ground is cluttered with leaves,
+decayed remains of webbed crickets, beetle, rats, dogs, and even
+humans.  You begin to wonder about what lies ahead.  The air is
+damp here, and even the little light that shines through the
+canopy seems to be absorbed into the webbing.
+</description>
+		<directions>
+			<direction dir="north" to_room="2" to_zone="19" />
+			<direction dir="south" to_room="32" to_zone="17" />
+		</directions>
+	</room>
+	<room number="2" name="The Webby Passage" sector="3" flags="0">
+		<description>   You find that footing here is very good, almost too good.  The
+limbs are coated with cobwebs and seem unusually strong for tree
+branches.  Paths lead in four directions.  The eastward path goes
+down a bit.
+</description>
+		<directions>
+			<direction dir="north" to_room="4" to_zone="19" />
+			<direction dir="east" to_room="5" to_zone="19" />
+			<direction dir="south" to_room="1" to_zone="19" />
+			<direction dir="west" to_room="3" to_zone="19" />
+		</directions>
+	</room>
+	<room number="3" name="The Wasp Hive" sector="3" flags="0">
+		<description>   Drones scuttle about in this room.  The cells on the walls are
+honeycomb in shape and many of the maggots and wasps you see have
+fang-marks on their bodies.  You sense some order in their markings.
+</description>
+		<directions>
+			<direction dir="east" to_room="2" to_zone="19" />
+		</directions>
+	</room>
+	<room number="4" name="The Webby Passage" sector="3" flags="0">
+		<description>   Another webby passage, all sticky and wet.  Tiny ballooning
+spiders fill the air.  It seems that these young ones are newborns.
+</description>
+		<directions>
+			<direction dir="east" to_room="5" to_zone="19" />
+			<direction dir="south" to_room="2" to_zone="19" />
+		</directions>
+	</room>
+	<room number="5" name="Beneath The Busy Path" sector="3" flags="0">
+		<description>   You here the sounds of crawling arachnids above.  The rhythms of
+the footsteps suggest a primitive order in there movement.  The light
+seems brighter upwards.
+</description>
+		<directions>
+			<direction dir="west" to_room="4" to_zone="19" />
+			<direction dir="up" to_room="6" to_zone="19" />
+		</directions>
+	</room>
+	<room number="6" name="On The Busy Path" sector="3" flags="0">
+		<description>   Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+with one big difference.  The spiders here are carrying ant-corpses,
+as well as rats, wolves, and humans.
+</description>
+		<directions>
+			<direction dir="south" to_room="7" to_zone="19" />
+			<direction dir="down" to_room="5" to_zone="19" />
+		</directions>
+	</room>
+	<room number="7" name="On The Busy Path" sector="3" flags="0">
+		<description>   Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+with one big difference.  The spiders here are carrying ant-corpses,
+as well as cats, wolves, and humans.  
+</description>
+		<directions>
+			<direction dir="north" to_room="6" to_zone="19" />
+			<direction dir="east" to_room="8" to_zone="19" />
+		</directions>
+	</room>
+	<room number="8" name="On The Busy Path" sector="3" flags="0">
+		<description>   Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+with one big difference.  The spiders here are carrying ant-corpses,
+as well as cats, dogs, and humans.
+</description>
+		<directions>
+			<direction dir="north" to_room="7" to_zone="19" />
+			<direction dir="east" to_room="6" to_zone="19" />
+			<direction dir="south" to_room="5" to_zone="19" />
+			<direction dir="west" to_room="9" to_zone="19" />
+		</directions>
+	</room>
+	<room number="9" name="A Split In The Path" sector="3" flags="0">
+		<description>   As always, there is a split in the road.  One road is strewn with
+cricket feelers.  The other is well-kept and suitable for smooth
+travelling.  The webbing that was prevalent in earlier rooms is almost
+non-existant now.
+</description>
+		<directions>
+			<direction dir="north" to_room="10" to_zone="19" />
+			<direction dir="east" to_room="8" to_zone="19" />
+			<direction dir="south" to_room="20" to_zone="19" />
+		</directions>
+	</room>
+	<room number="10" name="A Fuzzy Tree Limb" sector="3" flags="0">
+		<description>   You are on a 'fuzzy' tree limb.  Interesting, since the branches
+seem to have 'hairs' sprouting from its bark.  As you look closer
+you see millions of aphids covering each limb.
+</description>
+		<directions>
+			<direction dir="south" to_room="9" to_zone="19" />
+			<direction dir="west" to_room="11" to_zone="19" />
+		</directions>
+	</room>
+	<room number="11" name="The Tree Trunk" sector="3" flags="4">
+		<description>   You feel that you can rest here safely.  There is evidence of
+webbing here, but it is of a finer quality.
+</description>
+		<directions>
+			<direction dir="east" to_room="10" to_zone="19" />
+			<direction dir="south" to_room="12" to_zone="19" />
+		</directions>
+	</room>
+	<room number="12" name="The Tree Lair Entrance" sector="3" flags="0">
+		<description>   It seems the inhabitant of this place does not web her victims,
+as evidenced by the remains before you.  The area is cluttered with
+desiccated corpses, apparently bitten but unwebbed, and drained of
+their life juices.
+</description>
+		<directions>
+			<direction dir="north" to_room="11" to_zone="19" />
+			<direction dir="west" to_room="13" to_zone="19" />
+		</directions>
+	</room>
+	<room number="13" name="The Wolf Spider Lair" sector="3" flags="0">
+		<description>   Very dark, as all lairs of spiders are.  Not much of furnishings
+save an exit.  The wolf spider keeps no corpses here, but rather
+throws them out at her leisure.
+</description>
+		<directions>
+			<direction dir="east" to_room="12" to_zone="19" />
+		</directions>
+	</room>
+	<room number="20" name="The Webless Path" sector="3" flags="0">
+		<description>   Strange.  No webbing here.  In fact, no sounds whatsoever.  
+The path continues northward, where you find that you may have
+to tightrope your way across a ravine.
+</description>
+		<directions>
+			<direction dir="north" to_room="9" to_zone="19" />
+			<direction dir="west" to_room="21" to_zone="19" />
+		</directions>
+	</room>
+	<room number="21" name="Above The Ravine" sector="3" flags="0">
+		<description>   Stranger still.  Your feet get a real firm grip on the spiderline.
+You are above a deep ravine.  This line connects you between two trees.
+Below you can see a prismatic web with lots of animal bones caught in it:
+some bear and small deer bones in fact.  No human skeletons are visible 
+(yet).
+</description>
+		<directions>
+			<direction dir="east" to_room="20" to_zone="19" />
+			<direction dir="south" to_room="23" to_zone="19" />
+			<direction dir="down" to_room="22" to_zone="19" />
+		</directions>
+	</room>
+	<room number="22" name="The Rainbow Web" sector="3" flags="0">
+		<description>   This is the rainbow web -- each strand, each link, a hue of violently
+sharp colors and contrasts.  The resident here seems to have a command
+of light as well.
+</description>
+		<directions>
+			<direction dir="up" to_room="21" to_zone="19" />
+		</directions>
+	</room>
+	<room number="23" name="The Web Forest" sector="3" flags="0">
+		<description>   The trees here take on a different appearance -- they are not trees
+anymore, but disjointed make-shift silken made shafts, sticky to the
+touch, and webby in texture.  This is another world it would appear.
+</description>
+		<directions>
+			<direction dir="north" to_room="21" to_zone="19" />
+			<direction dir="down" to_room="24" to_zone="19" />
+		</directions>
+	</room>
+	<room number="24" name="The Slave Pit" sector="3" flags="0">
+		<description>   You have entered the slave pit.  A voice blares in the distance,
+'Get back to work, maggots!'  Rails upon rails of mined gold and silver
+clutter the trail beneath you.
+</description>
+		<directions>
+			<direction dir="north" to_room="25" to_zone="19" />
+			<direction dir="up" to_room="23" to_zone="19" />
+		</directions>
+	</room>
+	<room number="25" name="The Tether Path" sector="3" flags="0">
+		<description>   Another tether path just like the rest of them.  Surprisingly
+well-lit by the golden orbs that hang from the sides, you can see
+the paths become finer and finer in quality.
+</description>
+		<directions>
+			<direction dir="east" to_room="26" to_zone="19" />
+			<direction dir="west" to_room="24" to_zone="19" />
+		</directions>
+	</room>
+	<room number="26" name="A Road Crossing" sector="3" flags="0">
+		<description>   Another shifty little strand of webs, almost ethereal in nature.
+</description>
+		<directions>
+			<direction dir="west" to_room="25" to_zone="19" />
+			<direction dir="up" to_room="27" to_zone="19" />
+		</directions>
+	</room>
+	<room number="27" name="A Leader Strand" sector="3" flags="0">
+		<description>   This strand is weightier, more sturdy.  It shimmers as you step on
+it.  You are definitely not in the Midgaardian realms anymore.  Just
+where you are you can't tell.  It feels like you're moving through
+ether.  You can still get back down to more surer lands.
+</description>
+		<directions>
+			<direction dir="north" to_room="28" to_zone="19" />
+			<direction dir="down" to_room="26" to_zone="19" />
+		</directions>
+	</room>
+	<room number="28" name="The Entrance Of The Ethereal Web" sector="3" flags="0">
+		<description>   You are at the entrance to ethereal web.  Flickering in and out,
+in and out, each strand reveals a different hue from black to green 
+to blue.
+</description>
+		<directions>
+			<direction dir="south" to_room="31" to_zone="19" />
+		</directions>
+	</room>
+	<room number="30" name="The Young Wormkin's Crib" sector="3" flags="0">
+		<description>   A playpen of sorts, with maggots of wasps and other baby
+vermin lying about.  You feel that humans have been played with
+here too, and eaten later.  You sense that the maker of this
+place has an appetite for dragon meat, and uses this room as a
+breeding area.
+</description>
+		<directions>
+			<direction dir="up" to_room="31" to_zone="19" />
+		</directions>
+	</room>
+	<room number="31" name="The Base Of The Web" sector="3" flags="0">
+		<description>   Large strands connect at this point.  The node shimmers and
+flickers within the ether.  You see many flying creatures --
+insects, pegasi, and dragon wormkins -- navigate the dangerous
+passages of the web.  Exits go in many directions.
+</description>
+		<directions>
+			<direction dir="north" to_room="30" to_zone="19" />
+			<direction dir="east" to_room="32" to_zone="19" />
+			<direction dir="south" to_room="33" to_zone="19" />
+			<direction dir="west" to_room="34" to_zone="19" />
+		</directions>
+	</room>
+	<room number="32" name="Through The Trees" sector="3" flags="0">
+		<description>   This part of the web intersects through the branches of some
+trees.  Various leaves and other debris that the many drones have
+not picked up yet lie here.
+</description>
+		<directions>
+			<direction dir="east" to_room="31" to_zone="19" />
+			<direction dir="south" to_room="35" to_zone="19" />
+			<direction dir="west" to_room="33" to_zone="19" />
+		</directions>
+	</room>
+	<room number="33" name="Above The Clouds" sector="3" flags="0">
+		<description>   You can see all of Midgaard in this ethereal web.  Many
+of the larger dragons that do wish to fly seem to fly away
+from the sticky strands of the web.
+</description>
+		<directions>
+			<direction dir="east" to_room="31" to_zone="19" />
+			<direction dir="south" to_room="34" to_zone="19" />
+			<direction dir="west" to_room="35" to_zone="19" />
+		</directions>
+	</room>
+	<room number="34" name="On A Cloud" sector="3" flags="0">
+		<description>   This cloud is rather thick in consistency.  You suddenly realize
+this is not a typical cloud, but it might be the nest of an aerial
+creature.
+</description>
+		<directions>
+			<direction dir="down" to_room="31" to_zone="19" />
+		</directions>
+	</room>
+	<room number="35" name="A Link In The Ethereal Web" sector="3" flags="0">
+		<description>   This is another link in the ethereal web.  Various creatures seem
+to get caught (or hypnotized) by its sticky strands.
+</description>
+		<directions>
+			<direction dir="east" to_room="36" to_zone="19" />
+			<direction dir="west" to_room="31" to_zone="19" />
+		</directions>
+	</room>
+	<room number="36" name="The Tenuous Strand" sector="3" flags="0">
+		<description>   Very windy here since it goes up into the sky somewhat.  Still, it
+is safe enough to move around.
+</description>
+		<directions>
+			<direction dir="south" to_room="40" to_zone="19" />
+			<direction dir="west" to_room="41" to_zone="19" />
+			<direction dir="down" to_room="31" to_zone="19" />
+		</directions>
+	</room>
+	<room number="40" name="The Elder Wormkin's Room" sector="3" flags="0">
+		<description>   A more mature wormkin it seems resides here.  Various tomes
+of arcane lore clutter the area, along with shards of armor and
+weaponry.
+</description>
+		<directions>
+			<direction dir="down" to_room="31" to_zone="19" />
+		</directions>
+	</room>
+	<room number="41" name="Another Tree Limb" sector="3" flags="0">
+		<description>   Once again the web crosses another tree limb.  To the side you
+see the possible entrance to another creature's lair.
+</description>
+		<directions>
+			<direction dir="east" to_room="42" to_zone="19" />
+			<direction dir="south" to_room="34" to_zone="19" />
+			<direction dir="west" to_room="45" to_zone="19" />
+		</directions>
+	</room>
+	<room number="42" name="The Bird Spider's Lair" sector="3" flags="0">
+		<description>   This is a big game hunter among most spiders.  Crushed
+jewels and weapons suggest the inhabitant must have powerful
+jaws.  Beware!
+</description>
+		<directions>
+			<direction dir="down" to_room="31" to_zone="19" />
+		</directions>
+	</room>
+	<room number="45" name="A Link In The Ethereal Web" sector="3" flags="0">
+		<description>   This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.
+</description>
+		<directions>
+			<direction dir="south" to_room="50" to_zone="19" />
+			<direction dir="west" to_room="46" to_zone="19" />
+			<direction dir="up" to_room="45" to_zone="19" />
+		</directions>
+	</room>
+	<room number="46" name="The Quiet Tree Top" sector="3" flags="0">
+		<description>   This is a quiet tree top.  Downwards you can see a familiar path
+that may lead back to Midgaard.
+</description>
+		<directions>
+			<direction dir="east" to_room="45" to_zone="19" />
+			<direction dir="west" to_room="47" to_zone="19" />
+			<direction dir="down" to_room="32" to_zone="17" />
+		</directions>
+	</room>
+	<room number="47" name="On The Web" sector="3" flags="0">
+		<description>   RRRRRRRRRRROOOOOOOOOOOOOAAAAAAAAAAAAAARR!  You hear the roar
+of a powerful beast.  Dragon, you think.  You shiver in your boots
+as you tiptoe along this section of the web.
+</description>
+		<directions>
+			<direction dir="east" to_room="46" to_zone="19" />
+			<direction dir="south" to_room="55" to_zone="19" />
+			<direction dir="down" to_room="31" to_zone="19" />
+		</directions>
+	</room>
+	<room number="50" name="The Ki-Rin Chamber" sector="3" flags="0">
+		<description>   A wise ki-rin was entrapped here many years ago.  It is from her
+that the ruler of this realm draws magical strength.
+</description>
+		<directions>
+			<direction dir="north" to_room="47" to_zone="19" />
+		</directions>
+	</room>
+	<room number="55" name="A Link In The Ethereal Web" sector="3" flags="0">
+		<description>   This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.  To
+the north you sense the heavy breathing of a fiery animal.
+</description>
+		<directions>
+			<direction dir="north" to_room="60" to_zone="19" />
+			<direction dir="south" to_room="65" to_zone="19" />
+		</directions>
+	</room>
+	<room number="60" name="Yevaud's Lair" sector="3" flags="0">
+		<description>   Yevaud, the Usurper of Midgaard, resides here.  A voice cries
+out, 'BEWARE, the Usurper of Midgaard lives here!  FLEE while you can!'
+But even Yevaud has his master... or so you deduce.
+</description>
+		<directions>
+			<direction dir="south" to_room="55" to_zone="19" />
+		</directions>
+	</room>
+	<room number="65" name="A Link In The Ethereal Web" sector="3" flags="0">
+		<description>   This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.  A
+single spider line lies to the north, while ghastly seemings are
+due southward.  The grim entrance of Arachnos' Lair is downward.
+</description>
+		<directions>
+			<direction dir="north" to_room="71" to_zone="19" />
+			<direction dir="east" to_room="31" to_zone="19" />
+			<direction dir="south" to_room="66" to_zone="19" />
+			<direction dir="down" to_room="90" to_zone="19" />
+		</directions>
+	</room>
+	<room number="66" name="The Entrance To The Donjonkeep" sector="3" flags="0">
+		<description>   A dark path at the end of the web strand, you see ahead
+a torch lit chamber where the souls of unavenged adventurers
+come and gnash their teeth.  The howls and screams of many
+echo through the hall ways.  You see one definite path ahead.
+</description>
+		<directions>
+			<direction dir="north" to_room="67" to_zone="19" />
+		</directions>
+	</room>
+	<room number="67" name="The Guardian's Room" sector="3" flags="0">
+		<description>   A chair sits here for a tireless guardian who ensures that no
+soul escapes.  Other than that, the room is undecorated.
+</description>
+		<directions>
+			<direction dir="north" to_room="68" to_zone="19" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="chair">
+				<description>An ordinary chair, well used, glued to the ground by spiderweb.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="68" name="The Realm Of The Hopeless" sector="3" flags="0">
+		<description>   Here you see many misguided souls who think they still live.
+They search for those who killed them without warrant, and seek
+the free souls of living beings to inhabit and perhaps adventure
+once more.
+</description>
+		<directions>
+			<direction dir="north" to_room="69" to_zone="19" />
+		</directions>
+	</room>
+	<room number="69" name="The Realm Of The Hopeless" sector="3" flags="0">
+		<description>   Here you see many misguided souls who think they still live.
+They search for those who killed them without warrant, and seek
+the free souls of living beings to inhabit and perhaps adventure
+once more.
+</description>
+		<directions>
+			<direction dir="north" to_room="68" to_zone="19" />
+			<direction dir="south" to_room="70" to_zone="19" />
+		</directions>
+	</room>
+	<room number="70" name="The Donjonkeep" sector="3" flags="0">
+		<description>   No souls have ever lived in this place.  The wails of slaves and
+the howls of wolves are the only way you can describe the sounds you
+hear.  The walls are thin and wispy.  The only light you receive is
+the shimmering from the strand of the ethereal web you used to get
+here.  
+</description>
+		<directions>
+			<direction dir="east" to_room="71" to_zone="19" />
+		</directions>
+	</room>
+	<room number="71" name="The Single Spider Line" sector="3" flags="0">
+		<description>   A single spider line supports you once more.  As you look across
+the ether you seen a single shack up ahead with a light in the window.
+You sense a great evil coming from the north and feel inclined to go
+back on the ethereal web and take your chances there.
+</description>
+		<directions>
+			<direction dir="north" to_room="31" to_zone="19" />
+			<direction dir="south" to_room="72" to_zone="19" />
+		</directions>
+	</room>
+	<room number="72" name="The Single Spider Line" sector="3" flags="0">
+		<description>   A single spider line supports you once more.  The shack comes
+closer into view and you are even more inclined to go back now.
+</description>
+		<directions>
+			<direction dir="north" to_room="71" to_zone="19" />
+			<direction dir="south" to_room="73" to_zone="19" />
+		</directions>
+	</room>
+	<room number="73" name="The Hermit's Corner" sector="3" flags="0">
+		<description>   Here you see evidence of a vagrant's abode.  The shack is to the
+north, if you dare enter it.  You get the sneaking feeling you should
+go back now.  The skies above you darken and roar with the laughter
+of thunder.
+</description>
+		<directions>
+			<direction dir="north" to_room="72" to_zone="19" />
+			<direction dir="south" to_room="80" to_zone="19" />
+		</directions>
+	</room>
+	<room number="80" name="Mahatma's Inescapable Trap" sector="1" flags="10">
+		<description>   Mahatma, that silly thief, is here, and he steals everything you
+have.  He says 'Here, have a quick trip to the Temple of Midgaard.'
+He plunges a black dagger into your back...
+</description>
+	</room>
+	<room number="90" name="The Entrance To The Arachnos' Lair" sector="3" flags="0">
+		<description>   All strands inevitably lead here, the center of the web, the
+entrance to Arachnos' Lair.
+</description>
+		<directions>
+			<direction dir="east" to_room="91" to_zone="19" />
+		</directions>
+	</room>
+	<room number="91" name="The Sticky Chamber" sector="3" flags="0">
+		<description>   You can still bail out since your knees are shaking from the
+anticipation (or is it fear?).  The sky is clear on this strand of 
+web, surprisingly unsticky.  The strand does not vibrate like the 
+others.  A few ballooning spiders pass by, cackling 'You're gonna
+die, you're gonna fry.  Good bye!'
+</description>
+		<directions>
+			<direction dir="east" to_room="92" to_zone="19" />
+			<direction dir="down" to_room="31" to_zone="19" />
+		</directions>
+	</room>
+	<room number="92" name="The Great Door" sector="3" flags="8">
+		<description>   Before you you see a large, web-like door.  Various designs
+of ancient runes and names of Midgaard heroes are etched into
+the webwork.  Perhaps lists of victims?  You can't tell.  
+</description>
+		<directions>
+			<direction dir="north" to_room="99" to_zone="19" key="0" key_zone="19" keyword="door" flags="9" />
+			<direction dir="west" to_room="91" to_zone="19" />
+		</directions>
+	</room>
+	<room number="99" name="The Lair Of Arachnos" sector="3" flags="64">
+		<description>   This is the lair of the Empress Spider, Arachnos.  You can
+see a lavishly adorned rainbow web, her lair allows her to move
+to any universe she wishes by using her magical strands to the
+Prime Material Plane.  Coffers upon coffers of gold, magical
+jewels and gems await.  Unfortunately Arachnos is a baggy spider
+too, and webs all her treasures to her beautiful silken body.
+</description>
+		<directions>
+			<direction dir="south" to_room="92" to_zone="19" key="0" key_zone="19" keyword="door" flags="9" />
+		</directions>
+	</room>
+</rooms>

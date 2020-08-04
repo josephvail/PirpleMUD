@@ -1,78 +1,91 @@
 <?xml version="1.0"?>
 <mobiles>
-	<mobile number="900" name="homba" level="4" sex="0" alignment="-100" flags="6178" aff_flags="33866" position="8" default_position="8" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="40" armor="50" gold="100" experience="1500" hitroll="4" damroll="4" short_description="the homba">
-		<long_description>The homba flits about.
+	<mobile number="0" name="black pawn" level="6" sex="1" alignment="-400" flags="198" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="4" max_movepoints="50" armor="50" gold="500" experience="1000" hitroll="18" damroll="2" short_description="the Pawn of the Black Court">
+		<long_description>You see a pawn standing here waiting for orders.
 </long_description>
-		<description>Part kestrel, part bear, part wolf.  Parts is parts, and makes an ugly whole.
+		<description>The Black Pawn looks quite like a small knight without his powerful steed.
+His armor is shiny and black.  He stands ready to give his life for the
+Crown.
 </description>
 	</mobile>
-	<mobile number="901" name="swordsman" level="7" sex="1" alignment="-400" flags="6178" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="10" max_movepoints="80" armor="30" gold="250" experience="3000" hitroll="8" damroll="2" short_description="the swordsman">
-		<long_description>The greatest swordsman in the land is standing here with a sneer on his face.
+	<mobile number="1" name="white pawn" level="6" sex="1" alignment="400" flags="198" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="4" max_movepoints="50" armor="50" gold="500" experience="1000" hitroll="18" damroll="2" short_description="the Pawn of the White Court">
+		<long_description>You see a pawn standing here waiting for orders.
 </long_description>
-		<description>This is the ultimate swordsman.
+		<description>The White Pawn looks quite like a small knight without his powerful steed.
+His armor is spotless and white.  He stands ready to give his life for the
+Crown.
 </description>
 	</mobile>
-	<mobile number="902" name="mummy rabscuttle" level="11" sex="0" alignment="-780" flags="6178" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="6" max_manapoints="3" max_movepoints="130" armor="10" gold="750" experience="10500" hitroll="10" damroll="2" short_description="the Mummy of Rabscuttle">
-		<long_description>The Mummy of Rabscuttle wanders here, hands aloft, walking towards you.
+	<mobile number="2" name="black rook castle" level="27" sex="0" alignment="-600" flags="229378" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="8" max_manapoints="6" max_movepoints="500" armor="10" gold="5000" experience="85000" hitroll="9" damroll="5" short_description="the Black Rook">
+		<long_description>In the corner you see a large, black, stone castle on wheels.
 </long_description>
-		<description>All bandages, no personality.
+		<description>The Black Rook is a very large man-made tomb on wheels.  Just
+from the looks of it, it will probably be YOUR tomb.
 </description>
 	</mobile>
-	<mobile number="903" name="lizard giant" level="16" sex="1" alignment="100" flags="6178" aff_flags="33800" position="8" default_position="8" dam_nodice="3" dam_sizedice="4" max_manapoints="2" max_movepoints="220" armor="20" gold="1200" experience="26000" hitroll="14" damroll="5" short_description="the giant lizard">
-		<long_description>A giant lizard is here.
+	<mobile number="3" name="white rook castle" level="27" sex="0" alignment="600" flags="229378" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="8" max_manapoints="6" max_movepoints="500" armor="10" gold="5000" experience="85000" hitroll="9" damroll="5" short_description="the White Rook">
+		<long_description>In the corner you see a large, white, stone castle on wheels.
 </long_description>
-		<description>This scaly creature looks like it is well adapted to its underground
-habitat.  He looks very powerful.
+		<description>The White Rook is a very large man-made tomb on wheels.  Just
+from the looks of it, it will probably be YOUR tomb.
 </description>
 	</mobile>
-	<mobile number="904" name="woundwort general demon" level="25" sex="1" alignment="-1000" flags="6178" aff_flags="33928" position="8" default_position="8" dam_nodice="3" dam_sizedice="5" max_manapoints="8" max_movepoints="520" armor="-10" gold="10000" experience="120000" hitroll="20" damroll="12" short_description="General Woundwort">
-		<long_description>General Woundwort, the dark demon of Minos, awaits to maul you to shreds.
+	<mobile number="4" name="black knight" level="18" sex="0" alignment="-400" flags="34" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="8" max_movepoints="350" armor="0" gold="3000" experience="22500" hitroll="12" damroll="1" short_description="the Black Knight">
+		<long_description>Here stands a magnificent knight of the dark realm.
 </long_description>
-		<description>He looks vaguely like a rabbit, but sure doesn't act like one.
+		<description>The Black Knight is here, riding his ebony black war horse.  His eyes
+flash behind his visor in vengence.
 </description>
 	</mobile>
-	<mobile number="905" name="franz henchman" level="12" sex="1" alignment="-300" flags="6178" aff_flags="33928" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="10" max_movepoints="120" armor="40" gold="1000" experience="14000" hitroll="13" damroll="4" short_description="Franz the Henchman">
-		<long_description>Franz, Minos' henchman, is here ready to pump you up.
+	<mobile number="5" name="white knight" level="18" sex="0" alignment="400" flags="34" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="8" max_movepoints="350" armor="0" gold="3000" experience="22500" hitroll="12" damroll="1" short_description="the White Knight">
+		<long_description>Here stands a magnificent knight of the light realm.
 </long_description>
-		<description>Franz is no girlie man.  He is very muscular and looks as if he could
-squeeze your head like a grapefruit.
+		<description>The White Knight is here, riding his ivory white war horse.  His eyes
+gleam behind his visor in joy.
 </description>
 	</mobile>
-	<mobile number="906" name="hanz henchman" level="12" sex="1" alignment="-300" flags="6178" aff_flags="33928" position="8" default_position="8" dam_nodice="2" dam_sizedice="8" max_manapoints="10" max_movepoints="120" armor="40" gold="1000" experience="14000" hitroll="13" damroll="4" short_description="Hanz the Henchman">
-		<long_description>Hanz is here flexing his muscles and squeezing grapefruits.
+	<mobile number="6" name="black bishop priest" level="24" sex="0" alignment="-500" flags="2" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="350" armor="10" gold="4000" experience="43500" hitroll="9" damroll="13" short_description="the Black Bishop">
+		<long_description>A dark priest stands here.
 </long_description>
-		<description>Hanz is no girlie man.  He is very muscular and looks as if he could
-lift a large dragon.
+		<description>The Black Bishop seems willing to help you straight into your grave so
+he can bless you properly.
 </description>
 	</mobile>
-	<mobile number="907" name="minos king minotaur" level="26" sex="1" alignment="-1000" flags="96290" aff_flags="33960" position="8" default_position="8" dam_nodice="4" dam_sizedice="6" max_manapoints="8" max_movepoints="590" armor="-20" experience="160000" hitroll="20" damroll="10" short_description="King Minos the Minotaur">
-		<long_description>King Minos the Minotaur is ready and waiting to gore you to death.
+	<mobile number="7" name="white bishop priest" level="24" sex="0" alignment="500" flags="2" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="350" armor="10" gold="4000" experience="43500" hitroll="9" damroll="13" short_description="the White Bishop">
+		<long_description>A light priest stands here.
 </long_description>
-		<description>He smells something awful.
+		<description>The White Bishop seems willing to help you in any possible so that he can
+attain a higher spirituality.
 </description>
 	</mobile>
-	<mobile number="908" name="turtle dragon" level="22" sex="1" alignment="-200" flags="65632" aff_flags="33800" position="8" default_position="8" dam_nodice="1" dam_sizedice="20" max_manapoints="6" max_movepoints="350" armor="-50" gold="10000" experience="80000" hitroll="16" damroll="5" short_description="the dragon turtle">
-		<long_description>A large dragon turtle breaks the surface churning the water into huge waves.
+	<mobile number="8" name="black queen" level="32" sex="0" alignment="-750" flags="2086" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="900" armor="-30" gold="10000" experience="200000" hitroll="9" damroll="13" short_description="the Black Queen">
+		<long_description>The Black Queen stands here.
 </long_description>
-		<description>The turtle's shell is the size of a small house and looks as hard as rock.
+		<description>The Black Queen is a strikingly beautiful woman with pale skin and a
+mass of dark hair that crowns her head like a black cloud.  If looks
+could kill, you would already be dead.
 </description>
 	</mobile>
-	<mobile number="909" name="hag sea" level="4" sex="2" alignment="-700" flags="96" aff_flags="33800" position="8" default_position="8" dam_nodice="2" dam_sizedice="5" max_manapoints="4" max_movepoints="35" armor="60" gold="100" experience="750" hitroll="4" short_description="the sea hag">
-		<long_description>You notice the face of an ugly hag in the sea weeds.
+	<mobile number="9" name="white queen" level="32" sex="0" alignment="750" flags="2086" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="6" max_manapoints="10" max_movepoints="900" armor="-30" gold="10000" experience="200000" hitroll="9" damroll="13" short_description="the White Queen">
+		<long_description>The White Queen stands here.
 </long_description>
-		<description>The sea hag is terribly fightful and has razor sharp teeth.
+		<description>The White Queen is a stunningly beautiful woman with dark skin and a mass
+of light hair that frames her head like the sun.  This is surely love at
+first sight for you.
 </description>
 	</mobile>
-	<mobile number="910" name="merman" level="5" sex="1" alignment="350" flags="96290" aff_flags="820232" position="8" default_position="8" dam_nodice="2" dam_sizedice="4" max_manapoints="5" max_movepoints="65" armor="50" gold="1500" experience="1000" hitroll="6" damroll="2" short_description="the merman">
-		<long_description>There is a merman swimming here brandishing his trident at you!
+	<mobile number="10" name="black king" level="36" sex="0" alignment="-999" flags="2102" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="5" dam_sizedice="8" max_manapoints="10" max_movepoints="2000" armor="-60" gold="20000" experience="300000" hitroll="6" damroll="20" short_description="the Black King">
+		<long_description>The Black King stands here.
 </long_description>
-		<description>The merman has a powerful tail fin instead of legs.
+		<description>The Black King is a menacing figure.  You can easily understand why he
+is the king and you are not.
 </description>
 	</mobile>
-	<mobile number="911" name="crab crusty" level="2" sex="0" alignment="0" flags="65696" aff_flags="33800" position="8" default_position="8" dam_nodice="1" dam_sizedice="5" max_manapoints="2" max_movepoints="25" armor="40" experience="150" hitroll="2" short_description="the crusty crab">
-		<long_description>A crusty looking crab is crawling around here searching for food.
+	<mobile number="11" name="white king" level="36" sex="0" alignment="999" flags="2102" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="5" dam_sizedice="8" max_manapoints="10" max_movepoints="2000" armor="-60" gold="20000" experience="300000" hitroll="6" damroll="20" short_description="the White King">
+		<long_description>The White King stands here.
 </long_description>
-		<description>It looks like a crab... what more can be said?
+		<description>The White King is a stately figure.  You can easily understand why he
+is the king and you are not.
 </description>
 	</mobile>
 </mobiles>

@@ -1,0 +1,1026 @@
+<?xml version="1.0"?>
+<items>
+	<item number="0" name="key diamond" type="18" wear_flags="16385" extra_flags="65548" bitvector="0" weight="2" cost="0" cost_per_day="0" short_description="a diamond key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A glinting key of diamond has been left here.</description>
+	</item>
+	<item number="1" name="oven black" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="1000" cost="1000" cost_per_day="1000" short_description="an oven">
+		<values>
+			<value number="0" val="1000" />
+			<value number="1" val="5" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+	</item>
+	<item number="2" name="locker" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="1000" cost="1000" cost_per_day="1000" short_description="a meat locker">
+		<values>
+			<value number="0" val="1000" />
+			<value number="1" val="5" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<extra_descriptions>
+			<extra_description keyword="locker">
+				<description>You just had the horrid thought that a cadaver might be in there.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3" name="rack spice" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="1500" cost_per_day="500" short_description="a spice rack">
+		<values>
+			<value number="0" val="50" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+	</item>
+	<item number="4" name="slice bread traveller" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="12" cost_per_day="3" short_description="a slice of traveller's bread">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A slice of traveller's bread is here looking very tasty.</description>
+	</item>
+	<item number="5" name="chunk meat" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="2" cost="20" cost_per_day="5" short_description="a large chunk of meat">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="1" />
+		</values>
+		<description>A large chunk of meat is here.</description>
+	</item>
+	<item number="6" name="sandwich" type="19" wear_flags="1" extra_flags="65536" bitvector="0" weight="2" cost="15" cost_per_day="5" short_description="a finger sandwich">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A finger sandwich is here.</description>
+		<extra_descriptions>
+			<extra_description keyword="sandwich finger">
+				<description>It would look quite tasty if someone had first removed the fingernails!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7" name="broom straw" type="22" wear_flags="16385" extra_flags="8" bitvector="0" weight="5" cost="5" cost_per_day="600" short_description="a straw broom">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A straw broom is here leaning against the wall.</description>
+		<extra_descriptions>
+			<extra_description keyword="broom straw">
+				<description>A magical flying broomstick?  Nah!  Not here.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="8" name="cabinet" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="10000" cost="10" cost_per_day="10" short_description="a cabinet">
+		<values>
+			<value number="0" val="5000" />
+			<value number="1" val="5" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A cabinet is here.</description>
+	</item>
+	<item number="9" name="bar silver" type="8" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="1000" cost_per_day="500" short_description="a bar of silver">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bar of silver has been left here.</description>
+	</item>
+	<item number="10" name="bar gold" type="8" wear_flags="1" extra_flags="0" bitvector="0" weight="11" cost="2000" cost_per_day="750" short_description="a bar of gold">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bar of gold has been left here.</description>
+	</item>
+	<item number="11" name="bar mithril" type="8" wear_flags="1" extra_flags="0" bitvector="0" weight="12" cost="3000" cost_per_day="950" short_description="a bar of mithril">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bar of mithril has been left here.</description>
+	</item>
+	<item number="12" name="bar adamantite" type="8" wear_flags="1" extra_flags="0" bitvector="0" weight="15" cost="5000" cost_per_day="1000" short_description="a bar of adamantite">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bar of adamantite has been left here.</description>
+	</item>
+	<item number="13" name="hammer mithril" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="19" cost="10000" cost_per_day="1000" short_description="a mithril hammer">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="6" />
+			<value number="3" val="7" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="1" modifier="1" />
+		</affects>
+		<description>a mithril hammer has been left here</description>
+	</item>
+	<item number="14" name="chest" type="15" wear_flags="0" extra_flags="1" bitvector="0" weight="1000" cost="1000" cost_per_day="1000" short_description="a chest">
+		<values>
+			<value number="0" val="5000" />
+			<value number="1" val="15" />
+			<value number="2" val="1316" />
+			<value number="3" val="0" />
+		</values>
+		<description>A chest is here.</description>
+	</item>
+	<item number="15" name="key" type="18" wear_flags="1" extra_flags="65548" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a small key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small key has been left here.</description>
+	</item>
+	<item number="16" name="long sword" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="8" cost="10000" cost_per_day="1000" short_description="a long sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A long sword has been left here.</description>
+	</item>
+	<item number="17" name="dagger silver" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="5" cost="15000" cost_per_day="1200" short_description="a silver dagger">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="3" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A finely crafted dagger made of silver is on the ground here.</description>
+	</item>
+	<item number="18" name="scimitar" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="10" cost="17500" cost_per_day="1950" short_description="a curved scimitar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="7" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="13" modifier="3" />
+		</affects>
+		<description>A curved scimitar is here in a jewel-covered sheath.</description>
+	</item>
+	<item number="19" name="staff wooden" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="6" cost="10" cost_per_day="5" short_description="a wooden staff">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="4" />
+			<value number="3" val="8" />
+		</values>
+		<description>A wooden staff is against the wall here.</description>
+	</item>
+	<item number="20" name="cabinet silver" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="10000" cost="1" cost_per_day="1" short_description="a silver chased cabinet">
+		<values>
+			<value number="0" val="5000" />
+			<value number="1" val="15" />
+			<value number="2" val="2523" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large cabinet with a silver finish is here.</description>
+	</item>
+	<item number="21" name="cabinet silver" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="10000" cost="1" cost_per_day="1" short_description="a silver chased cabinet">
+		<values>
+			<value number="0" val="5000" />
+			<value number="1" val="15" />
+			<value number="2" val="2523" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large cabinet with a silver finish is here.</description>
+	</item>
+	<item number="22" name="key old" type="18" wear_flags="1" extra_flags="65548" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="an old key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An old key is here</description>
+	</item>
+	<item number="23" name="key silvery" type="18" wear_flags="1" extra_flags="65548" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a silvery key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A silvery key has been left here.</description>
+	</item>
+	<item number="24" name="key silvery" type="18" wear_flags="1" extra_flags="65548" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a silvery key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A silvery key has been left here.</description>
+	</item>
+	<item number="25" name="staff red white" type="4" wear_flags="16385" extra_flags="0" bitvector="0" weight="8" cost="5500" cost_per_day="500" short_description="a red and white staff">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="3" />
+			<value number="2" val="3" />
+			<value number="3" val="28" />
+		</values>
+		<description>a red and white staff is leaning against the wall here</description>
+	</item>
+	<item number="26" name="staff burnt" type="4" wear_flags="16385" extra_flags="0" bitvector="0" weight="6" cost="1100" cost_per_day="600" short_description="a burnt staff">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="4" />
+			<value number="2" val="4" />
+			<value number="3" val="4" />
+		</values>
+		<description>A burnt staff is leaning against the wall here.</description>
+	</item>
+	<item number="27" name="rod black" type="3" wear_flags="16385" extra_flags="0" bitvector="0" weight="4" cost="1200" cost_per_day="200" short_description="a black rod">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="3" />
+			<value number="2" val="3" />
+			<value number="3" val="22" />
+		</values>
+		<description>A black rod has been left here.</description>
+	</item>
+	<item number="28" name="wand wooden" type="3" wear_flags="16385" extra_flags="0" bitvector="0" weight="4" cost="600" cost_per_day="60" short_description="a wooden stick">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="10" />
+			<value number="2" val="10" />
+			<value number="3" val="3" />
+		</values>
+		<description>a wooden stick is here</description>
+	</item>
+	<item number="29" name="wand metal" type="3" wear_flags="16385" extra_flags="0" bitvector="0" weight="5" cost="2000" cost_per_day="350" short_description="a metal wand">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="20" />
+			<value number="2" val="4" />
+			<value number="3" val="25" />
+		</values>
+		<description>A metal wand is here.</description>
+	</item>
+	<item number="30" name="cauldron black" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="5000" cost="5000" cost_per_day="500000" short_description="a black cauldron">
+		<values>
+			<value number="0" val="1000" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large black cauldron is here bubbling.</description>
+	</item>
+	<item number="31" name="wings bat" type="13" wear_flags="1" extra_flags="0" bitvector="0" weight="2" cost="1" cost_per_day="1" short_description="a small pair of bat wings">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small pair of bat wings is here.</description>
+	</item>
+	<item number="32" name="eyeball eye" type="13" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="1" cost_per_day="1" short_description="an eyeball">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An eyeball has been left here</description>
+	</item>
+	<item number="33" name="book tome" type="15" wear_flags="0" extra_flags="65" bitvector="0" weight="5000" cost="0" cost_per_day="0" short_description="the book of magic">
+		<values>
+			<value number="0" val="500" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>An enormous book is lying open here</description>
+	</item>
+	<item number="34" name="spectacles glasses" type="9" wear_flags="17" extra_flags="64" bitvector="0" weight="4" cost="10000" cost_per_day="5000" short_description="a pair of spectacles">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="3" modifier="1" />
+			<affect location="4" modifier="1" />
+		</affects>
+		<description>A pair of wire-rimmed spectacles has been left here.</description>
+	</item>
+	<item number="35" name="altar" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="5000" cost="1" cost_per_day="1" short_description="a golden altar">
+		<values>
+			<value number="0" val="1000" />
+			<value number="1" val="5" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+	</item>
+	<item number="36" name="medallion heart" type="9" wear_flags="5" extra_flags="282" bitvector="0" weight="3" cost="10000" cost_per_day="1000" short_description="a heart shaped medallion">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="4" modifier="2" />
+			<affect location="5" modifier="-1" />
+		</affects>
+		<description>A heart shaped medallion is here.</description>
+	</item>
+	<item number="37" name="chest" type="15" wear_flags="0" extra_flags="65" bitvector="0" weight="5000" cost="500000" cost_per_day="5000000" short_description="a large chest">
+		<values>
+			<value number="0" val="2000" />
+			<value number="1" val="15" />
+			<value number="2" val="2538" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large chest is here.</description>
+	</item>
+	<item number="38" name="key intricate" type="18" wear_flags="16385" extra_flags="65613" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="an intricately carved key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="24" modifier="-1" />
+		</affects>
+		<description>An intricately carved key has been left here.</description>
+	</item>
+	<item number="39" name="a pile of coins" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="23" cost="23574" cost_per_day="0" short_description="a pile of coins is here">
+		<values>
+			<value number="0" val="23574" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pile of coins is here.</description>
+	</item>
+	<item number="40" name="cloak brown" type="9" wear_flags="5" extra_flags="0" bitvector="0" weight="5" cost="2000" cost_per_day="250" short_description="a brown cloak">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-5" />
+			<affect location="24" modifier="-3" />
+		</affects>
+		<description>A travel worn cloak has carelessly been left here.</description>
+	</item>
+	<item number="41" name="chameleon poncho cloth" type="9" wear_flags="1025" extra_flags="64" bitvector="0" weight="4" cost="15000" cost_per_day="5000" short_description="a chameleon poncho">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="2" modifier="2" />
+			<affect location="17" modifier="-3" />
+		</affects>
+		<description>Some multicolored cloth is on the ground here</description>
+	</item>
+	<item number="42" name="boots worn" type="9" wear_flags="65" extra_flags="64" bitvector="0" weight="2" cost="3500" cost_per_day="900" short_description="a pair of old boots">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="14" modifier="15" />
+		</affects>
+		<description>A pair of old boots is here, they look very comfortable.</description>
+	</item>
+	<item number="43" name="ring seashell" type="22" wear_flags="3" extra_flags="64" bitvector="0" weight="2" cost="6500" cost_per_day="1100" short_description="a seashell ring">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small seashell has been left here.</description>
+	</item>
+	<item number="44" name="backpack leather" type="15" wear_flags="1025" extra_flags="0" bitvector="0" weight="9" cost="750" cost_per_day="50" short_description="a leather backpack">
+		<values>
+			<value number="0" val="750" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A leather backpack is here.</description>
+	</item>
+	<item number="45" name="cup brew herbal tea" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="2" cost="11" cost_per_day="5" short_description="a herbal brew">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="5" />
+			<value number="2" val="12" />
+			<value number="3" val="1" />
+		</values>
+		<description>A herbal brew is here.</description>
+	</item>
+	<item number="46" name="waybread" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="3" cost="65" cost_per_day="5" short_description="a waybread">
+		<values>
+			<value number="0" val="32" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A loaf of waybread has been left here.</description>
+	</item>
+	<item number="47" name="cleaver" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="8" cost="600" cost_per_day="100" short_description="a meat cleaver">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="4" />
+			<value number="3" val="1" />
+		</values>
+		<description>A meat cleaver is sticking in the wall here.</description>
+	</item>
+	<item number="48" name="shackles chain" type="13" wear_flags="2049" extra_flags="192" bitvector="0" weight="15" cost="750" cost_per_day="1000" short_description="some chain shackles">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="12" modifier="-100" />
+			<affect location="14" modifier="-82" />
+		</affects>
+		<description>Some chain shackles have been discarded here</description>
+	</item>
+	<item number="49" name="dagger silvery" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="5" cost="1200" cost_per_day="500" short_description="a silvery dagger">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+		</affects>
+		<description>A long dagger that seems to be made of silver is here.</description>
+	</item>
+	<item number="50" name="scroll" type="2" wear_flags="16385" extra_flags="0" bitvector="0" weight="5" cost="3000" cost_per_day="1000" short_description="a scroll">
+		<values>
+			<value number="0" val="21" />
+			<value number="1" val="4" />
+			<value number="2" val="17" />
+			<value number="3" val="38" />
+		</values>
+		<description>A scroll is here.</description>
+	</item>
+	<item number="51" name="scroll bound" type="2" wear_flags="16385" extra_flags="64" bitvector="0" weight="3" cost="9500" cost_per_day="3000" short_description="a bound scroll">
+		<values>
+			<value number="0" val="16" />
+			<value number="1" val="1" />
+			<value number="2" val="2" />
+			<value number="3" val="34" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-6" />
+		</affects>
+		<description>A bound scroll is here blowing in the breeze.</description>
+	</item>
+	<item number="52" name="tube cylinder" type="15" wear_flags="1" extra_flags="64" bitvector="0" weight="8" cost="500" cost_per_day="50" short_description="a long cylindrical tube">
+		<values>
+			<value number="0" val="100" />
+			<value number="1" val="5" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A long cylindrical tube is rolling around here.</description>
+	</item>
+	<item number="53" name="scroll old" type="2" wear_flags="16385" extra_flags="0" bitvector="0" weight="2" cost="500" cost_per_day="100" short_description="an old scroll">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="12" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>An old scroll has been left here.</description>
+	</item>
+	<item number="54" name="scroll blue" type="2" wear_flags="16385" extra_flags="64" bitvector="0" weight="5" cost="20000" cost_per_day="15000" short_description="a scroll written on blue paper">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="24" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A blue scroll has been left here.</description>
+	</item>
+	<item number="55" name="pouch leather" type="15" wear_flags="16385" extra_flags="64" bitvector="0" weight="2" cost="1750" cost_per_day="50" short_description="a leather pouch">
+		<values>
+			<value number="0" val="150" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A leather pouch is on the ground here.</description>
+	</item>
+	<item number="56" name="spoon silver" type="12" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="5650" cost_per_day="900" short_description="a silver stirring spoon">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="24" modifier="-1" />
+		</affects>
+		<description>A silver stirring spoon has been left here.</description>
+	</item>
+	<item number="57" name="potion blue" type="10" wear_flags="16385" extra_flags="64" bitvector="0" weight="2" cost="9000" cost_per_day="500" short_description="a blue potion">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="27" />
+			<value number="2" val="27" />
+			<value number="3" val="27" />
+		</values>
+		<description>A blue potion is here.</description>
+	</item>
+	<item number="58" name="potion red" type="10" wear_flags="16385" extra_flags="64" bitvector="0" weight="2" cost="1500" cost_per_day="500" short_description="a bright red potion">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="15" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A bright red potion is here.</description>
+	</item>
+	<item number="59" name="potion green" type="10" wear_flags="16385" extra_flags="64" bitvector="0" weight="2" cost="1500" cost_per_day="150" short_description="a green potion">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="4" />
+			<value number="2" val="2" />
+			<value number="3" val="14" />
+		</values>
+		<description>A green potion is here.</description>
+	</item>
+	<item number="60" name="potion effervescent" type="10" wear_flags="16385" extra_flags="64" bitvector="0" weight="2" cost="1000" cost_per_day="150" short_description="an effervescent potion">
+		<values>
+			<value number="0" val="16" />
+			<value number="1" val="18" />
+			<value number="2" val="19" />
+			<value number="3" val="20" />
+		</values>
+		<description>An effervescent potion is bubbling away here</description>
+		<extra_descriptions>
+			<extra_description keyword="potion effervescent">
+				<description>Ahh!  Schwepes Sparkling Soda a refreshing drink.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="61" name="white milky potion" type="10" wear_flags="16385" extra_flags="0" bitvector="0" weight="2" cost="750" cost_per_day="50" short_description="a milky white potion">
+		<values>
+			<value number="0" val="14" />
+			<value number="1" val="42" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A milky white potion is here.</description>
+	</item>
+	<item number="62" name="staff black" type="4" wear_flags="16385" extra_flags="64" bitvector="0" weight="5" cost="500" cost_per_day="50" short_description="a black staff">
+		<values>
+			<value number="0" val="18" />
+			<value number="1" val="2" />
+			<value number="2" val="2" />
+			<value number="3" val="2" />
+		</values>
+		<description>A black staff is leaning against the wall here.</description>
+	</item>
+	<item number="63" name="flute golden" type="4" wear_flags="16385" extra_flags="96" bitvector="0" weight="4" cost="15000" cost_per_day="5000" short_description="a golden flute">
+		<values>
+			<value number="0" val="22" />
+			<value number="1" val="1" />
+			<value number="2" val="1" />
+			<value number="3" val="7" />
+		</values>
+		<affects>
+			<affect location="3" modifier="-6" />
+		</affects>
+		<description>A golden flute has been left here.</description>
+	</item>
+	<item number="64" name="figurine humanoid small" type="4" wear_flags="16385" extra_flags="64" bitvector="0" weight="4" cost="6000" cost_per_day="650" short_description="a small figurine">
+		<values>
+			<value number="0" val="21" />
+			<value number="1" val="10" />
+			<value number="2" val="10" />
+			<value number="3" val="32" />
+		</values>
+		<description>A small figurine in the shape of a humanoid is standing here.</description>
+	</item>
+	<item number="65" name="belt holster" type="15" wear_flags="2049" extra_flags="0" bitvector="0" weight="4" cost="290" cost_per_day="29" short_description="a holstered belt">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A holstered belt is here.</description>
+	</item>
+	<item number="66" name="wand" type="3" wear_flags="16385" extra_flags="64" bitvector="0" weight="4" cost="2500" cost_per_day="500" short_description="a blackened wand">
+		<values>
+			<value number="0" val="17" />
+			<value number="1" val="5" />
+			<value number="2" val="1" />
+			<value number="3" val="26" />
+		</values>
+		<description>A blackened wand is here.</description>
+	</item>
+	<item number="67" name="chisel runed" type="5" wear_flags="8193" extra_flags="65" bitvector="0" weight="6" cost="1500" cost_per_day="500" short_description="a runed chisel">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="3" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="2" modifier="1" />
+		</affects>
+		<description>A runed chisel is here.</description>
+	</item>
+	<item number="68" name="pouch belt beltpouch" type="15" wear_flags="2049" extra_flags="0" bitvector="0" weight="5" cost="750" cost_per_day="50" short_description="a beltpouch">
+		<values>
+			<value number="0" val="50" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A beltpouch is here.</description>
+	</item>
+	<item number="69" name="dust" type="4" wear_flags="16385" extra_flags="0" bitvector="0" weight="2" cost="1000" cost_per_day="150" short_description="some sparkling dust">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="1" />
+			<value number="2" val="1" />
+			<value number="3" val="38" />
+		</values>
+		<description>Some sparkling dust is in a pile here.</description>
+	</item>
+	<item number="70" name="cowl dark" type="9" wear_flags="5" extra_flags="579" bitvector="0" weight="5" cost="1200" cost_per_day="400" short_description="a dark cowl">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-8" />
+			<affect location="24" modifier="-3" />
+		</affects>
+		<description>A dark cowl is here.</description>
+	</item>
+	<item number="71" name="wand ashen" type="3" wear_flags="16385" extra_flags="512" bitvector="0" weight="4" cost="2000" cost_per_day="600" short_description="an ashen wand">
+		<values>
+			<value number="0" val="20" />
+			<value number="1" val="4" />
+			<value number="2" val="4" />
+			<value number="3" val="5" />
+		</values>
+		<description>An ashen wand is here</description>
+	</item>
+	<item number="72" name="club spiked" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="29" cost="750" cost_per_day="200" short_description="a huge spiked club">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="5" />
+			<value number="3" val="8" />
+		</values>
+		<description>A huge spiked club has been left here.</description>
+	</item>
+	<item number="73" name="robe grey" type="15" wear_flags="1025" extra_flags="1600" bitvector="0" weight="8" cost="5000" cost_per_day="750" short_description="a grey robe">
+		<values>
+			<value number="0" val="50" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-9" />
+			<affect location="24" modifier="-2" />
+		</affects>
+		<description>A pile of grey cloth has been left here.</description>
+	</item>
+	<item number="74" name="bracelet silver" type="9" wear_flags="4097" extra_flags="1600" bitvector="0" weight="5" cost="5000" cost_per_day="500" short_description="a glinting silver bracelet">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-5" />
+		</affects>
+		<description>A glinting hoop of silvery metal is here.</description>
+	</item>
+	<item number="75" name="cloak grey" type="9" wear_flags="5" extra_flags="1600" bitvector="0" weight="7" cost="12000" cost_per_day="1200" short_description="a long grey cloak">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-12" />
+			<affect location="24" modifier="-3" />
+		</affects>
+		<description>A pile of grey cloth has been left here.</description>
+	</item>
+	<item number="76" name="staff" type="5" wear_flags="8193" extra_flags="1600" bitvector="0" weight="7" cost="9000" cost_per_day="3000" short_description="an iron shod staff">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="7" />
+			<value number="3" val="8" />
+		</values>
+		<affects>
+			<affect location="18" modifier="3" />
+		</affects>
+		<description>A grey piece of wood shod in iron has been left here.</description>
+	</item>
+	<item number="77" name="minor ward cube clear" type="9" wear_flags="16385" extra_flags="65" bitvector="0" weight="5" cost="5000" cost_per_day="1000" short_description="a ward minor">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-5" />
+		</affects>
+		<description>A small clear cube is sitting here.</description>
+	</item>
+	<item number="78" name="robe black" type="15" wear_flags="1025" extra_flags="2624" bitvector="0" weight="8" cost="5000" cost_per_day="750" short_description="a black robe">
+		<values>
+			<value number="0" val="50" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-9" />
+			<affect location="24" modifier="-2" />
+		</affects>
+		<description>A pile of black cloth is on the ground here.</description>
+	</item>
+	<item number="79" name="bracelet onyx" type="9" wear_flags="4097" extra_flags="2624" bitvector="0" weight="6" cost="8500" cost_per_day="850" short_description="an onyx bracelet">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A hoop of black onyx is here.</description>
+	</item>
+	<item number="80" name="cloak black dark" type="9" wear_flags="5" extra_flags="2624" bitvector="0" weight="8" cost="9000" cost_per_day="950" short_description="a dark black cloak">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-12" />
+			<affect location="24" modifier="-3" />
+		</affects>
+		<description>A pile of black cloth is on the ground here.</description>
+	</item>
+	<item number="81" name="shard black obsidian" type="5" wear_flags="8193" extra_flags="2624" bitvector="0" weight="8" cost="12000" cost_per_day="2000" short_description="a sharp shard of obsidian">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="7" />
+			<value number="3" val="1" />
+		</values>
+		<affects>
+			<affect location="19" modifier="3" />
+		</affects>
+		<description>A piece of black glass is here.</description>
+	</item>
+	<item number="82" name="robe white" type="15" wear_flags="1025" extra_flags="3136" bitvector="0" weight="7" cost="7500" cost_per_day="750" short_description="a white robe">
+		<values>
+			<value number="0" val="50" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-9" />
+			<affect location="24" modifier="-2" />
+		</affects>
+		<description>A pile of white cloth is on the ground here.</description>
+	</item>
+	<item number="83" name="bracelet white gold" type="9" wear_flags="4097" extra_flags="3136" bitvector="0" weight="5" cost="5000" cost_per_day="1000" short_description="a white gold bracelet">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+		</affects>
+		<description>A hoop of silvery metal is here.</description>
+	</item>
+	<item number="84" name="cloak white" type="9" wear_flags="5" extra_flags="3392" bitvector="0" weight="7" cost="9000" cost_per_day="1500" short_description="a white cloak">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-12" />
+			<affect location="24" modifier="-3" />
+		</affects>
+		<description>A pile of white cloth is on the ground here.</description>
+	</item>
+	<item number="85" name="ivory dagger" type="5" wear_flags="8193" extra_flags="3392" bitvector="0" weight="8" cost="12000" cost_per_day="1500" short_description="an ivory hilted dagger">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="6" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>An ivory hilted dagger has been left here</description>
+	</item>
+	<item number="86" name="collar spiked" type="9" wear_flags="5" extra_flags="64" bitvector="0" weight="9" cost="10000" cost_per_day="5000" short_description="a spiked collar">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-2" />
+			<affect location="19" modifier="3" />
+		</affects>
+		<description>A small spiked collar is here.</description>
+	</item>
+	<item number="87" name="cloak shimmering" type="15" wear_flags="5" extra_flags="65" bitvector="0" weight="8" cost="25000" cost_per_day="5500" short_description="a shimmering cloak of many colors">
+		<values>
+			<value number="0" val="100" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-15" />
+			<affect location="24" modifier="-5" />
+		</affects>
+		<description>A multi-colored pile of cloth is here.</description>
+	</item>
+	<item number="88" name="emerald ring" type="9" wear_flags="3" extra_flags="64" bitvector="0" weight="5" cost="50000" cost_per_day="10000" short_description="a small emerald ring">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="12" modifier="20" />
+		</affects>
+		<description>A small ring with a green gemstone is here.</description>
+	</item>
+	<item number="89" name="bracelet emerald" type="9" wear_flags="4097" extra_flags="64" bitvector="0" weight="5" cost="30000" cost_per_day="3500" short_description="an emerald bracelet">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-5" />
+			<affect location="3" modifier="1" />
+		</affects>
+		<description>A beautifully crafted hoop of emerald is here.</description>
+	</item>
+	<item number="90" name="ward major clear crystal" type="9" wear_flags="16385" extra_flags="65" bitvector="0" weight="6" cost="20000" cost_per_day="2000" short_description="a ward major">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-10" />
+			<affect location="24" modifier="-2" />
+		</affects>
+		<description>A large clear crystal cube is here.</description>
+	</item>
+	<item number="91" name="ebony kris" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="9" cost="60000" cost_per_day="5000" short_description="the ebony kris">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="2" modifier="2" />
+			<affect location="19" modifier="5" />
+		</affects>
+		<description>A wavy bladed knife made of ebony is here.</description>
+	</item>
+	<item number="92" name="green scale shirt" type="9" wear_flags="9" extra_flags="64" bitvector="0" weight="9" cost="10000" cost_per_day="1000" short_description="a tight fitting green dragon scale shirt">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="2" modifier="3" />
+			<affect location="17" modifier="-5" />
+		</affects>
+		<description>Some green dragon scales which have been sewn together are here.</description>
+		<extra_descriptions>
+			<extra_description keyword="green scale shirt">
+				<description>this Green dragon scale shirt was made from a poor unfortunate green dragon.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="93" name="key grey metal" type="18" wear_flags="16385" extra_flags="65548" bitvector="0" weight="2" cost="0" cost_per_day="0" short_description="a grey key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A key made of a strange grey metal has been left here.</description>
+	</item>
+	<item number="94" name="key black obsidian" type="18" wear_flags="16385" extra_flags="65548" bitvector="0" weight="2" cost="0" cost_per_day="0" short_description="a black key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A key made of black obsidian has been left here.</description>
+	</item>
+	<item number="95" name="key white ivory" type="18" wear_flags="16385" extra_flags="65548" bitvector="0" weight="2" cost="0" cost_per_day="0" short_description="a white key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A key made of white ivory has been left here.</description>
+	</item>
+</items>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<zone number="2" name="God Simplex" lifespan="10" reset_mode="2" mini_mud="true" rooms="7" mobiles="3" items="0" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="2" arg2="1" arg3="1" arg4="2" arg5="5" />
+		<reset number="2" if_flag="false" type="M" arg1="2" arg2="0" arg3="1" arg4="2" arg5="1" />
+		<reset number="3" if_flag="false" type="M" arg1="2" arg2="2" arg3="2" arg4="2" arg5="1" />
+		<reset number="4" if_flag="false" type="M" arg1="2" arg2="2" arg3="2" arg4="2" arg5="0" />
+		<reset number="5" if_flag="false" type="R" arg1="2" arg2="6" arg3="5" arg4="96" />
+		<reset number="6" if_flag="false" type="O" arg1="5" arg2="96" arg3="5" arg4="2" arg5="6" />
+		<reset number="7" if_flag="false" type="O" arg1="5" arg2="97" arg3="1" arg4="2" arg5="2" />
+		<reset number="8" if_flag="false" type="O" arg1="5" arg2="98" arg3="1" arg4="2" arg5="4" />
+		<reset number="9" if_flag="false" type="R" arg1="2" arg2="3" arg3="5" arg4="99" />
+		<reset number="10" if_flag="false" type="O" arg1="5" arg2="99" arg3="2" arg4="2" arg5="3" />
+	</resets>
+</zone>

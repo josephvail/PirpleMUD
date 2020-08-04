@@ -29,6 +29,9 @@ namespace Pirple {
     extern int read_type_list(FILE *shop_f, struct shop_buy_data *list,
                        int new_format, int max);
     extern void get_one_line(FILE *fl, char *buf);
+    extern int convert_zone_number(int inZone);
+	extern int znum_from_vnum(int inNum);
+	extern int vnum_from_vnum(int inNum);
 
     bool CCircleInput::Read() {
         if (!ReadZones())
@@ -150,35 +153,35 @@ namespace Pirple {
                 cerr << "SYSERR: Error creating zone from ReadZone, nullptr '" << extraBuffer << "'" << endl;
             } else
                 zoneTable.push_back(zone);
-            cout << "Added CircleMUD zone to table: " << zone->number << endl;
+            cout << "Added CircleMUD zone to table: " << zone->number << " (" << zone->orig_number << ")" << endl;
             fclose(db_file);
             char roomBuffer[9999];
-            sprintf(roomBuffer, "%sworld/wld/%ld.wld", path.c_str(), zone->number);
-            cout << "Loading CircleMUD rooms for zone: " << zone->number << endl;
+            sprintf(roomBuffer, "%sworld/wld/%ld.wld", path.c_str(), zone->orig_number);
+            cout << "Loading CircleMUD rooms for zone: " << zone->number << " (" << zone->orig_number << ")" << endl;
             if (!(db_file = fopen(roomBuffer, "r"))) {
                 cerr << "SYSERR: opening room file '" << roomBuffer << "': " << strerror(errno) << endl;
             } else {
                 ReadRooms(zone, db_file);
                 fclose(db_file);
             }
-            sprintf(roomBuffer, "%sworld/shp/%ld.shp", path.c_str(), zone->number);
-            cout << "Loading CircleMUD shops for zone: " << zone->number << endl;
+            sprintf(roomBuffer, "%sworld/shp/%ld.shp", path.c_str(), zone->orig_number);
+            cout << "Loading CircleMUD shops for zone: " << zone->number << " (" << zone->orig_number << ")" << endl;
             if (!(db_file = fopen(roomBuffer,
                                   "r"))) { ;//            cerr << "SYSERR: opening shop file '" << roomBuffer << "': " << strerror(errno) << endl;
             } else {
                 ReadShops(zone, db_file);
                 fclose(db_file);
             }
-            sprintf(roomBuffer, "%sworld/mob/%ld.mob", path.c_str(), zone->number);
-            cout << "Loading CircleMUD mobs for zone: " << zone->number << endl;
+            sprintf(roomBuffer, "%sworld/mob/%ld.mob", path.c_str(), zone->orig_number);
+            cout << "Loading CircleMUD mobs for zone: " << zone->number << " (" << zone->orig_number << ")" << endl;
             if (!(db_file = fopen(roomBuffer, "r"))) {
                 cerr << "SYSERR: opening mob file '" << roomBuffer << "': " << strerror(errno) << endl;
             } else {
                 ReadMobs(zone, db_file);
                 fclose(db_file);
             }
-            sprintf(roomBuffer, "%sworld/obj/%ld.obj", path.c_str(), zone->number);
-            cout << "Loading CircleMUD objects for zone: " << zone->number << endl;
+            sprintf(roomBuffer, "%sworld/obj/%ld.obj", path.c_str(), zone->orig_number);
+            cout << "Loading CircleMUD objects for zone: " << zone->number << " (" << zone->orig_number << ")" << endl;
             if (!(db_file = fopen(roomBuffer, "r"))) {
                 cerr << "SYSERR: opening object file '" << roomBuffer << "': " << strerror(errno) << endl;
             } else {
@@ -198,11 +201,12 @@ namespace Pirple {
         }
         fscanf(db_index, "%s\n", extraBuffer);
         while (*extraBuffer != '$') {
-            int znum = 0;
+            int znum = 0, new_znum = 0;
             sscanf(extraBuffer, "%d.zon", &znum);
-            cout << "Creating minimud entry for zone: " << znum << endl;
-            zoneMiniNumbers.push_back(znum);
-            cout << "Parsing mini zone: " << znum << endl;
+            new_znum = convert_zone_number(znum);
+            cout << "Creating minimud entry for zone: " << new_znum << " (" << znum << ")" << endl;
+            zoneMiniNumbers.push_back(new_znum);
+            cout << "Parsing mini zone: " << new_znum << endl;
             fscanf(db_index, "%s\n", extraBuffer);
         }
         fclose(db_index);
@@ -242,7 +246,9 @@ namespace Pirple {
             cerr << "SYSERR: Format error in " << zname << ", line " << line_num << endl;
             exit(2);
         }
-        snprintf(buf2, sizeof(buf2), "beginning of zone #%ld", zone->number);
+        zone->orig_number = zone->number;
+        zone->number = convert_zone_number(zone->orig_number);
+        snprintf(buf2, sizeof(buf2), "beginning of zone #%ld (%ld)", zone->number, zone->orig_number);
 
         line_num += get_line(fl, buf);
         if ((ptr = strchr(buf, '~')) != NULL)    /* take off the '~' if it's there */
@@ -259,6 +265,9 @@ namespace Pirple {
                  << endl;
             exit(4);
         }
+
+        zone->bot = 0;
+        zone->top = 99;
 
         if (num_of_cmds) {
             cmd_no = 0;
@@ -292,7 +301,62 @@ namespace Pirple {
                 }
 
                 zone->cmd[cmd_no].if_flag = tmp == 0 ? false : true;
-
+                int tempz = 0;
+                switch(zone->cmd[cmd_no].command) {
+                case 'M':
+                	zone->cmd[cmd_no].arg4 = znum_from_vnum(zone->cmd[cmd_no].arg3);
+                	zone->cmd[cmd_no].arg5 = vnum_from_vnum(zone->cmd[cmd_no].arg3);
+                	zone->cmd[cmd_no].arg3 = zone->cmd[cmd_no].arg2;
+                	tempz = zone->cmd[cmd_no].arg1;
+                	zone->cmd[cmd_no].arg1 = znum_from_vnum(tempz);
+                	zone->cmd[cmd_no].arg2 = vnum_from_vnum(tempz);
+                	break;
+                case 'O':
+                	zone->cmd[cmd_no].arg4 = znum_from_vnum(zone->cmd[cmd_no].arg3);
+                	zone->cmd[cmd_no].arg5 = vnum_from_vnum(zone->cmd[cmd_no].arg3);
+                	zone->cmd[cmd_no].arg3 = zone->cmd[cmd_no].arg2;
+                	tempz = zone->cmd[cmd_no].arg1;
+                	zone->cmd[cmd_no].arg1 = znum_from_vnum(tempz);
+                	zone->cmd[cmd_no].arg2 = vnum_from_vnum(tempz);
+                	break;
+                case 'E':
+                	zone->cmd[cmd_no].arg4 = zone->cmd[cmd_no].arg3;
+                	zone->cmd[cmd_no].arg3 = zone->cmd[cmd_no].arg2;
+                	tempz = zone->cmd[cmd_no].arg1;
+                	zone->cmd[cmd_no].arg1 = znum_from_vnum(tempz);
+                	zone->cmd[cmd_no].arg2 = vnum_from_vnum(tempz);
+                	break;
+                case 'P':
+                	zone->cmd[cmd_no].arg4 = znum_from_vnum(zone->cmd[cmd_no].arg3);
+                	zone->cmd[cmd_no].arg5 = vnum_from_vnum(zone->cmd[cmd_no].arg3);
+                	zone->cmd[cmd_no].arg3 = zone->cmd[cmd_no].arg2;
+                	tempz = zone->cmd[cmd_no].arg1;
+                	zone->cmd[cmd_no].arg1 = znum_from_vnum(tempz);
+                	zone->cmd[cmd_no].arg2 = vnum_from_vnum(tempz);
+                	break;
+                case 'D':
+                	zone->cmd[cmd_no].arg4 = zone->cmd[cmd_no].arg3;
+                	zone->cmd[cmd_no].arg3 = zone->cmd[cmd_no].arg2;
+                	tempz = zone->cmd[cmd_no].arg1;
+                	zone->cmd[cmd_no].arg1 = znum_from_vnum(tempz);
+                	zone->cmd[cmd_no].arg2 = vnum_from_vnum(tempz);
+                	break;
+                case 'G':
+                	zone->cmd[cmd_no].arg3 = zone->cmd[cmd_no].arg2;
+                	tempz = zone->cmd[cmd_no].arg1;
+                	zone->cmd[cmd_no].arg1 = znum_from_vnum(tempz);
+                	zone->cmd[cmd_no].arg2 = vnum_from_vnum(tempz);
+                	break;
+                case 'R':
+                	zone->cmd[cmd_no].arg3 = znum_from_vnum(zone->cmd[cmd_no].arg2);
+                	zone->cmd[cmd_no].arg4 = vnum_from_vnum(zone->cmd[cmd_no].arg2);
+                	tempz = zone->cmd[cmd_no].arg1;
+                	zone->cmd[cmd_no].arg1 = znum_from_vnum(tempz);
+                	zone->cmd[cmd_no].arg2 = vnum_from_vnum(tempz);
+                	break;
+                default:
+                	break;
+                }
                 if (error) {
                     cerr << "SYSERR: Format error in " << zname << ", line " << line_num << ": '" << buf << "'" << endl;
                     exit(6);
@@ -315,7 +379,7 @@ namespace Pirple {
         int t[5];
         char line[READ_SIZE], buf2[128];
 
-        snprintf(buf2, sizeof(buf2), "room #%d, direction D%d", room->number, dir);
+        snprintf(buf2, sizeof(buf2), "room #%d, zone #%d, direction D%d", room->number, room->zone, dir);
 
         room->dir_option[dir] = new struct room_direction_data;
         room->dir_option[dir]->general_description = fread_string(fl, buf2);
@@ -336,8 +400,10 @@ namespace Pirple {
         else
             room->dir_option[dir]->exit_info = 0;
 
-        room->dir_option[dir]->key = t[1];
-        room->dir_option[dir]->to_room = t[2];
+        room->dir_option[dir]->key_zone = znum_from_vnum(t[1]);
+        room->dir_option[dir]->key = vnum_from_vnum(t[1]);
+        room->dir_option[dir]->to_zone = znum_from_vnum(t[2]);
+        room->dir_option[dir]->to_room = vnum_from_vnum(t[2]);
         return true;
     }
 
@@ -346,8 +412,9 @@ namespace Pirple {
         char line[READ_SIZE], flags[128], buf2[MAX_STRING_LENGTH], buf[128];
         struct extra_descr_data *new_descr;
 
+        virtual_nr = vnum_from_vnum(virtual_nr);
         /* This really had better fit or there are other problems. */
-        snprintf(buf2, sizeof(buf2), "room #%d", virtual_nr);
+        snprintf(buf2, sizeof(buf2), "room #%d, zone#%ld", virtual_nr, zone->number);
 
         if (virtual_nr < zone->bot) {
             cerr << "SYSERR: Room #" << virtual_nr << " is below zone " << zone->number << "." << endl;
@@ -404,7 +471,7 @@ namespace Pirple {
     }
 
     bool CCircleInput::ReadRooms(struct zone_data* zone, FILE* fl) {
-        string rmNum = to_string(zone->number) + ".wld";
+        string rmNum = to_string(zone->orig_number) + ".wld";
         const char *filename = rmNum.c_str();
         int nr = -1, last;
         char line[READ_SIZE];
@@ -454,9 +521,11 @@ namespace Pirple {
         char f1[READ_SIZE], f2[READ_SIZE], buf2[128];
         struct extra_descr_data *new_descr = nullptr;
 
+        nr = vnum_from_vnum(nr);
         obj->item_number = nr;
+        obj->zone_number = zone->number;
 
-        sprintf(buf2, "object #%d", nr);    /* sprintf: OK (for 'buf2 >= 19') */
+        sprintf(buf2, "object #%d, zone #%ld", nr, zone->number);    /* sprintf: OK (for 'buf2 >= 19') */
 
         /* *** string data *** */
         if ((obj->name = fread_string(obj_f, buf2)) == NULL) {
@@ -495,11 +564,16 @@ namespace Pirple {
         obj->obj_flags.value[0] = t[0];
         obj->obj_flags.value[1] = t[1];
         obj->obj_flags.value[2] = t[2];
+        obj->obj_flags.value[3] = t[3];
         // Adjust drink containers so we do not need negative numbers. Move up 1 with 0 == NONE
         if (obj->obj_flags.type_flag == 17)
             obj->obj_flags.value[2]++;
-
-        obj->obj_flags.value[3] = t[3];
+        else if (obj->obj_flags.type_flag == 18) {
+        	// Cant fint any reason why keys use the 3rd array value only. Shifted and converted for znum and vnum
+        	obj->obj_flags.value[0] = znum_from_vnum(t[2]);
+        	obj->obj_flags.value[1] = vnum_from_vnum(t[2]);
+        	obj->obj_flags.value[2] = 0;
+        }
 
         if (!get_line(obj_f, line)) {
             cerr << "SYSERR: Expecting third numeric line of " << buf2 << ", but file ended!" << endl;
@@ -573,7 +647,7 @@ namespace Pirple {
     }
 
     bool CCircleInput::ReadObjects(struct zone_data* zone, FILE* fl) {
-        string iNum = to_string(zone->number) + ".obj";
+        string iNum = to_string(zone->orig_number) + ".obj";
         const char *filename = iNum.c_str();
         int nr = -1, last;
         char line[READ_SIZE];
@@ -887,8 +961,10 @@ namespace Pirple {
         char f1[128], f2[128], buf2[128];
         auto mob = new struct char_data;
 
+        nr = vnum_from_vnum(nr);
+        mob->znr = zone->number;
         mob->nr = nr;
-        sprintf(buf2, "mob vnum %d", nr);    /* sprintf: OK (for 'buf2 >= 19') */
+        sprintf(buf2, "mob vnum %d, zone %ld", nr, zone->number);    /* sprintf: OK (for 'buf2 >= 19') */
 
         /***** String data *****/
         mob->name = fread_string(mob_f, buf2);
@@ -932,7 +1008,7 @@ namespace Pirple {
     }
 
     bool CCircleInput::ReadMobs(struct zone_data* zone, FILE* fl) {
-        string rmNum = to_string(zone->number) + ".mob";
+        string rmNum = to_string(zone->orig_number) + ".mob";
         const char *filename = rmNum.c_str();
         int nr = -1, last;
         char line[READ_SIZE];
@@ -976,7 +1052,7 @@ namespace Pirple {
     }
 
     bool CCircleInput::ReadShops(struct zone_data* zone, FILE* shop_f) {
-        string rmNum = to_string(zone->number) + ".shp";
+        string rmNum = to_string(zone->orig_number) + ".shp";
         const char *filename = rmNum.c_str();
         char *buf, buf2[256];
         int temp, count;
@@ -992,13 +1068,16 @@ namespace Pirple {
                 snprintf(buf2, sizeof(buf2), "shop #%d in shop file %s", temp, filename);
                 free(buf);        /* Plug memory leak! */
                 auto shop = new struct shop_data;
-                shop->vnum = temp;
+                shop->vnum = vnum_from_vnum(temp);
+                shop->znum = zone->number;
                 temp = read_list(shop_f, list, new_format, MAX_PROD, LIST_PRODUCE);
                 shop->producing = new int[temp];
+                shop->zproducing = new int[temp];
                 shop->producing_count = temp;
-                for (count = 0; count < temp; count++)
-                    shop->producing[count] = list[count].type;
-
+                for (count = 0; count < temp; count++) {
+                    shop->producing[count] = vnum_from_vnum(list[count].type);
+                    shop->zproducing[count] = znum_from_vnum(list[count].type);
+                }
                 read_line(shop_f, "%f", &shop->profit_buy);
                 read_line(shop_f, "%f", &shop->profit_sell);
 
@@ -1020,14 +1099,18 @@ namespace Pirple {
                 read_line(shop_f, "%d", &shop->temper1);
                 read_line(shop_f, "%d", &shop->bitvector);
                 read_line(shop_f, "%d", &shop->keeper);
+                shop->zkeeper = znum_from_vnum(shop->keeper);
+                shop->keeper = vnum_from_vnum(shop->keeper);
                 read_line(shop_f, "%d", &shop->with_who);
 
                 temp = read_list(shop_f, list, new_format, 1, LIST_ROOM);
                 shop->in_room = new int[temp];
+                shop->in_zone = new int[temp];
                 shop->in_room_count = temp;
-                for (count = 0; count < temp; count++)
-                    shop->in_room[count] = list[count].type;
-
+                for (count = 0; count < temp; count++) {
+                    shop->in_room[count] = vnum_from_vnum(list[count].type);
+                    shop->in_zone[count] = znum_from_vnum(list[count].type);
+                }
                 read_line(shop_f, "%d", &shop->open1);
                 read_line(shop_f, "%d", &shop->close1);
                 read_line(shop_f, "%d", &shop->open2);
@@ -1036,8 +1119,9 @@ namespace Pirple {
             } else {
                 if (*buf == '$')        /* EOF */
                     done = true;
-                else if (strstr(buf, VERSION3_TAG))    /* New format marker */
+                else if (strstr(buf, VERSION3_TAG)) {   /* New format marker */
                     new_format = true;
+                }
                 free(buf);        /* Plug memory leak! */
             }
         }

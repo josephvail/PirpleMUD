@@ -1,0 +1,1158 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="1" name="A Long Tunnel" sector="8" flags="9">
+		<description>   You encounter some rapids as you enter this tunnel cut out of
+the mountains by the river.
+</description>
+		<directions>
+			<direction dir="east" to_room="2" to_zone="11" />
+			<direction dir="west">
+				<general_description>There appear to be some bars here, making passage to the west
+difficult.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="2" name="A Long Tunnel" sector="8" flags="9">
+		<description>   The tunnel branches off north.
+</description>
+		<directions>
+			<direction dir="north" to_room="8" to_zone="11" />
+			<direction dir="east" to_room="3" to_zone="11" />
+			<direction dir="west" to_room="1" to_zone="11" />
+		</directions>
+	</room>
+	<room number="3" name="A Long Tunnel" sector="8" flags="9">
+		<description>   The tunnel branches off south.
+</description>
+		<directions>
+			<direction dir="east" to_room="4" to_zone="11" />
+			<direction dir="south" to_room="17" to_zone="11" />
+			<direction dir="west" to_room="2" to_zone="11" />
+		</directions>
+	</room>
+	<room number="4" name="A Tunnel Intersection" sector="8" flags="9">
+		<description>   The tunnel branches off to the north and south.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" to_room="5" to_zone="11" />
+			<direction dir="south" to_room="18" to_zone="11" />
+			<direction dir="west" to_room="3" to_zone="11" />
+		</directions>
+	</room>
+	<room number="5" name="An Underground Lake" sector="8" flags="9">
+		<description>   You are floating on a jet-black underground lake fed by dripping
+water and lime from above.  The tunnel continues to the east and the
+river leads back west.  Leading upwards to the northwest is a roughly
+hewn hallway.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" to_room="6" to_zone="11" />
+			<direction dir="south" to_room="23" to_zone="11" />
+			<direction dir="west" to_room="4" to_zone="11" />
+		</directions>
+	</room>
+	<room number="6" name="A Long Narrow Tunnel" sector="6" flags="265">
+		<description>   The tunnel rises sharply to the east.  Another narrow tunnel
+leads away to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="16" to_zone="11" />
+			<direction dir="east" to_room="7" to_zone="11" />
+			<direction dir="west" to_room="5" to_zone="11" />
+		</directions>
+	</room>
+	<room number="7" name="A Wide Tunnel" sector="6" flags="9">
+		<description>   The tunnel continues east and west.  To the east the tunnel dives
+down into a bright light.  A small passage way opens to the north.
+</description>
+		<directions>
+			<direction dir="east" to_room="26" to_zone="11" />
+			<direction dir="west" to_room="6" to_zone="11" />
+		</directions>
+	</room>
+	<room number="8" name="The Cave-In" sector="6" flags="9">
+		<description>   You stand at the edge of a large pile of rubble created from the last
+rockslide.
+</description>
+		<directions>
+			<direction dir="south" to_room="2" to_zone="11" />
+			<direction dir="down" to_room="9" to_zone="11">
+				<general_description>You can easily slide down the rocks without getting hurt.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="9" name="At The Foot Of The Rubble" sector="6" flags="9">
+		<description>   You are at the bottom of a large pile of rubble.  A tunnel branches
+off to the north and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="10" to_zone="11" />
+			<direction dir="east" to_room="12" to_zone="11" />
+			<direction dir="up" to_room="8" to_zone="11" />
+		</directions>
+	</room>
+	<room number="10" name="A Cave Entrance" sector="6" flags="9">
+		<description>   You stand in the middle of a large and beautiful cave.  A path leads
+deeper into the darkness.
+</description>
+		<directions>
+			<direction dir="south" to_room="9" to_zone="11" />
+			<direction dir="down" to_room="11" to_zone="11">
+				<general_description>You look down into the cave.  Bones are strewn about everywhere.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="11" name="A Giant Cave" sector="6" flags="9">
+		<description>   This cavern overwhelms you.  The walls and ceiling seem miles away.
+Bones of previous adventurers lie strewn on the cavern floor.  There is
+a passage that spirals downwards in the northeast corner of the cavern.
+</description>
+		<directions>
+			<direction dir="up" to_room="10" to_zone="11" />
+			<direction dir="down" to_room="0" to_zone="12">
+				<general_description>The passageway spirals down into the gloom.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="12" name="A Narrow Bend" sector="6" flags="9">
+		<description>   The tunnel turns to the south and west.
+</description>
+		<directions>
+			<direction dir="south" to_room="13" to_zone="11" />
+			<direction dir="west" to_room="9" to_zone="11" />
+		</directions>
+	</room>
+	<room number="13" name="A Large Cave" sector="6" flags="9">
+		<description>   You are standing in a large cave.  Many furs are spread out on the floor.
+</description>
+		<directions>
+			<direction dir="north" to_room="12" to_zone="11" />
+			<direction dir="east" to_room="14" to_zone="11" />
+		</directions>
+	</room>
+	<room number="14" name="A Damp Hallway" sector="6" flags="9">
+		<description>   The walls here are extremely damp, as well as the floor.
+</description>
+		<directions>
+			<direction dir="east" to_room="15" to_zone="11">
+				<general_description>You hear drops of water.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="13" to_zone="11" />
+		</directions>
+	</room>
+	<room number="15" name="An Underground Pool" sector="7" flags="9">
+		<description>   You are wading in a knee deep pool of lime-water.
+</description>
+		<directions>
+			<direction dir="east" to_room="16" to_zone="11" />
+			<direction dir="west" to_room="14" to_zone="11" />
+		</directions>
+	</room>
+	<room number="16" name="A Damp Hallway" sector="6" flags="9">
+		<description>   The walls of the tunnel are extremely damp here.  The tunnel
+leads sharply upwards to the south as it starts to get narrow.
+</description>
+		<directions>
+			<direction dir="south" to_room="6" to_zone="11" />
+			<direction dir="west" to_room="15" to_zone="11">
+				<general_description>You hear drops of water.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="17" name="A Narrow Crawlway" sector="6" flags="9">
+		<description>   This crawlway is just big enough for a human to crawl through or a
+halfling to walk through.
+</description>
+		<directions>
+			<direction dir="north" to_room="3" to_zone="11" />
+			<direction dir="east" to_room="18" to_zone="11" />
+			<direction dir="south" to_room="19" to_zone="11">
+				<general_description>You smell the fragrant odor of fungus.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="18" name="A Large Cavern" sector="6" flags="9">
+		<description>   You have entered a very large cavern.  The rock formations would amaze
+almost any dwarf.
+</description>
+		<directions>
+			<direction dir="north" to_room="4" to_zone="11" />
+			<direction dir="west" to_room="17" to_zone="11" />
+		</directions>
+	</room>
+	<room number="19" name="A Fungus Patch" sector="6" flags="9">
+		<description>   As you walk through the fungus patch, you are shot at by many millions of
+spores.  You can hardly breathe.
+</description>
+		<directions>
+			<direction dir="north" to_room="17" to_zone="11" />
+			<direction dir="east" to_room="20" to_zone="11">
+				<general_description>The fragrant smell of fungus spores continues to the east.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="20" name="The Fungus Path" sector="6" flags="9">
+		<description>   As you walk along the path, millions of spores are shot at you.  It is
+difficult to breathe.
+</description>
+		<directions>
+			<direction dir="south" to_room="21" to_zone="11">
+				<general_description>A giant mushroom temple stands to the south.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="19" to_zone="11">
+				<general_description>The fragrant smell of spores continues to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="21" name="The Fungus Temple" sector="6" flags="9">
+		<description>   You find yourself standing inside of a giant mushroom.  The inside
+is decorated in the fashion of a temple.
+</description>
+		<directions>
+			<direction dir="north" to_room="20" to_zone="11" />
+			<direction dir="east" to_room="22" to_zone="11" />
+		</directions>
+	</room>
+	<room number="22" name="A Sloping Passage" sector="6" flags="9">
+		<description>   You follow a path sloping down from the fungus temple.
+</description>
+		<directions>
+			<direction dir="north" to_room="23" to_zone="11" />
+			<direction dir="south" to_room="21" to_zone="11" />
+		</directions>
+	</room>
+	<room number="23" name="A Sloping Passage" sector="6" flags="9">
+		<description>   You are on a path that gently slopes up from the underground pool.
+</description>
+		<directions>
+			<direction dir="north" to_room="5" to_zone="11">
+				<general_description>You hear sounds of trickling water.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="22" to_zone="11" />
+		</directions>
+	</room>
+	<room number="24" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sand constantly shifting around
+you.  A pyramid lies to the east and a snow-capped mountain range to the 
+west.
+</description>
+		<directions>
+			<direction dir="north" to_room="30" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="34" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="25" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="25" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the east and a snow-capped mountain range to the 
+west.
+</description>
+		<directions>
+			<direction dir="north" to_room="24" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="31" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="26" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="26" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the east and a snow-capped mountain range to the
+west.  The hole which you tumbled out of is too high for you to reach.
+</description>
+		<directions>
+			<direction dir="north" to_room="25" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="36" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="27" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="27" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the east and a snow-capped mountain range to the
+west.
+</description>
+		<directions>
+			<direction dir="north" to_room="26" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="33" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="28" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="28" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north-east and a snow-capped mountain range to
+the west.  You spy a narrow dirt trail leading away to the west into the
+foothills.
+</description>
+		<directions>
+			<direction dir="north" to_room="27" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="33" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="29" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="68" to_zone="26">
+				<general_description>A small dirt trail leads off to the west where it joins a large clay road
+some distance away.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="29" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north-east and a snow-capped mountain range to
+the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="28" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="37" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="44" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="30" name="A Small Oasis" sector="3" flags="0">
+		<description>   You stand beside a small pool of crystal-blue water bathed in the
+shade of a few scarce palm trees.  To the north you see a small
+encampment stopped for the day.
+</description>
+		<directions>
+			<direction dir="north" to_room="56" to_zone="11">
+				<general_description>You see three tents and some camels hitched to a stake.  Shadows moving 
+across the tents suggest activity.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="36" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="32" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="25" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="31" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="31" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="31" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="32" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="24" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="32" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="35" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="36" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="33" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="32" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="33" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north-east.
+</description>
+		<directions>
+			<direction dir="north" to_room="37" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="37" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="43" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="28" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="34" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the south-east.
+</description>
+		<directions>
+			<direction dir="north" to_room="38" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="35" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="34" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="35" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="35" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the east, it looks enormous, even from this distance.
+</description>
+		<directions>
+			<direction dir="north" to_room="39" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="0" to_zone="14">
+				<general_description>Even from here, you can sense a great evil residing within the pyramid
+protruding from the sand to the east.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="32" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="34" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="36" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north-east.
+</description>
+		<directions>
+			<direction dir="north" to_room="35" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="41" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="32" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="30" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="37" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north-east.
+</description>
+		<directions>
+			<direction dir="north" to_room="48" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="33" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="42" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="33" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="38" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the south.
+</description>
+		<directions>
+			<direction dir="north" to_room="46" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="45" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="40" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="34" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="39" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting
+around you.  A pyramid lies to the south.  The gates of a city lie a
+short distance off to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="11" to_zone="15">
+				<general_description>Some city gates stand off to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="39" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="48" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="39" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="40" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  You are standing near a gigantic pyramid located a couple hundred
+meters west of you.  From here you can sense the great evil which resides
+within the massive structure.
+</description>
+		<directions>
+			<direction dir="north" to_room="36" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="49" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="41" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="0" to_zone="14">
+				<general_description>The pyramid can be seen across the sands to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="41" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="40" to_zone="11">
+				<general_description>Even from here, you can sense a great evil residing within the pyramid
+protruding from the sand to the north.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="48" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="41" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="37" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="42" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="49" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="55" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="43" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="41" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="43" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="42" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="55" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="44" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="33" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="44" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north and a ruined city to the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="50" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="55" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="29" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="0" to_zone="13">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="45" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the south.
+</description>
+		<directions>
+			<direction dir="north" to_room="45" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="52" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="45" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="38" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="46" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the south-west.
+</description>
+		<directions>
+			<direction dir="north" to_room="38" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="47" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="47" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="39" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="47" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="46" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="51" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="53" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="40" to_zone="11">
+				<general_description>Even from here, you can sense a great evil residing within the pyramid
+protruding from the sand to the west.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="48" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="39" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="48" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="53" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="41" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="49" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north-west.
+</description>
+		<directions>
+			<direction dir="north" to_room="53" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="54" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="50" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="42" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="50" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="0" to_zone="14">
+				<general_description>Sand as far as the eye can see... and a pyramid in the distance.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="54" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="44" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="42" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="51" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the south-west and a deep canyon to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="51" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="52" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="47" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="52" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the south-west and a deep canyon to the east.  Just
+below you can make out a tiny ledge.
+</description>
+		<directions>
+			<direction dir="north" to_room="51" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="53" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="45" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="down" to_room="63" to_zone="11" />
+		</directions>
+	</room>
+	<room number="53" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the west and a deep canyon to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="52" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="62" to_zone="11">
+				<general_description>A rickety rope bridge stretches across the canyon... it doesn't look too safe.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="54" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="49" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="54" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the west and a deep canyon to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="53" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="55" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="50" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="55" name="The Great Eastern Desert" sector="3" flags="0">
+		<description>   A vast desert stretches for miles, the sands constantly shifting around  
+you.  A pyramid lies to the north-west and a deep canyon to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="54" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="55" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="43" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="56" name="A Nomad Camp" sector="3" flags="64">
+		<description>   This small group of desert nomads has stopped for the day to rest
+and refresh themselves beside this beautiful oasis.  Three tents and some
+camels make up the party.  From within two of the tents you hear muffled
+voices, obviously surprised at your visit.
+</description>
+		<directions>
+			<direction dir="north" to_room="58" to_zone="11">
+				<general_description>Some camels are tied up to a mass of stakes plugged into the ground.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="57" to_zone="11">
+				<general_description>You see inside one of the tents a huddled mass of people, probably slaves.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="30" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="25" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="57" name="Inside A Small Tent" sector="3" flags="72">
+		<description>   This is a small and simple tent with few possessions in sight.  Lying
+here and there are young-looking men and women, possibly slaves to the
+leader of this band.
+</description>
+		<directions>
+			<direction dir="west" to_room="56" to_zone="11">
+				<general_description>You see the center of the nomad camp.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="58" name="Beside The Camels" sector="3" flags="64">
+		<description>   Here stand about ten camels, all hitched to some stakes plugged into 
+the ground.  To the east you see a small tent while to the north you see a 
+larger, fancier tent.
+</description>
+		<directions>
+			<direction dir="north" to_room="60" to_zone="11">
+				<general_description>This tent seems to be the temporary abode of the nomad leader.  You make a
+mental note to visit it before you leave.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="59" to_zone="11">
+				<general_description>In this tent there are very large men, all carrying weapons.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="56" to_zone="11">
+				<general_description>You see the center of the nomad camp.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="24" to_zone="11">
+				<general_description>Sand as far as the eye can see.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="59" name="The Warriors' Tent" sector="3" flags="72">
+		<description>   This tent has a few furnishings, but mainly it holds the band's 
+protectors.  They all stare at you coldly as you enter.
+</description>
+		<directions>
+			<direction dir="west" to_room="58" to_zone="11">
+				<general_description>Outside you see some peaceful camels.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="60" name="The Main Tent" sector="3" flags="72">
+		<description>   This tent is as lavishly decorated on the inside as it is on the
+outside.  A fancy carpet lies on the sand and numerous baskets line the
+walls.
+</description>
+		<directions>
+			<direction dir="east" to_room="61" to_zone="11" />
+			<direction dir="south" to_room="58" to_zone="11">
+				<general_description>You see some peaceful camels.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="61" name="The Main Tent" sector="3" flags="72">
+		<description>   This is where the leader of this band of nomads resides.  He is 
+definitely rich as you inspect the tapestries, baskets, and a few
+paintings as well.
+</description>
+		<directions>
+			<direction dir="west" to_room="60" to_zone="11">
+				<general_description>You see the entrance to this tent.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="62" name="The Rickety Rope Bridge" sector="6" flags="10">
+		<description>   You carefully begin to walk across the bridge, but suddenly the rope
+breaks and you fall...
+                     ... and fall
+                            and fall
+                               and fall
+                                    ... to your death on the rocks below.
+</description>
+		<directions>
+			<direction dir="west" to_room="53" to_zone="11" />
+		</directions>
+	</room>
+	<room number="63" name="The Wind-Swept Ledge" sector="6" flags="0">
+		<description>   Being very careful not to lose your balance, you look around and
+find that this canyon is about a half a kilometer deep.  To the west is
+a dark cave leading under the desert sands and above you a rope bridge
+spans the gap.
+</description>
+		<directions>
+			<direction dir="west" to_room="64" to_zone="11" />
+			<direction dir="up" to_room="52" to_zone="11">
+				<general_description>The desert sands blow down in your face.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="64" name="The Cave Mouth" sector="6" flags="9">
+		<description>   The air in here is MUCH cooler than outside.  From the west you hear 
+strange sounds, but can see nothing.  The cave slopes down into the 
+darkness.
+</description>
+		<directions>
+			<direction dir="east" to_room="63" to_zone="11">
+				<general_description>Outside is lighter and very windy.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="65" to_zone="11" />
+		</directions>
+	</room>
+	<room number="65" name="The Mysterious Lair" sector="6" flags="201">
+		<description>   You have stumbled upon the home of something.  From the treasure
+haphazardly strewn about and the rotting carcasses, you would guess
+that this is a dragon's lair.  As to what type, you can't really say.
+The cave narrows out into a tunnel to the west.
+</description>
+		<directions>
+			<direction dir="east" to_room="64" to_zone="11" />
+			<direction dir="west" to_room="66" to_zone="11" />
+		</directions>
+	</room>
+	<room number="66" name="A Wide Tunnel" sector="6" flags="9">
+		<description>   This tunnel seems to go on forever into the darkness.  You carefully
+feel your way along the walls.
+</description>
+		<directions>
+			<direction dir="east" to_room="65" to_zone="11" />
+			<direction dir="west" to_room="67" to_zone="11" />
+		</directions>
+	</room>
+	<room number="67" name="A Narrower Tunnel" sector="6" flags="9">
+		<description>   The tunnel becomes very narrow and you fight to squeeze your way through.
+The floor seems to level off a little.
+</description>
+		<directions>
+			<direction dir="east" to_room="66" to_zone="11" />
+			<direction dir="south" to_room="68" to_zone="11" />
+		</directions>
+	</room>
+	<room number="68" name="A Narrow Crack" sector="6" flags="265">
+		<description>   This part of the tunnel is the hardest to move through as the walls
+move in to meet you.
+</description>
+		<directions>
+			<direction dir="north" to_room="67" to_zone="11" />
+			<direction dir="west" to_room="69" to_zone="11" />
+		</directions>
+	</room>
+	<room number="69" name="A Small Cavern" sector="6" flags="9">
+		<description>   It is dark and damp and bats hang from the ceiling.  A narrow crack is
+in the east wall.  The floor now slopes upwards.
+</description>
+		<directions>
+			<direction dir="east" to_room="68" to_zone="11" />
+			<direction dir="west" to_room="70" to_zone="11" />
+		</directions>
+	</room>
+	<room number="70" name="A Small Shaft" sector="6" flags="9">
+		<description>   From within this shaft you can see a narrow hole in the roof just
+large enough for one person.  Back east is the cavern.
+</description>
+		<directions>
+			<direction dir="east" to_room="69" to_zone="11" />
+			<direction dir="up" to_room="9" to_zone="11" />
+		</directions>
+	</room>
+</rooms>

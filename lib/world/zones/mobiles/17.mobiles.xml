@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="0" name="warg vicious" level="5" sex="0" alignment="-350" flags="96" aff_flags="1024" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="12" max_movepoints="60" armor="50" experience="1000" hitroll="4" short_description="the vicious warg">
+		<long_description>A vicious warg is here, snarling angrily at you.
+</long_description>
+		<description>It is an exceptionally large wolf with thick, black fur.  Saliva is dripping
+quickly from its long, white fangs.  It looks quite dangerous and very angry.
+</description>
+	</mobile>
+	<mobile number="1" name="warg ferocious" level="5" sex="0" alignment="-350" flags="96" aff_flags="1024" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="12" max_movepoints="80" armor="50" experience="1000" hitroll="4" damroll="4" short_description="the ferocious warg">
+		<long_description>A ferocious warg is here, snarling angrily at you.
+</long_description>
+		<description>It is an exceptionally large wolf with thick, black fur.  Saliva is dripping
+quickly from its long, white fangs.  It looks quite dangerous and very angry.
+</description>
+	</mobile>
+	<mobile number="2" name="wolf grey" level="3" sex="0" alignment="-150" flags="96" aff_flags="1024" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="7" max_manapoints="12" max_movepoints="35" armor="70" experience="450" hitroll="2" short_description="the large, grey wolf">
+		<long_description>A large, grey wolf is here, glaring hungrily at you.
+</long_description>
+		<description>The large, grey wolf eyes you with interest while licking its lips.
+</description>
+	</mobile>
+	<mobile number="3" name="wolf black" level="3" sex="0" alignment="-150" flags="96" aff_flags="1024" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="7" max_manapoints="12" max_movepoints="45" armor="70" experience="450" hitroll="2" damroll="3" short_description="the large, black wolf">
+		<long_description>A large, black wolf is here, glaring hungrily at you.
+</long_description>
+		<description>The large, black wolf eyes you with interest while licking its lips.
+</description>
+	</mobile>
+	<mobile number="10" name="tree ancient" level="30" sex="0" alignment="0" flags="256064" aff_flags="820264" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="4" max_manapoints="1" max_movepoints="1299" armor="-100" experience="500000" hitroll="20" damroll="22" short_description="the ancient tree">
+		<long_description>A huge, ancient tree towers above you.
+</long_description>
+		<description>Its roots are extremely big and large parts of them are above ground.
+Something about it makes you think that this is not a normal oak tree.
+
+The enormous grey trunk shivers slightly, as if sighing deeply.
+</description>
+	</mobile>
+	<mobile number="11" name="tree ancient" level="30" sex="0" alignment="0" flags="256064" aff_flags="820264" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="4" max_manapoints="1" max_movepoints="999" armor="-100" experience="400000" hitroll="20" damroll="18" short_description="the ancient tree">
+		<long_description>A huge, ancient tree towers above you.
+</long_description>
+		<description>Its roots are extremely big and large parts of them are above ground.
+Something about it makes you think that this is not a normal oak tree.
+
+The enormous grey trunk emits a deep, moaning sound.
+</description>
+	</mobile>
+	<mobile number="12" name="dragon green" level="20" sex="0" alignment="-1000" flags="90209" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="12" max_movepoints="248" armor="0" experience="40000" hitroll="19" damroll="9" short_description="the green dragon">
+		<long_description>A huge green dragon is here, its narrow yellow eyes glowing with rage.
+</long_description>
+		<description>This enormous winged serpent has dark green scales covering most of its
+colossal body.  Numerous holes in its heavy wings tell of many fights as
+does the nicks in the horns on its head.  It smells as disgusting as only
+dragons do.
+</description>
+	</mobile>
+	<mobile number="13" name="spider poisonous" level="8" sex="0" alignment="-350" flags="99" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="5" max_manapoints="12" max_movepoints="98" armor="20" experience="4000" hitroll="7" damroll="1" short_description="the huge, poisonous spider">
+		<long_description>A huge, poisonous spider is here.
+</long_description>
+		<description>This disgusting creature is at the size of a human crawling on all four.  It
+has eight hairy legs that gives it a tremendous speed on almost any surface
+and sharp poisonous fangs to paralyze or kill its prey.
+</description>
+	</mobile>
+	<mobile number="14" name="queen spider" level="15" sex="2" alignment="-1000" flags="2627" aff_flags="33832" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="12" max_movepoints="185" armor="10" experience="31000" hitroll="14" damroll="3" short_description="the Queen spider">
+		<long_description>The huge, bulky Queen spider is here.
+</long_description>
+		<description>This disgusting creature is at the size of a small elephant.  It has eight
+huge, hairy legs that would give it a tremendous speed on almost any surface
+if it wasn't so immensely fat.  Its large, bulbous eyes stare back at you.
+</description>
+	</mobile>
+	<mobile number="15" name="shargugh brownie" level="10" sex="1" alignment="1000" flags="2245" aff_flags="820330" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="12" max_movepoints="47" armor="-100" gold="1000" experience="11000" hitroll="19" short_description="Shargugh">
+		<long_description>Shargugh the Forest Brownie is here, grinning broadly at you.
+</long_description>
+		<description>This little fellow is only three foot tall with wild matted brown hair and
+long tangled brown beard.  He wears ragged brown and green clothing and looks
+as if he is having great fun.
+</description>
+	</mobile>
+	<mobile number="16" name="elder druid" level="19" sex="1" alignment="0" flags="771" aff_flags="1064" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="12" max_movepoints="236" armor="0" gold="5000" experience="45000" hitroll="18" damroll="4" short_description="the Elder druid">
+		<long_description>The Elder druid is here.  He looks very upset about your presence in his home.
+</long_description>
+		<description>The druid looks quite old.  You would think of him as venerable but yet you
+know he would be a tough foe.
+</description>
+	</mobile>
+	<mobile number="17" name="isha elf" level="20" sex="2" alignment="-1000" flags="6147" aff_flags="263176" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="12" max_movepoints="245" armor="0" gold="5000" experience="40000" hitroll="19" damroll="4" short_description="Isha the Dark Elf">
+		<long_description>Isha the Dark Elf is here, observing you silently.
+</long_description>
+		<description>She is no less than beautiful, skin as dark as the night and hair
+shining like silver in the moonlight.  Her slender body is adorned
+with a sleeveless shirt and a short skirt made from black scales
+joined with silver threads.  Her back is covered by a large, hooded
+cloak as black as her skin and in her broad silver belt hangs a long,
+slender sword in a silver scabbard.
+</description>
+	</mobile>
+</mobiles>

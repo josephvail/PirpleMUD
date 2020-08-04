@@ -1,0 +1,697 @@
+<?xml version="1.0"?>
+<items>
+	<item number="0" name="barrel beer" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="65" cost="300" cost_per_day="100" short_description="a barrel">
+		<values>
+			<value number="0" val="50" />
+			<value number="1" val="50" />
+			<value number="2" val="2" />
+			<value number="3" val="0" />
+		</values>
+		<description>A beer barrel has been left here.</description>
+	</item>
+	<item number="1" name="bottle beer" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="20" cost_per_day="8" short_description="a bottle">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="8" />
+			<value number="2" val="2" />
+			<value number="3" val="0" />
+		</values>
+		<description>A beer bottle has been left here.</description>
+	</item>
+	<item number="2" name="bottle dark ale" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="10" cost_per_day="3" short_description="a bottle">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="8" />
+			<value number="2" val="4" />
+			<value number="3" val="0" />
+		</values>
+		<description>A dark bottle of ale has been left here.</description>
+	</item>
+	<item number="3" name="bottle firebreather" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="50" cost_per_day="17" short_description="a bottle">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="8" />
+			<value number="2" val="8" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bottle of firebreather has been left here.</description>
+	</item>
+	<item number="4" name="bottle local" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="20" cost_per_day="7" short_description="a bottle">
+		<values>
+			<value number="0" val="8" />
+			<value number="1" val="8" />
+			<value number="2" val="9" />
+			<value number="3" val="0" />
+		</values>
+		<description>A dark bottle has been left here.</description>
+	</item>
+	<item number="5" name="key dull metal" type="18" wear_flags="16385" extra_flags="65548" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a key of dull metal">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A key made of a dull metal is lying on the ground here.</description>
+	</item>
+	<item number="9" name="waybread bread" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="50" cost_per_day="50" short_description="a waybread">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Some waybread has been put here.</description>
+		<extra_descriptions>
+			<extra_description keyword="waybread bread">
+				<description>The waybread is the traditional feed of elves when travelling, they
+call it lembas.  It is said to refresh the weary traveler greatly.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="10" name="bread loaf" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="10" short_description="a bread">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A loaf of bread has been left here.</description>
+	</item>
+	<item number="11" name="danish pastry" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="5" cost_per_day="5" short_description="a danish pastry">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A nice looking delicious danish pastry has been placed here.</description>
+	</item>
+	<item number="12" name="taco mexican" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="15" cost_per_day="15" short_description="a Mexican taco">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A tasty looking Mexican taco has been dropped here.</description>
+	</item>
+	<item number="13" name="burrito hot" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="10" short_description="a spicy hot burrito">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A spicy looking burrito has been set here.</description>
+	</item>
+	<item number="14" name="nachos nacho" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="5" cost_per_day="5" short_description="some nachos with cheese">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Some nachos have been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="nachos nacho">
+				<description>They have cheese on them.  Looks like one of Uncle Juan's specials.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15" name="meat chunk" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="24" cost_per_day="10" short_description="a piece of meat">
+		<values>
+			<value number="0" val="14" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A rather dubious looking piece of meat is on the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="meat chunk">
+				<description>It isn't so much that the meat looks poisoned or anything, but that you
+just are not sure of its origins.  You doubt that a hunter would drop a
+side of venison or rabbit meat... what in the world could this meat have
+come from, you wonder...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="20" name="dagger" type="5" wear_flags="8193" extra_flags="8192" bitvector="0" weight="1" cost="10" cost_per_day="10" short_description="a dagger">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<description>A dagger with a long thin blade is here.</description>
+	</item>
+	<item number="21" name="sword small" type="5" wear_flags="8193" extra_flags="8192" bitvector="0" weight="3" cost="60" cost_per_day="10" short_description="a small sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="6" />
+			<value number="3" val="11" />
+		</values>
+		<description>A small sword lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="sword small">
+				<description>The small sword seems to have an inscription of some sort inscription...
+</description>
+			</extra_description>
+			<extra_description keyword="inscription">
+				<description>It says: 'May this sword be a good companion.'
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="22" name="sword long" type="5" wear_flags="8193" extra_flags="8192" bitvector="0" weight="8" cost="600" cost_per_day="10" short_description="a long sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="8" />
+			<value number="3" val="3" />
+		</values>
+		<description>A long sword has been left here.</description>
+	</item>
+	<item number="23" name="club wooden" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="3" cost="12" cost_per_day="10" short_description="a wooden club">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="3" />
+			<value number="3" val="7" />
+		</values>
+		<description>A simple looking wooden club is here.</description>
+	</item>
+	<item number="24" name="warhammer hammer" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="6" cost="50" cost_per_day="10" short_description="a warhammer">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="5" />
+			<value number="3" val="7" />
+		</values>
+		<description>A medium sized warhammer is here.</description>
+	</item>
+	<item number="25" name="flail large" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="6" cost="625" cost_per_day="10" short_description="a flail">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="4" />
+			<value number="3" val="7" />
+		</values>
+		<description>A large flail is here.</description>
+	</item>
+	<item number="30" name="torch" type="1" wear_flags="16185" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="10" short_description="a torch">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="24" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large torch.</description>
+	</item>
+	<item number="31" name="lantern brass" type="1" wear_flags="16185" extra_flags="0" bitvector="0" weight="1" cost="50" cost_per_day="10" short_description="a lantern">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="96" />
+			<value number="3" val="0" />
+		</values>
+		<description>A brass lantern is here.</description>
+	</item>
+	<item number="32" name="bag" type="15" wear_flags="16385" extra_flags="0" bitvector="0" weight="2" cost="20" cost_per_day="10" short_description="a bag">
+		<values>
+			<value number="0" val="50" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small bag is here.</description>
+	</item>
+	<item number="33" name="box" type="15" wear_flags="16385" extra_flags="0" bitvector="0" weight="5" cost="50" cost_per_day="10" short_description="a box">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small box is here.</description>
+	</item>
+	<item number="34" name="atm teller bank machine" type="12" wear_flags="0" extra_flags="92" bitvector="0" weight="5000" cost="0" cost_per_day="0" short_description="an automatic teller machine">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An automatic teller machine has been installed in the wall here.</description>
+		<extra_descriptions>
+			<extra_description keyword="atm teller bank machine">
+				<description>There is a small note on the machine which says:
+
+To use, type 'BALANCE', 'WITHDRAW &lt;amount&gt;', or 'DEPOSIT &lt;amount&gt;'.
+Please report any strange occurrences to the bank manager.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="35" name="fountain water" type="23" wear_flags="0" extra_flags="92" bitvector="0" weight="9999" cost="0" cost_per_day="0" short_description="the large fountain">
+		<values>
+			<value number="0" val="9999" />
+			<value number="1" val="9999" />
+			<value number="2" val="15" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large fountain carved from blue-streaked marble is here, bubbling merrily.</description>
+		<extra_descriptions>
+			<extra_description keyword="marble blue streaked">
+				<description>It is a well crafted fountain, carved from a single piece of very beautiful
+white marble shot through with electric blue streaks that look almost like
+lightning dancing along the sides of the fountain.  It seems to be enchanted
+in some manner, as the water level seems to never lower.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="36" name="cashcard card atm" type="12" wear_flags="16385" extra_flags="92" bitvector="0" weight="1" cost="10000" cost_per_day="10" short_description="a cashcard">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A handy dandy cashcard is sitting on the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="cashcard card atm">
+				<description>There is some writing on the back of the card which reads:
+
+To use, type 'BALANCE', 'WITHDRAW &lt;amount&gt;', or 'DEPOSIT &lt;amount&gt;'.
+Please report any strange occurrences to the bank manager.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="37" name="candle" type="1" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="5" cost_per_day="1" short_description="a candle">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="4" />
+			<value number="3" val="0" />
+		</values>
+		<description>A candle lies here, unlit.</description>
+		<extra_descriptions>
+			<extra_description keyword="candle">
+				<description>A home-made candle, how quaint!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="38" name="nail" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="1" cost="5" cost_per_day="1" short_description="a nail">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="1" />
+			<value number="3" val="11" />
+		</values>
+		<description>A penny nail lies in the dust.</description>
+		<extra_descriptions>
+			<extra_description keyword="nail">
+				<description>Its a common iron nail, used for carpentry work.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="39" name="pot" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="100" cost_per_day="20" short_description="a pot">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A cast-iron pot sits on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="pot">
+				<description>It is a nice pot.  You could use it, if you ever settled down.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="40" name="plate breast" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="100" cost="18000" cost_per_day="150" short_description="a breast plate">
+		<values>
+			<value number="0" val="7" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A breast plate is lying on the ground.</description>
+	</item>
+	<item number="41" name="shirt chain mail" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="60" cost="2500" cost_per_day="50" short_description="a chain mail shirt">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A chain mail shirt is lying on the ground.</description>
+	</item>
+	<item number="42" name="shield wooden" type="9" wear_flags="513" extra_flags="0" bitvector="0" weight="3" cost="100" cost_per_day="10" short_description="a shield">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small wooden shield is lying on the ground.</description>
+	</item>
+	<item number="43" name="jacket soft leather" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="10" cost="200" cost_per_day="10" short_description="a leather jacket">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A soft leather jacket is lying on the ground.</description>
+	</item>
+	<item number="44" name="jacket studded leather" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="20" cost="500" cost_per_day="10" short_description="a studded leather jacket">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A studded leather jacket is lying on the ground.</description>
+	</item>
+	<item number="45" name="jacket scale mail" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="40" cost="1000" cost_per_day="10" short_description="a scale mail jacket">
+		<values>
+			<value number="0" val="4" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A scale mail jacket is lying on the ground.</description>
+	</item>
+	<item number="46" name="plate bronze breast" type="9" wear_flags="9" extra_flags="0" bitvector="0" weight="80" cost="7000" cost_per_day="100" short_description="a bronze breast plate">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bronze breast plate is lying on the ground.</description>
+	</item>
+	<item number="50" name="scroll identify" type="2" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="2001" cost_per_day="10" short_description="a scroll of identify">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="201" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A scroll has carelessly been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="scroll identify">
+				<description>The scroll has a magic formula drawn upon it:
+
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="51" name="potion yellow" type="10" wear_flags="16385" extra_flags="64" bitvector="0" weight="1" cost="400" cost_per_day="10" short_description="a yellow potion of see invisible">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="19" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A small yellow potion has carelessly been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion yellow">
+				<description>The potion has a small label 'Detect The Invisible'.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="52" name="scroll recall" type="2" wear_flags="16385" extra_flags="64" bitvector="0" weight="4" cost="2001" cost_per_day="10" short_description="a scroll of recall">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="42" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A scroll has carelessly been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="scroll recall">
+				<description>The scroll has written a formulae of 'Word of Recall' upon it.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="53" name="wand grey" type="3" wear_flags="16385" extra_flags="64" bitvector="0" weight="2" cost="4000" cost_per_day="100" short_description="a grey wand of invisibility">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="2" />
+			<value number="2" val="2" />
+			<value number="3" val="29" />
+		</values>
+		<description>A grey wand has carelessly been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="wand grey">
+				<description>The wand is an old dark grey stick.  You notice a small symbol etched at
+the base of the wand.  It looks like this:
+
+     \ /
+    - O -
+     / \
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="54" name="staff gnarled" type="4" wear_flags="16385" extra_flags="64" bitvector="0" weight="17" cost="7000" cost_per_day="5000" short_description="a gnarled staff">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="1" />
+			<value number="2" val="1" />
+			<value number="3" val="38" />
+		</values>
+		<description>A gnarled staff has carelessly been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="staff gnarled">
+				<description>The staff is made of old oak, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+  ZZZZZ
+     Z
+    Z
+   Z
+  ZZZZZ  z   z
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="55" name="staff metal" type="4" wear_flags="16385" extra_flags="64" bitvector="0" weight="7" cost="8500" cost_per_day="300" short_description="a metal staff">
+		<values>
+			<value number="0" val="10" />
+			<value number="1" val="8" />
+			<value number="2" val="8" />
+			<value number="3" val="15" />
+		</values>
+		<description>A metal staff has carelessly been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="staff metal">
+				<description>The staff is made of metals unknown to you.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="60" name="raft" type="22" wear_flags="1" extra_flags="0" bitvector="0" weight="75" cost="400" cost_per_day="10" short_description="a raft">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A raft has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="raft">
+				<description>The raft looks very primitive.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="61" name="canoe" type="22" wear_flags="1" extra_flags="0" bitvector="0" weight="32" cost="1000" cost_per_day="100" short_description="a canoe">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A canoe has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="canoe">
+				<description>The canoe is fairly light.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="70" name="gauntlets bronze" type="9" wear_flags="129" extra_flags="0" bitvector="0" weight="8" cost="1750" cost_per_day="100" short_description="a pair of bronze gauntlets">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of bronze gauntlets is lying on the ground.</description>
+	</item>
+	<item number="71" name="gloves leather" type="9" wear_flags="129" extra_flags="0" bitvector="0" weight="3" cost="75" cost_per_day="10" short_description="a pair of leather gloves">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of leather gloves is lying on the ground.</description>
+	</item>
+	<item number="75" name="helmet bronze" type="9" wear_flags="17" extra_flags="0" bitvector="0" weight="8" cost="3500" cost_per_day="100" short_description="a bronze helmet">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A bronze helmet is lying on the ground.</description>
+	</item>
+	<item number="76" name="cap leather" type="9" wear_flags="17" extra_flags="0" bitvector="0" weight="3" cost="150" cost_per_day="10" short_description="a leather cap">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A leather cap is lying on the ground.</description>
+	</item>
+	<item number="80" name="leggings bronze" type="9" wear_flags="33" extra_flags="0" bitvector="0" weight="8" cost="3500" cost_per_day="100" short_description="a pair of bronze leggings">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of bronze leggings is lying on the ground.</description>
+	</item>
+	<item number="81" name="pants leather" type="9" wear_flags="33" extra_flags="0" bitvector="0" weight="8" cost="150" cost_per_day="10" short_description="a pair of leather pants">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of leather pants is lying on the ground.</description>
+	</item>
+	<item number="85" name="sleeves bronze" type="9" wear_flags="257" extra_flags="0" bitvector="0" weight="8" cost="1750" cost_per_day="100" short_description="a pair of bronze sleeves">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of bronze sleeves is lying on the ground.</description>
+	</item>
+	<item number="86" name="sleeves leather" type="9" wear_flags="257" extra_flags="0" bitvector="0" weight="4" cost="75" cost_per_day="10" short_description="a pair of leather sleeves">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of leather sleeves is lying on the ground.</description>
+	</item>
+	<item number="96" name="board social bulletin" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a social bulletin board">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large, sociable bulletin board is mounted on a wall here.</description>
+		<extra_descriptions>
+			<extra_description keyword="board">
+				<description>If you can read this, the board is not working.
+</description>
+			</extra_description>
+			<extra_description keyword="social bulletin">
+				<description>Use 'look board' to read the board.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="97" name="board frozen bulletin" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a frozen bulletin board">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large bulletin board is here, carved from a block of ice.</description>
+		<extra_descriptions>
+			<extra_description keyword="board">
+				<description>If you can read this, the board is not working.
+</description>
+			</extra_description>
+			<extra_description keyword="freeze bulletin">
+				<description>Use 'look board' to read the board.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="98" name="board holy bulletin" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a holy bulletin board">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large bulletin board is mounted on a wall here.  It glows with a faint aura.</description>
+		<extra_descriptions>
+			<extra_description keyword="board">
+				<description>If you can read this, the board is not working.
+</description>
+			</extra_description>
+			<extra_description keyword="holy bulletin">
+				<description>Use 'look board' to read the board.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="99" name="board bulletin" type="13" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a bulletin board">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large bulletin board is mounted on a wall here.</description>
+		<extra_descriptions>
+			<extra_description keyword="board">
+				<description>If you can read this, the board is not working.
+</description>
+			</extra_description>
+			<extra_description keyword="bulletin">
+				<description>Use 'look board' to read the board.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

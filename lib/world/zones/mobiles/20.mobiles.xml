@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="0" name="goat mountain" level="8" sex="1" alignment="0" flags="192" aff_flags="1024" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="5" max_manapoints="5" max_movepoints="95" armor="30" experience="4000" hitroll="7" damroll="1" short_description="the mountain goat">
+		<long_description>A mountain goat nibbles at a piece of grass here.
+</long_description>
+		<description>This goat is acclimated to the rugged terrain of the 
+mountains.  It looks at you and shies away a little.
+</description>
+	</mobile>
+	<mobile number="1" name="demon decay" level="12" sex="0" alignment="-1000" flags="194610" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="7" max_manapoints="5" max_movepoints="145" armor="20" experience="10000" hitroll="11" damroll="1" short_description="the Demon of Decay">
+		<long_description>A cloaked and clawed demon of decay comes at you viciously!
+</long_description>
+		<description>This demon has pure malevolence for anything living.  
+Oops!  You're living!  I guess that means you!
+</description>
+	</mobile>
+	<mobile number="2" name="book monster guardian" level="14" sex="0" alignment="0" flags="260146" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="199" armor="10" experience="18000" hitroll="13" damroll="2" short_description="the Book Monster">
+		<long_description>A mound of books rise up into a human shape and tries to hit you!
+</long_description>
+		<description>Ironically enough, the book-monster's head is War and
+Peace.  Hmm.
+</description>
+	</mobile>
+	<mobile number="3" name="bad feeling" level="18" sex="0" alignment="0" flags="260146" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="8" max_manapoints="1" max_movepoints="249" armor="0" experience="40000" hitroll="17" short_description="a Bad Feeling">
+		<long_description>A bad feeling chokes your throat.
+</long_description>
+		<description>It resembles a lot of other bad feelings you've had,
+but a lot more tangible... magic?
+</description>
+	</mobile>
+	<mobile number="4" name="nightmare" level="19" sex="0" alignment="0" flags="260146" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="8" max_manapoints="1" max_movepoints="299" armor="0" experience="45000" hitroll="18" damroll="2" short_description="Your Worst Nightmare">
+		<long_description>Your worst nightmare coalesces in front of you and attacks!
+</long_description>
+		<description>It looks like you deepest, darkest fears personified.
+Wait a minute!  It IS your deepest, darkest fears
+personified!
+</description>
+	</mobile>
+	<mobile number="5" name="guardian" level="18" sex="0" alignment="0" flags="194610" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="1" max_movepoints="249" armor="0" experience="35000" hitroll="17" damroll="2" short_description="the Guardian">
+		<long_description>A guardian guards the door.  It looks at you and attacks!
+</long_description>
+		<description>The guardian guards the door.  That's about all its
+brain can handle: guarding.
+</description>
+	</mobile>
+</mobiles>

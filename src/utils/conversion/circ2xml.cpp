@@ -17,9 +17,9 @@
 using namespace Pirple;
 
 // Expects an absolute path to the CircleMUD lib dir
-string CONVERT_FROM_CIRCLE_PATH = "/home/joe/code/mud_archive/use_circle/circle-3.1/lib/";
+string CONVERT_FROM_CIRCLE_PATH = "/home/jvail/Documents/code/CircleMUD/circleforpirple/lib/";
 // Expects an absolute path to the PirpleMUD lib dir
-string CONVERT_TO_PIRPLE_LIB = "/home/joe/codeblocks/PirpleMUD/lib/";
+string CONVERT_TO_PIRPLE_LIB = "/home/jvail/Documents/code/eclipsecpp-workspaces/PirpleMUD/lib/";
 
 int main(int argc, char** argv) {
     auto input = new CCircleInput(CONVERT_FROM_CIRCLE_PATH);

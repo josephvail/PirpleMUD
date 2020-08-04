@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="0" name="wyvern" level="8" sex="0" alignment="-700" flags="66114" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="10" max_movepoints="90" armor="30" experience="3575" hitroll="7" damroll="1" short_description="the wyvern">
+		<long_description>A monstrous wyvern slowly circles just above your head.
+</long_description>
+		<description>This huge winged creature looks really menacing as it circles only inches
+above your head, flapping its wings and squawking very loudly.
+</description>
+	</mobile>
+	<mobile number="1" name="goblin mountain" level="4" sex="1" alignment="-250" flags="6240" aff_flags="1024" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="1" max_movepoints="55" armor="60" gold="50" experience="600" hitroll="3" short_description="the goblin">
+		<long_description>A mountain goblin is wandering around mumbling to himself...
+</long_description>
+		<description>You see before you a small and twisted creature with knotted muscles and
+disgustingly green skin.  Doesn't look like the type you'd invite to dinner.
+</description>
+	</mobile>
+	<mobile number="2" name="goblin lieutenant" level="7" sex="1" alignment="-600" flags="6720" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="5" max_manapoints="12" max_movepoints="100" armor="30" gold="300" experience="2000" hitroll="5" damroll="1" short_description="the goblin lieutenant">
+		<long_description>A goblin lieutenant stands here, attempting to get his men in order.
+</long_description>
+		<description>The goblin lieutenant is rather angry, and looking for one of his men to
+beat up upon, but maybe you will do just fine...
+</description>
+	</mobile>
+	<mobile number="3" name="goblin leader" level="9" sex="1" alignment="-900" flags="6662" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="5" max_manapoints="12" max_movepoints="120" armor="10" gold="1000" experience="8000" hitroll="10" damroll="3" short_description="the goblin leader">
+		<long_description>The goblin leader surveys the room.
+</long_description>
+		<description>The leader doesn't look too happy that you have found him here.  He grabs
+for his shortsword and lunges for your neck.
+</description>
+	</mobile>
+	<mobile number="4" name="boy small" level="4" sex="1" alignment="500" flags="130" aff_flags="0" position="2" default_position="2" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="12" max_movepoints="47" armor="60" experience="600" hitroll="3" short_description="the small boy">
+		<long_description>A small boy sits here, licking his wounds.
+</long_description>
+		<description>The poor boy has numerous cuts and scratches, but appears to be all right.
+He is apparently the only survivor of the ambush.
+</description>
+	</mobile>
+	<mobile number="5" name="innkeeper" level="10" sex="1" alignment="400" flags="6210" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="12" max_movepoints="200" armor="10" gold="1500" experience="7000" hitroll="12" damroll="1" short_description="the Innkeeper">
+		<long_description>The Innkeeper stands here, cleaning glasses.
+</long_description>
+		<description>The Innkeeper now spends most of his days waiting for customers, while the
+nights are spent watching out for goblins.  His inn is no longer the happy
+place that is used to be in days past.
+</description>
+	</mobile>
+	<mobile number="6" name="bard" level="8" sex="1" alignment="600" flags="6210" aff_flags="8" position="3" default_position="3" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="12" max_movepoints="110" armor="30" gold="1500" experience="3750" hitroll="7" short_description="the bard">
+		<long_description>A sullen bard is here, drinking away his problems.
+</long_description>
+		<description>You can smell the alcohol on his breath from across the room.  This poor
+bard has been sitting here quite a while, drinking himself into oblivion.
+</description>
+	</mobile>
+	<mobile number="7" name="horseman dark" level="8" sex="1" alignment="-900" flags="4288" aff_flags="294912" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="5" max_manapoints="12" max_movepoints="97" armor="40" gold="1000" experience="4000" hitroll="8" damroll="7" short_description="the dark horseman">
+		<long_description>A dark horseman is here, mounted on his black steed.
+</long_description>
+		<description>The man is obviously an outlaw, and has no qualms about slashing you into
+little bits.
+</description>
+	</mobile>
+</mobiles>

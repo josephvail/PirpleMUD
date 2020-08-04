@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="0" name="beholder" level="25" sex="0" alignment="-870" flags="92195" aff_flags="33928" position="5" default_position="5" state="6" default_state="6" dam_nodice="6" dam_sizedice="9" max_manapoints="14" max_movepoints="450" armor="0" gold="28560" experience="134000" hitroll="14" damroll="5" short_description="the mighty beholder">
+		<long_description>You meet a beholder's deadly gaze!
+</long_description>
+		<description>It has a large central eye that projects an anti-magic ray and ten
+eyestalks atop the round body which can do anything from charm you
+to disintegrate you.  Beholders are not known for their personality.
+</description>
+	</mobile>
+	<mobile number="1" name="lamia beast" level="12" sex="2" alignment="-1000" flags="581" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="5" max_manapoints="10" max_movepoints="120" armor="30" gold="1500" experience="10500" hitroll="8" damroll="1" short_description="the lamia">
+		<long_description>A strange lamia stands here waiting for her next meal. 
+</long_description>
+		<description>This is a creature with the upper torso of a beautiful woman, but the lower
+body of a four-legged beast.  She licks her lips as she looks at you greedily.
+</description>
+	</mobile>
+	<mobile number="2" name="mimic chest" level="11" sex="0" alignment="10" flags="196610" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="7" max_manapoints="20" max_movepoints="130" armor="10" experience="13000" hitroll="10" short_description="the mimic">
+		<long_description>A strong chest lies in one corner of the room.
+</long_description>
+		<description>A strong, wooden chest bound with iron straps and a heavy padlock on the
+front.
+</description>
+	</mobile>
+	<mobile number="3" name="mimic boulder skeleton skeletons" level="14" sex="0" alignment="-10" flags="196610" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="5" max_manapoints="15" max_movepoints="150" armor="10" experience="20000" hitroll="13" damroll="1" short_description="the mimic">
+		<long_description>Two skeletons lie crushed under a large boulder.
+</long_description>
+		<description>This large boulder seems to have been dropped here at some point, since
+there aren't any boulders native to this area.  The two skeletons beneath
+it are simply that, bones... no rags or anything else appears to be
+attached to them.
+</description>
+	</mobile>
+	<mobile number="4" name="mimic floor" level="11" sex="0" alignment="-140" flags="196610" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="6" max_movepoints="110" armor="30" experience="10500" hitroll="9" short_description="the mimic">
+		<long_description>The stone floor of this house has been ripped apart.
+</long_description>
+		<description>What a mess, you wonder to yourself what could have caused this rampant
+destruction.
+</description>
+	</mobile>
+	<mobile number="5" name="mimic pottery shards" level="11" sex="0" alignment="200" flags="196610" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="5" max_manapoints="8" max_movepoints="100" armor="0" experience="9800" hitroll="6" damroll="3" short_description="the mimic">
+		<long_description>Some broken shards of pottery lie strewn about the floor.
+</long_description>
+		<description>The pottery shards appear to have been part of a large vase at one point,
+probably before the city fell.
+</description>
+	</mobile>
+	<mobile number="6" name="mimic planks wooden" level="11" sex="0" alignment="0" flags="196610" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="3" max_manapoints="12" max_movepoints="110" armor="0" experience="12000" hitroll="11" damroll="1" short_description="the mimic">
+		<long_description>A few wooden planks lie stacked on a low shelf.
+</long_description>
+		<description>The fact that these planks still rest on this shelf leads you to believe
+that someone has been here before you...
+</description>
+	</mobile>
+	<mobile number="7" name="lizard horned" level="3" sex="0" alignment="300" flags="128" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="14" max_movepoints="30" armor="40" experience="500" hitroll="3" short_description="the horned lizard">
+		<long_description>A small horned lizard flicks his tongue and slithers away.
+</long_description>
+		<description>A cute little lizard -- that is, if you like reptiles!
+</description>
+	</mobile>
+	<mobile number="8" name="golem stone" level="25" sex="0" alignment="800" flags="256258" aff_flags="1064" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="7" max_manapoints="6" max_movepoints="500" armor="-50" gold="4250" experience="145000" hitroll="20" damroll="3" short_description="the stone golem">
+		<long_description>In the corner you see a large, stone golem faithfully standing watch.
+</long_description>
+		<description>It is a big chunk of rock that has been magically formed into a giant stone
+creature.  He stands here still guarding the city.
+</description>
+	</mobile>
+	<mobile number="9" name="lamia beast" level="9" sex="2" alignment="-500" flags="99" aff_flags="32" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="4" max_manapoints="12" max_movepoints="120" armor="30" gold="1500" experience="7000" hitroll="10" damroll="5" short_description="the lamia">
+		<long_description>A strange lamia stands here waiting for her next meal. 
+</long_description>
+		<description>This is a creature with the upper torso of a beautiful woman, but the lower
+body of a four-legged beast.  She licks her lips as she looks at you greedily.
+</description>
+	</mobile>
+</mobiles>

@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
 <rooms>
-	<room number="0" name="The Void" sector="1" flags="8">
+	<room number="0" name="The Void" sector="2" flags="8">
 		<description>   You don't think that you are not floating in nothing.  You can see
 a strange portal located above you.
 </description>
 		<directions>
-			<direction dir="up" to_room="3001">
+			<direction dir="up" to_room="1" to_zone="5">
 				<general_description>The Temple of Midgaard floats above you.
 </general_description>
 			</direction>
 		</directions>
 	</room>
-	<room number="1" name="Limbo" sector="1" flags="8">
+	<room number="1" name="Limbo" sector="2" flags="8">
 		<description>   You are floating in a formless void, detached from all sensation of physical
 matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 </description>
 	</room>
-	<room number="3" name="A Totally Empty Room" sector="0" flags="520">
+	<room number="3" name="A Totally Empty Room" sector="1" flags="520">
 		<description>   The walls are completely bare... nothing at all in the room.
 How... utterly bizarre and completely weird.  There is a strange
 portal just above you, and it almost looks as if there is some
 sort of room above you.
 </description>
 		<directions>
-			<direction dir="up" to_room="3048">
+			<direction dir="up" to_room="48" to_zone="5">
 				<general_description>You notice that the portal above you looks almost like glass,
 albeit very dirty glass.
 </general_description>

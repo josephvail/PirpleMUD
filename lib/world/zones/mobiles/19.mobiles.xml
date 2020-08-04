@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="1" name="spider young" level="3" sex="1" alignment="0" flags="68" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="7" max_manapoints="12" max_movepoints="40" armor="70" gold="80" experience="350" hitroll="2" short_description="the young spider">
+		<long_description>The young spider is ballooning by you.
+</long_description>
+		<description>He looks freshly hatched and sprightly.  His young fangs are just
+growing in as of late.
+</description>
+	</mobile>
+	<mobile number="2" name="yevaud dragon usurper" level="24" sex="1" alignment="-1000" flags="3591" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="7" max_manapoints="4" max_movepoints="450" armor="-30" gold="20000" experience="120000" hitroll="20" damroll="7" short_description="Yevaud">
+		<long_description>Yevaud, the Usurper of Midgaard is here, grinning evilly at you.
+</long_description>
+		<description>Old, scaly, but still with a lot of bite in him left.
+</description>
+	</mobile>
+	<mobile number="3" name="spider wolf" level="6" sex="2" alignment="-300" flags="34" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="5" max_manapoints="8" max_movepoints="70" armor="60" gold="1250" experience="6000" hitroll="8" damroll="3" short_description="the wolf spider">
+		<long_description>The wolf spider is here, licking its bloody fangs.
+</long_description>
+		<description>The wolf spider is hairy, very hairy.
+</description>
+	</mobile>
+	<mobile number="4" name="orc" level="2" sex="1" alignment="-400" flags="2" aff_flags="0" position="3" default_position="3" state="6" default_state="6" dam_nodice="2" dam_sizedice="3" max_manapoints="10" max_movepoints="10" armor="80" gold="10" experience="300" hitroll="1" short_description="the orc">
+		<long_description>The orc is stuck in the web and he can't get out.
+</long_description>
+		<description>You notice an evil look in his eyes, but he seems quite drained of life,
+and all he can do is glare at you while he's stuck in this web.
+</description>
+	</mobile>
+	<mobile number="5" name="wasp queen" level="14" sex="2" alignment="-800" flags="34" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="12" max_movepoints="172" armor="10" gold="2000" experience="18000" hitroll="13" damroll="1" short_description="the queen wasp">
+		<long_description>The queen wasp is here, thinking how tasty you look.
+</long_description>
+		<description>You notice a glazed look in her eyes.
+</description>
+	</mobile>
+	<mobile number="6" name="spider drone" level="6" sex="0" alignment="-200" flags="68" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="8" max_movepoints="70" armor="40" gold="200" experience="1600" hitroll="6" damroll="1" short_description="the drone spider">
+		<long_description>A drone spider walks around doing its master's bidding.
+</long_description>
+		<description>An ordinary drone spider.
+</description>
+	</mobile>
+	<mobile number="7" name="spider ethereal" level="13" sex="2" alignment="300" flags="68" aff_flags="262246" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="12" max_movepoints="163" armor="-20" gold="1250" experience="16000" hitroll="11" damroll="4" short_description="the ethereal spider">
+		<long_description>An ethereal spider strides here, traveling to different worlds.
+</long_description>
+		<description>She winks in and out of reality.  It looks like it'd be difficult to hit her
+without a magical weapon.
+</description>
+	</mobile>
+	<mobile number="8" name="slave human" level="11" sex="1" alignment="-50" flags="2116" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="7" max_manapoints="12" max_movepoints="130" armor="40" gold="1000" experience="13500" hitroll="12" damroll="1" short_description="the slave">
+		<long_description>A human slave of Arachnos works here relentlessly.
+</long_description>
+		<description>The slave does not mind you, but will fight like a warrior if attacked.
+He serves the spider Empress, Arachnos, though whether it is by choice
+or because he was beguiled, you are not fully certain.
+</description>
+	</mobile>
+	<mobile number="9" name="quasit" level="10" sex="1" alignment="-300" flags="197" aff_flags="262186" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="12" max_movepoints="47" armor="-100" gold="1500" experience="11000" hitroll="19" short_description="the quasit">
+		<long_description>A quasit blinks in and out, grinning at you.
+</long_description>
+		<description>Demoniac in nature, but more mischievous.  He twiddles his thumbs
+and creates a magical treasure!
+</description>
+	</mobile>
+	<mobile number="10" name="spider bird" level="14" sex="2" alignment="-800" flags="34" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="9" max_manapoints="8" max_movepoints="100" armor="10" gold="1750" experience="18000" hitroll="13" damroll="2" short_description="the bird spider">
+		<long_description>The bird spider snaps its powerful jaws.
+</long_description>
+		<description>The Bird Spider has very powerful jaws.
+</description>
+	</mobile>
+	<mobile number="11" name="hermit" level="7" sex="1" alignment="750" flags="2054" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="5" max_manapoints="10" max_movepoints="90" armor="40" gold="750" experience="2500" hitroll="7" damroll="2" short_description="the hermit">
+		<long_description>The hermit sits here and warns, 'Go back before it is too late!'
+</long_description>
+		<description>A dishevelled veteran warrior in disguise is what he is, but he
+means well.
+</description>
+	</mobile>
+	<mobile number="12" name="donjonkeeper keeper" level="25" sex="1" alignment="1000" flags="2311" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="12" max_movepoints="600" armor="-10" gold="16000" experience="125000" hitroll="20" damroll="8" short_description="the Donjonkeeper">
+		<long_description>The Donjonkeeper eyes you and wonders how pure your soul is.
+</long_description>
+		<description>He delves deeper into you as you stare at him.  Only those free of taint
+will be allowed to remain here safely.
+</description>
+	</mobile>
+	<mobile number="13" name="guardian" level="17" sex="1" alignment="250" flags="96" aff_flags="263176" position="1" default_position="1" state="5" default_state="5" dam_nodice="2" dam_sizedice="8" max_manapoints="12" max_movepoints="200" armor="10" gold="1000" experience="24000" hitroll="16" damroll="8" short_description="the guardian">
+		<long_description>The guardian is obviously not doing his job.
+</long_description>
+		<description>He looks like a lazy bum who sleeps half the time.
+</description>
+	</mobile>
+	<mobile number="14" name="arachnos spider empress" level="26" sex="2" alignment="-1000" flags="92679" aff_flags="33960" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="650" armor="-20" gold="30000" experience="155000" hitroll="20" damroll="25" short_description="Arachnos">
+		<long_description>Arachnos the Empress of Spiders welcomes you with an evil smile.
+</long_description>
+		<description>She is a very attractive spider with an ornate gown.  She tempts you
+into being one of her many slaves.  She does not possess the venomous
+fangs of normal spiders, but then, as you realize, she does not need
+them.
+</description>
+	</mobile>
+	<mobile number="15" name="ki-rin" level="26" sex="2" alignment="1000" flags="26887" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="4" max_manapoints="8" max_movepoints="2500" armor="-40" gold="15000" experience="170000" hitroll="20" damroll="22" short_description="the Ki-Rin">
+		<long_description>The Ki-Rin smiles good-naturedly to you.
+</long_description>
+		<description>She is the last bastion of good in this realm.  Her mission is to
+someday free the slaves of the Empress.  She has been trapped here for
+time eternal, and now the evil power of Arachnos feeds upon her intense
+magical energies.  She will never give up here fight against evil,
+though, and will continue her work in whatever manner presents itself.
+</description>
+	</mobile>
+	<mobile number="16" name="dragon wormkin young" level="9" sex="1" alignment="50" flags="2" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="5" max_manapoints="4" max_movepoints="110" armor="30" gold="1000" experience="6500" hitroll="8" damroll="2" short_description="the young wormkin">
+		<long_description>A wormkin with no teeth plays here.
+</long_description>
+		<description>It is a rather small dragon, and you almost feel sad about killing it.
+</description>
+	</mobile>
+	<mobile number="17" name="dragon wormkin elder" level="16" sex="1" alignment="-300" flags="2" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="4" max_movepoints="210" armor="10" gold="5000" experience="24000" hitroll="15" damroll="4" short_description="the elder wormkin">
+		<long_description>A wormkin that has grown a bit stares at you inquisitively.
+</long_description>
+		<description>A medium-sized dragon -- seems it hasn't killed anything yet by itself, 
+though there is a first time for everything...
+</description>
+	</mobile>
+</mobiles>

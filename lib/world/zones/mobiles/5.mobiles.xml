@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="0" name="wizard" level="33" sex="1" alignment="900" flags="26627" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="20" gold="30000" experience="160000" hitroll="18" damroll="18" short_description="the wizard">
+		<long_description>A wizard walks around behind the counter, talking to himself.
+</long_description>
+		<description>The wizard looks old and senile, and yet he looks like a very powerful
+wizard.  He is equipped with fine clothing, and is wearing many fine
+rings and bracelets.
+</description>
+	</mobile>
+	<mobile number="1" name="baker" level="33" sex="1" alignment="900" flags="26627" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="100" experience="160000" hitroll="20" damroll="18" short_description="the baker">
+		<long_description>The baker looks at you calmly, wiping flour from his face with one hand.
+</long_description>
+		<description>A fat, nice looking baker.  But you can see that he has many scars on his
+body.
+</description>
+	</mobile>
+	<mobile number="2" name="grocer" level="33" sex="1" alignment="900" flags="26627" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="30000" experience="160000" hitroll="20" damroll="18" short_description="the grocer">
+		<long_description>A grocer stands at the counter, with a slightly impatient look on his face.
+</long_description>
+		<description>A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
+</description>
+	</mobile>
+	<mobile number="3" name="weaponsmith" level="33" sex="1" alignment="900" flags="26627" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="30000" experience="160000" hitroll="20" damroll="18" short_description="the weaponsmith">
+		<long_description>A weaponsmith is standing here.
+</long_description>
+		<description>He is a young weaponsmith, who still has lots to learn but he is still
+eager to sell you his latest implements of carnage and destruction.
+</description>
+	</mobile>
+	<mobile number="4" name="armourer" level="33" sex="1" alignment="900" flags="26627" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="28500" experience="160000" hitroll="20" damroll="18" short_description="the armourer">
+		<long_description>An armourer stands here displaying his new (and previously owned) armours.
+</long_description>
+		<description>An old but very strong armourer.  He has made more suits of armour in his
+life than you have ever seen.
+</description>
+	</mobile>
+	<mobile number="5" name="receptionist" level="33" sex="2" alignment="900" flags="59411" aff_flags="32808" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" experience="0" hitroll="20" damroll="32" short_description="the receptionist">
+		<long_description>A receptionist is standing behind the counter here, smiling at you.
+</long_description>
+		<description>You notice a tired look in her face.  She looks like she isn't paid well
+enough to put up with any crap from mud players with attitudes.
+</description>
+	</mobile>
+	<mobile number="6" name="captain stolar" level="33" sex="1" alignment="900" flags="26627" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="20" gold="2000" experience="160000" hitroll="18" damroll="12" short_description="Captain Stolar">
+		<long_description>A retired captain stands here, selling boats.
+</long_description>
+		<description>This captain has eaten more sharks than you have killed peas.
+</description>
+	</mobile>
+	<mobile number="7" name="sailor" level="33" sex="1" alignment="900" flags="26626" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="2000" experience="160000" hitroll="20" damroll="12" short_description="the sailor">
+		<long_description>A sailor stands here, waiting to help you.
+</long_description>
+		<description>He looks like a strong, fit sailor.
+</description>
+	</mobile>
+	<mobile number="8" name="uncle juan" level="33" sex="1" alignment="900" flags="26627" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="2000" experience="160000" hitroll="20" damroll="18" short_description="Uncle Juan">
+		<long_description>Uncle Juan is here ready to take your order.
+</long_description>
+		<description>He looks like he may or may not have a green card.
+</description>
+	</mobile>
+	<mobile number="9" name="wally watermaster" level="33" sex="1" alignment="800" flags="26627" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="1000" experience="160000" hitroll="20" damroll="18" short_description="Wally the Watermaster">
+		<long_description>Wally the Watermaster is standing behind the counter.
+</long_description>
+		<description>Wally is a bit pudgy but looks very strong.  He has a glass of Midgaard
+Natural Spring Water in his hand.  When he notices you, he proudly
+displays his fine collection of contemporary waters.
+</description>
+	</mobile>
+	<mobile number="10" name="postmaster post master" level="33" sex="1" alignment="1000" flags="190467" aff_flags="32776" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="2000" experience="0" hitroll="20" damroll="18" short_description="the postmaster">
+		<long_description>The head postmaster is standing here, waiting to help you with your mail.
+</long_description>
+		<description>The Postmaster seems like a happy old man, though a bit sluggish.  He
+worries about the reputation of the MMS (Midgaard Mail Service), as many
+people seem to think that it is slow.  Perhaps if he were to brush the
+cobwebs from his uniform it would help to make a better impression.
+</description>
+	</mobile>
+	<mobile number="20" name="guildmaster master mage" level="34" sex="2" alignment="1000" flags="59411" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="640" armor="-100" gold="18794" experience="100000" hitroll="20" damroll="24" short_description="the mages' guildmaster">
+		<long_description>Your guildmaster is studying a spellbook while preparing to cast a spell.
+</long_description>
+		<description>Even though your guildmaster looks old and tired, you can clearly see the
+vast amount of knowledge she possesses.  She is wearing fine magic clothing,
+and you notice that she is surrounded by a blue shimmering aura.
+</description>
+	</mobile>
+	<mobile number="21" name="guildmaster master priest" level="34" sex="1" alignment="1000" flags="59411" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="640" armor="-100" gold="18794" experience="100000" hitroll="20" damroll="24" short_description="the priests' guildmaster">
+		<long_description>Your guildmaster is prayer to your God here.
+</long_description>
+		<description>You are in no doubt that this guildmaster is truly close to your God; he
+has a peaceful, loving look.  You notice that he is surrounded by a white
+aura.
+</description>
+	</mobile>
+	<mobile number="22" name="guildmaster master beggar thief" level="34" sex="2" alignment="1000" flags="59411" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="640" armor="-100" gold="18794" experience="100000" hitroll="20" damroll="34" short_description="the thieves' guildmaster">
+		<long_description>A beggar is sitting here, could she be a guildmaster?
+</long_description>
+		<description>You realize that whenever your guildmaster moves, you fail to notice it -
+the way of the true thief.  She is to be dressed in poor clothing, having
+the appearance of a beggar.
+</description>
+	</mobile>
+	<mobile number="23" name="guildmaster master" level="34" sex="1" alignment="1000" flags="59411" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="740" armor="-100" gold="18794" experience="100000" hitroll="20" damroll="34" short_description="the fighters' guildmaster">
+		<long_description>Your guildmaster is standing here sharpening an axe.
+</long_description>
+		<description>This is your master. Big and strong with bulging muscles. Several scars
+across his body proves that he was using arms before you were born. He
+has a calm look on his face.
+</description>
+	</mobile>
+	<mobile number="24" name="sorcerer" level="33" sex="1" alignment="900" flags="59395" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="990" armor="-50" gold="2000" experience="60000" hitroll="20" damroll="22" short_description="the sorcerer">
+		<long_description>A sorcerer is guarding the entrance.
+</long_description>
+		<description>He is an experienced mage who has specialized in the field of Combat Magic.
+He is here to guard the Mage's Guild and his superior knowledge of offensive
+as well as defensive spells make him a deadly opponent.
+</description>
+	</mobile>
+	<mobile number="25" name="knight templar" level="33" sex="1" alignment="1000" flags="59395" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="990" armor="-50" gold="2000" experience="160000" hitroll="20" damroll="22" short_description="the knight templar">
+		<long_description>A knight templar is guarding the entrance.
+</long_description>
+		<description>He is a specially trained warrior belonging to the military order of the
+Faith.  His duty is to protect the faithful from persecution and infidel
+attacks and his religious devotion combined with his superior skill makes
+him a deadly opponent.
+</description>
+	</mobile>
+	<mobile number="26" name="assassin" level="33" sex="1" alignment="400" flags="59395" aff_flags="786600" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="990" armor="-100" gold="2000" experience="160000" hitroll="20" damroll="25" short_description="the assassin">
+		<long_description>An assassin is guarding the entrance.
+</long_description>
+		<description>He is a thief who has specialized in killing others as effectively as
+possible, using all sorts of weapons.  His superior knowledge of how
+and where to use them combined with his extraordinary stealth makes
+him a deadly opponent.
+</description>
+	</mobile>
+	<mobile number="27" name="knight" level="33" sex="1" alignment="800" flags="59395" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="990" armor="-80" gold="2000" experience="160000" hitroll="20" damroll="40" short_description="the knight">
+		<long_description>A knight is guarding the entrance.
+</long_description>
+		<description>He is an expert warrior who has attained knighthood through countless
+chivalrous deeds.  His duty is to protect the Guild of Swordsmen and his
+extreme skill combined with his experience in warfare makes him a deadly
+opponent.
+</description>
+	</mobile>
+	<mobile number="40" name="bartender" level="24" sex="1" alignment="900" flags="24578" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="390" armor="20" gold="2000" experience="80000" hitroll="18" damroll="12" short_description="the bartender">
+		<long_description>A bartender watches you calmly, while he skillfully mixes a drink.
+</long_description>
+		<description>A tired looking Bartender who hates trouble in his bar.
+</description>
+	</mobile>
+	<mobile number="41" name="waiter" level="23" sex="1" alignment="900" flags="24578" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="390" armor="20" gold="2000" experience="80000" hitroll="18" damroll="12" short_description="the waiter">
+		<long_description>A waiter is going around from one place to another.
+</long_description>
+		<description>A tired looking waiter.
+</description>
+	</mobile>
+	<mobile number="42" name="waiter" level="23" sex="1" alignment="600" flags="24578" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="390" armor="20" gold="2000" experience="80000" hitroll="19" damroll="12" short_description="the waiter">
+		<long_description>A man now leads a quiet, peaceful life as a waiter is standing here.
+</long_description>
+		<description>This man was obviously a famous sorcerer in his younger days as you
+instantly recognize his face.
+</description>
+	</mobile>
+	<mobile number="43" name="waiter" level="23" sex="1" alignment="600" flags="24578" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="390" armor="20" gold="2000" experience="80000" hitroll="19" damroll="12" short_description="the waiter">
+		<long_description>A waiter who seems to have reached contact with his God is standing here.
+</long_description>
+		<description>This waiter almost makes you feel like you should drop to your knees
+and begin to worship your God.  Naaah.
+</description>
+	</mobile>
+	<mobile number="44" name="waiter" level="23" sex="1" alignment="600" flags="24578" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="390" armor="20" gold="2000" experience="80000" hitroll="19" damroll="12" short_description="the waiter">
+		<long_description>A waiter who knows where all his customers keep their money is standing here.
+</long_description>
+		<description>Hmmm... wonder where he got that coin he is playing with.
+</description>
+	</mobile>
+	<mobile number="45" name="waiter" level="23" sex="1" alignment="600" flags="24578" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="10" max_movepoints="390" armor="20" gold="2000" experience="80000" hitroll="19" damroll="12" short_description="the waiter">
+		<long_description>A waiter is here.
+</long_description>
+		<description>This guy looks like he could easily kill you while still carrying
+quite a few firebreathers.
+</description>
+	</mobile>
+	<mobile number="46" name="filthy" level="33" sex="1" alignment="600" flags="26642" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" gold="2000" experience="80000" hitroll="19" damroll="22" short_description="Filthy">
+		<long_description>Filthy is standing here, eager to serve you a special drink.
+</long_description>
+		<description>Filthy looks real, ehm, dirty.  He likes to keep his customers happy,
+but do not mess with him or else he'll get upset.
+</description>
+	</mobile>
+	<mobile number="59" name="keeper peacekeeper" level="17" sex="1" alignment="1000" flags="6225" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="3" max_manapoints="6" max_movepoints="225" armor="0" gold="2500" experience="30000" hitroll="17" damroll="13" short_description="the Peacekeeper">
+		<long_description>A Peacekeeper is standing here, ready to jump in at the first sign of trouble.
+</long_description>
+		<description>He looks very strong and wise.  Looks like he doesn't answer to ANYONE.
+</description>
+	</mobile>
+	<mobile number="60" name="cityguard guard" level="10" sex="1" alignment="1000" flags="6209" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="12" max_movepoints="123" armor="10" gold="500" experience="9000" hitroll="10" damroll="5" short_description="the cityguard">
+		<long_description>A cityguard stands here.
+</long_description>
+		<description>A big, strong, helpful, trustworthy guard.
+</description>
+	</mobile>
+	<mobile number="61" name="janitor" level="1" sex="1" alignment="800" flags="2113" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="5" max_manapoints="6" max_movepoints="10" armor="90" gold="34" experience="100" short_description="the janitor">
+		<long_description>A janitor is walking around, cleaning up.
+</long_description>
+		<description>What a tough job he has.
+</description>
+	</mobile>
+	<mobile number="62" name="fido dog" level="0" sex="1" alignment="-200" flags="65761" aff_flags="32768" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="4" max_manapoints="6" max_movepoints="4" armor="100" experience="25" short_description="the beastly fido">
+		<long_description>A beastly fido is mucking through the garbage looking for food here.
+</long_description>
+		<description>The fido is a small dog that has a foul smell and pieces of rotted meat
+hanging around his teeth.
+</description>
+	</mobile>
+	<mobile number="63" name="mercenary" level="5" sex="1" alignment="-330" flags="2050" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="6" max_manapoints="6" max_movepoints="60" armor="50" gold="87" experience="900" hitroll="5" damroll="1" short_description="the mercenary">
+		<long_description>A mercenary is waiting for a job here.
+</long_description>
+		<description>He looks pretty mean, and you imagine he'd do anything for money.
+</description>
+	</mobile>
+	<mobile number="64" name="drunk" level="2" sex="1" alignment="400" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="6" max_manapoints="6" max_movepoints="22" armor="80" gold="53" experience="200" hitroll="1" short_description="the drunk">
+		<long_description>A singing, happy Drunk.
+</long_description>
+		<description>A drunk who seems to be too happy, and to carry too much money.
+</description>
+	</mobile>
+	<mobile number="65" name="beggar" level="1" sex="2" alignment="400" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="5" max_manapoints="6" max_movepoints="10" armor="90" experience="100" short_description="the beggar">
+		<long_description>A beggar is here, asking for a few coins.
+</long_description>
+		<description>The beggar looks like she is fed up with life.
+</description>
+	</mobile>
+	<mobile number="66" name="odif yltsaeb" level="0" sex="1" alignment="-200" flags="65761" aff_flags="32768" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="4" max_manapoints="6" max_movepoints="4" armor="100" experience="25" short_description="the odif yltsaeb">
+		<long_description>An odif yltsaeb is here, walking backwards.
+</long_description>
+		<description>The odif is a small god that has been reversed by some dog.
+</description>
+	</mobile>
+	<mobile number="67" name="cityguard guard" level="10" sex="1" alignment="1000" flags="6211" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="12" max_movepoints="123" armor="10" gold="500" experience="9000" hitroll="10" damroll="5" short_description="the cityguard">
+		<long_description>A cityguard is here, guarding the gate.
+</long_description>
+		<description>A big, strong, helpful, trustworthy guard.
+</description>
+	</mobile>
+	<mobile number="68" name="green gelatinous blob" level="20" sex="0" alignment="0" flags="256209" aff_flags="8" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="11" max_movepoints="325" armor="0" gold="1000" experience="40000" hitroll="20" damroll="5" short_description="the green gelatinous blob">
+		<long_description>An oozing green gelatinous blob is here, sucking in bits of debris.
+</long_description>
+		<description>A horrid looking thing; it is huge, greenish, and looks like the blob.
+</description>
+	</mobile>
+	<mobile number="89" name="pet shop boy" level="10" sex="1" alignment="1000" flags="26626" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="20" dam_sizedice="4" max_manapoints="1" max_movepoints="30000" armor="10" gold="500" experience="9000" hitroll="10" damroll="10" short_description="the Pet Shop Boy">
+		<long_description>There is a Pet Shop Boy standing here cuddleing something furry in his hands.
+</long_description>
+		<description>As you look at him, he opens his hands to reveal a rat!
+</description>
+	</mobile>
+	<mobile number="90" name="kitten" level="1" sex="0" alignment="0" flags="16390" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="4" max_manapoints="6" max_movepoints="11" armor="90" experience="100" short_description="the kitten">
+		<long_description>A small loyal kitten is here.
+</long_description>
+		<description>The kitten looks like a cute, little, fierce fighter.
+</description>
+	</mobile>
+	<mobile number="91" name="puppy" level="1" sex="0" alignment="0" flags="16390" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="4" max_manapoints="6" max_movepoints="13" armor="90" experience="125" short_description="the puppy">
+		<long_description>A small loyal puppy is here.
+</long_description>
+		<description>The puppy looks like a cute, little, fierce fighter.
+</description>
+	</mobile>
+	<mobile number="92" name="beagle" level="2" sex="0" alignment="0" flags="16390" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="6" max_manapoints="12" max_movepoints="22" armor="80" experience="200" hitroll="1" short_description="the beagle">
+		<long_description>A small, quick, loyal beagle is here.
+</long_description>
+		<description>The beagle looks like a fierce fighter.
+</description>
+	</mobile>
+	<mobile number="93" name="rottweiler" level="3" sex="0" alignment="0" flags="16390" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="7" max_manapoints="12" max_movepoints="35" armor="70" experience="800" hitroll="2" short_description="the rottweiler">
+		<long_description>A large, loyal rottweiler is here.
+</long_description>
+		<description>The rottweiler looks like a strong, fierce fighter.
+</description>
+	</mobile>
+	<mobile number="94" name="wolf" level="4" sex="0" alignment="0" flags="16390" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="12" max_movepoints="47" armor="60" experience="1600" hitroll="3" short_description="the wolf">
+		<long_description>A large, trained wolf is here.
+</long_description>
+		<description>The wolf looks like a strong, fearless fighter.
+</description>
+	</mobile>
+	<mobile number="95" name="cryogenicist cryo" level="33" sex="2" alignment="900" flags="26627" aff_flags="32808" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="1" max_movepoints="30000" armor="-100" experience="0" hitroll="20" damroll="32" short_description="the cryogenicist">
+		<long_description>The cryogenicist is here, playing with a canister of liquid nitrogen.
+</long_description>
+		<description>You notice a tired look in her face.  She looks like she isn't paid well
+enough to put up with any crap from mud players with attitudes.
+</description>
+	</mobile>
+</mobiles>

@@ -77,9 +77,10 @@ namespace Pirple {
 
     struct shop_buy_data {
         int type;
+        int ztype;
         char *keywords;
 
-        shop_buy_data() : type(-1), keywords(nullptr) {
+        shop_buy_data() : type(-1), ztype(-1), keywords(nullptr) {
 
         }
 
@@ -91,7 +92,9 @@ namespace Pirple {
     };
 
     struct shop_data {
+    	long znum;
         int vnum;        /* Virtual number of this shop		*/
+        int *zproducing;
         int *producing;        /* Which item to produce (virtual)	*/
         int producing_count;
         float profit_buy;        /* Factor to multiply cost with		*/
@@ -107,22 +110,25 @@ namespace Pirple {
         char *message_sell;        /* Message when player sells item	*/
         int temper1;        /* How does keeper react if no money	*/
         unsigned long bitvector;    /* Can attack? Use bank? Cast here?	*/
+        int zkeeper;
         int keeper;    /* The mobile who owns the shop (rnum)	*/
         int with_who;        /* Who does the shop trade with?	*/
+        int *in_zone;
         int *in_room;        /* Where is the shop?			*/
         int in_room_count;
         int open1, open2;        /* When does the shop open?		*/
         int close1, close2;    /* When does the shop close?		*/
-        shop_data() : vnum(-1), producing(nullptr), producing_count(0), profit_buy(0.0f), profit_sell(0.0f),
+        shop_data() : znum(-1), vnum(-1), zproducing(nullptr), producing(nullptr), producing_count(0), profit_buy(0.0f), profit_sell(0.0f),
                       type(nullptr),
                       type_count(0), no_such_item1(nullptr), no_such_item2(nullptr), missing_cash1(nullptr),
                       missing_cash2(nullptr), do_not_buy(nullptr), message_buy(nullptr),
-                      message_sell(nullptr), temper1(0), bitvector(0), keeper(-1), with_who(-1),
-                      in_room(nullptr), in_room_count(0), open1(0), open2(0), close1(0), close2(0) {
+                      message_sell(nullptr), temper1(0), bitvector(0), zkeeper(-1), keeper(-1), with_who(-1),
+                      in_zone(nullptr), in_room(nullptr), in_room_count(0), open1(0), open2(0), close1(0), close2(0) {
 
         }
 
         ~shop_data() {
+        	delete[] zproducing;
             delete[] producing;
             delete[] type;
             if (no_such_item1)
@@ -146,6 +152,7 @@ namespace Pirple {
             if (message_sell)
                 free(message_sell);
             message_sell = nullptr;
+            delete[] in_zone;
             delete[] in_room;
         }
     };
@@ -190,6 +197,7 @@ namespace Pirple {
 
 /* ================== Structure for player/non-player ===================== */
     struct char_data {
+    	long znr;
         int nr;                          /* Mob's rnum			  */
         struct char_ability_data real_abils;     /* Abilities without modifiers   */
         struct char_point_data points;        /* Points                        */
@@ -211,7 +219,7 @@ namespace Pirple {
         char *description;  /* Extra descriptions                   */
         short sex;           /* PC / NPC's sex                       */
         short level;         /* PC / NPC's level                     */
-        char_data() : nr(-1), real_abils(), points(), attack_type(0), default_pos(0), position(0),
+        char_data() : znr(-1), nr(-1), real_abils(), points(), attack_type(0), default_pos(0), position(0),
                       damnodice(0), damsizedice(0), alignment(0), act(0), affected_by(0), name(nullptr),
                       short_descr(nullptr), long_descr(nullptr), description(nullptr), sex(0), level(0) {
 
@@ -264,6 +272,7 @@ namespace Pirple {
 
 /* ================== Memory Structure for Objects ================== */
     struct obj_data {
+    	long zone_number;
         int item_number;    /* Where in data-base			*/
 
         struct obj_flag_data obj_flags;/* Object information               */
@@ -275,7 +284,7 @@ namespace Pirple {
         char *action_description;      /* What to write when used          */
         list<struct extra_descr_data *> ex_description;
 
-        obj_data() : item_number(-1), obj_flags(), name(nullptr), description(nullptr),
+        obj_data() : zone_number(-1), item_number(-1), obj_flags(), name(nullptr), description(nullptr),
                      short_description(nullptr), action_description(nullptr) {
 
         }
@@ -310,9 +319,11 @@ namespace Pirple {
 
         int /*bitvector_t*/ exit_info;    /* Exit info			*/
         int key;        /* Key's number (-1 for no key)		*/
+        int key_zone;
         int to_room;        /* Where direction leads (NOWHERE)	*/
+        int to_zone;
         room_direction_data() : general_description(nullptr), keyword(nullptr),
-                                exit_info(0), key(-1), to_room(-1) {
+                                exit_info(0), key(-1), key_zone(-1), to_room(-1), to_zone(-1) {
 
         }
 
@@ -366,9 +377,14 @@ namespace Pirple {
 
         bool if_flag;    /* if TRUE: exe only if preceding exe'd */
         int arg1;       /*                                      */
-        int arg2;       /* Arguments to the command             */
-        int arg3;       /*                                      */
+        int arg2;
+        int arg3;       /* Arguments to the command             */
+        int arg4;       /*                                      */
+        int arg5;
         int line;        /* line number this command appears on  */
+
+        reset_com() : command('S'), if_flag(false), arg1(-1), arg2(-1), arg3(-1), arg4(-1), arg5(-1), line(0) {
+        }
     };
 
     struct zone_data {
@@ -380,13 +396,14 @@ namespace Pirple {
 
         int reset_mode;         /* conditions for reset (see below)   */
         long number;        /* virtual number of this zone    */
+        long orig_number;	/* original virtual number of this zone before conversion */
         struct reset_com *cmd;   /* command table for reset            */
         list<struct room_data *> rooms;
         list<struct obj_data *> objs;
         list<struct char_data *> mobs;
         list<struct shop_data *> shops;
 
-        zone_data() : name(nullptr), lifespan(0), age(0), bot(0), top(0), reset_mode(0), number(0), cmd(nullptr) {
+        zone_data() : name(nullptr), lifespan(0), age(0), bot(0), top(0), reset_mode(0), number(0), orig_number(0), cmd(nullptr) {
 
         }
 
@@ -439,5 +456,6 @@ namespace Pirple {
             entry = nullptr;
         }
     };
+
 } // Pirple
 #endif //PIRPLEMUD_UTILS_CIRCLEMUD_H

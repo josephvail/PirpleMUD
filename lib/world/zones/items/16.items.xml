@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<items>
+	<item number="0" name="axe lumber" type="5" wear_flags="8193" extra_flags="8" bitvector="0" weight="12" cost="50" cost_per_day="15" short_description="a lumber axe">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="3" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+		</affects>
+		<description>A heavy lumber axe lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="axe lumber">
+				<description>It is a heavy axe of the kind lumberjacks use to chop down trees.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1" name="shirt chequered" type="9" wear_flags="9" extra_flags="8" bitvector="0" weight="2" cost="20" cost_per_day="8" short_description="a chequered shirt">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A chequered shirt lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="shirt chequered">
+				<description>It is an extra large, chequered shirt made from heavy cloth.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="2" name="boots leather" type="9" wear_flags="65" extra_flags="8" bitvector="0" weight="4" cost="60" cost_per_day="10" short_description="a pair of worn leather boots">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of worn leather boots lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="boots">
+				<description>They are fashioned from rough leather that has been oiled frequently to make
+it stay waterproof.  They look worn but quite functional.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3" name="fireplace" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a fireplace">
+		<values>
+			<value number="0" val="200" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A fireplace made from stone is set against the east wall.</description>
+		<extra_descriptions>
+			<extra_description keyword="fireplace">
+				<description>It is fashioned from stones of various sizes that have been stacked on top of
+each other and fastened with mortar.  Its chimney is constructed likewise and
+leads the smoke out through the low cabin ceiling.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="4" name="lantern brass hooded" type="1" wear_flags="16385" extra_flags="0" bitvector="0" weight="4" cost="60" cost_per_day="10" short_description="a hooded brass lantern">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="100" />
+			<value number="3" val="0" />
+		</values>
+		<description>A hooded brass lantern has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="lantern brass hooded">
+				<description>It is a large and robust but somewhat battered oil lantern made from brass,
+and it is equipped with a handle to make it handy and a hood to protect its
+flame.  Some letters have been scratched on its bottom.
+</description>
+			</extra_description>
+			<extra_description keyword="letters">
+				<description>The letters say:
+
+Use 'hold lantern' to activate.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5" name="chest wooden" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="20" cost="100" cost_per_day="10" short_description="a wooden chest">
+		<values>
+			<value number="0" val="100" />
+			<value number="1" val="15" />
+			<value number="2" val="6006" />
+			<value number="3" val="0" />
+		</values>
+		<description>A wooden chest stands in the corner.</description>
+		<extra_descriptions>
+			<extra_description keyword="chest wooden">
+				<description>It is a robust chest made from short, heavy planks that have been fastened
+together with tenons.  It is equipped with a simple brass lock.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="6" name="key brass" type="18" wear_flags="16385" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="a small brass key">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small brass key lies here.</description>
+		<extra_descriptions>
+			<extra_description keyword="key brass">
+				<description>It is a small, simple brass key with no inscriptions or marks of any kind.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7" name="coins gold" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="127" cost_per_day="0" short_description="a heap of gold coins">
+		<values>
+			<value number="0" val="127" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Some gold coins lie piled up in a heap on the floor.</description>
+		<extra_descriptions>
+			<extra_description keyword="coins gold">
+				<description>The coins seem to be gold.  They are obviously valuable.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="10" name="blackberries berries" type="19" wear_flags="1" extra_flags="4" bitvector="0" weight="1" cost="0" cost_per_day="0" short_description="some blackberries">
+		<values>
+			<value number="0" val="3" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>Some blackberries grow on a bush nearby.</description>
+		<extra_descriptions>
+			<extra_description keyword="blackberries berries">
+				<description>They look very tasty indeed.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="11" name="mushroom" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="10" short_description="a mushroom">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small mushroom grows nearby.</description>
+		<extra_descriptions>
+			<extra_description keyword="mushroom">
+				<description>It looks to be a tasty little thing.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="12" name="sign" type="12" wear_flags="0" extra_flags="0" bitvector="0" weight="100" cost="0" cost_per_day="0" short_description="a large sign">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large sign mounted on a pole is standing by the roadside.</description>
+		<extra_descriptions>
+			<extra_description keyword="pole">
+				<description>Not the most interesting pole in the world.
+Better leave it here, though, as it holds the sign in place.
+</description>
+			</extra_description>
+			<extra_description keyword="sign">
+				<description>It says :-
+
+                         Haon-Dor
+                         --------
+
+ This is the Forest of Haon-Dor.  Enter at your own risk.
+     Please report any strange occurrences to Furry,
+     as Quifael and Derkhil are currently indisposed.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="13" name="barrel water" type="17" wear_flags="1" extra_flags="0" bitvector="0" weight="45" cost="60" cost_per_day="20" short_description="a barrel">
+		<values>
+			<value number="0" val="40" />
+			<value number="1" val="40" />
+			<value number="2" val="16" />
+			<value number="3" val="0" />
+		</values>
+		<description>A water barrel has been left here.</description>
+	</item>
+	<item number="14" name="water brook" type="23" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a small brook">
+		<values>
+			<value number="0" val="50000" />
+			<value number="1" val="50000" />
+			<value number="2" val="15" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small brook trickles through the forest beside the path.</description>
+		<extra_descriptions>
+			<extra_description keyword="water brook">
+				<description>The water looks clean and refreshing.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15" name="water lake" type="23" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="the lake">
+		<values>
+			<value number="0" val="50000" />
+			<value number="1" val="50000" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+	</item>
+	<item number="16" name="cudgel oak oaken limb" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="16" cost="1" cost_per_day="20" short_description="an oaken cudgel">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="1" />
+			<value number="2" val="7" />
+			<value number="3" val="7" />
+		</values>
+		<affects>
+			<affect location="19" modifier="2" />
+			<affect location="1" modifier="-2" />
+		</affects>
+		<description>A limb has fallen here.</description>
+		<extra_descriptions>
+			<extra_description keyword="cudgel oak oaken limb">
+				<description>The cudgel looks quite sturdy, and would make a nice weapon.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="17" name="corpse boar" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="500" cost="1" cost_per_day="1" short_description="the corpse of a boar">
+		<values>
+			<value number="0" val="100" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+	</item>
+	<item number="18" name="slab meat" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="15" cost="40" cost_per_day="1" short_description="a large slab of meat">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large piece of freshly cut boar meat is on the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="slab meat">
+				<description>It looks quite filling.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="19" name="tusks pair" type="8" wear_flags="16385" extra_flags="0" bitvector="0" weight="10" cost="60" cost_per_day="1" short_description="a pair of boar tusks">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A pair of large boar tusks have been dropped here.</description>
+		<extra_descriptions>
+			<extra_description keyword="tusks pair">
+				<description>They look like they might be worth something to a craftsman.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="20" name="log hollow floating" type="22" wear_flags="1" extra_flags="0" bitvector="0" weight="48" cost="2" cost_per_day="1" short_description="a hollow log">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<extra_descriptions>
+			<extra_description keyword="log">
+				<description>It looks like it would probably float.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="21" name="nest bird" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="the bird's nest">
+		<values>
+			<value number="0" val="30" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+	</item>
+	<item number="22" name="egg blue robin" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="10" cost_per_day="0" short_description="a blue robin's egg">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small bluish egg has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="egg blue robin">
+				<description>It is small, but food nonetheless.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="23" name="meat rabbit" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="29" cost_per_day="20" short_description="a piece of rabbit meat">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large piece of rabbit meat.</description>
+	</item>
+	<item number="24" name="meat deer venison" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="80" cost_per_day="20" short_description="a piece of venison">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large piece of venison.</description>
+	</item>
+</items>

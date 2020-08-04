@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<zone number="18" name="The Orc Enclave" lifespan="20" reset_mode="2" mini_mud="false" rooms="68" mobiles="14" items="6" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="18" arg2="0" arg3="3" arg4="18" arg5="19" />
+		<reset number="2" if_flag="false" type="M" arg1="18" arg2="0" arg3="3" arg4="18" arg5="24" />
+		<reset number="3" if_flag="false" type="M" arg1="18" arg2="0" arg3="3" arg4="18" arg5="18" />
+		<reset number="4" if_flag="false" type="M" arg1="18" arg2="1" arg3="2" arg4="18" arg5="19" />
+		<reset number="5" if_flag="false" type="M" arg1="18" arg2="1" arg3="2" arg4="18" arg5="24" />
+		<reset number="6" if_flag="false" type="M" arg1="18" arg2="2" arg3="3" arg4="18" arg5="27" />
+		<reset number="7" if_flag="false" type="M" arg1="18" arg2="2" arg3="3" arg4="18" arg5="24" />
+		<reset number="8" if_flag="false" type="M" arg1="18" arg2="2" arg3="3" arg4="18" arg5="38" />
+		<reset number="9" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="34" />
+		<reset number="10" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="11" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="40" />
+		<reset number="12" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="13" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="36" />
+		<reset number="14" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="15" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="29" />
+		<reset number="16" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="17" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="12" />
+		<reset number="18" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="19" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="21" />
+		<reset number="20" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="21" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="23" />
+		<reset number="22" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="23" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="25" />
+		<reset number="24" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="25" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="14" />
+		<reset number="26" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="27" if_flag="false" type="M" arg1="18" arg2="3" arg3="10" arg4="18" arg5="30" />
+		<reset number="28" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="29" if_flag="false" type="M" arg1="18" arg2="4" arg3="1" arg4="18" arg5="52" />
+		<reset number="30" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="31" if_flag="false" type="M" arg1="18" arg2="5" arg3="3" arg4="18" arg5="53" />
+		<reset number="32" if_flag="false" type="M" arg1="18" arg2="5" arg3="3" arg4="18" arg5="50" />
+		<reset number="33" if_flag="false" type="M" arg1="18" arg2="5" arg3="3" arg4="18" arg5="49" />
+		<reset number="34" if_flag="false" type="M" arg1="18" arg2="6" arg3="2" arg4="18" arg5="46" />
+		<reset number="35" if_flag="false" type="M" arg1="18" arg2="6" arg3="2" arg4="18" arg5="51" />
+		<reset number="36" if_flag="false" type="M" arg1="18" arg2="7" arg3="1" arg4="18" arg5="53" />
+		<reset number="37" if_flag="false" type="M" arg1="18" arg2="8" arg3="2" arg4="18" arg5="54" />
+		<reset number="38" if_flag="false" type="M" arg1="18" arg2="8" arg3="2" arg4="18" arg5="54" />
+		<reset number="39" if_flag="false" type="M" arg1="18" arg2="9" arg3="3" arg4="18" arg5="51" />
+		<reset number="40" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="41" if_flag="false" type="M" arg1="18" arg2="9" arg3="3" arg4="18" arg5="50" />
+		<reset number="42" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="43" if_flag="false" type="M" arg1="18" arg2="9" arg3="3" arg4="18" arg5="44" />
+		<reset number="44" if_flag="true" type="E" arg1="18" arg2="4" arg3="1" arg4="16" />
+		<reset number="45" if_flag="false" type="M" arg1="18" arg2="10" arg3="1" arg4="18" arg5="59" />
+		<reset number="46" if_flag="true" type="E" arg1="18" arg2="5" arg3="1" arg4="16" />
+		<reset number="47" if_flag="true" type="E" arg1="18" arg2="3" arg3="1" arg4="17" />
+		<reset number="48" if_flag="false" type="M" arg1="18" arg2="11" arg3="1" arg4="18" arg5="16" />
+		<reset number="49" if_flag="true" type="G" arg1="18" arg2="0" arg3="1" />
+		<reset number="50" if_flag="false" type="M" arg1="18" arg2="12" arg3="4" arg4="18" arg5="67" />
+		<reset number="51" if_flag="false" type="M" arg1="18" arg2="12" arg3="4" arg4="18" arg5="64" />
+		<reset number="52" if_flag="false" type="M" arg1="18" arg2="12" arg3="4" arg4="18" arg5="61" />
+		<reset number="53" if_flag="false" type="M" arg1="18" arg2="13" arg3="1" arg4="18" arg5="65" />
+		<reset number="54" if_flag="true" type="E" arg1="18" arg2="1" arg3="1" arg4="9" />
+		<reset number="55" if_flag="true" type="E" arg1="18" arg2="2" arg3="1" arg4="8" />
+		<reset number="56" if_flag="false" type="D" arg1="18" arg2="55" arg3="3" arg4="2" />
+		<reset number="57" if_flag="false" type="D" arg1="18" arg2="56" arg3="1" arg4="2" />
+		<reset number="58" if_flag="false" type="D" arg1="18" arg2="56" arg3="3" arg4="1" />
+		<reset number="59" if_flag="false" type="D" arg1="18" arg2="57" arg3="1" arg4="1" />
+		<reset number="60" if_flag="false" type="D" arg1="18" arg2="66" arg3="1" arg4="1" />
+		<reset number="61" if_flag="false" type="D" arg1="18" arg2="67" arg3="3" arg4="1" />
+		<reset number="62" if_flag="false" type="D" arg1="18" arg2="63" arg3="1" arg4="1" />
+		<reset number="63" if_flag="false" type="D" arg1="18" arg2="64" arg3="3" arg4="1" />
+		<reset number="64" if_flag="false" type="D" arg1="18" arg2="60" arg3="1" arg4="1" />
+		<reset number="65" if_flag="false" type="D" arg1="18" arg2="61" arg3="3" arg4="1" />
+	</resets>
+</zone>

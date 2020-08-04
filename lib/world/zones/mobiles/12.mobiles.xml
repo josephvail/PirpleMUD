@@ -1,24 +1,75 @@
 <?xml version="1.0"?>
 <mobiles>
-	<mobile number="1200" name="innkeeper" level="30" sex="2" alignment="0" flags="3" aff_flags="32768" position="8" default_position="8" dam_nodice="4" dam_sizedice="8" max_manapoints="49" max_movepoints="901" armor="-100" experience="0" hitroll="20" damroll="5" short_description="the Immortal Innkeeper">
-		<long_description>The Immortal Innkeeper is organizing her books here.
+	<mobile number="0" name="goblin slave" level="1" sex="1" alignment="350" flags="130" aff_flags="0" position="1" default_position="1" state="5" default_state="5" dam_nodice="1" dam_sizedice="5" max_manapoints="11" max_movepoints="11" armor="90" experience="100" short_description="the goblin slave">
+		<long_description>A goblin slave lies here asleep.
 </long_description>
-		<description>She appears to be having no problem tallying things up.
+		<description>The defenseless goblin begs for mercy.
 </description>
 	</mobile>
-	<mobile number="1201" name="postmaster master post" level="30" sex="2" alignment="0" flags="3" aff_flags="32768" position="8" default_position="8" dam_nodice="4" dam_sizedice="8" max_manapoints="49" max_movepoints="901" armor="-100" experience="0" hitroll="20" damroll="5" short_description="the Immortal Postmaster">
-		<long_description>The Immortal Postmaster is hard at work here.
+	<mobile number="1" name="drow commoner" level="10" sex="1" alignment="-1000" flags="6240" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="13" dam_sizedice="1" max_manapoints="10" max_movepoints="130" armor="0" gold="300" experience="10750" hitroll="8" damroll="3" short_description="the Drow commoner">
+		<long_description>A drow commoner is here, walking around on guard duty.
 </long_description>
-		<description>Scary... a postal worker... working?
+		<description>I doubt he is the type to give directions.
 </description>
 	</mobile>
-	<mobile number="1202" name="being amorphous spirit wandering" level="30" sex="0" alignment="0" flags="65605" aff_flags="295944" position="8" default_position="8" dam_nodice="4" dam_sizedice="8" max_manapoints="49" max_movepoints="901" armor="-100" experience="0" hitroll="20" damroll="5" short_description="the wandering spirit">
-		<long_description>A strange amorphous being wanders these halls eternally cleaning.
+	<mobile number="2" name="drow noble warrior" level="12" sex="1" alignment="-1000" flags="6178" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="14" dam_sizedice="1" max_manapoints="5" max_movepoints="160" armor="0" gold="1000" experience="15000" hitroll="11" damroll="7" short_description="the drow warrior">
+		<long_description>A drow warrior stands here guarding his home.
 </long_description>
-		<description>This spirit, having lived out its days in the mortal world, now
-works off its final sins by doing menial labour in this realm's
-purgatory.  In this case, those chores seem to be cleaning up
-after the immortals of the land.
+		<description>He looks kind of annoyed!
+</description>
+	</mobile>
+	<mobile number="3" name="drow noble mage" level="15" sex="1" alignment="-1000" flags="6179" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="8" dam_sizedice="2" max_manapoints="12" max_movepoints="190" armor="20" gold="2000" experience="21000" hitroll="12" damroll="2" short_description="the drow mage">
+		<long_description>A drow mage is here protecting his home.
+</long_description>
+		<description>The mage prepares to cast a spell... at you!!
+</description>
+	</mobile>
+	<mobile number="4" name="drow priestess" level="17" sex="2" alignment="-1000" flags="6179" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="14" dam_sizedice="1" max_manapoints="11" max_movepoints="205" armor="0" gold="4000" experience="28000" hitroll="15" damroll="4" short_description="the drow priestess">
+		<long_description>A drow priestess is here shouting orders.
+</long_description>
+		<description>I wouldn't want go get on her bad side!
+</description>
+	</mobile>
+	<mobile number="5" name="drow master" level="21" sex="1" alignment="-1000" flags="6178" aff_flags="1032" position="5" default_position="5" state="6" default_state="6" dam_nodice="18" dam_sizedice="1" max_manapoints="12" max_movepoints="248" armor="0" gold="10000" experience="60000" hitroll="20" damroll="4" short_description="the drow master">
+		<long_description>A drow master stares at you angrily.
+</long_description>
+		<description>The drow master is ALWAYS ready for a fight.
+</description>
+	</mobile>
+	<mobile number="6" name="drow weaponsmaster" level="23" sex="1" alignment="-1000" flags="6178" aff_flags="33800" position="5" default_position="5" state="6" default_state="6" dam_nodice="12" dam_sizedice="2" max_manapoints="25" max_movepoints="405" armor="-20" gold="15000" experience="80000" hitroll="20" damroll="4" short_description="the weaponsmaster">
+		<long_description>A drow weaponsmaster is here shadow boxing.
+</long_description>
+		<description>He definitely know his way around in combat.
+</description>
+	</mobile>
+	<mobile number="7" name="drow matron mother" level="24" sex="2" alignment="-1000" flags="2083" aff_flags="33928" position="5" default_position="5" state="6" default_state="6" dam_nodice="15" dam_sizedice="2" max_manapoints="50" max_movepoints="450" armor="-30" gold="30000" experience="130000" hitroll="20" damroll="4" short_description="the Matron Mother">
+		<long_description>The Matron Mother of the house is standing here.
+</long_description>
+		<description>She looks really and truly annoyed that you have found your way here.
+</description>
+	</mobile>
+	<mobile number="8" name="drow matron mother" level="25" sex="2" alignment="-1000" flags="2083" aff_flags="33928" position="5" default_position="5" state="6" default_state="6" dam_nodice="12" dam_sizedice="2" max_manapoints="10" max_movepoints="350" armor="-40" gold="40000" experience="150000" hitroll="20" damroll="24" short_description="the Matron Mother">
+		<long_description>The Matron Mother of the first house is waiting for you.
+</long_description>
+		<description>She looks like she is about to rip your head of and eat it.
+</description>
+	</mobile>
+	<mobile number="9" name="drider" level="8" sex="0" alignment="-1000" flags="24672" aff_flags="33800" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="6" max_movepoints="195" armor="20" gold="200" experience="4000" hitroll="8" damroll="2" short_description="the drider">
+		<long_description>The drider looks at you viciously while it draws its sword.
+</long_description>
+		<description>This half-spider, half-drow creature is a formidable opponent.
+</description>
+	</mobile>
+	<mobile number="10" name="drider" level="11" sex="0" alignment="-1000" flags="24674" aff_flags="33928" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="6" max_movepoints="295" armor="0" experience="7000" hitroll="10" damroll="8" short_description="the drider">
+		<long_description>The drider looks at you viciously while it draws its sword.
+</long_description>
+		<description>This half-spider, half-drow creature is a formidable opponent.
+</description>
+	</mobile>
+	<mobile number="11" name="yochlol" level="23" sex="2" alignment="-1000" flags="223282" aff_flags="33960" position="5" default_position="5" state="6" default_state="6" dam_nodice="15" dam_sizedice="2" max_manapoints="2" max_movepoints="450" armor="-60" gold="60000" experience="80000" hitroll="20" damroll="30" short_description="the yochlol">
+		<long_description>A yochlol forms out of a swirling mist...
+</long_description>
+		<description>The yochlol is not in a good mood.
 </description>
 	</mobile>
 </mobiles>

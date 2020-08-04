@@ -134,10 +134,11 @@ namespace Pirple {
         znumber.set_value(zone->number);
         xml_attribute name = top.append_attribute("name");
         name.set_value(zone->name);
+/* TODO dont think this is needed anymore
         xml_attribute zbot = top.append_attribute("bottom");
         zbot.set_value(zone->bot);
         xml_attribute ztop = top.append_attribute("top");
-        ztop.set_value(zone->top);
+        ztop.set_value(zone->top); */
         xml_attribute lifespan = top.append_attribute("lifespan");
         lifespan.set_value(zone->lifespan);
         xml_attribute resetmode = top.append_attribute("reset_mode");
@@ -190,9 +191,13 @@ namespace Pirple {
                 xml_attribute arg1 = reset.append_attribute("arg1");
                 xml_attribute arg2 = reset.append_attribute("arg2");
                 xml_attribute arg3 = reset.append_attribute("arg3");
+                xml_attribute arg4 = reset.append_attribute("arg4");
+                xml_attribute arg5 = reset.append_attribute("arg5");
                 arg1.set_value(zone->cmd[cmd_no].arg1);
                 arg2.set_value(zone->cmd[cmd_no].arg2);
                 arg3.set_value(zone->cmd[cmd_no].arg3);
+                arg4.set_value(zone->cmd[cmd_no].arg4);
+                arg5.set_value(zone->cmd[cmd_no].arg5);
                 if (zone->cmd[cmd_no].if_flag && !last_cmd) {
                     cerr << "If flag shouldn't exist in zone " << zone->number << endl;
                 }
@@ -228,26 +233,29 @@ namespace Pirple {
                     case 'G':        /* obj_to_char */
                         numcmds++;
                         last_cmd = 1;
-                        reset.remove_attribute("arg3");
+                        reset.remove_attribute("arg4");
+                        reset.remove_attribute("arg5");
                         type.set_value("G");
                         break;
 
                     case 'E':           /* object to equipment list */
                         numcmds++;
                         last_cmd = 1;
+                        reset.remove_attribute("arg5");
                         type.set_value("E");
                         break;
 
                     case 'R': /* rem obj from room */
                         numcmds++;
                         last_cmd = 1;
-                        reset.remove_attribute("arg3");
+                        reset.remove_attribute("arg5");
                         type.set_value("R");
                         break;
 
                     case 'D':           /* set state of door */
                         numcmds++;
                         last_cmd = 1;
+                        reset.remove_attribute("arg5");
                         type.set_value("D");
                         break;
 
@@ -294,13 +302,17 @@ namespace Pirple {
                 xml_node direction = directions.append_child("direction");
                 xml_attribute dir = direction.append_attribute("dir");
                 dir.set_value(DirNames[i]);
-                if (room->dir_option[i]->to_room >= 0) {
+                if (room->dir_option[i]->to_room >= 0 && room->dir_option[i]->to_zone >= 0) {
                     xml_attribute toroom = direction.append_attribute("to_room");
                     toroom.set_value(room->dir_option[i]->to_room);
+                    xml_attribute tozone = direction.append_attribute("to_zone");
+                    tozone.set_value(room->dir_option[i]->to_zone);
                 }
                 if (room->dir_option[i]->key >= 0) {
                     xml_attribute key = direction.append_attribute("key");
                     key.set_value(room->dir_option[i]->key);
+                    xml_attribute key_zone = direction.append_attribute("key_zone");
+                    key_zone.set_value(room->dir_option[i]->key_zone);
                 }
                 if (room->dir_option[i]->keyword) {
                     xml_attribute keyword = direction.append_attribute("keyword");
@@ -555,12 +567,13 @@ namespace Pirple {
     }
 
     bool CXMLOutput::ConstructShopNode(struct shop_data* shop, xml_node& parent) {
-        extern const char* ItemTypes;
         xml_node shopn = parent.append_child("shop");
         xml_attribute num = shopn.append_attribute("number");
         num.set_value(shop->vnum);
         xml_attribute keeper = shopn.append_attribute("keeper");
         keeper.set_value(shop->keeper);
+        xml_attribute zkeeper = shopn.append_attribute("zkeeper");
+        zkeeper.set_value(shop->zkeeper);
         xml_attribute trade_with_flags = shopn.append_attribute("trade_with_flags");
         trade_with_flags.set_value(shop->with_who);
         xml_attribute no_money_temper = shopn.append_attribute("no_money_temper");
@@ -632,13 +645,9 @@ namespace Pirple {
             for (int i = 0; i < shop->type_count; i++) {
                 xml_node criteria = will_buy.append_child("criteria");
                 if (shop->type[i].type > 0) {
+                	// FIXME, output not correct in xml file for ItemTypes
                     xml_attribute wbtype = criteria.append_attribute("type");
-                    wbtype.set_value(ItemTypes[shop->type[i].type]);
-                    found = true;
-                }
-                if (shop->type[i].keywords) {
-                    xml_attribute wbkw = criteria.append_attribute("keywords");
-                    wbkw.set_value(shop->type[i].keywords);
+                    wbtype.set_value(shop->type[i].type);
                     found = true;
                 }
                 if (found == false)
@@ -652,10 +661,12 @@ namespace Pirple {
             found = false;
             xml_node will_construct = shopn.append_child("will_construct");
             for (int i = 0; i < shop->producing_count; i++) {
-                if (shop->producing[i] > 0) {
+                if (shop->producing[i] >= 0 && shop->zproducing[i] > 0) {
                     xml_node construct_item = will_construct.append_child("construct_item");
                     xml_attribute cs_number = construct_item.append_attribute("number");
                     cs_number.set_value(shop->producing[i]);
+                    xml_attribute cs_znumber = construct_item.append_attribute("znumber");
+                    cs_znumber.set_value(shop->zproducing[i]);
                     found = true;
                 }
             }
@@ -666,10 +677,12 @@ namespace Pirple {
             found = false;
             xml_node locations = shopn.append_child("locations");
             for (int i = 0; i < shop->in_room_count; i++) {
-                if (shop->in_room[i] > 0) {
+                if (shop->in_room[i] >= 0 && shop->in_zone[i] > 0) {
                     xml_node location = locations.append_child("location");
                     xml_attribute loc_number = location.append_attribute("room_number");
                     loc_number.set_value(shop->in_room[i]);
+                    xml_attribute zon_number = location.append_attribute("zone_number");
+                    zon_number.set_value(shop->in_zone[i]);
                     found = true;
                 }
             }

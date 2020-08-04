@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="0" name="innkeeper" level="30" sex="2" alignment="0" flags="3" aff_flags="32768" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="8" max_manapoints="49" max_movepoints="901" armor="-100" experience="0" hitroll="20" damroll="5" short_description="the Immortal Innkeeper">
+		<long_description>The Immortal Innkeeper is organizing her books here.
+</long_description>
+		<description>She appears to be having no problem tallying things up.
+</description>
+	</mobile>
+	<mobile number="1" name="postmaster master post" level="30" sex="2" alignment="0" flags="3" aff_flags="32768" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="8" max_manapoints="49" max_movepoints="901" armor="-100" experience="0" hitroll="20" damroll="5" short_description="the Immortal Postmaster">
+		<long_description>The Immortal Postmaster is hard at work here.
+</long_description>
+		<description>Scary... a postal worker... working?
+</description>
+	</mobile>
+	<mobile number="2" name="being amorphous spirit wandering" level="30" sex="0" alignment="0" flags="65605" aff_flags="295944" position="5" default_position="5" state="6" default_state="6" dam_nodice="4" dam_sizedice="8" max_manapoints="49" max_movepoints="901" armor="-100" experience="0" hitroll="20" damroll="5" short_description="the wandering spirit">
+		<long_description>A strange amorphous being wanders these halls eternally cleaning.
+</long_description>
+		<description>This spirit, having lived out its days in the mortal world, now
+works off its final sins by doing menial labour in this realm's
+purgatory.  In this case, those chores seem to be cleaning up
+after the immortals of the land.
+</description>
+	</mobile>
+</mobiles>

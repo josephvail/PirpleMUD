@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<items>
+	<item number="0" name="ring yellow green" type="9" wear_flags="3" extra_flags="65672" bitvector="0" weight="1" cost="50" cost_per_day="20" short_description="a yellow and green ring">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="1" modifier="-2" />
+		</affects>
+		<description>A ring is here, with yellow and green ornamentation.  It looks very old.</description>
+		<extra_descriptions>
+			<extra_description keyword="ring yellow green">
+				<description>It feels heavy.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1" name="corpse goblin" type="15" wear_flags="1" extra_flags="0" bitvector="0" weight="20" cost="0" cost_per_day="500" short_description="a goblin's corpse">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>A halfway decayed corpse of a goblin is here, giving off a foul odor.</description>
+	</item>
+	<item number="2" name="coins" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="some coins">
+		<values>
+			<value number="0" val="500" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A small pile of coins is on the ground.</description>
+	</item>
+	<item number="50" name="potion purple" type="10" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="35500" cost_per_day="2000" short_description="a purple potion">
+		<values>
+			<value number="0" val="17" />
+			<value number="1" val="14" />
+			<value number="2" val="36" />
+			<value number="3" val="33" />
+		</values>
+		<description>A purple potion is here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion purple">
+				<description>It looks rather strange!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="51" name="helmet metal" type="9" wear_flags="17" extra_flags="64" bitvector="0" weight="4" cost="3000" cost_per_day="100" short_description="a metal helmet">
+		<values>
+			<value number="0" val="-5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="24" modifier="-2" />
+			<affect location="23" modifier="-2" />
+		</affects>
+		<description>A metal helmet in here.</description>
+		<extra_descriptions>
+			<extra_description keyword="helmet metal">
+				<description>It looks somehow magical!.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="52" name="mushroom" type="19" wear_flags="16385" extra_flags="0" bitvector="0" weight="1" cost="9" cost_per_day="3" short_description="a mushroom">
+		<values>
+			<value number="0" val="2" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="1" />
+		</values>
+		<description>A small mushroom is here.</description>
+		<extra_descriptions>
+			<extra_description keyword="mushroom">
+				<description>Let's put it this way - I wouldn't eat it!!
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="53" name="dirk" type="5" wear_flags="8193" extra_flags="40960" bitvector="0" weight="2" cost="850" cost_per_day="500" short_description="a thieves' dirk">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<affects>
+			<affect location="18" modifier="1" />
+			<affect location="19" modifier="1" />
+		</affects>
+		<description>A beautifully crafted dirk is lying here.</description>
+		<extra_descriptions>
+			<extra_description keyword="dirk">
+				<description>It is a medium sized, beautifully crafted dirk made from some greyish alloy.
+Its blade is double-edged and very thin... this looks like a good thieves'
+weapon.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="0" name="blade black demon" type="5" wear_flags="8193" extra_flags="6656" bitvector="0" weight="8" cost="10000" cost_per_day="800" short_description="a black demon blade">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="4" />
+			<value number="3" val="11" />
+		</values>
+		<description>A black demon blade is here.</description>
+		<extra_descriptions>
+			<extra_description keyword="blade black demon">
+				<description>You'll become as evil as the weapon, if you use it as you sense the forces
+of evil controlling the weapon...
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="1" name="gloves swordmans" type="9" wear_flags="129" extra_flags="512" bitvector="0" weight="1" cost="3500" cost_per_day="800" short_description="a pair of swordsmans' gloves">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+			<affect location="19" modifier="1" />
+		</affects>
+		<description>A pair of finely crafted gloves are lying on the ground here.</description>
+		<extra_descriptions>
+			<extra_description keyword="gloves swordsmans">
+				<description>They look like the right kind of equipment to use when fighting.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="2" name="scroll ysafg" type="2" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="1500" cost_per_day="10" short_description="a scroll which reads 'ysafg'">
+		<values>
+			<value number="0" val="1" />
+			<value number="1" val="44" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A scroll which reads 'ysafg', it looks very fragile and quite old.</description>
+		<extra_descriptions>
+			<extra_description keyword="scroll ysafg">
+				<description>It looks informative.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3" name="slime mould green" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="20" cost_per_day="8" short_description="a green slime mould">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A green slime mould is here.  Stinks like you wouldn't believe!</description>
+		<extra_descriptions>
+			<extra_description keyword="smile mould">
+				<description>It wasn't meant to be food -- at least, certainly not for humans.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="4" name="slime mould green" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="1" cost="20" cost_per_day="8" short_description="a green slime mould">
+		<values>
+			<value number="0" val="24" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="1" />
+		</values>
+		<description>A green slime mould is here.  Stinks like you wouldn't believe!</description>
+		<extra_descriptions>
+			<extra_description keyword="smile mould">
+				<description>It wasn't meant to be food -- at least, certainly not for humans.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

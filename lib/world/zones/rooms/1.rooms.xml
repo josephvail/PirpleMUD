@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<rooms>
+	<room number="0" name="On The Swift Flowing River" sector="8" flags="0">
+		<description>   As the river exits the city of Midgaard it picks up speed and whisks
+you along high banks flanked by the trees of Haon-Dor.  As the city
+fades in the east, you approach a gloomy forest to the west.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" to_room="1" to_zone="1" />
+		</directions>
+	</room>
+	<room number="1" name="The Riverbank" sector="8" flags="0">
+		<description>   The river is deep, and runs swiftly in an east-west direction.  To the
+north the river eddies and enters a backwash where a small bank extends
+down from a dark, thick stand of trees.  It doesn't look particulary
+inviting however.
+</description>
+		<directions>
+			<direction dir="north" to_room="20" to_zone="17" />
+			<direction dir="east" to_room="0" to_zone="1" />
+			<direction dir="west" to_room="2" to_zone="1" />
+		</directions>
+	</room>
+	<room number="2" name="The Twisty Part Of The River" sector="8" flags="0">
+		<description>   The river twists and turns and nearly tosses you out of your boat.
+The water is dark, cold, almost reptilian in sheen.  It seems almost
+alive.  The river runs east and south.
+</description>
+		<directions>
+			<direction dir="east" to_room="1" to_zone="1" />
+			<direction dir="south" to_room="3" to_zone="1" />
+		</directions>
+	</room>
+	<room number="3" name="The Scenic Route" sector="8" flags="0">
+		<description>   The dark forest of Haon-Dor recedes behind you to the northeast.
+The river continues in a westerly direction toward the river delta,
+where you can just make out a large island.
+</description>
+		<directions>
+			<direction dir="east" to_room="2" to_zone="1" />
+			<direction dir="west" to_room="4" to_zone="1" />
+		</directions>
+	</room>
+	<room number="4" name="The Swift River Delta" sector="8" flags="0">
+		<description>   You are at the edge of the river delta, where the river empties
+out on its way to the sea.  The water here is Black.  Deep.  Dark.
+Deadly.  The tidal waves sweep you around and around up and down.
+</description>
+		<directions>
+			<direction dir="north" to_room="11" to_zone="1" />
+			<direction dir="east" to_room="3" to_zone="1" />
+			<direction dir="south" to_room="6" to_zone="1" />
+			<direction dir="west" to_room="5" to_zone="1" />
+		</directions>
+	</room>
+	<room number="5" name="Near The Rocks" sector="8" flags="0">
+		<description>   You bob up and down in the waves comming dangerously close to some
+large, jagged rocks on the eastern shore of an unusual looking island.
+There is no way you could possibly land there without getting killed.
+</description>
+		<directions>
+			<direction dir="east" to_room="4" to_zone="1" />
+			<direction dir="south" to_room="6" to_zone="1" />
+		</directions>
+	</room>
+	<room number="6" name="The South River Delta" sector="8" flags="0">
+		<description>   You are making your way along a channel in the river delta between
+the island to the west and the shore to the south and east.  To the
+south an aging broken down looking pier juts out from land and toward
+the west the channel works it way close to the island as it moves around
+its southern tip.
+</description>
+		<directions>
+			<direction dir="north" to_room="5" to_zone="1" />
+			<direction dir="east" to_room="4" to_zone="1" />
+			<direction dir="south" to_room="7" to_zone="1" />
+			<direction dir="west" to_room="8" to_zone="1" />
+		</directions>
+	</room>
+	<room number="7" name="The Pier" sector="8" flags="0">
+		<description>   You float next to a crumbling pier long since neglected.
+To the west the water gets sluggish and there are many weeds and
+some seaweed floating about.
+</description>
+		<directions>
+			<direction dir="north" to_room="6" to_zone="1" />
+			<direction dir="west" to_room="8" to_zone="1" />
+		</directions>
+	</room>
+	<room number="8" name="Mired In Seaweed" sector="8" flags="0">
+		<description>   The going is rough here.  The tide struggles with the normal flow
+of the river and here near the edge of the sea there is a large
+amount of growth.  To the west the channel passes the southern tip of
+the island and heads for open waters.
+</description>
+		<directions>
+			<direction dir="north" to_room="6" to_zone="1" />
+			<direction dir="east" to_room="7" to_zone="1" />
+			<direction dir="west" to_room="9" to_zone="1" />
+		</directions>
+	</room>
+	<room number="9" name="The Last Stop" sector="8" flags="0">
+		<description>   The delta meets the sea here.  To the west you see nothing but
+ocean on the horizon.  Sea birds squawk noisily at your approach
+and take flight from a nearby beach head on the island.  It looks
+as though this could be the last stop for those heading out to sea.
+</description>
+		<directions>
+			<direction dir="north" to_room="10" to_zone="1" />
+			<direction dir="east" to_room="8" to_zone="1" />
+		</directions>
+	</room>
+	<room number="10" name="The Beach Head" sector="3" flags="0">
+		<description>   This is a secluded looking beach on the southern tip of the island.
+There isn't much to see here and there is no way to cross the steep
+rocky cliffs that wall in this place.
+</description>
+		<directions>
+			<direction dir="south" to_room="9" to_zone="1" />
+		</directions>
+	</room>
+	<room number="11" name="The North Channel" sector="8" flags="4">
+		<description>   The river splits as runs up against the island and a navigatble
+channel slips off to the north and west.
+</description>
+		<directions>
+			<direction dir="north" to_room="12" to_zone="1" />
+			<direction dir="south" to_room="4" to_zone="1" />
+			<direction dir="west" to_room="12" to_zone="1" />
+		</directions>
+	</room>
+	<room number="12" name="The North Channel" sector="8" flags="0">
+		<description>   The river current carries you swiftly westward as the channel
+begins to narrow as it squeezes past the north end of the island.
+</description>
+		<directions>
+			<direction dir="east" to_room="11" to_zone="1" />
+			<direction dir="south" to_room="11" to_zone="1" />
+			<direction dir="west" to_room="13" to_zone="1" />
+		</directions>
+	</room>
+	<room number="13" name="Near The Isle" sector="8" flags="4">
+		<description>   You are sitting just off a small landing on the island that
+appears to be nothing more than a short path that leads to the
+side of a hill.
+</description>
+		<directions>
+			<direction dir="east" to_room="12" to_zone="1" />
+			<direction dir="south" to_room="14" to_zone="1" />
+		</directions>
+	</room>
+	<room number="14" name="The Lane Of The Lying" sector="2" flags="0">
+		<description>   Bodies lie everywhere.  Commoner, peasant, duke, duchess.  The Gods
+will not hear you call here.  Hence they will not answer you.  To the
+south the path ends at a dark cave entrance.
+A sign has been posted beside the entrance.
+</description>
+		<directions>
+			<direction dir="north" to_room="13" to_zone="1" />
+			<direction dir="south" to_room="15" to_zone="1" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign cave">
+				<description>A sign beside the dark cave opening reads:
+
+   WARNING! Only fools and dead people pass this way.
+   The tests of Minos, our glorious ruler, await.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="15" name="The First Trial Of Minos" sector="2" flags="9">
+		<description>   Ah... you find yourself in Minos' battlefield playground.  
+Minos loves to torture his people through these places.  He
+collects the monsters of the world and puts them here.
+</description>
+		<directions>
+			<direction dir="east" to_room="16" to_zone="1" />
+		</directions>
+	</room>
+	<room number="16" name="The Second Trial Of Minos" sector="2" flags="9">
+		<description>   Minos' voice reveberates from the four walls of this room:
+'Get some rest and make sure you're healed.  You'll need it for
+the next monster in my playground.  Or are you strong enough?'
+   To the south is the entrance to the next challenge of Minos'
+stronghold.
+</description>
+		<directions>
+			<direction dir="south" to_room="17" to_zone="1" />
+		</directions>
+	</room>
+	<room number="17" name="The Third Trial Of Minos" sector="1" flags="9">
+		<description>   You go inside a red room.  Very red.  As if the Minos King used
+them to disembowel his guests.  The path continues eastward.  You
+see blue lights in that direction.
+</description>
+		<directions>
+			<direction dir="east" to_room="18" to_zone="1" />
+		</directions>
+	</room>
+	<room number="18" name="The Fourth Trial Of Minos" sector="1" flags="9">
+		<description>   Minos must be a monster hacking machine.  You see a blue light
+flicker on and off.  A voice crackles, 'WHY ARE YOU HERE!'
+</description>
+		<directions>
+			<direction dir="south" to_room="19" to_zone="1" />
+		</directions>
+	</room>
+	<room number="19" name="The Fifth Trial Of Minos" sector="1" flags="9">
+		<description>   This is General Woundwort's quarters.  Hraka abound.  The frayed
+corpses of rabbits lie scattered about this hell-hole.  The General
+is not a very neat person as you can tell.
+</description>
+		<directions>
+			<direction dir="east" to_room="20" to_zone="1" />
+		</directions>
+	</room>
+	<room number="20" name="The Sixth Trial Of Minos" sector="1" flags="9">
+		<description>   Dare we surmise how many more rooms Minos has?  The paths appear to be
+endless.  You shudder the sounds of death cries from the east.  A loud
+voice bellows another warning: 'Leave now or face my wrath!'
+There is a crawlway leading upwards at the far end of the room and
+there is a fresh breeze comming from there.
+</description>
+		<directions>
+			<direction dir="south" to_room="21" to_zone="1" />
+			<direction dir="up" to_room="23" to_zone="1" />
+		</directions>
+	</room>
+	<room number="21" name="The Final Trial Of Minos" sector="1" flags="9">
+		<description>   This is Minos' room.  What else did you expect?  The room is lavishly
+decorated for this bovine king.  Everything is so opulent that it makes
+your eyes bulge.  Survive and reap his fortune!  The only exit is a large
+oak door in the east wall.
+</description>
+		<directions>
+			<direction dir="east" to_room="22" to_zone="1" key="0" key_zone="1" keyword="door oak" flags="9">
+				<general_description>You see a rather large oak door bound with iron and securely locked.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="22" name="The Royal Chamber" sector="1" flags="521">
+		<description>   The treasure room of Minos is dark save for your lantern.
+Hopefully it has not been looted yet by the many legendary thieves
+of Midgaard.  A clever looking secret passage leads upward from here.
+</description>
+		<directions>
+			<direction dir="up" to_room="10" to_zone="1" />
+		</directions>
+	</room>
+	<room number="23" name="Above, On The Beach" sector="5" flags="0">
+		<description>   You sit amongst the rocks above a small beach at the southern
+end of the island.  You could clamber down easy enough, but getting
+back up would be another story.
+</description>
+		<directions>
+			<direction dir="down" to_room="10" to_zone="1" />
+		</directions>
+	</room>
+</rooms>

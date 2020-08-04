@@ -1,108 +1,515 @@
 <?xml version="1.0"?>
 <rooms>
-	<room number="1200" name="The Meeting Room Of The Gods" sector="0" flags="8">
-		<description>   The meeting room is plain and very simple.  A circular table sits
-in the middle of the room, lit by some unseen light source.  There
-are many chairs around the table, all empty.  The Immortal Board Room
-is to the north.
+	<room number="0" name="The City Entrance" sector="1" flags="13">
+		<description>   You are at the entrance to a small underground city.  A great adamantite
+gate lies open to the west allowing entrance into the city.
 </description>
 		<directions>
-			<direction dir="north" to_room="1204">
-				<general_description>The Immortal Board Room can be seen to the north.
+			<direction dir="west" to_room="1" to_zone="12" keyword="gate" flags="1">
+				<general_description>A huge gate opens to the west allowing entrance into the city.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="11" to_zone="11">
+				<general_description>A passageway opens up into a fairly large cave above.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="gate">
+				<description>A large adamantite gate with giant spider shaped emblems stands here.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="1" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate street going north-south.  A large gate
+lies to the east while a building lies to the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="23" to_zone="12" />
+			<direction dir="east" to_room="0" to_zone="12" keyword="gate" flags="1" />
+			<direction dir="south" to_room="2" to_zone="12" />
+			<direction dir="west" to_room="22" to_zone="12" />
+		</directions>
+	</room>
+	<room number="2" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate city street going north and west.
+</description>
+		<directions>
+			<direction dir="north" to_room="1" to_zone="12" />
+			<direction dir="west" to_room="3" to_zone="12" />
+		</directions>
+	</room>
+	<room number="3" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate city street going east-west.  A large house
+stands to the south.
+</description>
+		<directions>
+			<direction dir="east" to_room="2" to_zone="12" />
+			<direction dir="south" to_room="4" to_zone="12" />
+			<direction dir="west" to_room="6" to_zone="12" />
+		</directions>
+	</room>
+	<room number="4" name="The 3rd House" sector="1" flags="9">
+		<description>   You stand inside the 3rd house of the city; it is fairly well decorated
+by drow standards having a few statues, murals and such.  A door leads to the 
+south.
+</description>
+		<directions>
+			<direction dir="north" to_room="3" to_zone="12" />
+			<direction dir="south" to_room="5" to_zone="12" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="5" name="The Throne Room" sector="1" flags="9">
+		<description>   The throne room of the 3rd house is about as decorated as the inner
+courtyard except with a blood covered altar in the center of the room.
+</description>
+		<directions>
+			<direction dir="north" to_room="4" to_zone="12" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="6" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate city street going east-west.  To the north
+is a large building.
+</description>
+		<directions>
+			<direction dir="north" to_room="18" to_zone="12" />
+			<direction dir="east" to_room="3" to_zone="12" />
+			<direction dir="west" to_room="7" to_zone="12" />
+		</directions>
+	</room>
+	<room number="7" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate city street leading north and east.  To the
+south is an extremely large house.
+</description>
+		<directions>
+			<direction dir="north" to_room="10" to_zone="12" />
+			<direction dir="east" to_room="6" to_zone="12" />
+			<direction dir="south" to_room="8" to_zone="12" />
+		</directions>
+	</room>
+	<room number="8" name="The 2nd House" sector="1" flags="9">
+		<description>   You stand inside the 2nd house of the city.  The room is highly decorated
+with statues of spiders and murals everywhere.
+</description>
+		<directions>
+			<direction dir="north" to_room="7" to_zone="12" />
+			<direction dir="west" to_room="9" to_zone="12" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="9" name="The Throne Room" sector="1" flags="9">
+		<description>   The throne room of the 2nd house is just a little more decorative than
+the inner courtyard having an altar in the center of the room.
+</description>
+		<directions>
+			<direction dir="east" to_room="8" to_zone="12" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="10" name="The Main Gate" sector="1" flags="9">
+		<description>   You are at the entrance to the 1st house of the city.  A large gate,
+almost as big and elegant as the one at the entrance to the city, stands
+here.
+</description>
+		<directions>
+			<direction dir="north" to_room="14" to_zone="12" />
+			<direction dir="south" to_room="7" to_zone="12" />
+			<direction dir="west" to_room="11" to_zone="12" keyword="gate" flags="1">
+				<general_description>A large gate lies to the west.
 </general_description>
 			</direction>
 		</directions>
 	</room>
-	<room number="1201" name="The Inn Of The Gods" sector="0" flags="520">
-		<description>   The Inn of the Gods is a small room, holding only a shelf with many
-small precious stones on it.  When a God comes to rent his belongings,
-his essence is stored in the stones.  The Immortal Board Room is to
-the south.
+	<room number="11" name="The 1st House" sector="1" flags="9">
+		<description>   You stand in the inner courtyard of the 1st and largest house in the city.
+The room is extremely large and decorative.  Mural and paintings hang on the 
+walls depicting some battles and a spider queen.
 </description>
 		<directions>
-			<direction dir="south" to_room="1204">
-				<general_description>The Immortal Board Room can be seen to the south.
+			<direction dir="east" to_room="10" to_zone="12" keyword="gate" flags="1" />
+			<direction dir="west" to_room="12" to_zone="12" />
+		</directions>
+	</room>
+	<room number="12" name="The Throne Room" sector="1" flags="9">
+		<description>   The throne room of the 1st house is in one word...awesome.  It is so
+horrifying it is almost beautiful.
+</description>
+		<directions>
+			<direction dir="north" to_room="13" to_zone="12" keyword="door" flags="1" />
+			<direction dir="east" to_room="11" to_zone="12" />
+		</directions>
+	</room>
+	<room number="13" name="The Main Chamber" sector="1" flags="9">
+		<description>   This is the council chamber for the Matron Mother herself.  A huge table
+and chairs surrounding it sits in the center of the room.
+</description>
+		<directions>
+			<direction dir="south" to_room="12" to_zone="12" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="14" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate city street leading north-south and east.
+</description>
+		<directions>
+			<direction dir="north" to_room="15" to_zone="12" />
+			<direction dir="east" to_room="17" to_zone="12" />
+			<direction dir="south" to_room="10" to_zone="12" />
+		</directions>
+	</room>
+	<room number="15" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate city street leading south.  A building is
+to the west.
+</description>
+		<directions>
+			<direction dir="south" to_room="14" to_zone="12" />
+			<direction dir="west" to_room="16" to_zone="12" />
+		</directions>
+	</room>
+	<room number="16" name="The Clerics' Academy" sector="1" flags="9">
+		<description>   This is the most lavish of the academies being that it is for the clerics.
+</description>
+		<directions>
+			<direction dir="east" to_room="15" to_zone="12" />
+		</directions>
+	</room>
+	<room number="17" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate city street going east-west.  To the north
+is a giant temple.
+</description>
+		<directions>
+			<direction dir="north" to_room="19" to_zone="12" keyword="gates gate" flags="1">
+				<general_description>The entrance to the temple of Lloth is blocked by large ornamental gates.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="21" to_zone="12" />
+			<direction dir="west" to_room="14" to_zone="12" />
+		</directions>
+	</room>
+	<room number="18" name="The Warriors' Academy" sector="1" flags="9">
+		<description>   This looks more like a barracks than a school.
+</description>
+		<directions>
+			<direction dir="south" to_room="6" to_zone="12" />
+		</directions>
+	</room>
+	<room number="19" name="The Entrance To The Temple Of Lloth" sector="1" flags="9">
+		<description>   The temple is the largest building in the city.  Even its doors are beyond
+imagination.  Inside of the temple entrance, the walls are made of gold and 
+adamantite.
+</description>
+		<directions>
+			<direction dir="south" to_room="17" to_zone="12" keyword="gates gate" flags="1" />
+			<direction dir="down" to_room="26" to_zone="12" />
+		</directions>
+	</room>
+	<room number="20" name="The Mages' Academy" sector="1" flags="9">
+		<description>   The Mages' Academy is fairly well decorated and you can see that the
+drow prefer magic over physical power greatly.
+</description>
+		<directions>
+			<direction dir="south" to_room="21" to_zone="12" />
+		</directions>
+	</room>
+	<room number="21" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate city street going eastward.  To the north
+is a building.
+</description>
+		<directions>
+			<direction dir="north" to_room="20" to_zone="12" />
+			<direction dir="east" to_room="23" to_zone="12" />
+			<direction dir="west" to_room="17" to_zone="12" />
+		</directions>
+	</room>
+	<room number="22" name="The Slave Chamber" sector="1" flags="9">
+		<description>   The room is in shambles.  Straw is strewn all about the room as beds for
+the unfortunate creatures who have fallen prey to drow imperialism.
+</description>
+		<directions>
+			<direction dir="east" to_room="1" to_zone="12" />
+		</directions>
+	</room>
+	<room number="23" name="A City Street" sector="1" flags="9">
+		<description>   You walk along a highly ornate city street leading west and south.  To
+the north is a relatively small house.
+</description>
+		<directions>
+			<direction dir="north" to_room="24" to_zone="12" keyword="gate" flags="1" />
+			<direction dir="south" to_room="1" to_zone="12" />
+			<direction dir="west" to_room="21" to_zone="12" />
+		</directions>
+	</room>
+	<room number="24" name="The 4th House" sector="1" flags="9">
+		<description>   You stand inside the 4th house of the city.  Its inner courtyard is rather 
+dull by drow standards and rather small as well.
+</description>
+		<directions>
+			<direction dir="east" to_room="25" to_zone="12" />
+			<direction dir="south" to_room="23" to_zone="12" keyword="gate" flags="1" />
+		</directions>
+	</room>
+	<room number="25" name="The Throne Room" sector="1" flags="9">
+		<description>   The throne room is basically similar to the inner courtyard in regards
+to decor.  there is a small throne behind the altar but that is about it.
+</description>
+		<directions>
+			<direction dir="west" to_room="24" to_zone="12" />
+		</directions>
+	</room>
+	<room number="26" name="The Entrance Hall" sector="1" flags="9">
+		<description>   You stand in the entrance way to the temple which opens up to the north
+into a large hallway going east and west.  Small statues os spiders line the
+entrance way's walls.
+</description>
+		<directions>
+			<direction dir="north" to_room="27" to_zone="12" />
+			<direction dir="up" to_room="19" to_zone="12" />
+		</directions>
+	</room>
+	<room number="27" name="A Hallway" sector="1" flags="9">
+		<description>   You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As
+you look down the hallway you can make out one or two figures moving away from
+you.
+To the north is a obsidian stairway.
+</description>
+		<directions>
+			<direction dir="north" to_room="35" to_zone="12" />
+			<direction dir="east" to_room="28" to_zone="12" />
+			<direction dir="south" to_room="26" to_zone="12" />
+			<direction dir="west" to_room="31" to_zone="12" />
+		</directions>
+	</room>
+	<room number="28" name="A Long Hallway" sector="1" flags="9">
+		<description>   You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As
+you look down the hallway you can make out one or two figures moving away from
+you.
+</description>
+		<directions>
+			<direction dir="east" to_room="29" to_zone="12" />
+			<direction dir="west" to_room="27" to_zone="12" />
+		</directions>
+	</room>
+	<room number="29" name="A Long Hallway" sector="1" flags="9">
+		<description>   You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As
+you look down the hallway you can make out one or two figures moving away from
+you.
+To the north is a door.
+</description>
+		<directions>
+			<direction dir="north" to_room="50" to_zone="12" keyword="door" flags="1" />
+			<direction dir="east" to_room="30" to_zone="12" />
+			<direction dir="west" to_room="28" to_zone="12" />
+		</directions>
+	</room>
+	<room number="30" name="A Long Hallway" sector="1" flags="9">
+		<description>   You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As
+you look down the hallway you can make out one or two figures moving away from
+you.
+</description>
+		<directions>
+			<direction dir="east" to_room="34" to_zone="12" />
+			<direction dir="west" to_room="29" to_zone="12" />
+		</directions>
+	</room>
+	<room number="31" name="A Long Hallway" sector="1" flags="9">
+		<description>   You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As
+you look down the hallway you can make out one or two figures moving away from
+you.
+</description>
+		<directions>
+			<direction dir="east" to_room="27" to_zone="12" />
+			<direction dir="west" to_room="32" to_zone="12" />
+		</directions>
+	</room>
+	<room number="32" name="A Long Hallway" sector="1" flags="9">
+		<description>   You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As
+you look down the hallway you can make out one or two figures moving away from
+you.
+To the south is a door.
+</description>
+		<directions>
+			<direction dir="east" to_room="31" to_zone="12" />
+			<direction dir="south" to_room="33" to_zone="12" keyword="door" flags="1" />
+			<direction dir="west" to_room="34" to_zone="12" />
+		</directions>
+	</room>
+	<room number="33" name="The Warriors' Barracks" sector="1" flags="9">
+		<description>   The room is a complete mess.  None of the beds are made, clothes and other
+items have been left all about the room.  Well drow warriors never were known
+for neatness.
+</description>
+		<directions>
+			<direction dir="north" to_room="31" to_zone="12" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="34" name="A Long Hallway" sector="1" flags="9">
+		<description>   You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As
+you look down the hallway you can make out one or two figures moving away from
+you.
+</description>
+		<directions>
+			<direction dir="east" to_room="32" to_zone="12" />
+			<direction dir="west" to_room="30" to_zone="12" />
+		</directions>
+	</room>
+	<room number="35" name="The Grand Stairway" sector="1" flags="9">
+		<description>   You are standing at the bottom of a giant obsidian and adamantite 
+stairway.  The edges are trimmed with gold.
+</description>
+		<directions>
+			<direction dir="south" to_room="27" to_zone="12" />
+			<direction dir="up" to_room="36" to_zone="12" />
+		</directions>
+	</room>
+	<room number="36" name="The Grand Hallway" sector="1" flags="9">
+		<description>   You are standing in the middle of a grand hallway.  The walls are 
+of the purest adamantite with gold trim.  Mosaics line the walls.
+</description>
+		<directions>
+			<direction dir="north" to_room="38" to_zone="12" />
+			<direction dir="east" to_room="37" to_zone="12" keyword="door" flags="1" />
+			<direction dir="down" to_room="35" to_zone="12" />
+		</directions>
+	</room>
+	<room number="37" name="The Mages' Barracks" sector="1" flags="9">
+		<description>   The mage's living quarters is rather clean with the exception of a few
+used component containers.  It is rather well decorated as well.  Cots line
+the floor for the mages to sleep on.  The only door is to the west.
+</description>
+		<directions>
+			<direction dir="west" to_room="36" to_zone="12" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="38" name="The Grand Hallway" sector="1" flags="9">
+		<description>   You are walking down a grand hallway, heavily decorated with adamantite
+and gold.  To the north the hall goes down a flight of stairs while a door is 
+to the west.
+</description>
+		<directions>
+			<direction dir="south" to_room="36" to_zone="12" />
+			<direction dir="west" to_room="39" to_zone="12" keyword="door" flags="1" />
+			<direction dir="down" to_room="40" to_zone="12" />
+		</directions>
+	</room>
+	<room number="39" name="The Clerics' Barracks" sector="1" flags="9">
+		<description>   The bed chamber is brightly decorated with spider shaped statues, murals
+and the like.  Large beds line the floor making this a comfortable room to
+live in.
+</description>
+		<directions>
+			<direction dir="east" to_room="38" to_zone="12" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="40" name="The Grand Stairway" sector="1" flags="9">
+		<description>   You are climbing a set of obsidian stairs surrounded by adamantite walls.
+To the north are a set of large golden doors.
+</description>
+		<directions>
+			<direction dir="north" to_room="41" to_zone="12" keyword="doors door golden gold" flags="1" />
+			<direction dir="up" to_room="38" to_zone="12" />
+		</directions>
+	</room>
+	<room number="41" name="The Main Chamber" sector="1" flags="9">
+		<description>   This is the south side of a large auditorium used for services by the
+drow priestesses.  In the center is a large sacrificial pit and beyond that
+is an altar.
+</description>
+		<directions>
+			<direction dir="east" to_room="42" to_zone="12" />
+			<direction dir="south" to_room="40" to_zone="12" keyword="doors door golden gold" flags="1" />
+			<direction dir="west" to_room="44" to_zone="12" />
+		</directions>
+	</room>
+	<room number="42" name="The Eastern Side Of The Main Chamber" sector="1" flags="9">
+		<description>   You are on the eastern side of the chamber overlooking the pit.  To the
+east is a door while to the north is an altar.
+</description>
+		<directions>
+			<direction dir="north" to_room="45" to_zone="12" />
+			<direction dir="east" to_room="46" to_zone="12" keyword="door" flags="1" />
+			<direction dir="south" to_room="41" to_zone="12" />
+		</directions>
+	</room>
+	<room number="43" name="The Sacrificial Pit" sector="1" flags="10">
+		<description>   As you climb down into the pit, thousands of spiders cover you, tearing
+your fragile body to shreds.  
+ 
+Lloth thanks you for your sacrifice.
+
+</description>
+	</room>
+	<room number="44" name="The Western Side Of The Main Chamber" sector="1" flags="9">
+		<description>   You are on the western side of the main chamber overlooking a sacrificial
+pit.  To the north is an altar.
+</description>
+		<directions>
+			<direction dir="north" to_room="45" to_zone="12" />
+			<direction dir="south" to_room="41" to_zone="12" />
+		</directions>
+	</room>
+	<room number="45" name="The Altar" sector="1" flags="9">
+		<description>   You are standing in front of a highly and freshly bloodstained altar.  
+Engraved on the top of the altar is a giant spider with a human head.  Looking 
+down from the altar you see a large sacrificial pit with thousands of swarming
+spiders looking for their next meal!
+</description>
+		<directions>
+			<direction dir="north" to_room="48" to_zone="12" />
+			<direction dir="east" to_room="42" to_zone="12" />
+			<direction dir="west" to_room="44" to_zone="12" />
+			<direction dir="down" to_room="43" to_zone="12">
+				<general_description>Thousands of spiders eye you with undisguised hunger.
 </general_description>
 			</direction>
 		</directions>
 	</room>
-	<room number="1202" name="The Ice Box Of The Gods" sector="0" flags="184">
-		<description>   The Ice Box is for little boys and girls that cannot play nice. Be good
-and maybe someone will come and get you.
-</description>
-	</room>
-	<room number="1203" name="The Gods' Mortal Board Room" sector="0" flags="8">
-		<description>   Here the Gods have magically created an exact copy of the mortal board
-room.  Any God can easily post and read messages from the mortal board room
-without being seen by any mortals.  The Immortal Board Room is to the west.
+	<room number="46" name="The Slave Cells" sector="1" flags="9">
+		<description>   This is the main room to the cell chambers for the slaves to be 
+sacrificed.  You notice there are no guards around.
 </description>
 		<directions>
-			<direction dir="west" to_room="1204">
-				<general_description>The Immortal Board Room can be seen to the west.
-</general_description>
-			</direction>
+			<direction dir="north" to_room="47" to_zone="12" keyword="cell" flags="1" />
+			<direction dir="west" to_room="42" to_zone="12" keyword="door" flags="1" />
 		</directions>
 	</room>
-	<room number="1204" name="The Immortal Board Room" sector="0" flags="8">
-		<description>   The main hang out of the Gods, the Immortal Board Room is the place to
-be.  Gods exchange messages here most every day.  The mortal board room is
-to the east and the meeting room for the gods is to the south.  To the north
-is the Gods' Inn and to the west is a post office for Gods.  There is a large
-staircase leading down to the main temple in the city of Midgaard.  In the
-northeast corner you spot a small staircase leading upwards.
+	<room number="47" name="The Slave Pen" sector="1" flags="9">
+		<description>   Rotten meat and breads lie about the floor while shackles hang from the 
+walls.  The room reeks of death.  You almost become nauseous and decide to
+leave the room since you were obviously too late to save the slave.
 </description>
 		<directions>
-			<direction dir="north" to_room="1201">
-				<general_description>The Gods' Inn can be seen just to the north.
-</general_description>
-			</direction>
-			<direction dir="east" to_room="1203">
-				<general_description>The Mortal Board Room can be seen just to the east.
-</general_description>
-			</direction>
-			<direction dir="south" to_room="1200">
-				<general_description>The Gods' Meeting Room is located to the south.
-</general_description>
-			</direction>
-			<direction dir="west" to_room="1205">
-				<general_description>The Gods' Post Office is just to the west.
-</general_description>
-			</direction>
-			<direction dir="up" to_room="1206">
-				<general_description>There is a small stair in the corner leading up to the social room of
-the Gods.
-</general_description>
-			</direction>
-			<direction dir="down" to_room="3001">
-				<general_description>You see the hustle and bustle of the Temple of Midgaard at the bottom of
-the stairs.
-</general_description>
-			</direction>
+			<direction dir="south" to_room="46" to_zone="12" keyword="cell" flags="1" />
 		</directions>
 	</room>
-	<room number="1205" name="The Post Office Of The Gods" sector="0" flags="8">
-		<description>   The Post Office Of The Gods is the same as most Post Offices except that
-it is not as slow.  Even the Postal service knows not to anger the Gods.
-Piles of junk mail line the walls.  I guess even Gods get on mailing lists.
-The Immortal Board Room is to the east.
+	<room number="48" name="The Dias" sector="1" flags="9">
+		<description>   You stand upon a dias behind the altar.  Above you is a enormous illusion
+of a female drow turning into a giant spider and back again.  There is a door 
+to the west.
 </description>
 		<directions>
-			<direction dir="east" to_room="1204">
-				<general_description>The Immortal Board Room is just to the east.
-</general_description>
-			</direction>
+			<direction dir="south" to_room="45" to_zone="12" />
+			<direction dir="west" to_room="49" to_zone="12" key="15" key_zone="12" keyword="door" flags="9" />
 		</directions>
 	</room>
-	<room number="1206" name="The Social Gathering Room" sector="0" flags="8">
-		<description>   This elegantly decorated room has one simple purpose.  To socialize with
-everyone else around in one central location.
+	<room number="49" name="The Treasury" sector="1" flags="9">
+		<description>   This is obviously only a temporary storage place for the collected 
+treasure being rather bare.
 </description>
 		<directions>
-			<direction dir="down" to_room="1204">
-				<general_description>The Immortal Board Room is just down through the floor.  Funny how you
-didn't notice that exit before isn't it?
-</general_description>
-			</direction>
+			<direction dir="east" to_room="48" to_zone="12" key="15" key_zone="12" keyword="door" flags="9" />
+		</directions>
+	</room>
+	<room number="50" name="The Weaponsmaster's Chamber" sector="1" flags="9">
+		<description>   This one-person bedchamber is very elegant.  The owner must be held in
+high regard to get this kind of treatment.
+</description>
+		<directions>
+			<direction dir="south" to_room="29" to_zone="12" keyword="door" flags="1" />
 		</directions>
 	</room>
 </rooms>

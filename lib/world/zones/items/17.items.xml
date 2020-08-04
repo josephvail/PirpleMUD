@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<items>
+	<item number="1" name="sign" type="12" wear_flags="1" extra_flags="0" bitvector="0" weight="10" cost="2" cost_per_day="2" short_description="a sign">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An old, battered sign lies on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>Only some of the letters are legible :-
+                _
+      _________| |_________
+     /         | |         \
+    /  CAR.AX  | |  M.STY   \
+    \  M..SI.N | |  SW..P   /
+     \_________| |_________/
+               | |
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="2" name="tree opening" type="15" wear_flags="0" extra_flags="0" bitvector="0" weight="0" cost="0" cost_per_day="0" short_description="a colossal tree">
+		<values>
+			<value number="0" val="1000" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A colossal tree blocks the way westward.</description>
+		<extra_descriptions>
+			<extra_description keyword="tree">
+				<description>This enormous tree must be a thousand years old.  Its rough bark looks grey
+and pale and is decorated with scratches and clawmarks.  On its west side is
+a small opening just above ground level.
+</description>
+			</extra_description>
+			<extra_description keyword="opening">
+				<description>The opening is far too narrow for you to squeeze through but it looks as if
+the tree is hollow.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="3" name="branch grey long" type="1" wear_flags="16385" extra_flags="0" bitvector="0" weight="20" cost="1" cost_per_day="3" short_description="a long, grey branch">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="25" />
+			<value number="3" val="0" />
+		</values>
+		<description>A long, grey branch rests heavily on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="branch grey long">
+				<description>It is quite heavy and looks as if it has been dropped from great height.  It
+is long dead and very dry.  Could probably be lighted quite easily.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="4" name="branch grey long" type="5" wear_flags="8193" extra_flags="0" bitvector="0" weight="18" cost="60" cost_per_day="20" short_description="a long, grey branch">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="6" />
+			<value number="3" val="7" />
+		</values>
+		<affects>
+			<affect location="18" modifier="-2" />
+		</affects>
+		<description>A long, grey branch rests heavily on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="branch grey long">
+				<description>It is very heavy and looks as if it has been dropped from great height.  It
+is long and straight and the wood is very hard, still being full of sap.
+Although it does not fit very well in your hand, it could be used as a clumsy
+but very heavy weapon.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="5" name="branch grey long" type="13" wear_flags="1" extra_flags="0" bitvector="0" weight="40" cost="0" cost_per_day="0" short_description="a long, grey branch">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A long, grey branch rests heavily on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="branch grey long">
+				<description>It is very heavy and looks as if it has been dropped from great height.  It
+is somewhat twisted and the hard wood is still full of sap.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="6" name="toadstool" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="20" cost_per_day="20" short_description="a toadstool">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large toadstool grows nearby.</description>
+		<extra_descriptions>
+			<extra_description keyword="toadstool">
+				<description>It is a large, brown boletus that must weigh nearly five pounds.  The top
+surface is covered in a thin layer of transparent slime that emits a weak,
+musty smell.  Not the most delicious thing you have seen.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="7" name="toadstool" type="19" wear_flags="1" extra_flags="0" bitvector="0" weight="5" cost="20" cost_per_day="20" short_description="a toadstool">
+		<values>
+			<value number="0" val="12" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="1" />
+		</values>
+		<description>A large toadstool grows nearby.</description>
+		<extra_descriptions>
+			<extra_description keyword="toadstool">
+				<description>It is a large, brown boletus that must weigh nearly five pounds.  It
+has small white spots and the top surface is covered in a thin layer
+of transparent slime that emits a weak, musty smell.  Not the most
+delicious thing you have seen.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="8" name="coins gold" type="20" wear_flags="1" extra_flags="0" bitvector="0" weight="15" cost="15326" cost_per_day="0" short_description="a big pile of gold coins">
+		<values>
+			<value number="0" val="15326" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A big pile of gold coins is lying here.</description>
+	</item>
+	<item number="9" name="potion blue" type="10" wear_flags="1" extra_flags="64" bitvector="0" weight="2" cost="68000" cost_per_day="5000" short_description="a blue potion">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="28" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A blue potion has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion blue">
+				<description>It has a nice deep blue color and a smell like peppermint.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="10" name="potion yellow musky" type="10" wear_flags="1" extra_flags="64" bitvector="0" weight="2" cost="1000" cost_per_day="200" short_description="a musky yellow potion">
+		<values>
+			<value number="0" val="15" />
+			<value number="1" val="39" />
+			<value number="2" val="-1" />
+			<value number="3" val="-1" />
+		</values>
+		<description>A yellow potion has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="potion yellow musky">
+				<description>It has a deep yellow color and and a strong spicy smell.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="11" name="shield round large" type="9" wear_flags="513" extra_flags="0" bitvector="0" weight="15" cost="300" cost_per_day="800" short_description="a large round shield">
+		<values>
+			<value number="0" val="5" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A large round shield has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="shield round large">
+				<description>It is made from hard wood that has been reinforced with heavy iron bands.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="12" name="crown iron" type="9" wear_flags="17" extra_flags="64" bitvector="0" weight="20" cost="7000" cost_per_day="500" short_description="an iron crown">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>An iron crown rests on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="crown iron">
+				<description>It is a heavy human-sized crown made from solid iron.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="13" name="sceptre iron" type="1" wear_flags="16385" extra_flags="64" bitvector="0" weight="10" cost="5000" cost_per_day="700" short_description="an iron sceptre">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="-1" />
+			<value number="3" val="0" />
+		</values>
+		<description>An iron sceptre lies on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="sceptre iron">
+				<description>It is a heavy sceptre made from solid iron.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="14" name="ring iron" type="11" wear_flags="3" extra_flags="64" bitvector="0" weight="10" cost="5000" cost_per_day="500" short_description="an iron ring">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-4" />
+			<affect location="9" modifier="1" />
+		</affects>
+		<description>An iron ring has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="ring iron">
+				<description>It is a quite heavy human-sized ring made from solid iron.  It lacks
+decorations of any kind.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="15" name="star morning-star" type="5" wear_flags="8193" extra_flags="64" bitvector="0" weight="10" cost="15000" cost_per_day="2000" short_description="the morning star">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="2" />
+			<value number="2" val="9" />
+			<value number="3" val="7" />
+		</values>
+		<affects>
+			<affect location="18" modifier="2" />
+		</affects>
+		<description>the morning star is here collecting dust while it lies on the ground.</description>
+	</item>
+	<item number="16" name="shirt scale" type="9" wear_flags="9" extra_flags="64" bitvector="0" weight="10" cost="10000" cost_per_day="100" short_description="a black dragon scale shirt">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A black dragon scale shirt has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="shirt scale">
+				<description>It is a sleeveless shirt made from big, black dragon scales joined
+with silver threads.  Its inside has been made from the soft skin
+on the dragon's belly, making it very comfortable to wear.  The word
+'Isha' has been engraved on one of the scales.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="17" name="skirt scale" type="9" wear_flags="33" extra_flags="64" bitvector="0" weight="8" cost="5000" cost_per_day="100" short_description="a black dragon scale skirt">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A black dragon scale skirt has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="skirt scale">
+				<description>It is a short skirt made from big, black dragon scales joined with
+silver threads.  Its inside has been made from the soft skin on the
+dragon's belly, making it very comfortable to wear.  The word 'Isha'
+has been engraved on one of the scales.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="18" name="cloak black" type="11" wear_flags="1025" extra_flags="64" bitvector="0" weight="20" cost="8000" cost_per_day="4000" short_description="a black, hooded cloak">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<affects>
+			<affect location="17" modifier="-6" />
+			<affect location="24" modifier="-4" />
+		</affects>
+		<description>A large, hooded cloak, as dark as the night, has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="cloak black">
+				<description>It is a heavy, black cloak with a large hood.  The word 'Isha' is written
+inside it with a silver thread.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="19" name="belt silver" type="9" wear_flags="2049" extra_flags="65" bitvector="0" weight="4" cost="5000" cost_per_day="3500" short_description="a broad silver belt">
+		<values>
+			<value number="0" val="6" />
+			<value number="1" val="0" />
+			<value number="2" val="0" />
+			<value number="3" val="0" />
+		</values>
+		<description>A broad silver belt has been left here.</description>
+		<extra_descriptions>
+			<extra_description keyword="belt silver">
+				<description>It is a broad belt made from tiny silver rings woven together.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+	<item number="20" name="sword long slender" type="5" wear_flags="8193" extra_flags="2625" bitvector="0" weight="4" cost="30000" cost_per_day="6000" short_description="a long, slender sword">
+		<values>
+			<value number="0" val="0" />
+			<value number="1" val="3" />
+			<value number="2" val="6" />
+			<value number="3" val="3" />
+		</values>
+		<affects>
+			<affect location="18" modifier="4" />
+			<affect location="19" modifier="2" />
+		</affects>
+		<description>A long, slender sword lies on the ground.</description>
+		<extra_descriptions>
+			<extra_description keyword="sword long slender">
+				<description>It is a long, slender sword that seems to be made from silver.  The word
+'Isha' has been engraved on the hilt.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</item>
+</items>

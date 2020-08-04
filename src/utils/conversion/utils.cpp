@@ -17,7 +17,75 @@
 #include "../CircleMUD.h"
 
 namespace Pirple {
-    /* ITEM_x (ordinal object types) */
+
+	// array to convert original CircleMUD zone numbers to be ordered from 0-x since we are converting everything anyways
+	const int zone_conversion_key[][2] = {
+			{ 0, 	0  },
+			{ 9, 	1  },
+			{ 12, 	2  },
+			{ 15, 	3  },
+			{ 25,	4  },
+			{ 30,	5  },
+			{ 31,	6  },
+			{ 33,	7  },
+			{ 35,	8  },
+			{ 36,	9  },
+			{ 40,	10 },
+			{ 50,	11 },
+			{ 51,	12 },
+			{ 52,	13 },
+			{ 53,	14 },
+			{ 54,	15 },
+			{ 60,	16 },
+			{ 61,	17 },
+			{ 62,	18 },
+			{ 63,	19 },
+			{ 64,	20 },
+			{ 65,	21 },
+			{ 70,	22 },
+			{ 71,	23 },
+			{ 72,	24 },
+			{ 79,	25 },
+			{ 120,	26 },
+			{ 150,	27 },
+			{ 186,	28 },
+			{ -1,	-1 }
+	};
+
+	int convert_zone_number(int inZone) {
+		if (inZone >= 0) {
+			long count = 0;
+			while(zone_conversion_key[count][0] != -1) {
+				if (zone_conversion_key[count][0] == inZone) {
+					return zone_conversion_key[count][1];
+				}
+				count++;
+			}
+		}
+		return -1;
+	}
+
+	int znum_from_vnum(int inNum) {
+		if (inNum < 0) {
+			return -1;
+		} else if (inNum >= 0 && inNum <= 99) {
+			return 0;
+		} else {
+			return convert_zone_number(inNum / 100);
+		}
+	}
+
+	int vnum_from_vnum(int inNum) {
+		if (inNum < 0) {
+			return -1;
+		} else if (inNum >= 0 && inNum <= 99) {
+			return inNum;
+		} else {
+			return inNum % 100;
+		}
+	}
+
+	/* ITEM_x (ordinal object types) */
     const char *ItemTypes[] = {
             "UNDEFINED",
             "LIGHT",

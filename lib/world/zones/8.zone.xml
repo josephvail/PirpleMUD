@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<zone number="8" name="Miden'Nir" lifespan="60" reset_mode="2" mini_mud="false" rooms="45" mobiles="8" items="9" shops="0">
+	<resets>
+		<reset number="1" if_flag="false" type="M" arg1="8" arg2="0" arg3="3" arg4="8" arg5="21" />
+		<reset number="2" if_flag="false" type="M" arg1="8" arg2="0" arg3="3" arg4="8" arg5="21" />
+		<reset number="3" if_flag="false" type="M" arg1="8" arg2="0" arg3="3" arg4="8" arg5="21" />
+		<reset number="4" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="8" />
+		<reset number="5" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="6" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="9" />
+		<reset number="7" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="8" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="9" />
+		<reset number="9" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="10" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="12" />
+		<reset number="11" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="12" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="12" />
+		<reset number="13" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="14" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="12" />
+		<reset number="15" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="16" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="14" />
+		<reset number="17" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="18" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="16" />
+		<reset number="19" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="20" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="18" />
+		<reset number="21" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="22" if_flag="false" type="M" arg1="8" arg2="1" arg3="10" arg4="8" arg5="56" />
+		<reset number="23" if_flag="true" type="E" arg1="8" arg2="2" arg3="10" arg4="16" />
+		<reset number="24" if_flag="false" type="M" arg1="8" arg2="2" arg3="4" arg4="8" arg5="51" />
+		<reset number="25" if_flag="true" type="E" arg1="8" arg2="0" arg3="10" arg4="16" />
+		<reset number="26" if_flag="false" type="M" arg1="8" arg2="2" arg3="4" arg4="8" arg5="56" />
+		<reset number="27" if_flag="true" type="E" arg1="8" arg2="0" arg3="10" arg4="16" />
+		<reset number="28" if_flag="false" type="M" arg1="8" arg2="3" arg3="1" arg4="8" arg5="56" />
+		<reset number="29" if_flag="true" type="E" arg1="8" arg2="4" arg3="10" arg4="16" />
+		<reset number="30" if_flag="false" type="M" arg1="8" arg2="4" arg3="1" arg4="8" arg5="75" />
+		<reset number="31" if_flag="true" type="E" arg1="8" arg2="8" arg3="25" arg4="17" />
+		<reset number="32" if_flag="false" type="M" arg1="8" arg2="5" arg3="1" arg4="8" arg5="76" />
+		<reset number="33" if_flag="false" type="M" arg1="8" arg2="6" arg3="1" arg4="8" arg5="77" />
+		<reset number="34" if_flag="true" type="E" arg1="8" arg2="2" arg3="2" arg4="16" />
+		<reset number="35" if_flag="false" type="M" arg1="8" arg2="7" arg3="4" arg4="8" arg5="84" />
+		<reset number="36" if_flag="true" type="E" arg1="8" arg2="3" arg3="8" arg4="5" />
+		<reset number="37" if_flag="false" type="M" arg1="8" arg2="7" arg3="4" arg4="8" arg5="84" />
+		<reset number="38" if_flag="true" type="E" arg1="8" arg2="3" arg3="8" arg4="5" />
+		<reset number="39" if_flag="false" type="O" arg1="8" arg2="5" arg3="2" arg4="8" arg5="21" />
+		<reset number="40" if_flag="false" type="O" arg1="8" arg2="6" arg3="1" arg4="8" arg5="21" />
+		<reset number="41" if_flag="true" type="P" arg1="8" arg2="7" arg3="1" arg4="8" arg5="6" />
+		<reset number="42" if_flag="false" type="O" arg1="8" arg2="5" arg3="2" arg4="8" arg5="21" />
+	</resets>
+</zone>

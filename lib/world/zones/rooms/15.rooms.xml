@@ -1,466 +1,3331 @@
 <?xml version="1.0"?>
 <rooms>
-	<room number="1500" name="A Road Leading From The Bank" sector="4" flags="4">
-		<description>   You find yourself on a small road leading away from the edge
-of the River of Lost Souls.  The dark waters of the River can
-be seen and heard just south of here.  Looking to the east and
-west, you see only the walls of the rocky cliffs.  Off to the
-north a strange path seems to lead straight into the depths of
-the mountain.
+	<room number="0" name="The Entrance To The Dancing Daemon Inn" sector="1" flags="8">
+		<description>   You find yourself in an entrance foyer to the Dancing Daemon Inn.
+Chrome plated stairs spiral up to the reception area.  To the south
+you hear the sounds of merriment and drinking and from the west you
+hear the bustling activity of New Thalos.
 </description>
 		<directions>
-			<direction dir="north" to_room="1501">
-				<general_description>A strange path leads northwards.
+			<direction dir="south" to_room="2" to_zone="15">
+				<general_description>You see people dancing and drinking.
 </general_description>
 			</direction>
-			<direction dir="south" to_room="5619">
-				<general_description>The River of Lost Souls flows just to the south of here.
+			<direction dir="west" to_room="20" to_zone="15">
+				<general_description>You see people walking by on Sultan's Walk.
+</general_description>
+			</direction>
+			<direction dir="up" to_room="1" to_zone="15">
+				<general_description>The spiral stairs lead up to the reception area.
 </general_description>
 			</direction>
 		</directions>
 	</room>
-	<room number="1501" name="A Long Road" sector="0" flags="8">
-		<description>   You stand here in spiritual emptiness, beginning a long and dangerous
-path.  Your honest submission has already been made, but the truth of your
-heart has yet to be told.  Leave here now, and do not come back until
-you have grown.
+	<room number="1" name="The Reception Area" sector="1" flags="152">
+		<description>   You are now standing in the reception of New Thalos.  A huge mahogany
+desk is here along with two sofas and a coffee table covered in magazines.
+The plush carpeting under your feet is a nice change from the rugged paths
+you are used to travelling.  A chrome stairway spirals downstairs to the
+tavern of the Dancing Daemon Inn, and your future adventures in New Thalos.
 </description>
 		<directions>
-			<direction dir="north" to_room="1502" />
-			<direction dir="south" to_room="1500" />
+			<direction dir="down" to_room="0" to_zone="15">
+				<general_description>The stairs lead down to the Daemon.
+</general_description>
+			</direction>
 		</directions>
 	</room>
-	<room number="1502" name="A Long Road" sector="0" flags="8">
-		<description>   You stop for a moment, screaming in frustration.  Surely it was that one
-sin that was avoidable, of all that you regret.  The hitting and the hurting
-flash briefly before you.  Moments later the pain passes, and the straight
-path reveals itself before you.
+	<room number="2" name="The Dancing Daemon Inn" sector="1" flags="8">
+		<description>   A huge circling wet-bar takes up most of the east end of the Daemon.  An
+old mage reclines against the mirror behind the bar absentmindedly pouring
+several drinks at once with his refined telekinesis.  The Lokettes, a local
+band, are playing their usual gig on the stage.  The large booths along the
+all are filled with people drinking and having a grand time.  You feel like
+partying here.
+The only obvious exit is to the north.
 </description>
 		<directions>
-			<direction dir="north" to_room="1503" />
-			<direction dir="south" to_room="1501" />
+			<direction dir="north" to_room="0" to_zone="15">
+				<general_description>You see the entrance to the Daemon.
+</general_description>
+			</direction>
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="bar">
+				<description>The bar looks slightly out of place and you can only assume the powerful
+magic of the bartender allows it to revolve.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="3" name="The Medina" sector="2" flags="0">
+		<description>   You stand on the Medina, on the larger open areas in New Thalos.
+People walk to and fro carrying on their day to day business.  The
+Common Square of the people opens up to the south and the Medina
+continues north.
+</description>
+		<directions>
+			<direction dir="north" to_room="4" to_zone="15">
+				<general_description>You see Medina.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="10" to_zone="15">
+				<general_description>You see the Common Square.
+</general_description>
+			</direction>
 		</directions>
 	</room>
-	<room number="1503" name="A Long Road" sector="0" flags="8">
-		<description>   The road clears, the fog and pain of the first few steps left behind
-you.  Despite the sudden clarity, your mind is still haunted, images of
-an old woman kneeling in prayer, eyes closing, smiling and crying.
+	<room number="4" name="The Medina" sector="2" flags="0">
+		<description>   You are walking along a wide open expanse of road connecting
+Market Square to the Common Square.  Panhandlers, beggars, and
+other such riff-raff wander about hoping to catch those few who
+with open hearts.  The Medina continues to the south and the
+Market Square spreads out to the north.
 </description>
 		<directions>
-			<direction dir="north" to_room="1504" />
-			<direction dir="south" to_room="1502" />
+			<direction dir="north" to_room="5" to_zone="15">
+				<general_description>You see Market Square.
+</general_description>
+			</direction>
+			<direction dir="south" to_room="3" to_zone="15">
+				<general_description>You see the Medina.
+</general_description>
+			</direction>
 		</directions>
 	</room>
-	<room number="1504" name="A Long Road" sector="0" flags="8">
-		<description>   Looking ahead, you can see that the path you have been following will
-soon come to an end, but something in the cold and the breeze tells you
-that that will be only the beginning of the journey.
+	<room number="5" name="Southern Market Square" sector="2" flags="0">
+		<description>   The large square of markets fills your vision.  Strange sights and
+sounds, those known only to the New Thalos market, barrage your senses.
+The only hope of making any sense of what is going on here is to wander
+around.  Market Square continues north, west, and east, with the Medina
+trailing off th the south.
 </description>
 		<directions>
-			<direction dir="north" to_room="1505" />
-			<direction dir="south" to_room="1503" />
+			<direction dir="north" to_room="6" to_zone="15" />
+			<direction dir="east" to_room="7" to_zone="15" />
+			<direction dir="south" to_room="4" to_zone="15" />
+			<direction dir="west" to_room="8" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1505" name="A Test for the Faithful" sector="0" flags="8">
-		<description>   It is here finally that decisions must be made.  The first one that
-confronts you is simple enough, to walk in the darkness, or to walk in
-the light.  Only the depths of your soul can decide, but remember this
-much: the same truth lies at the end of both paths.
+	<room number="6" name="The Center Of Market Square" sector="2" flags="0">
+		<description>   You are standing in the center of Market Square, the famous square
+of New Thalos.  A large, peculiar looking statue is standing in the
+middle of the square.  The square extends in every direction.
 </description>
 		<directions>
-			<direction dir="up" to_room="1507" />
-			<direction dir="down" to_room="1506" />
+			<direction dir="north" to_room="15" to_zone="15" />
+			<direction dir="east" to_room="17" to_zone="15" />
+			<direction dir="south" to_room="5" to_zone="15" />
+			<direction dir="west" to_room="9" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="statue">
+				<description>Before you is a statue of the mighty beholder!
+A great beast with multiple eyes and wicked... wicked... um.... eyes...
+The mighty beholder is in Excellent condition.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="7" name="Southeastern Market Square" sector="2" flags="0">
+		<description>   In this corner of the market some of the largest warriors in the land
+tower over you.  It is easy to understand why they hang out here once you
+notice the weapon shop and the armoury close by.  Perhaps you might stop
+in and take a look at the wares these shops have to offer.
+</description>
+		<directions>
+			<direction dir="north" to_room="17" to_zone="15" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" to_room="5" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1506" name="Halls of the Forgotten" sector="0" flags="8">
-		<description>   Even the darkest have a place on the road to the truth.  It is in this
-place, so empty and forgotten, that God has chosen the worst, and brought
-them close to Him for one last time.
+	<room number="8" name="Southwestern Market Square" sector="2" flags="0">
+		<description>   This area of the market seems relatively quiet, save the high pitch
+banter of the shopkeepers attempting to lure you into their stores.
+South you see the bread stand and west is the entrance to the general
+store.
+   The market's sprawl continues east and north of here.
 </description>
 		<directions>
-			<direction dir="east" to_room="1513" />
-			<direction dir="west" to_room="1508" />
-			<direction dir="up" to_room="1505" />
+			<direction dir="north" to_room="9" to_zone="15" />
+			<direction dir="east" to_room="5" to_zone="15" />
+			<direction dir="south">
+				<general_description>You see the grocer's.
+</general_description>
+			</direction>
+			<direction dir="west">
+				<general_description>You see the general store.
+</general_description>
+			</direction>
 		</directions>
 	</room>
-	<room number="1507" name="Shahadah" sector="0" flags="8">
-		<description>   It was written once, on an ancient parchment in a curious and flowing
-script, that there is in fact no god but Allah, and that Muhammad was
-the last of His Prophets.  With this recognition, all else became empty
-and meaningless.
+	<room number="9" name="Western Market Square" sector="2" flags="0">
+		<description>   This area of the square seems a bit more subdued than the rest.
+You notice that most of the outland adventurers mill around the
+southern end of the market, while the townfolk seem to keep their
+business in the northern end.
+   West Main street begins here and heads for the gate, the market's 
+expanse fills the other directions.
 </description>
 		<directions>
-			<direction dir="east" to_room="1523" />
-			<direction dir="west" to_room="1518" />
-			<direction dir="down" to_room="1505" />
+			<direction dir="north" to_room="14" to_zone="15" />
+			<direction dir="east" to_room="6" to_zone="15" />
+			<direction dir="south" to_room="8" to_zone="15" />
+			<direction dir="west" to_room="26" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1508" name="Earthly Evil" sector="0" flags="9">
-		<description>   Whatever it carries, that rage converts into a weapon.  Wrath supplies
-all with arms.  When an angry man thirsts for blood anything will serve
-him for a spear.  Fury turns a stick into a cudgel.
+	<room number="10" name="The Common Square" sector="2" flags="0">
+		<description>   People pass by talking to each other, or rest their weary bones on this
+grassy field.  You can hear faint sounds of the river to the south of you
+as it passes through the city.  Ishtar drive heads east and west from here
+and the Medina is to the north.  South lies the River Ishtar Bridge and the
+southern gate.
 </description>
 		<directions>
-			<direction dir="north" to_room="1509" />
-			<direction dir="east" to_room="1506" />
+			<direction dir="north" to_room="3" to_zone="15">
+				<general_description>You see the medina.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="37" to_zone="15" />
+			<direction dir="south" to_room="12" to_zone="15">
+				<general_description>You see the bridge over the river.
+</general_description>
+			</direction>
+			<direction dir="west" to_room="36" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1509" name="Misguidance" sector="0" flags="9">
-		<description>   Some have been brought here not for what they did, but what they
-failed to do.  It is these, the poor souls that were presented the
-fair evidence and rejected it with an honest mind, that deserve our
-pity the most of all.
+	<room number="11" name="Outside The Southern Gate Of New Thalos" sector="2" flags="4">
+		<description>   You see before you the expanse of the Great Eastern Desert.
+You have heard many tales of the Great Pyramid, the lost city
+of Old Thalos and the friendly brass dragon that lies under the
+desert.
+   To the south lies the desert and the city of New Thalos is
+to the north.
 </description>
 		<directions>
-			<direction dir="north" to_room="1510" />
-			<direction dir="south" to_room="1508" />
+			<direction dir="north" to_room="13" to_zone="15" key="1" key_zone="15" keyword="gate" flags="1" />
+			<direction dir="south" to_room="39" to_zone="11" />
 		</directions>
 	</room>
-	<room number="1510" name="Temptation" sector="0" flags="9">
-		<description>   Old tales tell of a conversation between the devil and the Prophet
-Jesus: the devil offered him a kingdom, vast riches, the temptation of
-a glorious near-death saved by his angels.  Even this Messenger of God
-was forced to stop and think.  Imagine how hard it could be for the rest.
+	<room number="12" name="The Southern Bridge" sector="2" flags="4">
+		<description>   Walking over the bridge you see the rushing waters of the River
+Ishtar.  To the south you see the Southern Gate of New Thalos and
+the Common Square stretches out to the north
 </description>
 		<directions>
-			<direction dir="north" to_room="1511" />
-			<direction dir="south" to_room="1509" />
+			<direction dir="north" to_room="10" to_zone="15" />
+			<direction dir="south" to_room="13" to_zone="15" />
+			<direction dir="down" to_room="85" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1511" name="Hypocrisy" sector="0" flags="9">
-		<description>   He called the populace to strict religious purity, rigidly enforcing
-the times of prayer and the most correct forms of the words of the Muezzin.
-All of this he strengthened by his most impeccable example, shunning all
-riches and riding in tattered rags through his capital on the back of a
-donkey.  Despite all this, remember.  Behind closed doors, all men are
-hypocrites.
+	<room number="13" name="Inside The South Gate Of New Thalos" sector="2" flags="0">
+		<description>   Two large stone towers rise up to greet you with the massive iron
+gate swinging on ornately crafted hinges and emblazoned with the crest
+of New Thalos.  The makers of the city spared no expense in rebuilding
+the defenses or their home.  The River Ishtar bridge lies to the north
+and the desert to the south.
 </description>
 		<directions>
-			<direction dir="north" to_room="1512" />
-			<direction dir="south" to_room="1510" />
+			<direction dir="north" to_room="12" to_zone="15" />
+			<direction dir="south" to_room="11" to_zone="15" key="1" key_zone="15" keyword="gate" flags="1" />
 		</directions>
 	</room>
-	<room number="1512" name="Hate" sector="0" flags="9">
-		<description>   There is little in life much easier, and truthfully, little that is a
-quicker ticket to damnation.  You give brief thanks that you have come to
-the end of these trials, but your words are drowned out by something
-much louder, a mechanical preaching that drowns your ears in anger.  You
-hear a steady, repetitive litany of the same phrase, over and over again:
-"I go the way history dictates with the blind assurance of a sleep-walker."
+	<room number="14" name="Northwestern Market Square" sector="2" flags="0">
+		<description>   This corner of the market contains some of the most civilized folk
+in New Thalos.  To the north lies the humble store of the merchant
+Ahkeem, his weavings known to be the best in the city.  West of here
+is the entrance to the First Royal Bank of New Thalos.
 </description>
 		<directions>
-			<direction dir="north" to_room="1528" />
-			<direction dir="south" to_room="1511" />
+			<direction dir="north" />
+			<direction dir="east" to_room="15" to_zone="15" />
+			<direction dir="south" to_room="9" to_zone="15" />
+			<direction dir="west" />
 		</directions>
 	</room>
-	<room number="1513" name="Spiritual Danger" sector="0" flags="9">
-		<description>   Some evils are tangible, solid, so evident that they spit you right in
-the face.  Others are more clever, more subtle, and it is these that present
-the greatest danger.  Looking down the hall before you, a great fear fills
-your heart, and a great, heavy longing.
+	<room number="15" name="Northern Market Square" sector="2" flags="0">
+		<description>   You stand in one of the most heavily used parts of town.  To the north
+lies the Palace of New Thalos and the Casbah, east west and south of here
+the busy market thrives with life.
 </description>
 		<directions>
-			<direction dir="north" to_room="1514" />
-			<direction dir="west" to_room="1506" />
+			<direction dir="north" to_room="18" to_zone="15" />
+			<direction dir="east" to_room="16" to_zone="15" />
+			<direction dir="south" to_room="6" to_zone="15" />
+			<direction dir="west" to_room="14" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1514" name="The Fall" sector="0" flags="9">
-		<description>   In the beginning, he was the best, the most beautiful of all the angels,
-and God's most loved creation.  Look at your own beauty, human, and do what
-he could not.  Look at your beauty, and learn to kneel!
+	<room number="16" name="Northeastern Market Square" sector="2" flags="0">
+		<description>   Pandemonium.  Chaos.  Madness.  A few other choice words come to mind
+as you gaze into this corner of the market.  The vegetable stand seems
+quiet enough so you have to assume the noise comes from the Butchery.
+You have to think for a while before you muster the will to enter this
+shop.  The market continues to the south and west.
 </description>
 		<directions>
-			<direction dir="north" to_room="1515" />
-			<direction dir="south" to_room="1513" />
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" to_room="17" to_zone="15" />
+			<direction dir="west" to_room="15" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1515" name="Temptation" sector="0" flags="9">
-		<description>   Temptation is the IF, the wondering, the second-guessing, the "I will
-be a better man... if..."  And that if is usually taken, sitting alone,
-listening to that voice, calling you, offering such an easy way, but such
-a crooked one.
+	<room number="17" name="Eastern Market Square" sector="2" flags="0">
+		<description>   You stand in the market of New Thalos, the gem of the desert.  The
+market is the hub of the city, all trade and commerce of any significance
+is carried on here.  The market spreads out in all directions save east,
+here Main Street heads for the easter gate.
 </description>
 		<directions>
-			<direction dir="north" to_room="1516" />
-			<direction dir="south" to_room="1514" />
+			<direction dir="north" to_room="16" to_zone="15" />
+			<direction dir="east" to_room="27" to_zone="15" />
+			<direction dir="south" to_room="7" to_zone="15" />
+			<direction dir="west" to_room="6" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1516" name="The Last Day" sector="0" flags="9">
-		<description>   The din of a great battle shakes these halls, the moans of the earth
-erupting at the shakings of the End Time.  Be ready for that day, be very
-ready, for if you are not, he will claim you for one of his own.
+	<room number="18" name="Sultan's Walk" sector="2" flags="0">
+		<description>   This cobblestone road aides your journey through town.  Traveling north
+will take you by the Palace and the Dancing Daemon Inn, and south will put
+you on Market Square.
 </description>
 		<directions>
-			<direction dir="north" to_room="1517" />
-			<direction dir="south" to_room="1515" />
+			<direction dir="north" to_room="19" to_zone="15" />
+			<direction dir="south" to_room="15" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1517" name="Flame" sector="0" flags="9">
-		<description>   Undescribable horror and pain, a blackness drowned out only by the
-burning anguish, the inextinguishable fire coming not from some burning
-wood or molten lava but from the brightness and pain of the horrible,
-tortured souls that surround, everywhere you turn.
+	<room number="19" name="Sultan's Walk" sector="2" flags="0">
+		<description>   This part of the road travels between one of the sturdy walls of
+the Palace and the Dancing Daemon.  To the east you peer through a
+small window into the Daemon, seeing many people dancing and drinking.
+After you tend to your other chores you plan on visiting the Daemon.
+   The walk continues north and south from here.
 </description>
 		<directions>
-			<direction dir="north" to_room="1530" />
-			<direction dir="south" to_room="1516" />
+			<direction dir="north" to_room="20" to_zone="15" />
+			<direction dir="south" to_room="18" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1518" name="Earthly Light" sector="0" flags="8">
-		<description>   To slip into evil is easy, but walking this path is the hardest of
-all.  Even the four you will find here today have strayed from the line
-at least once in their lives, and there are still some living who curse
-the very sound of their names.  Despite all this, confront them now, and
-let their actions serve as your example.
+	<room number="20" name="Sultan's Walk" sector="2" flags="0">
+		<description>   The road here between the Palace and the Dancing Daemon Inn seems well
+worn by the travel of horses, carts, and leather boots.  From the west you
+hear the faint sound of trumpets announcing the arrival of some duke or
+duchess to the Palace.  Safe haven awaits you to the east in the halls
+of the Daemon, and Sultan's Walk continues north and south.
 </description>
 		<directions>
-			<direction dir="north" to_room="1519" />
-			<direction dir="east" to_room="1507" />
+			<direction dir="north" to_room="21" to_zone="15" />
+			<direction dir="east" to_room="0" to_zone="15" />
+			<direction dir="south" to_room="19" to_zone="15" />
+			<direction dir="west" />
 		</directions>
 	</room>
-	<room number="1519" name="The Light of the Rashidun" sector="0" flags="8">
-		<description>   Many believed that the Prophet would never die, but when the stark
-evidence of his body confronted them, it soon became necessary to provide
-for the future.  The four that came after are called the Rashidun, the
-rightly-guided Caliphs that would spread the word and the light, and with
-it forge one of history's greatest empires.
+	<room number="21" name="Sultan's Walk" sector="2" flags="0">
+		<description>   The main road north from the square continues here, surrounded
+by the walls of the Palace and the Daemon.  To the north you see
+the heavily guarded gate and can make out faint sounds of trade
+to the south.
 </description>
 		<directions>
-			<direction dir="north" to_room="1520" />
-			<direction dir="south" to_room="1518" />
+			<direction dir="north" to_room="22" to_zone="15" />
+			<direction dir="south" to_room="20" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1520" name="The Light of the Rashidun" sector="0" flags="8">
-		<description>   The first Caliphs were chosen by consultation with a noble council
-of elders, each of whom, hoping to lead the world of Islam alone, voted
-to elect the one amongst them they thought was the weakest.  Each time,
-they were wrong.  Each one was more noble, more upright than the one
-before.
+	<room number="22" name="Inside The Northern Gate Of New Thalos" sector="2" flags="0">
+		<description>   Two large stone towers rise up to greet you with a massive iron
+gate swinging between on ornately crafted hinges and emblazend with
+the crest of New Thalos.  The makers of this city spared no costs
+in rebuilding the defenses of their home.
+   Sultan's Walk runs to the south and the Casbah stretches out east
+and west.  To the north is wilderness.
 </description>
 		<directions>
-			<direction dir="north" to_room="1521" />
-			<direction dir="south" to_room="1519" />
+			<direction dir="north" key="1" key_zone="15" keyword="gate" flags="1" />
+			<direction dir="east" to_room="49" to_zone="15" />
+			<direction dir="south" to_room="21" to_zone="15" />
+			<direction dir="west" to_room="48" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1521" name="The Light of the Rashidun" sector="0" flags="8">
-		<description>   Every majestic and happy tale must end, usually all too soon, and thus
-it was with the golden age of the Caliphate.  The Rashidun were pure men,
-good men, true to the path, but their followers soon began to bicker, and
-civil war was on the horizon.
+	<room number="23" name="Inside The West Gate Of New Thalos" sector="2" flags="4">
+		<description>   Two large stone towers embedded in the wall loom over you.  The
+massive iron gate, emblazoned with the crest of New Thalos, swings
+easily on four ornately crafted hinges.  It is obvious the makers
+of this city spared no expense in protecting their home.
+   Main street heads towards the market eastward and the wilderness
+beckons from the west.  To the south lies the entrance the Warriors'
+Guild.
 </description>
 		<directions>
-			<direction dir="north" to_room="1522" />
-			<direction dir="south" to_room="1520" />
+			<direction dir="east" to_room="24" to_zone="15" />
+			<direction dir="south" />
+			<direction dir="west" key="1" key_zone="15" keyword="gate" flags="1" />
 		</directions>
 	</room>
-	<room number="1522" name="The Light of the Rashidun" sector="0" flags="8">
-		<description>   The end of the Rashidun was the beginning of Schism.  The memories
-of the Prophet and the living example of the Caliphs proved to be
-insufficient example to the faithful.  Ali died, and some say that
-with him the Caliphate died too, a martyr, his blood still flowing in
-the nameless river.
+	<room number="24" name="West Main Street" sector="2" flags="0">
+		<description>   This is the main road traveling though the city.  To the south you
+hear the hammering of the repair shop and to the north is the grassy
+field known as Temple Square.  Main street continues east and west.
 </description>
 		<directions>
-			<direction dir="north" to_room="1531" />
-			<direction dir="south" to_room="1521" />
+			<direction dir="north" />
+			<direction dir="east" to_room="25" to_zone="15" />
+			<direction dir="south" />
+			<direction dir="west" to_room="23" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1523" name="Spritual Reward" sector="0" flags="8">
-		<description>   Behold, Allah is the Provider, the most Generous.  He would not suffer
-his believers to walk the path of light without guidance.  He provided the
-Prophets, may peace be upon them, and in the examples of their own growth,
-we shall find the truth of our own.
+	<room number="25" name="West Main Street" sector="2" flags="0">
+		<description>   A foreman stands stand here watching over two construction workers
+fixing a pothole.  The road here branches off north and south into
+two alleys behind the stores of the market.  The main street continues
+east and west from here.
 </description>
 		<directions>
-			<direction dir="north" to_room="1524" />
-			<direction dir="west" to_room="1507" />
+			<direction dir="north" to_room="71" to_zone="15" />
+			<direction dir="east" to_room="26" to_zone="15" />
+			<direction dir="south" to_room="72" to_zone="15" />
+			<direction dir="west" to_room="24" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1524" name="Creation" sector="0" flags="8">
-		<description>   In the creation of the heavens and the earth, and in the alternation of
-night and day, there are signs for men of sense; those that remember Allah
-say: "Lord, You have not created this in vain!"
+	<room number="26" name="West Main Street" sector="2" flags="0">
+		<description>   You are strolling on the street between the bank and general store.
+To the west you hear a roadcrew at work and to the east, the sounds of 
+commerce taking place.  The air is filled with the smell of gold and
+riches.
+On the wall of the store is a poster.
 </description>
 		<directions>
-			<direction dir="north" to_room="1525" />
-			<direction dir="south" to_room="1523" />
+			<direction dir="east" to_room="9" to_zone="15" />
+			<direction dir="west" to_room="25" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="poster">
+				<description>The poster is of a wealthy looking man in red robes smiling at you.
+The caption reads:
+
+       THE SULTAN REMINDS YOU TO PAY YOUR TAXES!
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="27" name="East Main Street" sector="2" flags="0">
+		<description>   Here on East Main, you smell the odor of freshly slaughtered meat
+and, hear the pounding of new metal from the armory.  The Square is
+to the west and a junction is to the East.  
+</description>
+		<directions>
+			<direction dir="east" to_room="28" to_zone="15" />
+			<direction dir="west" to_room="17" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1525" name="Revelation" sector="0" flags="8">
-		<description>   The Angel Gabriel came to him and said: "Read!"  He replied: "But I
-cannot!"  The order was repeated three times, until the Angel himself
-said: "Read, in the name of your Lord who created man from clots of blood.
-Praise be to God, Lord of the Universe."
+	<room number="28" name="East Main Street" sector="2" flags="0">
+		<description>   You are on East Main Street.  To the North is the beginning
+of Guildsman Row.  To the South is a dark alley.  The road also
+continues to the East.
+There is a small sign on a wire hanging across the junction.
 </description>
 		<directions>
-			<direction dir="north" to_room="1526" />
-			<direction dir="south" to_room="1524" />
+			<direction dir="north" to_room="64" to_zone="15" />
+			<direction dir="east" to_room="29" to_zone="15" />
+			<direction dir="south" to_room="65" to_zone="15" />
+			<direction dir="west" to_room="27" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>The sign reads:
+
+                        NO LOITERING!
+
+            (by order of the Sultan of New Thalos)
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="29" name="East Main Street" sector="2" flags="0">
+		<description>   As you walk by the mercenary guild a cold chill causes you to shiver
+uncontrollably.  You see some shady looking characters lurking about the
+entrance to this house of 'helpful' people.  Perhaps curiosity gets the
+best of you, but you wonder what could be going on inside.  To the north
+you see the open doors of the apothecary shop where one may buy many
+magical livations.
+   Main Street continues east and west from here.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" to_room="30" to_zone="15" />
+			<direction dir="south" />
+			<direction dir="west" to_room="28" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1526" name="Conversion" sector="0" flags="8">
-		<description>   Unbelievers, I do not worship what you worship, nor do you worship
-what I worship.  I shall never worship what you worship, nor will you
-ever worship what I worship.  You have your own religion, and I have
-mine.
+	<room number="30" name="East Main Street" sector="2" flags="0">
+		<description>   The Main street through eastern New Thalos begins here and heads
+westward towards the marketplace.  One of the main gates can be seen
+to the east and Braheem's Magic Shop awaits your business to the north.
 </description>
 		<directions>
-			<direction dir="north" to_room="1527" />
-			<direction dir="south" to_room="1525" />
+			<direction dir="north" />
+			<direction dir="east" to_room="31" to_zone="15" />
+			<direction dir="west" to_room="29" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1527" name="Deliverance" sector="0" flags="8">
-		<description>   The balance had been made, the soul placed in readiness, and the final
-measurement taken.  For those that have come this far, surely this is the
-day of immortality!
+	<room number="31" name="Inside the Eastern Gate of New Thalos" sector="2" flags="4">
+		<description>   Two large stone towers imbedded in the wall loom over you.  The
+massive iron gate, emblazened with the crest of New Thalos, swings
+easily on four ornately crafted hinges.  It is obvious the makers
+of this city spared no expense in protecting their home.
+   Main street heads towards the market westward and the wilderness
+beckons from the east.  To the north lies the entrance to the Mages'
+Guild.
 </description>
 		<directions>
-			<direction dir="north" to_room="1533" />
-			<direction dir="south" to_room="1526" />
+			<direction dir="north" />
+			<direction dir="east" key="1" key_zone="15" keyword="gate" flags="1" />
+			<direction dir="west" to_room="30" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1528" name="Repentance" sector="0" flags="9">
-		<description>   God forgives those who commit evil in ignorance, for He is all-knowing
-and wise.  But He will not forgive those who do evil, and when death comes
-to them, say: "Now we repent!"  For those We have prepared a woeful scourge.
+	<room number="32" name="Cassandra's Catch Of The Day" sector="1" flags="12">
+		<description>   Nothing in your life has prepared you for the odor which fills your
+lungs.  Not wanting to offend the beautiful shopkeeper you hold your
+tongue and quietly look over her selection.
 </description>
 		<directions>
-			<direction dir="east" to_room="1529" />
-			<direction dir="south" to_room="1512" />
-			<direction dir="up" to_room="1534" />
+			<direction dir="south" to_room="41" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1529" name="Pilgrimage" sector="0" flags="9">
-		<description>   It is incumbent upon all Muslims to make the pilgrimage to Mecca once
-in their lifetime, if they are able, and for those unfortunate enough to
-follow the lives of the lower evils, such a pilgrimage with an open and
-contrite heart shall absolve them of all.
+	<room number="33" name="West Ishtar Drive" sector="2" flags="0">
+		<description>   This is the warehouse district of New Thalos.  Strong men walk back
+and forth from the docks to the warehouse carrying large crates loading
+and unloading the boats as they sail down the river.  To the north is
+one of the entrances of the warehouse and West Ishtar leads east.
 </description>
 		<directions>
-			<direction dir="east" to_room="1530" />
-			<direction dir="west" to_room="1528" />
-			<direction dir="up" to_room="1535" />
+			<direction dir="north" />
+			<direction dir="east" to_room="34" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1530" name="Intercession" sector="0" flags="9">
-		<description>   It is written that no one may intercede with God on behalf of another.
-No prayers from another may save the soul of a doomed man; his only hope
-is prayers of his own.
+	<room number="34" name="West Ishtar Drive" sector="2" flags="0">
+		<description>   A few men walk by almost pushing you out of the way as they go about
+their business of loading and unloading the boats.  An entrance to one
+of the huge warehouses of New Thalos is to the north and the River Ishtar 
+quietly flows by to the south.  Ishtar Drive continues east and west.
 </description>
 		<directions>
-			<direction dir="south" to_room="1517" />
-			<direction dir="west" to_room="1529" />
-			<direction dir="up" to_room="1536" />
+			<direction dir="north" />
+			<direction dir="east" to_room="35" to_zone="15" />
+			<direction dir="west" to_room="33" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1531" name="The Upper Reaches" sector="0" flags="8">
-		<description>   You have traveled the righteous path, and you have faced the examples
-of the true models of the Prophet.  Only the final journey awaits you;
-live like this and you shall live forever.
+	<room number="35" name="West Ishtar Drive" sector="2" flags="0">
+		<description>   The cobblestone road is moist here, the trail of water heading down to
+the boat ramp.  Catching your balance as you start to slide on the slick
+pavement you grab on to the handrail someone has conveniently placed here.
+   To the north is the Shipwright and Ishtar Drive continues east and west.
 </description>
 		<directions>
-			<direction dir="east" to_room="1532" />
-			<direction dir="south" to_room="1522" />
-			<direction dir="down" to_room="1534" />
+			<direction dir="north" />
+			<direction dir="east" to_room="36" to_zone="15" />
+			<direction dir="south" to_room="43" to_zone="15" />
+			<direction dir="west" to_room="34" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1532" name="The Upper Reaches" sector="0" flags="8">
-		<description>   When the records of men's deeds are laid open, and heaven is stripped
-bare; when Hell burns fiercely and Paradise is brought near: then each
-soul shall know what it has done.
+	<room number="36" name="West Ishtar Drive" sector="2" flags="0">
+		<description>   A cool breeze blows up off the river chilling the sweat otherwise
+present on your skin.  Orders and sometimes curses can be heard from
+the west in the direction of the warehouses.  The common square opens
+up to the east and Ishtar Drive continues west.
 </description>
 		<directions>
-			<direction dir="east" to_room="1533" />
-			<direction dir="west" to_room="1531" />
-			<direction dir="down" to_room="1535" />
+			<direction dir="east" to_room="10" to_zone="15" />
+			<direction dir="west" to_room="35" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1533" name="The Upper Reaches" sector="0" flags="8">
-		<description>   You have traveled the righteous path, and your own journey has
-imitated the evolution of the most perfect soul.  Only one final
-path awaits you; die as the one in the room before, and your death
-will mean nothing.
+	<room number="37" name="East Ishtar Drive" sector="2" flags="0">
+		<description>   Loud hammering and the sound of red hot iron cooling in water reaches 
+your ears as you stand in front of the blacksmith.  A small boy runs up
+to you with big eyes and, as you return his gaze, runs off down the road.
+   The common square can be seen to the west and Ishtar Drive continues
+to the east.
 </description>
 		<directions>
-			<direction dir="south" to_room="1527" />
-			<direction dir="west" to_room="1532" />
-			<direction dir="down" to_room="1536" />
+			<direction dir="north" />
+			<direction dir="east" to_room="39" to_zone="15" />
+			<direction dir="west" to_room="10" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1534" name="The Final Facing" sector="0" flags="12">
-		<description>   The last of the darkness lies behind you; only the straight path
-remains.  Go forth with a clean heart.  Only the penitent shall find
-what they seek.
+	<room number="38" name="East Ishtar Drive" sector="2" flags="0">
+		<description>   The wide road bordering the south of town continues to the east west
+here, bordered only by the hay-loft to the north and the River Ishtar to
+the south.
 </description>
 		<directions>
-			<direction dir="east" to_room="1535" />
-			<direction dir="up" to_room="1531" />
-			<direction dir="down" to_room="1528" />
+			<direction dir="east" to_room="40" to_zone="15" />
+			<direction dir="west" to_room="39" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1535" name="The Final Facing" sector="0" flags="12">
-		<description>   The last of the darkness lies behind you; only the straight path
-remains.  Go forth with a clean heart.  Only the penitent shall find
-what they seek.
+	<room number="39" name="East Ishtar Drive" sector="2" flags="0">
+		<description>   Small clumps of hay strewn about the ground alerts you to the fact
+that you have reached the stables.  Arabian stallions as well as many
+other  fine breeds of horses can be purchased for a price.  Ishtar Drive
+continues east and west.
 </description>
 		<directions>
-			<direction dir="north" to_room="1537" />
-			<direction dir="east" to_room="1536" />
-			<direction dir="west" to_room="1534" />
-			<direction dir="up" to_room="1532" />
-			<direction dir="down" to_room="1529" />
+			<direction dir="north" />
+			<direction dir="east" to_room="38" to_zone="15" />
+			<direction dir="west" to_room="37" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1536" name="The Final Facing" sector="0" flags="12">
-		<description>   The last of the darkness lies behind you; only the straight path
-remains.  Go forth with a clean heart.  Only the penitent shall find
-what they seek.
+	<room number="40" name="East Ishtar Drive" sector="2" flags="0">
+		<description>   Even in broad daylight, you can hardly see into the back alley
+that begins here and heads north.  Sounds of loud drunken folk and
+the occasional screaming cat emenate from the direction.  Luckily
+you have the choice of going east or west down the drive as well.
 </description>
 		<directions>
-			<direction dir="west" to_room="1535" />
-			<direction dir="up" to_room="1533" />
-			<direction dir="down" to_room="1530" />
+			<direction dir="north" to_room="68" to_zone="15">
+				<general_description>You see murky darkness.
+</general_description>
+			</direction>
+			<direction dir="east" to_room="41" to_zone="15" />
+			<direction dir="west" to_room="38" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1537" name="A Straight Path" sector="0" flags="8">
-		<description>   The Compassionate, the Merciful, Sovereign of the Day of Judgment!
-You alone we worship, and to You alone we turn for help.  Guide us to
-the Straight Path, the path of those whom You have favored, not of
-those who have gone astray.
+	<room number="41" name="East Ishtar Drive" sector="2" flags="0">
+		<description>   Your highly acute sense of smell reports you have reached the
+entrance to the fish market.  Although renowned for it fresh catches
+and wide selection of aquarian delicacies you wonder how much longer
+you can endure the smell!  The River Ishtar flows alongside to the
+south with the drive running along side it east to west.
 </description>
 		<directions>
-			<direction dir="north" to_room="1538" />
-			<direction dir="south" to_room="1535" />
+			<direction dir="north" to_room="32" to_zone="15" />
+			<direction dir="east" to_room="42" to_zone="15" />
+			<direction dir="west" to_room="40" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1538" name="Progression" sector="0" flags="8">
-		<description>   Were We worn out by the First Creation?  Yet they are in doubt about
-a new creation.  WE created man.  We know the promptings of his soul,
-and are closer to him than his jugular vein.
+	<room number="42" name="East Ishtar Drive" sector="2" flags="0">
+		<description>   The sound of squawking gulls and the smell of rotting fish gives you
+a hint of your location.  The River Ishtar flows south of you, but looks
+crystal clear, so it cannot be the source of this putrid smell.
+Looking north you notice a small sign hanging over the dump.
 </description>
 		<directions>
-			<direction dir="north" to_room="1539" />
-			<direction dir="south" to_room="1537" />
+			<direction dir="north" />
+			<direction dir="west" to_room="41" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>#====================================================#
+|                                                    |
+|              THE DUMP OF NEW THALOS                |
+|                                                    |
+|                                                    |
+|                      -----                         |
+|                                                    |
+|             Enter at your own risk.                |
+|                            -the management         |
+|                                                    |
+#====================================================#
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="43" name="The Boat Ramp" sector="2" flags="4">
+		<description>   This sloped slab of stone allows easy passage to and from the River
+Ishtar.  Boats are moored to the docks here awaiting their masters to
+return from the warehouses and the pubs.  The waters of the River Ishtar
+lap at your feet to the south and Ishtar Drive is to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="35" to_zone="15" />
+			<direction dir="south" to_room="86" to_zone="15" />
 		</directions>
 	</room>
-	<room number="1539" name="Judgment" sector="0" flags="8">
-		<description>   Undoubtedly the shortest path is the straightest one.  Only one more
-step awaits before a final decision is made and a home given to you for
-all eternity.
+	<room number="44" name="West Casbah" sector="2" flags="0">
+		<description>   The air takes on a somber note as you stand before the entrance to the
+jailhouse of New Thalos.  Hopefully you won't ever see this structure from
+the inside.  The northwest tower stands here with a spiral staircase 
+leading up.  The Avenue ends here, only exiting to the east.
 </description>
 		<directions>
-			<direction dir="north" to_room="1540" />
-			<direction dir="south" to_room="1538" />
+			<direction dir="east" to_room="45" to_zone="15" />
+			<direction dir="south" key="93" key_zone="15" keyword="gate" flags="9" />
+			<direction dir="up" />
 		</directions>
 	</room>
-	<room number="1540" name="The Utmost Throne" sector="0" flags="8">
-		<description>   You have come at last to the resting place of the most holy.  Startling
-crystal clarity of vision has been granted to you; seven guardians rim
-the periphery of the throne and all is bathed in a warm and clean light.
-It is here that the final choice is to be made, and no defiance of yours
-can change the outcome.
+	<room number="45" name="West Casbah" sector="2" flags="0">
+		<description>   You have almost reached the end of the Avenue in this direction, the 
+number of guards in this part of town is nearly doubled.  To the north
+the familiar city wall protects you from the wilderness.  Looking south
+marble stairs rise towards the entrance of city hall surrounded by 
+massive white pillars.
+   The Avenue continues east and west from here.
 </description>
 		<directions>
-			<direction dir="south" to_room="1539" />
+			<direction dir="east" to_room="46" to_zone="15" />
+			<direction dir="south" />
+			<direction dir="west" to_room="44" to_zone="15" />
+		</directions>
+	</room>
+	<room number="46" name="The Casbah" sector="2" flags="0">
+		<description>   The wall of the Palace curves south from here, a darkened alley runs
+along it in that direction.  West of here you see the steps of the City
+Hall and notice the increase in the number of guards.
+   To the east the Avenue continues.
+</description>
+		<directions>
+			<direction dir="east" to_room="47" to_zone="15" />
+			<direction dir="south" to_room="58" to_zone="15" />
+			<direction dir="west" to_room="45" to_zone="15" />
+		</directions>
+	</room>
+	<room number="47" name="The Casbah" sector="2" flags="0">
+		<description>   As you travel down the road towards towards the City Hall you look up
+at the guards walking along the wall keeping watch.  South of you stands
+the great walls of the Palace and the Avenue goes east and west.
+</description>
+		<directions>
+			<direction dir="east" to_room="48" to_zone="15" />
+			<direction dir="west" to_room="46" to_zone="15" />
+		</directions>
+	</room>
+	<room number="48" name="The Casbah" sector="2" flags="0">
+		<description>   The cobblestone pavement runs along the north wall here.  South of you
+stand the great walls of the Palace and the Avenue goes east and west.
+</description>
+		<directions>
+			<direction dir="east" to_room="22" to_zone="15" />
+			<direction dir="west" to_room="47" to_zone="15" />
+		</directions>
+	</room>
+	<room number="49" name="The Casbah" sector="2" flags="0">
+		<description>   The activity here is only slightly less than chaotic.  Young boys run
+to and fro with stern intent, and older gentleman swagger down the street
+towards the Library.  To the west you can see the tall towers of the
+northern gate, and the Avenue continues east.
+</description>
+		<directions>
+			<direction dir="east" to_room="50" to_zone="15" />
+			<direction dir="west" to_room="22" to_zone="15" />
+		</directions>
+	</room>
+	<room number="50" name="The Casbah" sector="2" flags="0">
+		<description>   Walking along the cobblestone path you feel secure with the walls of
+the city towering over you.  You hear the scraping sounds of metal on
+stone and look up to see a large, strong guard looking out to the north.
+   To the east lies the intersection on Guildsman's Row and the northern
+gate is a short walk to the west.
+</description>
+		<directions>
+			<direction dir="east" to_room="51" to_zone="15" />
+			<direction dir="west" to_room="49" to_zone="15" />
+		</directions>
+	</room>
+	<room number="51" name="The Casbah" sector="2" flags="0">
+		<description>   The din of the guilds assaults your senses as you reach this
+intersection, the sound of hammering, the smell of tanned leather,
+and the smoke rising from the smithy all rush up to greet you.
+  The Avenue continues east and west from here and the Row leads
+south.
+</description>
+		<directions>
+			<direction dir="east" to_room="52" to_zone="15" />
+			<direction dir="south" to_room="60" to_zone="15" />
+			<direction dir="west" to_room="50" to_zone="15" />
+		</directions>
+	</room>
+	<room number="52" name="The Casbah" sector="2" flags="0">
+		<description>   You walk between the solid stone wall of the city and that of the
+Masons' Guild.  Young children with their nannies walk around enjoying
+the saftey of the city.
+   The Avenue runs east and west from here.
+</description>
+		<directions>
+			<direction dir="east" to_room="53" to_zone="15" />
+			<direction dir="west" to_room="51" to_zone="15" />
+		</directions>
+	</room>
+	<room number="53" name="The Casbah" sector="2" flags="0">
+		<description>   You have almost reached the end of the Avenue in this direction.
+Walking towards the north-east corner of the city you notice the
+population density here is much less then the rest of the town.  A
+few old men hobbling on canes and young men intent on studies are
+the only travelers of the path to the library on a regular basis.
+   The Avenue continues east and west from here.
+</description>
+		<directions>
+			<direction dir="east" to_room="54" to_zone="15" />
+			<direction dir="west" to_room="52" to_zone="15" />
+		</directions>
+	</room>
+	<room number="54" name="The Casbah" sector="2" flags="0">
+		<description>   The Avenue ends here, turning south to become Kali Row.  Traveling in
+that direction will take you to the Library and the grand dance hall of
+the city.
+   The northeast tower of the wall is accessible here up a spiral staircase.
+</description>
+		<directions>
+			<direction dir="south" to_room="55" to_zone="15" />
+			<direction dir="west" to_room="53" to_zone="15" />
+			<direction dir="up" />
+		</directions>
+	</room>
+	<room number="55" name="Kali Row" sector="2" flags="0">
+		<description>   This is a small, newly added section of the town.  The city's Library
+can be entered through the door to the west and the Casbah begins its
+journey a little ways north of here.  The Row and the entrance to the
+dancehall is to the south.
+</description>
+		<directions>
+			<direction dir="north" to_room="54" to_zone="15" />
+			<direction dir="south" to_room="56" to_zone="15" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="56" name="Kali Row" sector="2" flags="0">
+		<description>   The short Row ends abruptly here at the entrance to the dance
+hall of New Thalos.
+   The entrance to the hall is to the west and the Row continues
+northward.
+</description>
+		<directions>
+			<direction dir="north" to_room="55" to_zone="15" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="57" name="Underground" sector="2" flags="9">
+		<description>   The small passage continues north and south.
+</description>
+		<directions>
+			<direction dir="north" to_room="78" to_zone="15" />
+			<direction dir="south" to_room="80" to_zone="15" />
+		</directions>
+	</room>
+	<room number="58" name="Alley" sector="2" flags="0">
+		<description>   This is a dark alley running between the Palace and City Hall.  Not a
+lot here, unless you're partial to spiders and rats.
+</description>
+		<directions>
+			<direction dir="north" to_room="46" to_zone="15" />
+			<direction dir="south" to_room="59" to_zone="15" />
+		</directions>
+	</room>
+	<room number="59" name="Alley" sector="2" flags="1">
+		<description>   The alley ends here.
+</description>
+		<directions>
+			<direction dir="north" to_room="58" to_zone="15" />
+			<direction dir="down" to_room="75" to_zone="15" keyword="manhole hole man" flags="1">
+				<general_description>You see a manhole covering an opening in the road.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="60" name="Guildsman's Row" sector="2" flags="0">
+		<description>   This Row is a hive of activity second only to the actual Market 
+Square itself.  Along this row stands all the guilds of the working
+class citizens of New Thalos, here all the items sold in the Square
+are made.  Along this particular stretch of the row lie the Boyer/
+Fletcher to the west and the Masons' to the east.
+   The Row leads off to the south and East Casbah is to the north.
+</description>
+		<directions>
+			<direction dir="north" to_room="51" to_zone="15" />
+			<direction dir="east" />
+			<direction dir="south" to_room="61" to_zone="15" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="61" name="Guildsman's Row" sector="2" flags="0">
+		<description>   The guilds continue here, to the west is the Weavers' Guild, and
+to the east stands the Craftsmans' Guild.  The row of guilds continues
+north and south from here.
+</description>
+		<directions>
+			<direction dir="north" to_room="60" to_zone="15" />
+			<direction dir="east" />
+			<direction dir="south" to_room="62" to_zone="15" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="62" name="Guildsman's Row" sector="2" flags="0">
+		<description>   Only one guild offers its door to this stretch of the Row, the Tanners'
+Guild, to the west.  To the east is a beautifully sculpted marble door
+allowing entrance to the Museum of the Greater Gods.
+   The Row of Guilds leads north and south.
+</description>
+		<directions>
+			<direction dir="north" to_room="61" to_zone="15" />
+			<direction dir="east" />
+			<direction dir="south" to_room="63" to_zone="15" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="63" name="Guildsman's Row" sector="2" flags="0">
+		<description>   After the guilds were built the people of the city used some of the
+extra space to erect a shrine to their patron saints.  The result of
+this labor became the Museum of the Greater Gods.
+   You may enter the sacred hall to the east.
+</description>
+		<directions>
+			<direction dir="north" to_room="62" to_zone="15" />
+			<direction dir="east" />
+			<direction dir="south" to_room="64" to_zone="15" />
+		</directions>
+	</room>
+	<room number="64" name="Guildsman's Row" sector="2" flags="0">
+		<description>   This small cramped road is worn with travel as apprentices to the
+guilds run merchandise from the guildhouses to the shops on Market
+Square.
+   The guildhouses lie to the north and Main street is to the south.
+</description>
+		<directions>
+			<direction dir="north" to_room="63" to_zone="15" />
+			<direction dir="south" to_room="28" to_zone="15" />
+		</directions>
+	</room>
+	<room number="65" name="Alley" sector="2" flags="5">
+		<description>   Even with your light you cannot seem to penetrate the magical cloak of
+darkness covering this alley.
+</description>
+		<directions>
+			<direction dir="north" to_room="28" to_zone="15" />
+			<direction dir="south" to_room="66" to_zone="15" />
+		</directions>
+	</room>
+	<room number="66" name="Alley" sector="2" flags="1">
+		<description>   Even with your light you cannot seem to penetrate the magical cloak of
+darkness covering this alley.
+</description>
+		<directions>
+			<direction dir="north" to_room="65" to_zone="15" />
+			<direction dir="east" to_room="67" to_zone="15" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="67" name="Alley" sector="2" flags="1">
+		<description>   Even with your light you cannot seem to penetrate the magical cloak of
+darkness covering this alley.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" to_room="68" to_zone="15" />
+			<direction dir="west" to_room="66" to_zone="15" />
+		</directions>
+	</room>
+	<room number="68" name="Alley" sector="2" flags="5">
+		<description>   Even with your light you cannot seem to penetrate the magical cloak of
+darkness covering this alley.
+</description>
+		<directions>
+			<direction dir="north" to_room="67" to_zone="15" />
+			<direction dir="south" to_room="40" to_zone="15" />
+		</directions>
+	</room>
+	<room number="69" name="Alley" sector="2" flags="1">
+		<description>   This is a tiny corner in the alley.  The temple walls are north and
+west.  You notice a fair amount of footprints to the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="70" to_zone="15" />
+			<direction dir="south" to_room="71" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="footprint">
+				<description>Kind of looks like a yeti has been here... Hmmmm.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="70" name="Alley" sector="2" flags="1">
+		<description>   This is a dead end to the tiny alley.  There is an unusual amount of
+wear apparent on the ground.
+</description>
+		<directions>
+			<direction dir="west" to_room="69" to_zone="15" />
+			<direction dir="down" to_room="78" to_zone="15" keyword="manhole man hole" flags="1">
+				<general_description>You see a small iron circle imbedded in the ground.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="71" name="Alley" sector="2" flags="5">
+		<description>   You are in a tiny ally between the temple and the bank.  You hear
+some shouting and general roadwork to the south.  The ground is rough
+and in need of repair.  In the road is a small pothole.
+</description>
+		<directions>
+			<direction dir="north" to_room="69" to_zone="15" />
+			<direction dir="south" to_room="25" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="pothole">
+				<description>Why are you looking in a pothole?  Are you poor or something?
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="72" name="Alley" sector="2" flags="5">
+		<description>   You are on a small alley between the repair shop and the general
+store.  Nothing much here but small rodents and dust.
+</description>
+		<directions>
+			<direction dir="north" to_room="25" to_zone="15" />
+			<direction dir="south" to_room="73" to_zone="15" />
+		</directions>
+	</room>
+	<room number="73" name="Alley" sector="2" flags="1">
+		<description>   This is a small corner in the alley behind the warehouses and the guild
+of warriors.  You notice some small scrapings to the west.
+</description>
+		<directions>
+			<direction dir="north" to_room="72" to_zone="15" />
+			<direction dir="east" to_room="74" to_zone="15" />
+		</directions>
+	</room>
+	<room number="74" name="Alley" sector="2" flags="1">
+		<description>   The alley ends here as do the footprints you had noticed earlier.
+</description>
+		<directions>
+			<direction dir="west" to_room="73" to_zone="15" />
+			<direction dir="down" to_room="81" to_zone="15" keyword="manhole man hole" flags="1">
+				<general_description>You see a small round iron plate set in the ground.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="75" name="Underground" sector="2" flags="9">
+		<description>   You are in a small underground passage beneath the city.  You see a
+small glint of light from above and the passage continues south.
+</description>
+		<directions>
+			<direction dir="south" to_room="76" to_zone="15" />
+			<direction dir="up" to_room="59" to_zone="15" keyword="man hole manhole" flags="1" />
+		</directions>
+	</room>
+	<room number="76" name="Underground" sector="2" flags="9">
+		<description>   The passage continues north and south.
+</description>
+		<directions>
+			<direction dir="north" to_room="75" to_zone="15" />
+			<direction dir="south" to_room="77" to_zone="15" />
+		</directions>
+	</room>
+	<room number="77" name="Underground" sector="2" flags="9">
+		<description>   The tunnel branches here going north, east, and west.
+</description>
+		<directions>
+			<direction dir="north" to_room="76" to_zone="15" />
+			<direction dir="east" to_room="78" to_zone="15" />
+			<direction dir="west" to_room="79" to_zone="15" />
+		</directions>
+	</room>
+	<room number="78" name="Underground" sector="2" flags="9">
+		<description>   The alley turns again here and heads south and west.  You notice a
+small glint of light from above.
+</description>
+		<directions>
+			<direction dir="south" to_room="57" to_zone="15" />
+			<direction dir="west" to_room="77" to_zone="15" />
+			<direction dir="up" to_room="70" to_zone="15" keyword="manhole man hole" flags="1" />
+		</directions>
+	</room>
+	<room number="79" name="Underground" sector="2" flags="9">
+		<description>   The passage ends here and you hear some low chanting from the west.
+You also notice the clearing of dust on the ground but can't seem to
+find any door in that direction.
+</description>
+		<directions>
+			<direction dir="east" to_room="77" to_zone="15" />
+		</directions>
+	</room>
+	<room number="80" name="Underground" sector="2" flags="9">
+		<description>   The small passage continues north and south from here.
+</description>
+		<directions>
+			<direction dir="north" to_room="57" to_zone="15" />
+			<direction dir="south" to_room="81" to_zone="15" />
+		</directions>
+	</room>
+	<room number="81" name="Underground" sector="2" flags="9">
+		<description>   The small passage heads north and east from here.  You here the sounds
+of the city above you.
+</description>
+		<directions>
+			<direction dir="north" to_room="80" to_zone="15" />
+			<direction dir="east" to_room="82" to_zone="15" />
+			<direction dir="up" to_room="74" to_zone="15" keyword="manhole man hole" flags="1" />
+		</directions>
+	</room>
+	<room number="82" name="Underground" sector="2" flags="9">
+		<description>   The tunnel continues you west and east.  Hopefully you have a good sense
+of direction.
+</description>
+		<directions>
+			<direction dir="east" to_room="92" to_zone="15" />
+			<direction dir="west" to_room="81" to_zone="15" />
+		</directions>
+	</room>
+	<room number="83" name="River Ishtar" sector="8" flags="0">
+		<description>   High above you on the top of the city wall guards look down to see if
+you wish to exit the city via water.  To do so they must open the iron
+grating in front  of you from above.  The horrid smell of the dump wafts
+down from the shore.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" to_room="84" to_zone="15" keyword="grating" flags="1" />
+		</directions>
+	</room>
+	<room number="84" name="River Ishtar" sector="8" flags="0">
+		<description>   The gentle flow of the river carries you eastward, looking up you
+see couples strolling along the road.  To the west you see the southern
+bridge and to the east you see the iron grating protecting the city from
+unwanted guests.
+</description>
+		<directions>
+			<direction dir="east" to_room="83" to_zone="15" keyword="grating" flags="1" />
+			<direction dir="west" to_room="85" to_zone="15" />
+		</directions>
+	</room>
+	<room number="85" name="River Ishtar" sector="8" flags="0">
+		<description>   You hear your voice echo as you float under the bridge above.  The
+city construction crews have just recently finished the small ladder
+giving common-folk easy access to the river.  To the west and east you
+see the river flowing by the city.
+</description>
+		<directions>
+			<direction dir="east" to_room="84" to_zone="15" />
+			<direction dir="west" to_room="86" to_zone="15" />
+			<direction dir="up" to_room="12" to_zone="15" />
+		</directions>
+	</room>
+	<room number="86" name="River Ishtar" sector="8" flags="0">
+		<description>   This part of the river seems alive with activity.  Boats moored to
+the docks near the ramp north of here make navigation a bit more trying.
+As the river flows eastward you can see the southern bridge in that
+direction.
+</description>
+		<directions>
+			<direction dir="north" to_room="43" to_zone="15" />
+			<direction dir="east" to_room="85" to_zone="15" />
+			<direction dir="west" to_room="87" to_zone="15" />
+		</directions>
+	</room>
+	<room number="87" name="River Ishtar" sector="8" flags="0">
+		<description>   The river flows through a huge iron grating from the wilderness
+through the city.  Strong guards above await word to open the portal
+should any citizen require exit or entry.
+</description>
+		<directions>
+			<direction dir="east" to_room="86" to_zone="15" />
+			<direction dir="west" keyword="grating" flags="1" />
+		</directions>
+	</room>
+	<room number="88" name="A Dark Passage" sector="2" flags="9">
+		<description>   You seem to have stumbled into a small hand made passage.  The wall
+to the west doesn't look quite right but searching it reveals no secret
+doors.  The only exit it seems is east.
+</description>
+		<directions>
+			<direction dir="east" to_room="89" to_zone="15" />
+		</directions>
+	</room>
+	<room number="89" name="A Dark Passage" sector="2" flags="9">
+		<description>   The small passage continues east and west from here.  Again you
+notice something peculiar about the wall, this time to the north,
+but you fail to find any secret doors.  Voices can be faintly heard
+from the north.
+</description>
+		<directions>
+			<direction dir="east" to_room="90" to_zone="15" />
+			<direction dir="west" to_room="88" to_zone="15" />
+		</directions>
+	</room>
+	<room number="90" name="A Dark Passage" sector="2" flags="9">
+		<description>   The small passage continues west and east from here.
+</description>
+		<directions>
+			<direction dir="east" to_room="91" to_zone="15" />
+			<direction dir="west" to_room="89" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="boulder">
+				<description>A huge boulder stands here.  In its center someone has carved out a
+perfect round hole.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="91" name="A Dark Passage" sector="2" flags="9">
+		<description>   The small passage ends here for no apparent reason.  Looking around
+you find a small ladder half buried in the dirt.  setting it up you find
+a trap door in the ceiling.  The passage continues west from here.
+</description>
+		<directions>
+			<direction dir="west" to_room="90" to_zone="15" />
+			<direction dir="up" keyword="secret" flags="1" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="fire">
+				<description>Moving closer you see this fire is actually FROZEN in place.  The
+flames still radiate heat, but are not actually burning.  Looking
+around you notice a small hole about the size of a piece of charcoal
+at the base of the flames.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="92" name="Underground" sector="2" flags="9">
+		<description>   The small passage continues west and east.
+</description>
+		<directions>
+			<direction dir="east" to_room="93" to_zone="15" />
+			<direction dir="west" to_room="82" to_zone="15" />
+		</directions>
+	</room>
+	<room number="93" name="Underground" sector="2" flags="9">
+		<description>   The small passage continues west and east.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" to_room="92" to_zone="15" />
+		</directions>
+	</room>
+	<room number="0" name="Underground" sector="1" flags="9">
+		<description>   The small passage continues west and east.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" to_room="93" to_zone="15" />
+		</directions>
+	</room>
+	<room number="1" name="Underground" sector="1" flags="9">
+		<description>   The small passage continues west and east.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="2" name="Underground" sector="1" flags="9">
+		<description>   The small passage continues west and east.
+</description>
+		<directions>
+			<direction dir="east" to_room="88" to_zone="15" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="3" name="Clerics' Sanctum" sector="1" flags="152">
+		<description>   You walk down the staircase into the silent inner sanctum.  Here sits
+your guildmaster ready to assist you when the time is right.  The room
+is completely silent.  The only obvious exit is back up the staircase
+into the the Nectar.
+</description>
+		<directions>
+			<direction dir="east" to_room="79" to_zone="15" keyword="secret door" flags="1">
+				<general_description>You notice the floor at the base of the eastern wall has some faint
+scratches in it.
+</general_description>
+			</direction>
+			<direction dir="up" />
+		</directions>
+	</room>
+	<room number="4" name="The Chamber Of The High Priest" sector="1" flags="8">
+		<description>   You have entered the chamber of the most holy man in New Thalos.  The
+High Priest advises the Sultan on all matters in the world of the sacred.
+From what you have heard however, this holy man has a bit of a temper,
+and he doesn't look very happy that you've disturbed his prayers.
+   The only obvious exit is south.
+</description>
+		<directions>
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="5" name="By The Altar" sector="1" flags="88">
+		<description>   You are by the temple altar in the northern end of Temple of New
+Thalos.  A huge altar made of highly polished black onyx is standing
+in front of you.  Behind this altar sits a twelve foot tall statue of
+Akbal, the highest god in all the lands.
+</description>
+		<directions>
+			<direction dir="south" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="statue">
+				<description>Looking up the huge statue you see Akbal calmly gazing out across his
+lands, he seems pleased.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="6" name="The Weavers' Guild" sector="1" flags="8">
+		<description>   Rows and rows of uncut cloth lie about waiting to be hemed up
+into tailored clothes.  Cotten is brought in from the country side
+and spun up into cloth and dyed different colors.  A young boy walks
+in, grabs a pile of clothing and leaves.
+</description>
+		<directions>
+			<direction dir="east" to_room="61" to_zone="15" />
+		</directions>
+	</room>
+	<room number="7" name="The Craftsmans' Guild" sector="1" flags="8">
+		<description>   You have entered a busy workshop filled with people running amok
+with various tools and materials.  The air is tense with the rush to
+complete various projects and creations.
+</description>
+		<directions>
+			<direction dir="west" to_room="61" to_zone="15" />
+		</directions>
+	</room>
+	<room number="8" name="Inside The Temple" sector="1" flags="72">
+		<description>   The temple continues here, but not on such a grand scale.  The place
+still looks immaculate.  To the north you see the chamber of the High
+Priest and a sign on the door in BIG letters thats reads 'DO NOT DISTURB'
+To the south is the entrance to the Clerics' Guild.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="9" name="Inside The Temple" sector="1" flags="200">
+		<description>   Huge marble pillars rise on either side of you and grab hold of
+the ceiling.  Between each of these, fine softstone frescoes have
+been carved depicting scenes from the religous history of New Thalos.
+Rows of pews face forward giving their full attention to the pulpit
+rising high above the ground.  The deep red carpeting underfoot shows
+not a speck of wear or dirt.  It is obvious that New Thalonians take
+religion seriously.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="10" name="The Donation Room" sector="1" flags="12">
+		<description>   This room is new to the temple, it was created during the hard times
+that had struck the city in recent decades.  Luckily for them the Sultan
+had been hoarding some of the basic neccesities for just such an occasion.
+These days the donation room depends on the generosity of wealthy 
+adventurers, and a curse on any that walk in to take everything.
+</description>
+		<directions>
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="11" name="The Museum Of The Greater Gods" sector="1" flags="12">
+		<description>   Four large stone statues reside in the museum.  They were constructed
+by the people of New Thalos to pay homage to the saints they believe to 
+have saved all their lives.
+   The museum continues to the south.
+</description>
+		<directions>
+			<direction dir="south" />
+			<direction dir="west" to_room="62" to_zone="15" />
+		</directions>
+	</room>
+	<room number="12" name="The Entrance To The Guild of Clerics" sector="1" flags="152">
+		<description>   This hall pales in comparison to that of the main hall, but is
+beautiful in its own right.  Shaven heads and brown robes can be
+seen milling about quitely talking to each other.  North is back
+inside the temple proper, and south is the entrance to the clerics'
+bar.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="13" name="The Temple Gates" sector="2" flags="0">
+		<description>   You stand before the entrance way to the Temple of New Thalos.  Two
+large wrought iron gates lie open before you.  Although they might not
+ever be used the priests in the temple are ready to defend themselves,
+should their city ever come under seige again.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+			<direction dir="down" />
+		</directions>
+	</room>
+	<room number="14" name="Ahkeem's Stuff" sector="1" flags="8">
+		<description>   You step into a shop swirling with smoke.  Ahkeem seems to have a
+liking for things not of this world... very strange stuff indeed.
+</description>
+		<directions>
+			<direction dir="south" to_room="14" to_zone="15" />
+		</directions>
+	</room>
+	<room number="15" name="Vera's Veggies" sector="1" flags="8">
+		<description>   This is a busy place.  Customers shuffle around, bartering for lower
+prices on the wide selection of vegetables.  You can still hear your
+mother telling you 'Eat your Veggies'.  That is probably why you are
+spending time in the city of New Thalos and not with her.  But wait...
+Vera looks just like your mother!
+</description>
+		<directions>
+			<direction dir="south" to_room="16" to_zone="15" />
+		</directions>
+	</room>
+	<room number="16" name="The Museum Of The Greater Gods" sector="1" flags="12">
+		<description>   Four large stone statues reside in the museum.  They were constructed
+by the people of New Thalos to pay homage to the saints they believe to 
+have saved all their lives.
+   The museum continues to the north.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="west" to_room="63" to_zone="15" />
+		</directions>
+	</room>
+	<room number="17" name="The Base Of The Tower" sector="1" flags="24">
+		<description>   You walk into a cold room whose only feature is an old wooden
+staircase spirling up along the wall to a higher level.  Up these
+stairs you are told awaits the old mage who may be able to help
+you advance in your studies.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" keyword="door secret" flags="1">
+				<general_description>You see some small scratches on the floor near the base of the wall.
+</general_description>
+			</direction>
+			<direction dir="up" />
+		</directions>
+	</room>
+	<room number="18" name="The Mages' Courtyard" sector="2" flags="16">
+		<description>   You enter a small tiled courtyard with a small fountain in the middle.
+Around the sides are four wrought iron benches with cushions where the
+mages of the land sit and exchange ideas.  To the west stands a two-story
+tower where the leader of the mages' guild performs his experiments.
+</description>
+		<directions>
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="19" name="Nectar Of The Gods" sector="1" flags="152">
+		<description>   You are startled by the lavishness of this place.  From what you
+know of clerics they are supposed to be humble people, giving all their
+material goods to their cause.  Perhaps because only clerics are 
+allowed to enter this bar they have condoned making it as comfortable
+as possible.  In the corner stands a staircase leading down to the
+meditaion chambers.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="down" />
+		</directions>
+	</room>
+	<room number="20" name="Temple Square" sector="2" flags="68">
+		<description>   You are standing on the meeting grounds of those with holy
+intentions.  Monks, bards, paladins and clerics mill around
+either preaching or listening to their fellows preach.  Huge
+marble steps lead up to the gates of the temple and Main Street
+lies to the south.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" to_room="24" to_zone="15" />
+			<direction dir="up" />
+		</directions>
+	</room>
+	<room number="21" name="The Bank" sector="1" flags="24">
+		<description>   You stand in a large building decorated with black marble and red
+satin.  Huge pillars support an arched ceiling far above your head.
+You wonder at the skill the dwarves have for detail as you examine
+the trim.  Fine silver seperates the polished blocks that make up the
+floor.
+</description>
+		<directions>
+			<direction dir="east" to_room="14" to_zone="15" />
+		</directions>
+	</room>
+	<room number="22" name="The Butchery" sector="1" flags="8">
+		<description>   This shop has the aroma of freshly slaughterd beasts.  You feel right
+at home.  You see a fairly simple set up.  The corpses... er... selections
+hang on hooks, still bleeding into catch pans that drain into a single
+underground vat.  You wonder where that leads...
+</description>
+		<directions>
+			<direction dir="west" to_room="16" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="vat">
+				<description>You think you hear noises from the vat... naaah.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="23" name="The Witch's Brew" sector="1" flags="8">
+		<description>   The first thing you notice as you walk into this spacious shop is
+the hundreds of candles that line the shelves.  The swirling mist that
+surrounds your feet makes it seem that you have stepped into a gateway
+to another plane.  A cluttered table stands near the far wall, opposite
+the doorway.
+</description>
+		<directions>
+			<direction dir="south" to_room="29" to_zone="15" />
+		</directions>
+	</room>
+	<room number="24" name="Braheem's Magic Shop" sector="1" flags="8">
+		<description>   You enter a shop crowded with bookshelves and clutterd with scrolls.
+The owner seems to be hard at work on his latest magical creation.
+You see a small sign on the wall.
+</description>
+		<directions>
+			<direction dir="south" to_room="30" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>The sign reads:
+
+Welcome to Braheem's...
+
+LIST   - Shows you all of my wonderful creations.
+VALUE  - Shows what an item might be worth to me.
+SELL   - Allows you to rid yourself of excessive magic items.
+BUY    - Allows you to rid youself of excessive cash.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="25" name="The Entrance To The Mages' Tower" sector="1" flags="152">
+		<description>   The entrance hall is a small poor lighted room.  It would seem its
+only purpose is to house the powerful sorcerer standing here guarding 
+the entrance.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" to_room="31" to_zone="15" />
+		</directions>
+	</room>
+	<room number="26" name="The Entrance To The Guild of Warriors" sector="1" flags="152">
+		<description>   This small hall is merely a check point to keep the unwanted out.
+</description>
+		<directions>
+			<direction dir="north" to_room="23" to_zone="15" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="27" name="The Repair Shop" sector="1" flags="12">
+		<description>   One of the most popular shops in New Thalos, this shop is always a
+hive of activity.  It is almost inhuman the way one man can fix all
+types of armour singlehandedly.  If you have an item in need of repair
+simply give it to the man behind the counter.
+There is a small sign on the counter.
+</description>
+		<directions>
+			<direction dir="north" to_room="24" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>The sign reads:
+
+Closed for renovations
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="28" name="The General Store" sector="1" flags="8">
+		<description>   The new found wealth of this beautiful city is apearant in the exotic
+items for sale here.  You wonder what would happen if you typed... LIST...
+</description>
+		<directions>
+			<direction dir="east" to_room="8" to_zone="15" />
+		</directions>
+	</room>
+	<room number="29" name="Abdul's Armour" sector="1" flags="8">
+		<description>   The sound of hammering metal grows louder as you enter the armoury.
+Young boys run to and fro carrying buckets of water and coal.  A few
+dwarves work on sections of armour in the back of the shop, their
+hammers working too fast to follow.  The walls are adorned in all of
+Abdul's prize creations.  Here you can purchase suits of armour meant
+to keep monsters from hacking you into little pieces.
+A note on the wall beckons your attention.
+</description>
+		<directions>
+			<direction dir="west" to_room="7" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="note">
+				<description>The note reads:
+
+LIST  : gives you a list of items for sale.
+VALUE : tells you how much an item is worth to Abdul
+SELL  : sells an item to Abdul for a generous sum
+BUY   : Abdul's FAVORITE command lets you have an item for his low,
+                low price.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="30" name="The Mercenaries' Guild" sector="1" flags="8">
+		<description>   This guild is frowned upon by most of the population of New Thalos,
+but the laws of supply and demand are irresistable.  People come here
+when they feel unable or are unwilling to fight their own battles.  For
+a small fee you may hire a henchman.
+</description>
+		<directions>
+			<direction dir="north" to_room="29" to_zone="15" />
+			<direction dir="east" keyword="door secret" flags="1">
+				<general_description>You notice some small scratches in the floor next to the eastern wall.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="31" name="The Mercenaries Guild" sector="1" flags="520">
+		<description>   This is the storage room for the mercenaries to be hired.
+</description>
+	</room>
+	<room number="32" name="Entrance To The Thieves' Guild" sector="1" flags="153">
+		<description>   This small, dark room has a single torch mounted in the wall for
+light. There is a small wooden bench and a book lying on it.  The
+assassin guarding the entrance from 'outsiders' stands as you walk
+in.
+</description>
+		<directions>
+			<direction dir="south" />
+			<direction dir="west" keyword="door secret" flags="1" />
+		</directions>
+	</room>
+	<room number="33" name="The Whet Stone" sector="1" flags="152">
+		<description>   Very large men with very large swords drink beer from very large mugs.
+Everything in this room is BIG.  The large round tables are scuffed and
+nicked from the numerous bar brawls that have sprung up.  It might be a
+good idea to hold your tounge for a while as you soak up the atmosphere.
+   There is an exit to the east where the master swordsman awaits pupils
+to train with.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+		</directions>
+	</room>
+	<room number="34" name="The Tournament And Practice Yard" sector="1" flags="152">
+		<description>   This is a wide expanse of grass filled with dummies, punching bags
+and swordpupils.  To the north you see a man dressed in black robes,
+unlike his iron clad comrades, who you assume to be your master.
+</description>
+		<directions>
+			<direction dir="east" to_room="73" to_zone="15" keyword="secret door" flags="1">
+				<general_description>You see the grass near the base of the wall here is slightly torn.
+</general_description>
+			</direction>
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="35" name="The Bread Stand" sector="1" flags="8">
+		<description>   A small stand has been set up here, showing the shopkeep's humble
+selection.  You notice he has added a few things to his list.
+</description>
+		<directions>
+			<direction dir="north" to_room="8" to_zone="15" />
+		</directions>
+	</room>
+	<room number="36" name="Igor's Implements Of Destruction" sector="1" flags="8">
+		<description>   You can't help but shiver as you look at the selection of vicious
+weapons.  Huge swords and wicked looking axes hang on pegs around the
+room.  A dwarf sits at a bench in the back hammering away on his latest
+creation.  It is here you can buy rare and exotic items not found in
+other parts of the world.
+A note catches your eye.
+</description>
+		<directions>
+			<direction dir="north" to_room="7" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="note">
+				<description>The note simply reads:
+
+READ THE NOTE IN THE ARMOURY
+
+                          Igor.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="37" name="Ye Old Leather Shoppe" sector="1" flags="8">
+		<description>   You are standing on a thick oriental rug surrounded on all sides by
+racks of numerous leather goods.  A few women sit on leather cushions
+sewing in some detail work on custom ordered jackets.
+</description>
+		<directions>
+			<direction dir="east" to_room="66" to_zone="15" />
+		</directions>
+	</room>
+	<room number="38" name="Smuggler's Inn" sector="1" flags="8">
+		<description>   You are inside a filthy inn, that seemingly has been cleaned in
+decades.  Poker tables line the walls and everyone stares at you as
+you walk in, you don't feel very welcome.  The bar has numerous
+knife holes in it and the bartender leans over waiting for your
+order.
+</description>
+		<directions>
+			<direction dir="west" to_room="67" to_zone="15" />
+		</directions>
+	</room>
+	<room number="39" name="The Filthy Unicorn" sector="1" flags="152">
+		<description>   A draft chills your bones as you enter, though you see no open
+window or door.  Hooded figures lurk around in the shadows and speak
+in low voices.  A flash of steel lets you know that weapons are in
+great abundance in this crowd.  As you quickly check your beltpouch
+you notice a small staircase leading down.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="down" />
+		</directions>
+	</room>
+	<room number="40" name="The Warehouse" sector="1" flags="8">
+		<description>   You are standing in a large room used to store merchandise made in the
+city before it is shipped off.  All the items here are made in New Thalos
+and shipped to other parts of the land.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" to_room="33" to_zone="15" />
+		</directions>
+	</room>
+	<room number="41" name="The Warehouse" sector="1" flags="8">
+		<description>   Men walk to and fro counting crates and writing down their findings.
+This area of the warehouse is used for storing the raw materials brought
+in from areas outside the city.  These goods are then delivered to the
+various guilds.  The export area of the warehouses is to the south.
+</description>
+		<directions>
+			<direction dir="south" to_room="34" to_zone="15" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="42" name="The Shipwright" sector="1" flags="8">
+		<description>   The wood under you feet creaks from years of being soaked in saltwater.
+An old man with a curly, grey beard stand behind a small counter waiting
+to take your order.  Behind him are mounted various model sailboats and
+large fish.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" to_room="35" to_zone="15" />
+		</directions>
+	</room>
+	<room number="43" name="The Drafting Room" sector="1" flags="8">
+		<description>   The walls are covered with paper sketchings of hull designs.  This room
+is used by the shipwright to build his creations on paper before making a
+single cut in wood.
+</description>
+		<directions>
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="44" name="The Forge" sector="1" flags="8">
+		<description>   Very much like the weaponsmith this man deals in the molding of metal.
+It seems that most of his creations deal with horses.  On the walls you
+see several horseshoes made of iron.  The room is hot, hotter than the
+desert just south of here, and one wonders how the smithy can stand it.
+</description>
+		<directions>
+			<direction dir="south" to_room="37" to_zone="15" />
+		</directions>
+	</room>
+	<room number="45" name="The Royal Stables" sector="2" flags="8">
+		<description>   Nothing you wouldn't expect is here.  Several stalls hold the
+Sultan's choice Arabian Stallions, and each has their own trough
+for drinking.  A small boy wanders in sometimes with a shovel to
+remove the offensive by-product of such beasts.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" to_room="39" to_zone="15" />
+		</directions>
+	</room>
+	<room number="46" name="The Secret Yard" sector="1" flags="152">
+		<description>   This is a hidden yard known to only a few people in New Thalos.  Here
+you may train in the arts of stealing, picking locks, and becoming almost
+invisible.
+   A small staircase leads back up to the Unicorn.
+</description>
+		<directions>
+			<direction dir="south" to_room="89" to_zone="15" keyword="secret door" flags="1">
+				<general_description>You see some small scratches in the wall to the south.
+</general_description>
+			</direction>
+			<direction dir="up" />
+		</directions>
+	</room>
+	<room number="47" name="The Dump" sector="2" flags="0">
+		<description>   This is the place where the people of the city dump their trash.  Due
+to the constant winds blowing down the moutains the smell is usually blown
+outside the walls and over the desert.
+</description>
+		<directions>
+			<direction dir="south" to_room="42" to_zone="15" />
+		</directions>
+	</room>
+	<room number="48" name="The Mage's Laboratory" sector="1" flags="152">
+		<description>   You stand in the top of an old stone tower.  Along the walls hundreds
+of potions, scroll, and wands lie in disaray.  The man you see before you
+sits hunched over a small wooden table with two beakers of bubbling liquid
+in front of him.  He looks up as you enter and smiles broadly.
+</description>
+		<directions>
+			<direction dir="down" />
+		</directions>
+	</room>
+	<room number="49" name="The Hay Loft" sector="1" flags="8">
+		<description>   Not as big as the ones you see on farms in the country, this hay loft
+serves as a storage area for the horses in the stables.  The young boy
+you saw with the shovel seems to have takes up residence on the second
+story.
+</description>
+		<directions>
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="50" name="The Grand Entrance" sector="1" flags="8">
+		<description>   Nowhere have you seen such an obscene display of wealth then in this 
+corridor.  The shaggy carpeting under your feet makes it seem as if you
+are walking on a cloud.  Platinum candelabras hang delicately from the
+ceiling casting light on the ancient tapestries adorning the walls.  The
+crick in your neck tells you that it is time to stop staring.  To the west
+the numerous halls of the palace being and the gate lies to the east.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" key="0" key_zone="15" keyword="gate" flags="9" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="51" name="The Library" sector="1" flags="40">
+		<description>   This building holds the vast collection of books and documents
+that have been brought here by the commitee apointed to recover the
+lost knowledge of Thalos.  Rows of shelves filled with book in every
+condition line the walls.  The air has the aroma of old parchment
+and glue.
+</description>
+		<directions>
+			<direction dir="east" to_room="55" to_zone="15" />
+		</directions>
+	</room>
+	<room number="52" name="The Dance Hall" sector="1" flags="8">
+		<description>   You seem to have missed a huge party.  The janitors are here cleaning
+up the confetti and pieces of food.  Hundreds of empty beer mugs on the 
+tables surrounding the dance floor suggest that the citizens love their
+drink.  There is still a banner on the wall.
+</description>
+		<directions>
+			<direction dir="east" to_room="56" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="banner">
+				<description>========================================================================
+                     
+             H A P P Y   B I R T H D A Y   T O   U S
+
+========================================================================
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="53" name="The Jail" sector="1" flags="696">
+		<description>   You are in jail.  For some reason, someone feels that you've screwed
+up pretty bad and should be put away safely for a while.  
+</description>
+		<directions>
+			<direction dir="north" to_room="44" to_zone="15" key="93" key_zone="15" keyword="gate" flags="9" />
+		</directions>
+	</room>
+	<room number="54" name="City Hall" sector="1" flags="8">
+		<description>   You stand inside the administrative head of the city.  Here the
+decisions regarding city policy are made.  Although the Sultan's
+word is law, he usually spends his time on affairs outside the city
+wall.
+</description>
+		<directions>
+			<direction dir="north" to_room="45" to_zone="15" />
+		</directions>
+	</room>
+	<room number="55" name="The Boyer/Fletchers' Guild" sector="1" flags="8">
+		<description>   The walls in this room are covered with pegs that hold various types
+of bows.  There are few people working here, lending to the fact that
+the skills are rare to come by in the general populas.  A few boys are
+busy in the corner preparing feathers for the fine shafts used in making
+arrows.  Some Elven craftsmen are carefuly inspecting each bow as it is
+finnished.
+</description>
+		<directions>
+			<direction dir="east" to_room="60" to_zone="15" />
+		</directions>
+	</room>
+	<room number="56" name="The Masons' Guild" sector="1" flags="8">
+		<description>   There is no doubt that the Dwarves here know what they're doing.  They
+have been invaluable in the building of this beautiful city.  Here they
+are hard at work doing what they do best.  The hammers fly in a blur as
+these talented craftsmen work the stone into ornate bricks, pillars, trim,
+and many other forms.
+</description>
+		<directions>
+			<direction dir="west" to_room="60" to_zone="15" />
+		</directions>
+	</room>
+	<room number="57" name="The Guard House" sector="1" flags="8">
+		<description>   You stand inside the southern of the two main guard houses.  The
+stone interior has a spartan look to it, only the bare neccesities.
+A few weapons are mounted on the walls in case they might be needed.
+</description>
+		<directions>
+			<direction dir="north" />
+		</directions>
+	</room>
+	<room number="58" name="The Palace Gate" sector="2" flags="0">
+		<description>   You stand before a magnificantly crafted gate wrought in solid gold.
+You gape in awe at the splendor of the spirilng towers beyond the portal.
+The ruler of all the eastern lands resides in this fine palace, and he is
+not a poor man.  The grand entrance lies byond the gate, and Sultan's Walk
+is to the east.
+</description>
+		<directions>
+			<direction dir="east" to_room="20" to_zone="15" />
+			<direction dir="west" key="0" key_zone="15" keyword="gate" flags="9" />
+		</directions>
+	</room>
+	<room number="59" name="The Northwest Tower" sector="1" flags="8">
+		<description>   You stand on one of the four towers guarding the city.  The view from
+here is great!  To the west you see the tall mountains that make up the
+divide between here and Midgaard.  The River Ishtar slowly flows from that
+direction.  South you can see the entire city of New Thalos and the Great
+Eastern Desert to the south.
+</description>
+		<directions>
+			<direction dir="down" to_room="44" to_zone="15" />
+		</directions>
+	</room>
+	<room number="60" name="The Guard House" sector="1" flags="8">
+		<description>   You stand inside the northern of the two main guard houses.  Strong
+guards are seated here, playing cards.  The stone interior is clean but
+bare walled save the weapons and armor mounted in the walls.
+   The only exit is south.
+</description>
+		<directions>
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="61" name="The Kitchen" sector="1" flags="8">
+		<description>   Your footsteps echo off the stone tiles of the kitchen.  On the south
+wall you see the large fire place and a huge copper pot bubbling merrily.
+The chef is busy chopping up greens and other vegetables at the wooden
+table for tonight's meal.  Servants scurry about grabbing utensils and
+preparing fresh hares.
+   A small door leads out into the hall northward and the doorway to the
+dining hall is west.
+</description>
+		<directions>
+			<direction dir="north" keyword="door" flags="1" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="62" name="The Northeast Tower" sector="1" flags="8">
+		<description>   You stand on one of the four towers guarding the city.  To the north
+you see the wide plains and then the forset.  South of here you see the
+city and the Great Eastern Desert beyond.
+</description>
+		<directions>
+			<direction dir="down" to_room="54" to_zone="15" />
+		</directions>
+	</room>
+	<room number="63" name="A Hall" sector="1" flags="8">
+		<description>   You are at the eastern end of the southern hallway.  A small servants'
+entrance gives access to the kitchen and the hall continues west.
+</description>
+		<directions>
+			<direction dir="south" keyword="door small" flags="1" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="64" name="The Tanners' Guild" sector="1" flags="8">
+		<description>   You first notice the pungent smell of freshly tanned leather goods as
+you enter this strange place.  The next thing that grabs your attention
+is the many colors that these people have transformed the beautiful
+skins into.  The people are streaching the leather and cutting it into
+the shapes they need.
+You notice a small message on a wall.
+</description>
+		<directions>
+			<direction dir="east" to_room="62" to_zone="15" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="message">
+				<description>The message appears to read:
+
+                       I hate being a Tanner
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="65" name="A Hall" sector="1" flags="8">
+		<description>   You have come to the eastern end of the northern hallway.  The only
+exit is west except for the simple wooden door to the north.
+There is a golden plaque above the door.
+</description>
+		<directions>
+			<direction dir="north" keyword="door" flags="1" />
+			<direction dir="west" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="plaque">
+				<description>Engraved on the plaque are the following words:
+
+                     The Holy Shrine of Allah
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="66" name="The Shrine Of Allah" sector="1" flags="8">
+		<description>   As you step into this room you seem to leave the material plane.
+The walls here are decorated with beautiful, multi-colored tiles.
+There is a strange stillness about the air.  You sense the presence
+of an all-mighty being.
+</description>
+		<directions>
+			<direction dir="south" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="67" name="Outside The Northern Gate Of New Thalos" sector="2" flags="4">
+		<description>   You stand outside the gate of New Thalos.  The city lies to the south,
+and wilderness to the north.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" to_room="22" to_zone="15" key="1" key_zone="15" keyword="gate" flags="1" />
+		</directions>
+	</room>
+	<room number="68" name="Outside The Eastern Gate Of New Thalos" sector="2" flags="0">
+		<description>   You stand outside the protective walls of the city.  The massive iron
+gate sits to the west and the unknown awaits you eastward.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" to_room="31" to_zone="15" key="1" key_zone="15" keyword="gate" flags="1" />
+		</directions>
+	</room>
+	<room number="69" name="Outside The West Gate Of New Thalos" sector="2" flags="0">
+		<description>   You stand outside the city walls, the iron gate to the east.  The city
+lies in that direction and the road to Midgaard lies west.
+</description>
+		<directions>
+			<direction dir="east" to_room="23" to_zone="15" key="1" key_zone="15" keyword="gate" flags="1" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="70" name="Outside The Wall" sector="3" flags="0">
+		<description>   You are in a small clearing outside the east wall of the city.  The
+ground seems well trodden but you can see no apparent exit save that
+to the north.
+</description>
+		<directions>
+			<direction dir="north" />
+		</directions>
+	</room>
+	<room number="71" name="The Grand Dining Hall" sector="1" flags="8">
+		<description>   A long oaken table, coverd with silverware, plates, and a table cloth
+with gold trim, dominates the room.  Although no diners occupy the room
+as of yet, servants sprint about setting the table and placing condiments.
+   The kitchen entrance is to the east, and two huge double doors open
+into the hallway north.
+</description>
+		<directions>
+			<direction dir="north" keyword="doors double" flags="1" />
+			<direction dir="east" />
+		</directions>
+	</room>
+	<room number="72" name="A Hall" sector="1" flags="8">
+		<description>   You stand at a T-crossing in the long hallways.  There are two large
+double doors to the south.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" keyword="doors double" flags="1" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="73" name="A Hall" sector="1" flags="8">
+		<description>   You stand at an intersection of the hallways.  Wooden corridors
+lead off in all directions except west, the garden of the palace
+can be entered there.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="74" name="A Hall" sector="1" flags="8">
+		<description>   You have come to a T-crossing on the hallways.  The wooden corridors
+continue east, west and south.  There is a large iron door to the north.
+</description>
+		<directions>
+			<direction dir="north" keyword="door iron heavy" flags="1" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="75" name="The Entrance To The Dungeon" sector="1" flags="8">
+		<description>   You enter a cold damp room with bare roughly hewn stone walls.
+This room seems very out of place compared to the splendor of the
+rest of the Palace.
+   A large steel grating leads down into darkness, and an iron door
+returns you to the hallway.
+</description>
+		<directions>
+			<direction dir="south" keyword="door iron" flags="1" />
+			<direction dir="down" keyword="grating steel" flags="1" />
+		</directions>
+	</room>
+	<room number="76" name="A Guest Room" sector="1" flags="8">
+		<description>   This is a simple room used for visiting nobles.  A small dresser stands
+on the east wall with a mirror hung right above it.  A queen sized bed made
+up in satin sheets stands in the middle of the room against the south
+wall under a window.  The only obvious exit is north back out into the 
+hallway.
+</description>
+		<directions>
+			<direction dir="north" keyword="door" flags="1" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="window">
+				<description>Looking out this window you can see the grounds of the palace that 
+seperate the walls of the palace from the building itself.
+</description>
+			</extra_description>
+			<extra_description keyword="mirror">
+				<description>You see a the fighting image of some armor clad humanoid wielding a weapon.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="77" name="A Hall" sector="1" flags="8">
+		<description>   The long hall continues here with a wooden door in the south wall.  On
+the north wall hangs the picture of some forgotten nobleman who once ruled 
+the land.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" keyword="door" flags="1" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="78" name="The Sultan's Garden" sector="3" flags="0">
+		<description>   You have entered the Sultan's private gardens.  A light sweat breaks
+out on your skin from the humidity here.  All around you are thousands of
+exotic plants and flowers.  The sweet smell of jasmine and honeysuckle
+reminds you of happier days at home.  Off to the north, through the palm
+trees, you see a delicate white gazebo.
+   A path leads out into the hallway and west towards the gazebo.
+To your right stands a gold sign.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="sign">
+				<description>=========================================================================
+=========================================================================
+||                                                                     ||
+||                                                                     ||
+||                                                                     ||
+||                                                                     ||
+||        Welcome to my humble garden.  I have created this            ||
+||        tiny bit of paradise for the pleasure of my people.          ||
+||        Take only memories... Leave only footprints...               ||
+||                                                                     ||
+||                                                                     ||
+||                                                                     ||
+||                                 The Sultan                          ||
+||                                                                     ||
+||                                                                     ||
+||                                                                     ||
+=========================================================================
+=========================================================================
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="79" name="A Hall" sector="1" flags="8">
+		<description>   The long stretch of hallway continues east and west from here.  The
+small red carpet covering the centerline is always underfoot and an
+occasional bench or potted plant lines the wall.
+There is a door here to the north with a plaque mounted over it.
+</description>
+		<directions>
+			<direction dir="north" keyword="door" flags="1" />
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="plaque door">
+				<description>The plaque on the door reads:
+
+                   THE ART EXHIBIT
+                         of
+                     NEW THALOS
+
+                          - the management is not responsible for lost items.
+
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="80" name="The Art Exhibit" sector="1" flags="8">
+		<description>   You are standing in the Sultan's tribute to the finer virtues.
+Large paintings hang from the walls displaying nature scenes, nudes,
+and glorious victories in battle.  Strange scupltures rest on pedestals 
+at each corner of the room and mirrors are placed in strategic locations
+so the viewer may see an entire sculpture at a glance.
+   Your eyes, however, are pulled towards a painting that dominates the
+far wall.
+</description>
+		<directions>
+			<direction dir="south" keyword="door" flags="1" />
+		</directions>
+		<extra_descriptions>
+			<extra_description keyword="painting">
+				<description>The large painting on the west wall appears to be of the temple of New
+Thalos, and occupies the entire western wall of this room.
+</description>
+			</extra_description>
+		</extra_descriptions>
+	</room>
+	<room number="81" name="A Guest Room" sector="1" flags="8">
+		<description>   This is another room made up for visiting nobles.  There is a dresser
+up against the eastern wall with a mirror above it and a queen sized bed,
+made up in satin sheets, against the south wall.
+</description>
+		<directions>
+			<direction dir="north" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="82" name="A Hall" sector="1" flags="8">
+		<description>   You have reached the western end of the southern hallway.  The only
+exit is east except for the doors in the southern and western walls.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" keyword="door" flags="1" />
+			<direction dir="west" key="1" key_zone="15" keyword="door" flags="9" />
+		</directions>
+	</room>
+	<room number="83" name="The Garden Gazebo" sector="1" flags="8">
+		<description>   Walking through the gardens you come across a small white wooden
+structure.  The sounds of birds, the smell of flowers, ahhh, paradise.
+You believe that you have never been in a more peaceful setting.
+</description>
+		<directions>
+			<direction dir="east" />
+		</directions>
+	</room>
+	<room number="84" name="A Hall" sector="1" flags="8">
+		<description>   This is the western end of the northern hallway.  Two doors are set
+in the walls here, one to the north, another to the west.
+</description>
+		<directions>
+			<direction dir="north" keyword="door" flags="1" />
+			<direction dir="east" />
+			<direction dir="west" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="85" name="The Guard Room" sector="1" flags="8">
+		<description>   You stand in a barren chamber lined with nothing but cots and
+footlockers.  The guards come here when off duty to sleep, for
+they may only leave the Palace grounds with special permission.
+   The only exit is to the south.
+</description>
+		<directions>
+			<direction dir="south" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="86" name="The Guard Room" sector="1" flags="8">
+		<description>   This is living quarters for the guards of the palace.  Barren compared
+to the rest of the Palace, you see only cots and footlockers here.  On the
+walls you see pictures of well known knights who have give a proud name to
+the Sultan's Guard.
+</description>
+		<directions>
+			<direction dir="north" />
+		</directions>
+	</room>
+	<room number="87" name="The Harem" sector="1" flags="8">
+		<description>   This is the room where the Sultan keeps the beautiful women of his
+Palace.  There are ten girls here lying about the room dressed in silks
+you can almost see through.  In the western end of the room stands a
+large mound of pillows and a beautiful young maiden sits perched atop.
+It is unfortunate for you that only the Sultan is allowed in here.
+</description>
+		<directions>
+			<direction dir="north" keyword="door secret" flags="1" />
+			<direction dir="east" key="1" key_zone="15" keyword="door" flags="9" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="88" name="A Small room" sector="1" flags="8">
+		<description>   This is secret chamber allowing the Sultan direct access to his harem
+at any time he chooses.
+</description>
+		<directions>
+			<direction dir="north" keyword="door" flags="1" />
+			<direction dir="south" keyword="door secret" flags="1" />
+		</directions>
+	</room>
+	<room number="89" name="The Throne Room" sector="1" flags="8">
+		<description>   You stand in the throne room of the mighty Sultan of New Thalos.  Guards
+stand at attention near his side ready to make the ultimate sacrifice for
+their beloved leader.  The gold inlaid throne studded with jewels stands
+upon a mable dias.  The Sultan is not a man to be trifled with.
+</description>
+		<directions>
+			<direction dir="north" key="0" key_zone="15" keyword="throne" flags="9" />
+			<direction dir="east" keyword="door" flags="1" />
+			<direction dir="south" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="90" name="The Treasure Room" sector="1" flags="8">
+		<description>   You have somhow managed to gain access to the treaure vault of the
+Sultan.  The alarm sounding in the background tells you that you must
+have tripped off some kind of alarm system.  It might be adviseable to
+grab as much stuff as you possibly can and run for the door.
+</description>
+		<directions>
+			<direction dir="south" key="0" key_zone="15" keyword="door" flags="9" />
+		</directions>
+	</room>
+	<room number="91" name="The Jailer's Room" sector="1" flags="9">
+		<description>   Climbing down the old wooden ladder you enter a small cave like
+room.  There is a small bench with some old magazines and a low
+burning candle sitting off to one side.  A door is set into the
+stone on the north wall, and the steel grating opens up above.
+</description>
+		<directions>
+			<direction dir="east" keyword="door" flags="1" />
+			<direction dir="up" keyword="steel" flags="1" />
+		</directions>
+	</room>
+	<room number="92" name="A Tunnel In The Dungeon" sector="1" flags="9">
+		<description>   You stand in a roughly hewn stone tunnel with cells to the north and
+south.  The tunnel continues east.
+</description>
+		<directions>
+			<direction dir="north" key="93" key_zone="15" keyword="cell" flags="9" />
+			<direction dir="east" />
+			<direction dir="south" key="93" key_zone="15" keyword="cell" flags="9" />
+			<direction dir="west" to_room="91" to_zone="15" keyword="door" flags="1" />
+		</directions>
+	</room>
+	<room number="93" name="A Tunnel In The Dungeon" sector="1" flags="9">
+		<description>   You stand in a roughly hewn stone tunnel with cells to the north and
+south.  The tunnel continues east and west.
+</description>
+		<directions>
+			<direction dir="north" key="93" key_zone="15" keyword="cell" flags="9" />
+			<direction dir="east" />
+			<direction dir="south" key="93" key_zone="15" keyword="cell" flags="9" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="94" name="A Tunnel In The Dungeon" sector="1" flags="9">
+		<description>   You stand in a roughly hewn stone tunnel with cells to the north and
+south.  The tunnel continues east and west.
+</description>
+		<directions>
+			<direction dir="north" key="93" key_zone="15" keyword="cell" flags="9" />
+			<direction dir="east" />
+			<direction dir="south" key="93" key_zone="15" keyword="cell" flags="9" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="95" name="A Tunnel In The Dungeon" sector="1" flags="9">
+		<description>   You stand in a roughly hewn stone tunnel with cells to the north and
+south.  The tunnel continues west and you notice a small crack in the
+stone to the east.
+</description>
+		<directions>
+			<direction dir="north" key="93" key_zone="15" keyword="cell" flags="9" />
+			<direction dir="east" key="0" key_zone="15" keyword="crack" flags="9" />
+			<direction dir="south" key="93" key_zone="15" keyword="cell" flags="9" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="96" name="The Secret Cell" sector="1" flags="553">
+		<description>   This room seems more like a lair than a cell.  Small bits of hay lie
+strewn about the floor covering bones of unkown origin.  Spatterd blood
+and tufts of grey hair lie matted in one corner.  As you turn to leave
+you notice a pair of small red eyes peering at you from the darkness.
+</description>
+		<directions>
+			<direction dir="west" key="0" key_zone="15" keyword="crack" flags="9" />
+		</directions>
+	</room>
+	<room number="97" name="The Cell" sector="1" flags="553">
+		<description>   You are in a cold, cramped chamber with only one exit.
+</description>
+		<directions>
+			<direction dir="south" key="93" key_zone="15" keyword="cell" flags="9" />
+		</directions>
+	</room>
+	<room number="98" name="The Cell" sector="1" flags="553">
+		<description>   You are in a cold, cramped chamber with only one exit.
+</description>
+		<directions>
+			<direction dir="south" key="93" key_zone="15" keyword="cell" flags="9" />
+		</directions>
+	</room>
+	<room number="99" name="The Cell" sector="1" flags="553">
+		<description>   You are in a cold, cramped chamber with only one exit.
+</description>
+		<directions>
+			<direction dir="south" key="93" key_zone="15" keyword="cell" flags="9" />
+		</directions>
+	</room>
+	<room number="0" name="The Cell" sector="1" flags="553">
+		<description>   You are in a cold, cramped chamber with only one exit.
+</description>
+		<directions>
+			<direction dir="south" key="93" key_zone="15" keyword="cell" flags="9" />
+		</directions>
+	</room>
+	<room number="1" name="The Cell" sector="1" flags="553">
+		<description>   You are in a cold, cramped chamber with only one exit.
+</description>
+		<directions>
+			<direction dir="north" key="93" key_zone="15" keyword="cell" flags="9" />
+		</directions>
+	</room>
+	<room number="2" name="The Cell" sector="1" flags="553">
+		<description>   You are in a cold, cramped chamber with only one exit.
+</description>
+		<directions>
+			<direction dir="north" key="93" key_zone="15" keyword="cell" flags="9" />
+		</directions>
+	</room>
+	<room number="3" name="The Cell" sector="1" flags="553">
+		<description>   You are in a cold, cramped chamber with only one exit.
+</description>
+		<directions>
+			<direction dir="north" key="93" key_zone="15" keyword="cell" flags="9" />
+		</directions>
+	</room>
+	<room number="4" name="The Cell" sector="1" flags="553">
+		<description>   You are in a cold, cramped chamber with only one exit.
+</description>
+		<directions>
+			<direction dir="north" key="93" key_zone="15" keyword="cell" flags="9" />
+		</directions>
+	</room>
+	<room number="5" name="A Hall" sector="1" flags="8">
+		<description>   You stand in a large cedar wood hall leading east and west.  On the
+floor lies a thin and narrow purple rug.  The hall leads west inside the
+Palace and east to the Grand Entrance.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="6" name="A Path Through The Mountains" sector="6" flags="0">
+		<description>   The narrow path turns here heading south and west.
+</description>
+		<directions>
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="7" name="A Path Through The Mountains" sector="6" flags="0">
+		<description>   Travel is hard and slow as you almost have to climb around large
+boulders strewn about the path.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+		</directions>
+	</room>
+	<room number="8" name="The Edge Of The Ravine" sector="6" flags="0">
+		<description>   The ground drops off below down to a rushing river.  A small rope
+bridge sways to and fro in the wind giving you access to the other
+side.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="9" name="On A Rope Bridge" sector="3" flags="0">
+		<description>   The small rope bridge shudders under your weight as you make your
+way across the valley.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="10" name="The Ledge Around The Valley" sector="6" flags="0">
+		<description>   You are walking around a small ledge overlooking a large valley
+deep within the eastern mountains.  The ledge turns north following
+the shape of the valley and a steep trail continues to the east.
+</description>
+		<directions>
+			<direction dir="north">
+				<general_description>This can be used to add something onto... such as the valley that is 
+supposed to exist here. (=
+</general_description>
+			</direction>
+			<direction dir="east" />
+		</directions>
+	</room>
+	<room number="11" name="A Path Through The Mountains" sector="6" flags="0">
+		<description>   You are walking through a rock strewn path deep within the mountains
+east of Midgaard.  The going is rough and you constantly twist your
+ankle on the small stones lying about.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="12" name="On The Eastern Edge Of The Mountains" sector="6" flags="0">
+		<description>   You stand on the eastern edge of the eastern mountains.  The high
+peaks lie to the west and rolling hills and plains open up to your
+east.
+</description>
+		<directions>
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="13" name="In The Foothills" sector="6" flags="0">
+		<description>   The path curves down the face of the mountain allowing you to
+move up or down the face of this missive hunk of stone.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+		</directions>
+	</room>
+	<room number="14" name="In The Foothills" sector="6" flags="0">
+		<description>   The path curves down the face of the mountain allowing you to
+move up or down as you please.
+</description>
+		<directions>
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="15" name="A Rocky Trail" sector="6" flags="0">
+		<description>   The faint sound of a flowing river reaches your ears from the south and 
+through the trees you can see water.  The path you are on continues north
+and east from here.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="16" name="On A Road" sector="3" flags="0">
+		<description>   This long road continues to the east and south.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="17" name="On A Road" sector="3" flags="0">
+		<description>   The well kept road continues east and west from here.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="18" name="On A Road" sector="3" flags="0">
+		<description>   You stand on a well maintained road leading east towards New Thalos
+and west towards the Eastern Mountains.  To the north you can see wide
+plains stretching out as far as the eye can see.  South of you begins
+a dark green forest.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="19" name="The Headwaters Of The River Of Lost Souls" sector="8" flags="0">
+		<description>   You are at the headwaters of what is oft called the darkest river
+in the land.  Looking at the swampy water pooling in this rocky valley,
+you can see why the water downstream is so dark.  The rock walls reach
+up around you blocking all exits except that to the north up onto the
+banks, and to the south where the river flows.
+</description>
+		<directions>
+			<direction dir="north" to_room="0" to_zone="3">
+				<general_description>There is a small path leading away from the bank just to the north.
+</general_description>
+			</direction>
+			<direction dir="south">
+				<general_description>The waters of this swampy pool are flowing slowly towards the south.
+</general_description>
+			</direction>
+		</directions>
+	</room>
+	<room number="20" name="River Ishtar" sector="8" flags="0">
+		<description>   The river calms a bit after being thrashed in the interior of
+the mountain.  Although still deep within the rocks you can see
+faint traces of green to the east.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="21" name="River Ishtar" sector="8" flags="0">
+		<description>   The river flows east and west through the hills.  
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="22" name="River Ishtar" sector="8" flags="0">
+		<description>   The river begins its decent out of the mountains now and continues
+its flow to the east.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="23" name="River Ishtar" sector="8" flags="0">
+		<description>   The river flows under the wall of the city to the east and stretches
+off towards high snow capped mountains far far to the west.
+</description>
+		<directions>
+			<direction dir="east" to_room="87" to_zone="15" keyword="grating" flags="1" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="24" name="River Ishtar" sector="8" flags="0">
+		<description>   The river flows out from the city down a long winding gully towards
+the Sea of Dragons.  To the south of you lies the Great Eastern Desert
+and north a wide open expanse of grass.  You can just barely make out
+a road that seems to be traveling along side the river but the
+banks are to steep for you to see very far.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" to_room="83" to_zone="15" />
+		</directions>
+	</room>
+	<room number="25" name="River Ishtar" sector="8" flags="0">
+		<description>   The river continues its descent down the lowlands flowing ever so
+gently south.  It is hard to believe this is the same river that came
+cascading down the mountainside.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="26" name="River Ishtar" sector="8" flags="0">
+		<description>   Small animals and herd animals can be heard in the distance, though 
+you don't actually see any near the river.  Perhaps the steep slopes
+pervent them from using the river.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="27" name="The Edge Of The Ravine" sector="6" flags="0">
+		<description>  You stand at the edge of a really long drop down.  A small rope
+bridge has conviently been placed here to allow you access to the
+other side of the bridge.  Unfortunately the wind seems to be kicking
+up making the bridge sway slightly.  The path leads off through the
+mountains to the east.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="28" name="A Path Through The Mountains" sector="6" flags="0">
+		<description>   The narrow path makes its way through the mountains east
+and west.  You hear the squawking of a large bird over head
+most likely a buzzard waiting for you to drop.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" to_room="49" to_zone="10" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="29" name="A Path Through The Mountains" sector="6" flags="0">
+		<description>   A large boulder suddenly decides it wants to occupy the same space
+you are currently standing in.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="30" name="On A Road" sector="5" flags="0">
+		<description>   The road you are on continues east and west.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="31" name="On A Road" sector="3" flags="0">
+		<description>   The road you are on continues east and west.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="32" name="On A Road" sector="3" flags="0">
+		<description>   The road you are on continues east and west.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="33" name="On A Road" sector="3" flags="0">
+		<description>   The road bends here toward the riverbank giving access to
+the River Ishtar.  The road continues north and west from the
+river bank.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="34" name="The River Of Lost Souls" sector="8" flags="0">
+		<description>   The river flows south through a valley in the mountains.  You can see
+a small village to the west.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="35" name="The River Of Lost Souls" sector="8" flags="0">
+		<description>   The river flows south in the southern end of this wide valley.  The
+walls of the valley close in to the south.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="36" name="The River Of Lost Souls" sector="8" flags="0">
+		<description>   The river begins to speed up as it cascades down this mountain
+crevice.  High above you a small rope bridge sways in the wind.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="37" name="The River Of Lost Souls" sector="8" flags="0">
+		<description>   The river rapidly flows down this crack in the side of the mountain
+to the south.  Hopefully you will hear any aproaching rapids.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="38" name="The River Of Lost Souls" sector="8" flags="0">
+		<description>   The river seems to calm a bit as the crevase widens lessens
+its stranglehold on the waters.  The river continues to the north 
+through a crack and flows to the south.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="39" name="A Split In The River" sector="8" flags="0">
+		<description>   The waters of the river crash down upon a rock and split into
+two bodies of water.  The river you are on continues its southern
+course and the new river heads off to the east.  To your west you
+notice that the rocks have split and crumbled as if torn asunder
+by some massive force.  It looks impossible to traverse.  The River
+of Lost Souls also continues to the north.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="40" name="The River Of Lost Souls" sector="8" flags="0">
+		<description>   The river continues north and south from here through a water
+eroded valley.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="41" name="The River Of Lost Souls" sector="8" flags="0">
+		<description>   The river continues north and south from here through a water
+eroded valley.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="42" name="The River Of Lost Souls" sector="8" flags="0">
+		<description>   The river continues north and south from here through a water
+eroded valley.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="43" name="The River Of Lost Souls" sector="8" flags="0">
+		<description>   The river makes a sharp bend here and heads south into a large
+mountain and north through a valley.  On a ledge above you, and to
+the west, you can see movement.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" to_room="4" to_zone="11" />
+		</directions>
+	</room>
+	<room number="44" name="River Ishtar" sector="8" flags="0">
+		<description>   The river widens here, no longer bounded by rock, and flows east
+towards a plain.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="45" name="River Ishtar" sector="8" flags="0">
+		<description>   The river continues here east to east.  There is a landing area to
+the north where you can gain access to the shore.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="46" name="River Ishtar" sector="8" flags="0">
+		<description>   The river meanders through the foothills of the eastern mountains.
+The air is dryer on this side of the continental divide and it seems
+a bit warmer.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="47" name="River Ishtar" sector="8" flags="0">
+		<description>   The river continues its journey eastward flowing through the
+plains.  To the west you see the peaks of large snow capped
+mountains and to the east you see the outline of a large city.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="48" name="River Ishtar" sector="8" flags="0">
+		<description>   The river flows east and west from here.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="49" name="River Ishtar" sector="8" flags="0">
+		<description>   The river slows as it widens and meanders through the lowlands.  A
+small dock give access to the north shore.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="51" name="In The Mountains" sector="6" flags="0">
+		<description>   You are walking over rocks and stones through the mountains between 
+the Ishtar and Dark rivers.
+   It is funny how all the rocks look alike.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="52" name="In The Mountains" sector="6" flags="0">
+		<description>   You are walking over rocks and stones through the mountains between 
+the Ishtar and Dark rivers.
+   It is funny how all the rocks look alike.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="53" name="In The Mountains" sector="6" flags="0">
+		<description>   You are walking over rocks and stones through the mountains between 
+the Ishtar and Dark rivers.
+   It is funny how all the rocks look alike.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" keyword="boulder rock crack" flags="1">
+				<general_description>You see a large boulder blocking your path.
+</general_description>
+			</direction>
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="54" name="In The Mountains" sector="6" flags="0">
+		<description>   You are walking over rocks and stones through the mountains between 
+the Ishtar and Dark rivers.
+   It is funny how all the rocks look alike.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="55" name="In The Mountains" sector="6" flags="0">
+		<description>   You are walking over rocks and stones through the mountains between 
+the Ishtar and Dark rivers.
+   It is funny how all the rocks look alike.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="56" name="In The Mountains" sector="1" flags="0">
+		<description>   You are walking over rocks and stones through the mountains between 
+the Ishtar and Dark rivers.
+   It is funny how all the rocks look alike.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="57" name="In The Mountains" sector="6" flags="0">
+		<description>   You are walking over rocks and stones through the mountains between 
+the Ishtar and Dark rivers.
+   It is funny how all the rocks look alike.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="58" name="In The Mountains" sector="6" flags="0">
+		<description>   You are walking over rocks and stones through the mountains between 
+the Ishtar and Dark rivers.
+   It is funny how all the rocks look alike.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="59" name="In The Mountains" sector="6" flags="0">
+		<description>   You are walking over rocks and stones through the mountains between 
+the Ishtar and Dark rivers.
+   It is funny how all the rocks look alike.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="60" name="The Headwaters Of The Dark River" sector="8" flags="1">
+		<description>   A large natural spring issues forth from the heart of the mountain
+and flows west down the mountain.  It looks like there was a terrible
+earthquake here not too long ago, and a path that leads eastwards
+through the mountains is covered with rocks, making passage difficult.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="61" name="On The Dark River" sector="8" flags="1">
+		<description>   The river flows down the mountain through a large crevasse to the west
+and up into the mountains east.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="62" name="On The Dark River" sector="8" flags="1">
+		<description>   The walls of this canyon tower overhead as the river continues east
+and west from here.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="63" name="On The Dark River" sector="8" flags="1">
+		<description>   The walls of rock around you slowly shrink to ground level as the river 
+flows out of the mountains and onto the plains.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="64" name="On The Dark River" sector="8" flags="1">
+		<description>   The river continues east and west from here out of the foothills
+to the east down into the mountains south of here.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="65" name="On The Dark River" sector="8" flags="1">
+		<description>   The river, following a low spot in the foothills, bends and twists.
+Tall mountains can be seen off to the south and east.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="66" name="On The Dark River" sector="8" flags="1">
+		<description>   The river makes a wide sweeping turn here into the mountain.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="67" name="On The Dark River" sector="8" flags="9">
+		<description>   The river flows west from here into the heart of the mountain and
+east towards the foothills once more.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="68" name="On The Dark River" sector="8" flags="9">
+		<description>   You can barely make out what is ahead of you as the river flows
+quietly through the passageway.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="69" name="On The Dark River" sector="8" flags="9">
+		<description>   The river slowly flows west towards the heart of the mountain.  There
+are small cracks in the passage wall to the north where you might be able
+to get up out of the water.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="70" name="On The Dark River" sector="8" flags="9">
+		<description>   The river continues east and west from here flowing south of a dark
+ledge high above the water level.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="71" name="On The Dark River" sector="8" flags="9">
+		<description>   The river flows south through a narrowing part of the passage as it
+progresses deeper into the mountain.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" to_room="5" to_zone="11" />
+		</directions>
+	</room>
+	<room number="72" name="On A Small Ledge" sector="3" flags="9">
+		<description>   You clamber out of the water up onto this narrow ledge to see if
+it leads deeper into the mountain.  Unfortunately, the ledge is only
+wide enough to rest upon for a while and there does not appear to be
+any other exits other than rejoining the underground river.
+</description>
+		<directions>
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="81" name="On The Plains" sector="3" flags="0">
+		<description>   You stand on an open expanse of grass extending in all directions.
+To the south of you stand the might northern gates of New Thalos.  East
+and west of you the grassy fields continue and north, in the distance,
+you see a line of trees.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="82" name="On The Plains" sector="3" flags="0">
+		<description>   You stand on an open field of grass.  The forest to the north is
+closer but still a good distance away.  To the south a small dirt
+path has been trodden into the ground heading towards New Thalos.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="83" name="The Edge Of The Forest" sector="3" flags="0">
+		<description>   You stand at the edge of a huge forest.  The line of trees
+continues as far as the eye can see to the east and west.  A
+large expanse of grass spreads out to the south.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="84" name="River Ishtar" sector="8" flags="0">
+		<description>   The river broadens even more here and the waters become murky.
+The smell of saltwater has reached you from the east.  The Dragon
+Sea cannot be far away.  To the east you can see the faint outline
+of a city and to the north you see a large expanse of grass.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="85" name="The River Delta" sector="8" flags="0">
+		<description>   This is where the river empties out into the Dragon Sea.  The backrush
+of water has kicked up a lot of sand and the blue sea is stained where
+the river empties.  Looking west all you can see is water... all the way
+to the horizon.  North of here is a small dock you think you should be
+able to reach with out too much trouble.  The river stretches off to the
+west back towards New Thalos.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="86" name="The Dragon Sea" sector="8" flags="0">
+		<description>   You are on the clear blue seas of the Dragon Sea.  Water extends
+in all directions as far as the eye can see.  Off in the distance
+you think you might see a small dock to the north.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="87" name="The Dragon Sea" sector="8" flags="0">
+		<description>   The Dragon Sea comes up along the shore here.  The deep blue waters
+rolling in and crashing against the beach.  To the north you see a 
+small dock jutting out into the surf.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="88" name="The Dragon Sea" sector="8" flags="0">
+		<description>   You are on the clear blue seas of the Dragon Sea.  Water extends
+in all directions as far as the eye can see.  Off in the distance
+you think you might see a small dock to the west.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+		</directions>
+	</room>
+	<room number="89" name="The Dragon Sea" sector="8" flags="0">
+		<description>   You are on the clear blue seas of the Dragon Sea.  Water extends
+in all directions as far as the eye can see.  Off in the distance
+you think you might see a small dock to the west.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+			<direction dir="down" />
+		</directions>
+	</room>
+	<room number="90" name="On A Road" sector="3" flags="0">
+		<description>   The people of New Thalos take great pride in the services their
+city may provide.  One of these services is the construction crews
+the go to great lengths to keep all the roads in order.  Although
+the taxes in New Thalos are higher then other cities in the realm
+most of the money is used for the good of the people.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="91" name="On A Road" sector="3" flags="0">
+		<description>   You walk along a well used road with beautiful scenery.  To the north
+tall pine trees form a wall that goes on for miles.  Between the road
+and the trees lies a great expanse of grassy plains.  South of here, 
+beyond the river, lies the Great Eastern Desert.  The road continues
+east and west.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="92" name="On A Road" sector="3" flags="0">
+		<description>   The Dragon Sea can be seen to the east now spreading out to unknown
+lands.  The road continues east and west.  To the south you hear the
+sounds of boats traveling the River Ishtar delivering goods.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="93" name="On A Road" sector="3" flags="0">
+		<description>   This is the man land route through the land.  Merchants can bring
+their goods to the coastline and have them ferried onto ships for
+export.  Travel by foot west will take you through New Thalos up and
+over the Eastern Mountains and down into Midgaard.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="94" name="Near The Shore" sector="3" flags="0">
+		<description>   The road ends here turning into a small dirt path leading down the
+beach and onto a dock.  To the north and south you see the coastline
+stretching out before you.  West of here the lowlands roll up into
+huge snow capped mountains.
+</description>
+		<directions>
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="95" name="On A Dock" sector="2" flags="0">
+		<description>   You stand on a simple wooden dock that acts as an extension of the
+road to the west.  The dock seems to have been here for quite a long
+time but is still sturdy.  A small ladder has been built on the eastern
+end to allow easy access to and from ships.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="96" name="The Dragon Sea" sector="8" flags="0">
+		<description>   You are on the clear blue seas of the Dragon Sea.  Water extends in
+all directions as far as the eye can see.  Off in the distance you think
+you might see a small dock to the west.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="97" name="The Dragon Sea" sector="8" flags="0">
+		<description>   The ocean spreads out in all directions rolling gently.  In the
+distance you can see an island on the horizon.  To the west you see
+the mainland.
+</description>
+		<directions>
+			<direction dir="north" />
+			<direction dir="east" />
+			<direction dir="south" />
+			<direction dir="west" />
+		</directions>
+	</room>
+	<room number="98" name="Under The dock" sector="8" flags="1">
+		<description>   You are swiming underneath the dock.  You can see the four wooden
+pylons that support the structure.  The murky water clouds you vision
+as you gaze westward, but you think you can make out an iron grating
+in that direction.
+</description>
+		<directions>
+			<direction dir="west" keyword="grate" flags="1" />
+			<direction dir="up" />
+		</directions>
+	</room>
+	<room number="99" name="The Lair Of The Ixitxachitl" sector="8" flags="1">
+		<description>   Blood swirls around in the water as the Ixitxachitl devours the 
+last of its meal.  Swirling around quickly as you intrude upon his
+meal the large sting ray attacks!
+</description>
+		<directions>
+			<direction dir="east" keyword="grate" flags="1" />
 		</directions>
 	</room>
 </rooms>

@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<mobiles>
+	<mobile number="0" name="farmer" level="7" sex="1" alignment="500" flags="196" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="5" max_movepoints="83" armor="40" gold="1000" experience="2250" hitroll="6" damroll="1" short_description="the farmer">
+		<long_description>A farmer walks around, looking for something to do.
+</long_description>
+		<description>This farmer is a resident of Stanneg by the Mountains,
+and as such, is one of the most boring people on earth.
+</description>
+	</mobile>
+	<mobile number="1" name="storekeeper" level="20" sex="1" alignment="750" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="245" armor="-400" gold="10000" experience="40000" hitroll="19" damroll="6" short_description="the storekeeper">
+		<long_description>A bored storekeeper waits for you to do something.
+</long_description>
+		<description>The bored storekeeper keeps a lazy eye on you as he
+waits for you to buy something.  Whee.
+</description>
+	</mobile>
+	<mobile number="2" name="cowgirl" level="20" sex="2" alignment="750" flags="6146" aff_flags="786440" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="245" armor="-600" gold="8000" experience="40000" hitroll="19" damroll="4" short_description="the cowgirl">
+		<long_description>A cowgirl stand here ready to defend her horses...
+</long_description>
+		<description>This woman seems ready for anything you might do...
+she is truly a woman to be reckoned with...
+</description>
+	</mobile>
+	<mobile number="3" name="horse" level="5" sex="1" alignment="250" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="10" max_movepoints="60" armor="50" experience="1000" hitroll="4" short_description="the horse">
+		<long_description>A horse does horsely things here.
+</long_description>
+		<description>This horse looks like a nice horse.  It looks at you
+with soft brown eyes and you want to give it a carrot.
+</description>
+	</mobile>
+	<mobile number="4" name="farmer's wife" level="20" sex="2" alignment="500" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="245" armor="-400" gold="10000" experience="40000" hitroll="19" damroll="6" short_description="the farmer's wife">
+		<long_description>A farmer's wife offers you some vegetables.
+</long_description>
+		<description>This woman has many different types of fruits and
+vegetables for you to buy.  She looks bored, though.
+</description>
+	</mobile>
+	<mobile number="5" name="aglandiir dragon" level="30" sex="1" alignment="750" flags="256050" aff_flags="136" position="5" default_position="5" state="6" default_state="6" dam_nodice="8" dam_sizedice="5" max_manapoints="1" max_movepoints="1499" armor="-1000" gold="500000" experience="1000000" hitroll="20" damroll="5" strength="3" intelligence="3" wisdom="3" dexterity="3" constitution="3" charisma="3" short_description="Aglandiir">
+		<long_description>The Dragon Prince, Aglandiir, sits here looking at you curiously.
+</long_description>
+		<description>Aglandiir is a prince of his kind, and he didn't get where 
+he is today by letting people steal from his horde!
+</description>
+	</mobile>
+	<mobile number="6" name="cyclops" level="16" sex="1" alignment="-500" flags="75814" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="5" max_movepoints="295" armor="0" gold="10000" experience="24000" hitroll="12" damroll="2" short_description="the Cyclops">
+		<long_description>A Cyclops is here, trying to judge range with no depth perception.
+</long_description>
+		<description>This Cyclops throws rocks real good.  With one eye though, 
+hitting the target is another matter.  He looks at you and 
+growls as he misses again!
+</description>
+	</mobile>
+	<mobile number="7" name="salle woman" level="15" sex="2" alignment="-600" flags="4098" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="5" max_movepoints="200" armor="-300" gold="6500" experience="24000" hitroll="14" damroll="6" short_description="Salle">
+		<long_description>A woman ignores you completely, so intent is she upon her sword.
+</long_description>
+		<description>She is a stunning woman, all hair and eyes, it seems.
+Her clothing is of the same tawny brown of her skin and
+hair.  Her blue eyes look at you appraisingly, seemingly
+to show great intelligence.  Her mouth twitches into a 
+sneer...
+</description>
+	</mobile>
+	<mobile number="8" name="duwick man" level="22" sex="1" alignment="-900" flags="4098" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="400" armor="-700" gold="15000" experience="70000" hitroll="20" damroll="10" short_description="Duwick">
+		<long_description>A truly immense man laughs at you, and draws his knife!
+</long_description>
+		<description>This has to be one of the biggest men you've ever seen.  He is
+a full seven feet toe to head, and weighs a good three hundred
+pounds -- mostly on his biceps and pectorals it appears.  An
+ornate scabbard slaps by his side, with the pommel of a silvered
+dagger sticking out... a tiny weapon for such a large man!
+</description>
+	</mobile>
+	<mobile number="9" name="receptionist" level="12" sex="1" alignment="400" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="7" max_manapoints="5" max_movepoints="140" armor="-300" gold="8000" experience="8000" hitroll="11" damroll="1" short_description="the Receptionist">
+		<long_description>A receptionist offers you a room.
+</long_description>
+		<description>He looks like a retired farmer now making an honest living in an inn.
+More power to him!
+</description>
+	</mobile>
+	<mobile number="10" name="innkeeper" level="10" sex="1" alignment="750" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="5" max_movepoints="120" armor="200" gold="2000" experience="9000" hitroll="9" damroll="1" short_description="the innkeeper">
+		<long_description>An aged innkeeper greets you as you enter.
+</long_description>
+		<description>He is old and greying, but seems to have been able to
+keep his mental faculties through the years.  A large
+woolen sweater is wrapped about him for warmth.  His
+blue eyes dance with amusement as he notices your weapons,
+but he doesn't seem too terribly startled.
+</description>
+	</mobile>
+	<mobile number="11" name="hunter" level="11" sex="1" alignment="500" flags="4164" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="5" max_movepoints="133" armor="-200" gold="1200" experience="11000" hitroll="10" damroll="2" short_description="the hunter">
+		<long_description>A hunter walks through the town streets on his own time.
+</long_description>
+		<description>He looks mean, as if the very personality of the mountains
+had infected him with hardness.  His stride is purposeful,
+his face weathered, his eyes cold and dark.  Others are
+standing out of his way as he walks on by.
+</description>
+	</mobile>
+	<mobile number="12" name="waiter" level="5" sex="1" alignment="0" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="5" max_movepoints="60" armor="700" gold="500" experience="850" hitroll="4" short_description="a waiter">
+		<long_description>A waiter rushes by, intent on his business.
+</long_description>
+		<description>He looks harried from the way he hastily takes orders and 
+rushes in the back to get food, and to the bar for drinks.  
+He doesn't even spare you a glance as he passes by.
+</description>
+	</mobile>
+	<mobile number="13" name="waitress" level="5" sex="2" alignment="0" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="5" max_movepoints="60" armor="700" gold="500" experience="850" hitroll="4" short_description="a waitress">
+		<long_description>A waitress rushes by, intent on her business.
+</long_description>
+		<description>She looks harried from the way she hastily takes orders and rushes
+in the back to get food, and to the bar for drinks.  She doesn't
+even spare you a glance as she passes by.
+</description>
+	</mobile>
+	<mobile number="14" name="bartender" level="15" sex="1" alignment="200" flags="2" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="5" max_movepoints="180" armor="100" gold="10000" experience="21000" hitroll="14" damroll="2" short_description="a bartender">
+		<long_description>A bartender washes a glass idly here.
+</long_description>
+		<description>He nods, smiles, and asks you what you would like to drink.
+As you decide, he slowly polishes a glass with an old bar
+rag.  The glass is completely clean, but he polishes it anyway.
+Go figure.
+</description>
+	</mobile>
+	<mobile number="15" name="bandit" level="16" sex="1" alignment="-500" flags="1668" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="8" max_manapoints="5" max_movepoints="195" armor="-200" gold="1000" experience="25000" hitroll="15" damroll="3" short_description="the bandit">
+		<long_description>A bandit springs into action upon seeing you.
+</long_description>
+		<description>Whew!  Has this guy ever seen a bath?  His face, hands, arms...
+nearly every bit of him is covered with grime, dust, dirt and
+decay.  His sword is polished and cleaned though...
+</description>
+	</mobile>
+	<mobile number="16" name="bandit guard" level="18" sex="1" alignment="-500" flags="1538" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="3" dam_sizedice="6" max_manapoints="5" max_movepoints="220" armor="-300" gold="2400" experience="32000" hitroll="17" damroll="2" short_description="the bandit guard">
+		<long_description>A bandit guard stands at attention here.
+</long_description>
+		<description>He may be a bandit, but he's no slacker.  You wonder
+who would be able to keep these bandits in line enough
+to pull a good guard duty...
+
+(boy is this guy DIRTY!!!)
+</description>
+	</mobile>
+	<mobile number="17" name="miner worker slave" level="6" sex="1" alignment="1000" flags="130" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="1" dam_sizedice="8" max_manapoints="5" max_movepoints="70" armor="1000" experience="1500" hitroll="5" damroll="1" short_description="the slave">
+		<long_description>A slave here is mining out a new passageway.
+</long_description>
+		<description>The slave looks up at you with pleading eyes.  He
+wants his freedom.  The chains around his ankles are
+tight, and you wonder if you should set him free, and
+if you even can.
+</description>
+	</mobile>
+	<mobile number="18" name="farmer" level="7" sex="1" alignment="500" flags="198" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="4" max_manapoints="5" max_movepoints="83" armor="40" gold="1000" experience="2250" hitroll="6" damroll="1" short_description="the farmer">
+		<long_description>A farmer walks around, looking for something to do.
+</long_description>
+		<description>This farmer is a resident of Stanneg by the Mountains,
+and as such, is one of the most boring people on earth.
+</description>
+	</mobile>
+	<mobile number="19" name="hunter" level="11" sex="1" alignment="500" flags="4166" aff_flags="0" position="5" default_position="5" state="6" default_state="6" dam_nodice="2" dam_sizedice="6" max_manapoints="5" max_movepoints="133" armor="-200" gold="1200" experience="11000" hitroll="10" damroll="2" short_description="the hunter">
+		<long_description>A hunter walks through the town streets on his own time.
+</long_description>
+		<description>He looks mean, as if the very personality of the mountains
+had infected him with hardness.  His stride is purposeful,
+his face weathered, his eyes cold and dark.  Others are
+standing out of his way as he walks on by.
+</description>
+	</mobile>
+</mobiles>
